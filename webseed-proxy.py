@@ -37,12 +37,15 @@ VIRTUAL_PATH = f"/{TORRENT_NAME}"
 PIECE_SIZE = _info[b"piece length"]
 _raw_pieces = _info[b"pieces"]
 NUM_PIECES = len(_raw_pieces) // 20
-_total = sum(f[b"length"] for f in _info[b"files"])
+
+IS_MULTI_FILE = b"files" in _info
+if IS_MULTI_FILE:
+    _total = sum(f[b"length"] for f in _info[b"files"])
+else:
+    _total = _info[b"length"]
 TOTAL_SIZE = _total
 PIECE_LAST_SIZE = TOTAL_SIZE - (NUM_PIECES - 1) * PIECE_SIZE
 
-# Build file map: file_path -> (offset_in_stream, length)
-IS_MULTI_FILE = b"files" in _info
 FILE_MAP = {}
 if IS_MULTI_FILE:
     _offset = 0
