@@ -1,0 +1,2828 @@
+message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="393"/>
+        <source>Vietnam</source>
+        <translation>Vietnam</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="431"/>
+        <source>Couldn&apos;t download IP geolocation database file. Reason: %1</source>
+        <translation>No se pudo descargar el fichero de base de datos de geolocalización IP. Motivo %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="439"/>
+        <source>Could not decompress IP geolocation database file.</source>
+        <translation>No se pudo descomprimir el fichero de base de datos de geolocalización IP.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="466"/>
+        <source>Couldn&apos;t save downloaded IP geolocation database file. Reason: %1</source>
+        <translation>No se pudo guardar el archivo de base de datos de geolocalización de IP descargado. Razón: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="462"/>
+        <source>Successfully updated IP geolocation database.</source>
+        <translation>Base de datos de geolocalización IP correctamente actualizada.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="373"/>
+        <source>Timor-Leste</source>
+        <translation>Timor Oriental</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="181"/>
+        <source>Bolivia, Plurinational State of</source>
+        <translation>Bolivia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="182"/>
+        <source>Bonaire, Sint Eustatius and Saba</source>
+        <translation>Bonaire</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="196"/>
+        <source>Cote d&apos;Ivoire</source>
+        <translation>Costa de Marfil</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="288"/>
+        <source>Libya</source>
+        <translation>Libia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="293"/>
+        <source>Saint Martin (French part)</source>
+        <translation>San Martín (Parte Francesa)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="296"/>
+        <source>Macedonia, The Former Yugoslav Republic of</source>
+        <translation>Macedonia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="300"/>
+        <source>Macao</source>
+        <translation>Macao</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="333"/>
+        <source>Pitcairn</source>
+        <translation>Islas Pitcairn</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="335"/>
+        <source>Palestine, State of</source>
+        <translation>Palestina</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="351"/>
+        <source>Saint Helena, Ascension and Tristan da Cunha</source>
+        <translation>Santa Elena, Ascensión y Tristán de Acuña</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="360"/>
+        <source>South Sudan</source>
+        <translation>Sudán del Sur</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="363"/>
+        <source>Sint Maarten (Dutch part)</source>
+        <translation>Sint Maarten (Parte neerlandesa)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="377"/>
+        <source>Turkey</source>
+        <translation>Turquía</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="378"/>
+        <source>Trinidad and Tobago</source>
+        <translation>Trinidad y Tobago</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="379"/>
+        <source>Tuvalu</source>
+        <translation>Tuvalu</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="380"/>
+        <source>Taiwan</source>
+        <translation>Taiwán</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="381"/>
+        <source>Tanzania, United Republic of</source>
+        <translation>Tanzania</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="382"/>
+        <source>Ukraine</source>
+        <translation>Ucrania</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="383"/>
+        <source>Uganda</source>
+        <translation>Uganda</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="384"/>
+        <source>United States Minor Outlying Islands</source>
+        <translation>Islas Ultramarinas Menores de Estados Unidos</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="385"/>
+        <source>United States</source>
+        <translation>Estados Unidos</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="386"/>
+        <source>Uruguay</source>
+        <translation>Uruguay</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="387"/>
+        <source>Uzbekistan</source>
+        <translation>Uzbekistán</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="388"/>
+        <source>Holy See (Vatican City State)</source>
+        <translation>Santa Sede (Estado de la ciudad del Vaticano)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="389"/>
+        <source>Saint Vincent and the Grenadines</source>
+        <translation>San Vicente y las Granadinas</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="391"/>
+        <source>Virgin Islands, British</source>
+        <translation>Islas Vírgenes Británicas</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="392"/>
+        <source>Virgin Islands, U.S.</source>
+        <translation>Islas Vírgenes de los Estados Unidos</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="394"/>
+        <source>Vanuatu</source>
+        <translation>Vanuatu</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="395"/>
+        <source>Wallis and Futuna</source>
+        <translation>Wallis y Futuna</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="396"/>
+        <source>Samoa</source>
+        <translation>Samoa</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="397"/>
+        <source>Yemen</source>
+        <translation>Yemen</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="398"/>
+        <source>Mayotte</source>
+        <translation>Mayotte</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="342"/>
+        <source>Serbia</source>
+        <translation>Serbia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="399"/>
+        <source>South Africa</source>
+        <translation>Sudáfrica</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="400"/>
+        <source>Zambia</source>
+        <translation>Zambia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="292"/>
+        <source>Montenegro</source>
+        <translation>Montenegro</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="401"/>
+        <source>Zimbabwe</source>
+        <translation>Zimbabue</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="167"/>
+        <source>Aland Islands</source>
+        <translation>Åland</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="233"/>
+        <source>Guernsey</source>
+        <translation>Guernsey</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="256"/>
+        <source>Isle of Man</source>
+        <translation>Isla de Man</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="263"/>
+        <source>Jersey</source>
+        <translation>Jersey</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="178"/>
+        <source>Saint Barthelemy</source>
+        <translation>San Bartolomé</translation>
+    </message>
+</context>
+<context>
+    <name>Net::Smtp</name>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="216"/>
+        <source>Connection failed, unrecognized reply: %1</source>
+        <translation>Conexión fallida, respuesta no reconocida: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="256"/>
+        <source>Authentication failed, msg: %1</source>
+        <translation>Error de autenticación, mensaje: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="269"/>
+        <source>&lt;mail from&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;mail from&gt; fue rechazado por el servidor, mensaje: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="282"/>
+        <source>&lt;Rcpt to&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;Rcpt to&gt; fue rechazado por el servidor, mensaje: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="295"/>
+        <source>&lt;data&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;data&gt; fue rechazado por el servidor, mensaje: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="309"/>
+        <source>Message was rejected by the server, error: %1</source>
+        <translation>El mensaje fue rechazado por el servidor, error: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="397"/>
+        <source>Both EHLO and HELO failed, msg: %1</source>
+        <translation>Tanto EHLO como HELO fallaron, mensaje: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="478"/>
+        <source>The SMTP server does not seem to support any of the authentications modes we support [CRAM-MD5|PLAIN|LOGIN], skipping authentication, knowing it is likely to fail... Server Auth Modes: %1</source>
+        <translation>El servidor SMTP no parece admitir ninguno de los modos de autenticación que admitimos [CRAM-MD5|PLAIN|LOGIN], omitiendo la autenticación, sabiendo que es probable que falle... Modos de autenticación del servidor: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="566"/>
+        <source>Email Notification Error: %1</source>
+        <translation>Error de notificación por correo electrónico: %1</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="14"/>
+        <source>Options</source>
+        <translation>Opciones</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="52"/>
+        <source>Behavior</source>
+        <translation>Comportamiento</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="57"/>
+        <source>Downloads</source>
+        <translation>Descargas</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="62"/>
+        <source>Connection</source>
+        <translation>Conexión</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="67"/>
+        <source>Speed</source>
+        <translation>Velocidad</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="72"/>
+        <source>BitTorrent</source>
+        <translation>BitTorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="82"/>
+        <source>RSS</source>
+        <translation>RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="92"/>
+        <source>Advanced</source>
+        <translation>Avanzado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="264"/>
+        <source>Customize UI Theme...</source>
+        <translation>Personalizar tema de IU...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="274"/>
+        <source>Transfer List</source>
+        <translation>Lista de transferencias</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="283"/>
+        <source>Confirm when deleting torrents</source>
+        <translation>Confirmar al eliminar torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="293"/>
+        <source>Use alternating row colors</source>
+        <extracomment>In table elements, every other row will have a grey background.</extracomment>
+        <translation>Alternar colores en la lista de transferencias</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="322"/>
+        <source>Hide zero and infinity values</source>
+        <translation>Ocultar los valores cero e infinito</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="330"/>
+        <source>Always</source>
+        <translation>Siempre</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="358"/>
+        <source>Action on double-click</source>
+        <translation>Acción a realizar con un doble-click</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="364"/>
+        <source>Downloading torrents:</source>
+        <translation>Torrents descargando:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="380"/>
+        <location filename="../gui/optionsdialog.ui" line="429"/>
+        <source>Open destination folder</source>
+        <translation>Abrir carpeta de destino</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="395"/>
+        <location filename="../gui/optionsdialog.ui" line="444"/>
+        <source>No action</source>
+        <translation>Sin acción</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="416"/>
+        <source>Completed torrents:</source>
+        <translation>Torrents completados:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="455"/>
+        <source>Auto hide zero status filters</source>
+        <translation>Auto ocultar filtros de estado cero</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="462"/>
+        <source>Use separate &quot;Tracker status&quot; filter. Otherwise it gets merged with &quot;Trackers&quot; filter.</source>
+        <translation>Use el filtro &quot;Estado de rastreador&quot; por separado. De lo contrario, se fusionará con el filtro &quot;Rastreadores&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="465"/>
+        <source>Use separate &quot;Tracker status&quot; filter</source>
+        <translation>Use un filtro independiente para &quot;Estado de rastreador&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="494"/>
+        <source>Desktop</source>
+        <translation>Escritorio</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="500"/>
+        <source>Start qBittorrent on Windows start up</source>
+        <translation>Iniciar qBittorrent cuando arranque Windows</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="507"/>
+        <source>Show splash screen on start up</source>
+        <translation>Mostrar pantalla de bienvenida al iniciar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="551"/>
+        <source>Confirmation on exit when torrents are active</source>
+        <translation>Confirmación al salir mientras haya torrents activos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="561"/>
+        <source>Confirmation on auto-exit when downloads finish</source>
+        <translation>Confirmar la salida automática cuando las descargas finalicen</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="702"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To set qBittorrent as default program for .torrent files and/or Magnet links&lt;br/&gt;you can use &lt;span style=&quot; font-weight:600;&quot;&gt;Default Programs&lt;/span&gt; dialog from &lt;span style=&quot; font-weight:600;&quot;&gt;Control Panel&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Para configurar qBittorrent como programa predeterminado para archivos .torrent y/o enlaces Magnet&lt;br/&gt; puede usar el cuadro de diálogo de &lt;span style=&quot; font-weight:600;&quot;&gt;Programas predeterminados&lt;/span&gt; del &lt;span style=&quot; font-weight:600;&quot;&gt;Panel de Control&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="722"/>
+        <source>Show speed in Dock</source>
+        <translation>Mostrar velocidad en Dock</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="729"/>
+        <source>Show qBittorrent in menu bar</source>
+        <translation>Mostrar qBittorrent en la barra de menú</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="806"/>
+        <source> KiB</source>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="899"/>
+        <source>Show free disk space in status bar</source>
+        <translation>Mostrar espacio libre en disco en la barra de estado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="998"/>
+        <source>Torrent content layout:</source>
+        <translation>Diseño de contenido de torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1009"/>
+        <source>Original</source>
+        <translation>Original</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1014"/>
+        <source>Create subfolder</source>
+        <translation>Crear subcarpeta</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1019"/>
+        <source>Don&apos;t create subfolder</source>
+        <translation>No crear subcarpeta</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1042"/>
+        <source>The torrent will be added to the top of the download queue</source>
+        <translation>El torrent se añadirá al principio de la cola de descarga.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1045"/>
+        <source>Add to top of queue</source>
+        <extracomment>The torrent will be added to the top of the download queue</extracomment>
+        <translation>Añadir al principio de la cola</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1114"/>
+        <source>Merge trackers to existing torrent</source>
+        <translation>Fusionar rastreadores a un torrent existente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1209"/>
+        <source>Keep unselected files in &quot;.unwanted&quot; folder</source>
+        <translation>Mantén los archivos no seleccionados en la carpeta &quot;.unwanted&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1505"/>
+        <source>Add...</source>
+        <translation>Añadir...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1515"/>
+        <source>Options..</source>
+        <translation>Opciones..</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1525"/>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1592"/>
+        <source>Email notification &amp;upon download completion</source>
+        <translation>Notificarme por correo electrónico de la finalización de las descargas</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1696"/>
+        <source>Send test email</source>
+        <translation>Enviar correo electrónico de prueba</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1712"/>
+        <source>Run on torrent added:</source>
+        <translation>Añadida ejecución en torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1730"/>
+        <source>Run on torrent finished:</source>
+        <translation>Finalizada ejecución en torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1802"/>
+        <source>Peer connection protocol:</source>
+        <translation>Protocolo de conexión entre pares:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1861"/>
+        <source>Any</source>
+        <translation>Ninguno</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2011"/>
+        <source>I2P (experimental)</source>
+        <translation>I2P (experimental)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2073"/>
+        <source>Mixed mode</source>
+        <translation>Modo mixto</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2161"/>
+        <source>If checked, hostname lookups are done via the proxy</source>
+        <translation>Si se verifica, las búsquedas del nombre de host se realizan a través del proxy.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2164"/>
+        <source>Perform hostname lookup via proxy</source>
+        <translation>Realizar búsqueda de hots via proxy</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2224"/>
+        <source>Use proxy for BitTorrent purposes</source>
+        <translation>Usar proxy para propósitos de BitTorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2249"/>
+        <source>RSS feeds will use proxy</source>
+        <translation>Las fuentes RSS usarán proxy</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2252"/>
+        <source>Use proxy for RSS purposes</source>
+        <translation>Usar proxy para propósitos de RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2262"/>
+        <source>Search engine, software updates or anything else will use proxy</source>
+        <translation>El motor de búsqueda, las actualizaciones de software o cualquier otra cosa usarán proxy</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2265"/>
+        <source>Use proxy for general purposes</source>
+        <translation>Usar proxy para propósitos generales</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2278"/>
+        <source>IP Fi&amp;ltering</source>
+        <translation>Filtrado IP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2527"/>
+        <source>Schedule &amp;the use of alternative rate limits</source>
+        <translation>Programar el uso de límites alternativos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2542"/>
+        <source>From:</source>
+        <comment>From start time</comment>
+        <translation>De:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2572"/>
+        <source>To:</source>
+        <comment>To end time</comment>
+        <translation>Para:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2731"/>
+        <source>Find peers on the DHT network</source>
+        <translation>Buscar pares en la red DHT</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2779"/>
+        <source>Allow encryption: Connect to peers regardless of setting
+Require encryption: Only connect to peers with protocol encryption
+Disable encryption: Only connect to peers without protocol encryption</source>
+        <translation>Permitir encriptación: Conectar a pares independientemente de su configuaración
+Requerir encriptación: Solo conectar a pares con encriptación de protocolo
+Deshabilitar encriptación: Solo conectar a pares sin encriptación de protocolo</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2785"/>
+        <source>Allow encryption</source>
+        <translation>Permitir el cifrado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2830"/>
+        <source>(&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;More information&lt;/a&gt;)</source>
+        <translation>(&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;Más información&lt;/a&gt;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2863"/>
+        <source>Maximum active checking torrents:</source>
+        <translation>Máximo de torrents de comprobación activos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2898"/>
+        <source>&amp;Torrent Queueing</source>
+        <translation>Torrents en cola</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3122"/>
+        <source>When total seeding time reaches</source>
+        <translation>Cuando el tiempo total de siembra alcance</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3145"/>
+        <source>When inactive seeding time reaches</source>
+        <translation>Cuando el tiempo de siembra inactiva alcanza</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3431"/>
+        <source>RSS Reader</source>
+        <translation>Lector RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3437"/>
+        <source>Enable fetching RSS feeds</source>
+        <translation>Habilitar búsqueda por canales RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3446"/>
+        <source>Feeds refresh interval:</source>
+        <translation>Intervalo de actualización de canales RSS:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3482"/>
+        <source>Same host request delay:</source>
+        <translation>Retraso en la solicitud del mismo host:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3502"/>
+        <source>Maximum number of articles per feed:</source>
+        <translation>Número máximo de artículos por canal:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3132"/>
+        <location filename="../gui/optionsdialog.ui" line="3155"/>
+        <location filename="../gui/optionsdialog.ui" line="3453"/>
+        <source> min</source>
+        <extracomment>minutes</extracomment>
+        <translation>min</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3083"/>
+        <source>Seeding Limits</source>
+        <translation>Límites de siembra</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3187"/>
+        <source>Remove torrent</source>
+        <translation>Eliminar torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3192"/>
+        <source>Remove torrent and its files</source>
+        <translation>Eliminar el torrent y sus archivos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3197"/>
+        <source>Enable super seeding for torrent</source>
+        <translation>Habilitar la super-siembra para el torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3089"/>
+        <source>When ratio reaches</source>
+        <translation>Cuando se alcance la ratio</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2154"/>
+        <source>Some functions are unavailable with the chosen proxy type!</source>
+        <translation>¡Algunas funciones no están disponibles con el tipo de proxy elegido!</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2214"/>
+        <source>Note: The password is saved unencrypted</source>
+        <translation>Nota: La contraseña se guardo sin cifrar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3182"/>
+        <source>Stop torrent</source>
+        <translation>Parar torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3208"/>
+        <source>A&amp;utomatically append these trackers to new downloads:</source>
+        <translation>Añade a&amp;utomáticamente estos rastreadores a las nuevas descargas:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3230"/>
+        <source>Automatically append trackers from URL to new downloads:</source>
+        <translation>Añadir automáticamente rastreadores desde la URL a las nuevas descargas:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3244"/>
+        <source>URL:</source>
+        <translation>URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3256"/>
+        <source>Fetched trackers</source>
+        <translation>Rastreadores obtenidos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3321"/>
+        <source>Search UI</source>
+        <translation>Interfaz de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3327"/>
+        <source>Store opened tabs</source>
+        <translation>Guardar pestañas abiertas</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3339"/>
+        <source>Also store search results</source>
+        <translation>También almacena los resultados de la búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3351"/>
+        <source>History length</source>
+        <translation>Longitud del historial</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3524"/>
+        <source>RSS Torrent Auto Downloader</source>
+        <translation>Descargador RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3530"/>
+        <source>Enable auto downloading of RSS torrents</source>
+        <translation>Habilitar auto descarga de torrents RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3537"/>
+        <source>Edit auto downloading rules...</source>
+        <translation>Editar reglas de auto descarga...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3547"/>
+        <source>RSS Smart Episode Filter</source>
+        <translation>Filtro Inteligente de Episodios por RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3553"/>
+        <source>Download REPACK/PROPER episodes</source>
+        <translation>Descargar episodios REPACK/PROPER</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3560"/>
+        <source>Filters:</source>
+        <translation>Filtros:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3625"/>
+        <source>Web User Interface (Remote control)</source>
+        <translation>interfaz Web (Control remoto)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3651"/>
+        <source>IP address:</source>
+        <translation>Direcciones IP:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3658"/>
+        <source>IP address that the Web UI will bind to.
+Specify an IPv4 or IPv6 address. You can specify &quot;0.0.0.0&quot; for any IPv4 address,
+&quot;::&quot; for any IPv6 address, or &quot;*&quot; for both IPv4 and IPv6.</source>
+        <translation>Dirección IP que la interfaz Web escuchará.
+Especifique una dirección IPv4 o IPv6.
+&quot;0.0.0.0&quot; para cualquier dirección IPv4.
+&quot;::&quot; para cualquier dirección IPv6.
+&quot;*&quot; para cualquier dirección IPv4 O IPv6</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3759"/>
+        <source>User</source>
+        <translation>Usuario</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3795"/>
+        <source>API Key</source>
+        <translation>Clave API</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3813"/>
+        <source>Generate a key</source>
+        <translation>Generar una clave</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3823"/>
+        <source>Copy API key</source>
+        <translation>Copiar clave API</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3834"/>
+        <location filename="../gui/optionsdialog.cpp" line="1508"/>
+        <location filename="../gui/optionsdialog.cpp" line="1561"/>
+        <source>Generate API key</source>
+        <translation>Generar clave API</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3845"/>
+        <location filename="../gui/optionsdialog.cpp" line="1530"/>
+        <source>Delete API key</source>
+        <translation>Eliminar la clave API</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3890"/>
+        <source>Ban client after consecutive failures:</source>
+        <translation>Vetar cliente después de consecutivos intentos fallidos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3897"/>
+        <source>Never</source>
+        <translation>Nunca</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3920"/>
+        <source>ban for:</source>
+        <translation>vetar por:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3947"/>
+        <source>Session timeout:</source>
+        <translation>Límite de tiempo de la sesión:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3954"/>
+        <source>Disabled</source>
+        <translation>Deshabilitado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4065"/>
+        <source>Server domains:</source>
+        <translation>Dominios de servidor:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4072"/>
+        <source>Whitelist for filtering HTTP Host header values.
+In order to defend against DNS rebinding attack,
+you should put in domain names used by WebUI server.
+
+Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</source>
+        <translation>Lista blanca para filtrar valores de cabeceras de hosts HTTP.
+Para defenderse de ataques DNS rebinding,
+no debería utilizar nombres de dominio utilizados por el servidor de la interfaz Web.
+
+Use &apos;;&apos; para dividir múltiples entradas. Puede usar el comodin &apos;*&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3699"/>
+        <source>&amp;Use HTTPS instead of HTTP</source>
+        <translation>&amp;Usar HTTPS en lugar de HTTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3861"/>
+        <source>Bypass authentication for clients on localhost</source>
+        <translation>Eludir la autenticación para clientes en localhost</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3868"/>
+        <source>Bypass authentication for clients in whitelisted IP subnets</source>
+        <translation>Eludir la autenticación para clientes en la lista blanca de subredes IP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3881"/>
+        <source>IP subnet whitelist...</source>
+        <translation>Lista blanca de subredes IP...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3985"/>
+        <source>Use alternative WebUI</source>
+        <translation>Usar la interfaz Web alternativa</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4134"/>
+        <source>Specify reverse proxy IPs (or subnets, e.g. 0.0.0.0/24) in order to use forwarded client address (X-Forwarded-For header). Use &apos;;&apos; to split multiple entries.</source>
+        <translation>Especifique IP de proxy inverso (o subredes, por ejemplo, 0.0.0.0/24) para usar la dirección de cliente reenviada (encabezado X-Reenviado-para encabezado). Usar &apos;;&apos; para dividir varias entradas.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4159"/>
+        <source>Upda&amp;te my dynamic domain name</source>
+        <translation>Actualizar mi nombre de dominio dinámico</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="583"/>
+        <source>Minimize qBittorrent to notification area</source>
+        <translation>Minimizar qBittorrent al area de notificación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="77"/>
+        <source>Search</source>
+        <translation>Buscar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="87"/>
+        <source>WebUI</source>
+        <translation>Interfaz de usuario de la Web</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="138"/>
+        <source>Interface</source>
+        <translation>Interfaz</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="158"/>
+        <source>Language:</source>
+        <translation>Idioma:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="185"/>
+        <source>Style:</source>
+        <translation>Estilo:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="204"/>
+        <source>Color scheme:</source>
+        <translation>Esquema de colores:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="303"/>
+        <source>Use different text colors by torrent states</source>
+        <translation>Use diferentes colores de texto según el estado del torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="313"/>
+        <source>Make progress bars follow text colors</source>
+        <extracomment>Progress bar color is based on text color.</extracomment>
+        <translation>Hacer que las barras de progreso sigan los colores del texto</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="335"/>
+        <source>Stopped torrents only</source>
+        <translation>Solo torrents detenidos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="375"/>
+        <location filename="../gui/optionsdialog.ui" line="424"/>
+        <source>Start / stop torrent</source>
+        <translation>Iniciar / Parar torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="390"/>
+        <location filename="../gui/optionsdialog.ui" line="439"/>
+        <source>Open torrent options dialog</source>
+        <translation>Abrir el diálogo de opciones de torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="475"/>
+        <source>Torrent Content View</source>
+        <translation>Ver contenido de torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="481"/>
+        <source>Replaces multi-selection (hold Alt key to invert)</source>
+        <translation>Reemplaza la selección múltiple (mantenga presionada la tecla Alt para invertir)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="484"/>
+        <source>Drag content from qBittorrent</source>
+        <translation>Arrastrar contenido desde qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="605"/>
+        <source>Tray icon style:</source>
+        <translation>Estilo del icono del area de notificación:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="613"/>
+        <location filename="../gui/optionsdialog.cpp" line="316"/>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="649"/>
+        <source>File association</source>
+        <translation>Asociación de archivos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="670"/>
+        <source>Use qBittorrent for .torrent files</source>
+        <translation>Usar qBittorrent para los archivos .torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="677"/>
+        <source>Use qBittorrent for magnet links</source>
+        <translation>Usar qBittorrent para los enlaces magnet</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="715"/>
+        <source>Check for program updates</source>
+        <translation>Comprobar actualizaciones disponibles</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="739"/>
+        <source>Power Management</source>
+        <translation>Administración de energía</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="762"/>
+        <source>&amp;Log Files</source>
+        <translation>&amp;Archivos de registro</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="782"/>
+        <source>Save path:</source>
+        <translation>Ruta Destino</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="799"/>
+        <source>Backup the log file after:</source>
+        <translation>Respaldar el archivo de logs después de:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="839"/>
+        <source>Delete backup logs older than:</source>
+        <translation>Eliminar logs de más antiguos que:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="906"/>
+        <source>Show external IP in status bar</source>
+        <translation>Mostrar IP externa en la barra de estado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="968"/>
+        <source>When adding a torrent</source>
+        <translation>Al agregar un torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="983"/>
+        <source>Bring torrent dialog to the front</source>
+        <translation>Traer el diálogo del torrent al frente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1052"/>
+        <source>The torrent will be added to download list in a stopped state</source>
+        <translation>El torrent se añadirá a la lista de descargas en estado detenido.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1108"/>
+        <source>When adding a duplicate torrent</source>
+        <translation>Al añadir un torrent duplicado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1124"/>
+        <source>Ask to merge trackers for manually added torrent</source>
+        <translation>Solicitar la unión de rastreadores para torrents añadidos manualmente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1152"/>
+        <source>Also delete .torrent files whose addition was cancelled</source>
+        <translation>También eliminar archivos .torrent si su agregado fue cancelado.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1155"/>
+        <source>Also when addition is cancelled</source>
+        <translation>También cuando su agregado es cancelado.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1177"/>
+        <source>Warning! Data loss possible!</source>
+        <translation>¡Peligro! Perdida de datos posible.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1226"/>
+        <source>Saving Management</source>
+        <translation>Administración de guardado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1234"/>
+        <source>Default Torrent Management Mode:</source>
+        <translation>Administración de Torrents predeterminada:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1251"/>
+        <source>Manual</source>
+        <translation>Manual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1256"/>
+        <source>Automatic</source>
+        <translation>Automático</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1279"/>
+        <source>When Torrent Category changed:</source>
+        <translation>Cuando cambia la categoría del torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1289"/>
+        <source>Relocate torrent</source>
+        <translation>Reubicar torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1294"/>
+        <source>Switch torrent to Manual Mode</source>
+        <translation>Cambiar torrent a modo manual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1330"/>
+        <location filename="../gui/optionsdialog.ui" line="1371"/>
+        <source>Relocate affected torrents</source>
+        <translation>Reubicar los torrents afectados</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1335"/>
+        <location filename="../gui/optionsdialog.ui" line="1376"/>
+        <source>Switch affected torrents to Manual Mode</source>
+        <translation>Cambiar los torrents afectados a modo manual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1413"/>
+        <source>Default Save Path:</source>
+        <translation>Ubicación de guardado predeterminada:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1433"/>
+        <source>Copy .torrent files to:</source>
+        <translation>Copiar archivos .torrent en:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="571"/>
+        <source>Show &amp;qBittorrent in notification area</source>
+        <translation>Mostrar &amp;qBittorrent en el área de notificación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="974"/>
+        <source>Display &amp;torrent content and some options</source>
+        <translation>Mostrar el contenido del Torrent y opciones</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1140"/>
+        <source>De&amp;lete .torrent files afterwards </source>
+        <translation>Después eliminar el archivo .torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1443"/>
+        <source>Copy .torrent files for finished downloads to:</source>
+        <translation>Copiar archivos .torrent de descargas finalizadas a:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1195"/>
+        <source>Pre-allocate disk space for all files</source>
+        <translation>Pre-asignar espacio en el disco para todos los archivos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="229"/>
+        <source>Use custom UI Theme</source>
+        <translation>Usar tema de IU personalizado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="238"/>
+        <source>UI Theme file:</source>
+        <translation>Archivo de tema de IU:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="149"/>
+        <source>Changing Interface settings requires application restart</source>
+        <translation>Cambiar la configuración de la interfaz requiere reiniciar la aplicación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="280"/>
+        <source>Shows a confirmation dialog upon torrent deletion</source>
+        <translation>Muestra una ventana de confirmación al borrar torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="385"/>
+        <location filename="../gui/optionsdialog.ui" line="434"/>
+        <source>Preview file, otherwise open destination folder</source>
+        <translation>Previsualizar el archivo, sino, abrir la carpeta de destino</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="548"/>
+        <source>Shows a confirmation dialog when exiting with active torrents</source>
+        <translation>Muestra un ventana de confirmación al salir con torrents activos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="580"/>
+        <source>When minimizing, the main window is closed and must be reopened from the systray icon</source>
+        <translation>Cuando se minimice, la ventana principal se cierra y debe ser abierta desde el icono de la bandeja del sistema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="593"/>
+        <source>The systray icon will still be visible when closing the main window</source>
+        <translation>El icono de la bandeja del sistema seguirá visible al cerrar la ventana principal</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="596"/>
+        <source>Close qBittorrent to notification area</source>
+        <extracomment>The systray icon will still be visible when closing the main window</extracomment>
+        <translation>Cerrar qBittorrent al área de notificación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="618"/>
+        <source>Monochrome (for dark theme)</source>
+        <translation>Monocromo (para tema oscuro)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="623"/>
+        <source>Monochrome (for light theme)</source>
+        <translation>Monocromo (para tema claro)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="745"/>
+        <source>Inhibit system sleep when torrents are downloading</source>
+        <translation>Inhabilitar la suspensión del equipo cuando queden torrents descargando</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="752"/>
+        <source>Inhibit system sleep when torrents are seeding</source>
+        <translation>Inhabilitar la suspensión del equipo cuando queden torrents sembrando</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="796"/>
+        <source>Creates an additional log file after the log file reaches the specified file size</source>
+        <translation>Crea un fichero de log adicional cuando el fichero de log alcance el tamaño especificado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="863"/>
+        <source>days</source>
+        <extracomment>Delete backup logs older than 10 days</extracomment>
+        <translation>días</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="868"/>
+        <source>months</source>
+        <extracomment>Delete backup logs older than 10 months</extracomment>
+        <translation>meses</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="873"/>
+        <source>years</source>
+        <extracomment>Delete backup logs older than 10 years</extracomment>
+        <translation>años</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="913"/>
+        <source>Log performance warnings</source>
+        <translation>Registrar advertencias de rendimiento</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1055"/>
+        <source>Do not start the download automatically</source>
+        <extracomment>The torrent will be added to download list in a stopped state</extracomment>
+        <translation>No comenzar la descarga automáticamente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1137"/>
+        <source>Whether the .torrent file should be deleted after adding it</source>
+        <translation>Si el archivo .torrent debe eliminarse después de añadirlo</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1192"/>
+        <source>Allocate full file sizes on disk before starting downloads, to minimize fragmentation. Only useful for HDDs.</source>
+        <translation>Reservar espacio para ficheros de tamaño completo en disco antes de iniciar la descarga, para minimizar la fragmentación. Solo útil en discos duros. </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1202"/>
+        <source>Append .!qB extension to incomplete files</source>
+        <translation>Agregar la extensión .!qB a los archivos incompletos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1216"/>
+        <source>When a torrent is downloaded, offer to add torrents from any .torrent files found inside it</source>
+        <translation>Cuando se descarga un torrent, permite agregar torrents de cualquier archivo .torrent que se encuentra dentro de él</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1219"/>
+        <source>Enable recursive download dialog</source>
+        <translation>Activar la ventana de confirmación de descargas recursivas</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1246"/>
+        <source>Automatic: Various torrent properties (e.g. save path) will be decided by the associated category
+Manual: Various torrent properties (e.g. save path) must be assigned manually</source>
+        <translation>Automático: Diversas características del torrent (p.e. ruta de guardado) se decidirán por la categoría asociada
+Manual: Diversas características del torrent (p.e. ruta de guardado) deben ser asignadas manualmente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1317"/>
+        <source>When Default Save/Incomplete Path changed:</source>
+        <translation>Cuando cambió la ruta guardada/incompleta predeterminada:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1358"/>
+        <source>When Category Save Path changed:</source>
+        <translation>Cuando cambia la ruta de destino de la categoría:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1404"/>
+        <source>Use Category paths in Manual Mode</source>
+        <translation>Usar directorios de Categoría en Modo Manual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1401"/>
+        <source>Resolve relative Save Path against appropriate Category path instead of Default one</source>
+        <translation>Resolver la ruta de ubicación relativa contra la ruta de categoría apropiada en lugar de la predeterminada.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="251"/>
+        <source>Use icons from system theme</source>
+        <translation>Usar íconos del tema del sistema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="519"/>
+        <source>Window state on start up:</source>
+        <translation>Estado de la ventana al inicio:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="526"/>
+        <source>qBittorrent window state on start up</source>
+        <translation>Estado de la ventana de qBittorrent al iniciar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1064"/>
+        <source>Torrent stop condition:</source>
+        <translation>Condición de parada del Torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1075"/>
+        <location filename="../gui/optionsdialog.cpp" line="583"/>
+        <source>None</source>
+        <translation>Ninguno</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1080"/>
+        <location filename="../gui/optionsdialog.cpp" line="584"/>
+        <source>Metadata received</source>
+        <translation>Metadatos recibidos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1085"/>
+        <location filename="../gui/optionsdialog.cpp" line="586"/>
+        <source>Files checked</source>
+        <translation>Archivos verificados</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1423"/>
+        <source>Use another path for incomplete torrents:</source>
+        <translation>Use otra ruta para torrents incompletos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1458"/>
+        <source>Automatically add torrents from:</source>
+        <translation>Agregar automáticamente los torrents de:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1552"/>
+        <source>Excluded file names</source>
+        <translation>Nombres de archivos excluidos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1564"/>
+        <source>Blacklist filtered file names from being downloaded from torrent(s).
+Files matching any of the filters in this list will have their priority automatically set to &quot;Do not download&quot;.
+
+Use newlines to separate multiple entries. Can use wildcards as outlined below.
+*: matches zero or more of any characters.
+?: matches any single character.
+[...]: sets of characters can be represented in square brackets.
+
+Examples
+*.exe: filter &apos;.exe&apos; file extension.
+readme.txt: filter exact file name.
+?.txt: filter &apos;a.txt&apos;, &apos;b.txt&apos; but not &apos;aa.txt&apos;.
+readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not &apos;readme10.txt&apos;.</source>
+        <translation>Lista negra de nombres de archivos filtrados para que no se descarguen de torrent(s).
+Los archivos que coincidan con cualquiera de los filtros de esta lista tendrán su prioridad establecida automáticamente en &quot;No descargar&quot;.
+
+Use saltos de línea para separar varias entradas. Puede usar comodines como se describe a continuación.
+*: coincide con cero o más de cualquier carácter.
+?: coincide con cualquier carácter único.
+[...]: los conjuntos de caracteres se pueden representar entre corchetes.
+
+Ejemplos
+*.exe: filtrar la extensión de archivo &apos;.exe&apos;.
+readme.txt: filtra el nombre exacto del archivo.
+?.txt: filtra &apos;a.txt&apos;, &apos;b.txt&apos; pero no &apos;aa.txt&apos;.
+readme[0-9].txt: filtra &apos;readme1.txt&apos;, &apos;readme2.txt&apos; pero no &apos;readme10.txt&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1619"/>
+        <source>Receiver</source>
+        <translation>Destinatario</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1622"/>
+        <source>To:</source>
+        <comment>To receiver</comment>
+        <translation>Para:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1632"/>
+        <source>SMTP server:</source>
+        <translation>Servidor SMTP:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1606"/>
+        <source>Sender</source>
+        <translation>Remitente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1609"/>
+        <source>From:</source>
+        <comment>From sender</comment>
+        <translation>De:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1644"/>
+        <source>This server requires a secure connection (SSL)</source>
+        <translation>El servidor requiere una conexión segura (SSL)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1651"/>
+        <location filename="../gui/optionsdialog.ui" line="3753"/>
+        <source>Authentication</source>
+        <translation>Autenticación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1663"/>
+        <location filename="../gui/optionsdialog.ui" line="2188"/>
+        <location filename="../gui/optionsdialog.ui" line="3765"/>
+        <location filename="../gui/optionsdialog.ui" line="4217"/>
+        <source>Username:</source>
+        <translation>Nombre de usuario:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1673"/>
+        <location filename="../gui/optionsdialog.ui" line="2198"/>
+        <location filename="../gui/optionsdialog.ui" line="3775"/>
+        <location filename="../gui/optionsdialog.ui" line="4227"/>
+        <source>Password:</source>
+        <translation>Contraseña:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1706"/>
+        <source>Run external program</source>
+        <translation>Ejecutar programa externo</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1748"/>
+        <source>Show console window</source>
+        <translation>Mostrar ventana de la consola</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1810"/>
+        <source>TCP and μTP</source>
+        <translation>TCP y μTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1843"/>
+        <source>Listening Port</source>
+        <translation>Puerto de escucha</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1851"/>
+        <source>Port used for incoming connections:</source>
+        <translation>Puerto utilizado para conexiones entrantes:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1858"/>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Establezca el valor 0 para permitir que el sistema utilice un puerto sin usar.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1871"/>
+        <source>Random</source>
+        <translation>Aleatorio</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1893"/>
+        <source>Use UPnP / NAT-PMP port forwarding from my router</source>
+        <translation>Usar reenvío de puertos UPnP / NAT-PMP de mi router</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1906"/>
+        <source>Connections Limits</source>
+        <translation>Límites de conexión</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1951"/>
+        <source>Maximum number of connections per torrent:</source>
+        <translation>Máximo de conexiones por torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1912"/>
+        <source>Global maximum number of connections:</source>
+        <translation>Máximo de conexiones totales:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1991"/>
+        <source>Maximum number of upload slots per torrent:</source>
+        <translation>Máximo de puestos de subida por torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1974"/>
+        <source>Global maximum number of upload slots:</source>
+        <translation>Máximo total de puestos de subida:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2086"/>
+        <source>Proxy Server</source>
+        <translation>Servidor proxy</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2094"/>
+        <source>Type:</source>
+        <translation>Tipo:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="918"/>
+        <source>SOCKS4</source>
+        <translation>SOCKS4</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="919"/>
+        <source>SOCKS5</source>
+        <translation>SOCKS5</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="920"/>
+        <source>HTTP</source>
+        <translation>HTTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2025"/>
+        <location filename="../gui/optionsdialog.ui" line="2104"/>
+        <source>Host:</source>
+        <translation>Host:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2035"/>
+        <location filename="../gui/optionsdialog.ui" line="2114"/>
+        <location filename="../gui/optionsdialog.ui" line="3667"/>
+        <source>Port:</source>
+        <translation>Puerto:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2236"/>
+        <source>Otherwise, the proxy server is only used for tracker connections</source>
+        <translation>Sino, el servidor proxy se utilizará solamente para las conexiones al tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2239"/>
+        <source>Use proxy for peer connections</source>
+        <translation>Usar proxy para las conexiones a los pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2174"/>
+        <source>A&amp;uthentication</source>
+        <translation>Autenticación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2286"/>
+        <source>Filter path (.dat, .p2p, .p2b):</source>
+        <translation>Ruta del filtro (.dat, .p2p, .p2b):</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2296"/>
+        <source>Reload the filter</source>
+        <translation>Actualizar el filtro</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2311"/>
+        <source>Manually banned IP addresses...</source>
+        <translation>Direcciones IP prohibidas manualmente...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2318"/>
+        <source>Apply to trackers</source>
+        <translation>Aplicar a los trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2376"/>
+        <source>Global Rate Limits</source>
+        <translation>Limites globales de velocidad</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2392"/>
+        <location filename="../gui/optionsdialog.ui" line="2431"/>
+        <location filename="../gui/optionsdialog.ui" line="2469"/>
+        <location filename="../gui/optionsdialog.ui" line="2508"/>
+        <location filename="../gui/optionsdialog.ui" line="2917"/>
+        <location filename="../gui/optionsdialog.ui" line="2950"/>
+        <location filename="../gui/optionsdialog.ui" line="2970"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2395"/>
+        <location filename="../gui/optionsdialog.ui" line="2434"/>
+        <location filename="../gui/optionsdialog.ui" line="2472"/>
+        <location filename="../gui/optionsdialog.ui" line="2511"/>
+        <location filename="../gui/optionsdialog.ui" line="3002"/>
+        <location filename="../gui/optionsdialog.ui" line="3038"/>
+        <source> KiB/s</source>
+        <translation> KiB/s</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2385"/>
+        <location filename="../gui/optionsdialog.ui" line="2462"/>
+        <source>Upload:</source>
+        <translation>Subida:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2424"/>
+        <location filename="../gui/optionsdialog.ui" line="2501"/>
+        <source>Download:</source>
+        <translation>Bajada:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2453"/>
+        <source>Alternative Rate Limits</source>
+        <translation>Límites de velocidad alternativos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2539"/>
+        <source>Start time</source>
+        <translation>Hora de inicio</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2569"/>
+        <source>End time</source>
+        <translation>Hora de finalización </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2609"/>
+        <source>When:</source>
+        <translation>Cuándo:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2623"/>
+        <source>Every day</source>
+        <translation>Todos los días</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2628"/>
+        <source>Weekdays</source>
+        <translation>Días laborales</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2633"/>
+        <source>Weekends</source>
+        <translation>Fines de semana</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2647"/>
+        <source>Rate Limits Settings</source>
+        <translation>Configuración de los limites</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2667"/>
+        <source>Apply rate limit to peers on LAN</source>
+        <translation>Aplicar el límite a los pares en LAN</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2660"/>
+        <source>Apply rate limit to transport overhead</source>
+        <translation>Aplicar límite para el exceso de transporte (Overhead)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2070"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If &quot;mixed mode&quot; is enabled I2P torrents are allowed to also get peers from other sources than the tracker, and connect to regular IPs, not providing any anonymization. This may be useful if the user is not interested in the anonymization of I2P, but still wants to be able to connect to I2P peers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si el &quot;modo mixto&quot; está habilitado, los torrents I2P también pueden obtener pares de otras fuentes además del rastreador y conectarse a IP regulares, sin proporcionar anonimización. Esto puede ser útil si el usuario no está interesado en la anonimización de I2P, pero sí quiere poder conectarse a pares I2P.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2653"/>
+        <source>Apply rate limit to µTP protocol</source>
+        <translation>Aplicar límite para conexiones µTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2725"/>
+        <source>Privacy</source>
+        <translation>Privacidad</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2734"/>
+        <source>Enable DHT (decentralized network) to find more peers</source>
+        <translation>Activar DHT (red descentralizada) para encontrar más pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2744"/>
+        <source>Exchange peers with compatible Bittorrent clients (µTorrent, Vuze, ...)</source>
+        <translation>Intercambiar pares con clientes Bittorrent compatibles (µTorrent, Vuze, ...)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2747"/>
+        <source>Enable Peer Exchange (PeX) to find more peers</source>
+        <translation>Habilitar intercambio de pares (PeX) para encontrar más pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2757"/>
+        <source>Look for peers on your local network</source>
+        <translation>Buscar pares en su red local</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2760"/>
+        <source>Enable Local Peer Discovery to find more peers</source>
+        <translation>Habilitar busqueda local de pares para encontrar más pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2772"/>
+        <source>Encryption mode:</source>
+        <translation>Modo de cifrado:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2790"/>
+        <source>Require encryption</source>
+        <translation>Exigir cifrado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2795"/>
+        <source>Disable encryption</source>
+        <translation>Deshabilitar cifrado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2820"/>
+        <source>Enable when using a proxy or a VPN connection</source>
+        <translation>Habilitar cuando se use un proxy o un VPN</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2823"/>
+        <source>Enable anonymous mode</source>
+        <translation>Activar modo anónimo</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2910"/>
+        <source>Maximum active downloads:</source>
+        <translation>Máximo de descargas activas:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2943"/>
+        <source>Maximum active uploads:</source>
+        <translation>Máximo de subidas activas:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2963"/>
+        <source>Maximum active torrents:</source>
+        <translation>Máximo de torrents activos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2983"/>
+        <source>Do not count slow torrents in these limits</source>
+        <translation>No contar torrents lentos en estos límites</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3031"/>
+        <source>Upload rate threshold:</source>
+        <translation>Umbral de vel. de subida:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2995"/>
+        <source>Download rate threshold:</source>
+        <translation>Umbral de vel. de descarga:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3061"/>
+        <location filename="../gui/optionsdialog.ui" line="3489"/>
+        <location filename="../gui/optionsdialog.ui" line="3930"/>
+        <location filename="../gui/optionsdialog.ui" line="3957"/>
+        <source> sec</source>
+        <extracomment>seconds</extracomment>
+        <translation>seg</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3054"/>
+        <source>Torrent inactivity timer:</source>
+        <translation>Temporizador de inactividad de Torrent:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3168"/>
+        <source>then</source>
+        <translation>luego</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3689"/>
+        <source>Use UPnP / NAT-PMP to forward the port from my router</source>
+        <translation>Usar UPnP / NAT-PMP para redirigir el puerto de mi router</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3714"/>
+        <source>Certificate:</source>
+        <translation>Certificado:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3727"/>
+        <location filename="../gui/optionsdialog.ui" line="3801"/>
+        <source>Key:</source>
+        <translation>Clave:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3737"/>
+        <source>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;Information about certificates&lt;/a&gt;</source>
+        <translation>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;Información acerca de los certificados&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3785"/>
+        <source>Change current password</source>
+        <translation>Cambiar contraseña actual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3999"/>
+        <source>Files location:</source>
+        <translation>Ubicación de archivos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4011"/>
+        <source>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;List of alternative WebUI&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;Lista de interfaces web alternativas&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4027"/>
+        <source>Security</source>
+        <translation>Seguridad</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4033"/>
+        <source>Enable clickjacking protection</source>
+        <translation>Activar protección de clickjacking</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4040"/>
+        <source>Enable Cross-Site Request Forgery (CSRF) protection</source>
+        <translation>Activar protección CSRF (Cross-site Request Forgery)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4047"/>
+        <source>Enable cookie Secure flag (requires HTTPS or localhost connection)</source>
+        <translation>Habilitar la bandera segura de cookies (requiere conexión HTTPS o localhost)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4054"/>
+        <source>Enable Host header validation</source>
+        <translation>Habilitar la validación de encabezado del Host</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4091"/>
+        <source>Add custom HTTP headers</source>
+        <translation>Añadir cabeceras HTTP personalizadas</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4106"/>
+        <source>Header: value pairs, one per line</source>
+        <translation>Cabecera: pares de valores, uno por línea</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4116"/>
+        <source>Enable reverse proxy support</source>
+        <translation>Habilitar el soporte de proxy inverso</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4127"/>
+        <source>Trusted proxies list:</source>
+        <translation>Lista de proxies de confianza:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4143"/>
+        <source>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;Reverse proxy setup examples&lt;/a&gt;</source>
+        <translation>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;Ejemplos de configuración de proxy inverso&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4171"/>
+        <source>Service:</source>
+        <translation>Servicio:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4194"/>
+        <source>Register</source>
+        <translation>Registro</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4203"/>
+        <source>Domain name:</source>
+        <translation>Nombre de dominio:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="611"/>
+        <source>By enabling these options, you can &lt;strong&gt;irrevocably lose&lt;/strong&gt; your .torrent files!</source>
+        <translation>Al activar estas opciones, puedes &lt;strong&gt;perder permanentemente&lt;/strong&gt; tus archivos .torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="618"/>
+        <source>If you enable the second option (&amp;ldquo;Also when addition is cancelled&amp;rdquo;) the .torrent file &lt;strong&gt;will be deleted&lt;/strong&gt; even if you press &amp;ldquo;&lt;strong&gt;Cancel&lt;/strong&gt;&amp;rdquo; in the &amp;ldquo;Add torrent&amp;rdquo; dialog</source>
+        <translation>Si habilitas la segunda opción (&amp;ldquo;También cuando la agregado es cancelado&amp;rdquo;) el archivo .torrent &lt;strong&gt; será borrado &lt;/strong&gt; incluso si elijes &amp;ldquo;&lt;strong&gt;Cancelar&lt;/strong&gt;&amp;rdquo; en la ventana de &amp;ldquo;Agregar torrent&amp;rdquo; </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="267"/>
+        <source>Select qBittorrent UI Theme file</source>
+        <translation>Seleccionar archivo de Tema UI de qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1357"/>
+        <source>Choose Alternative UI files location</source>
+        <translation>Elegir ubicación de archivos de la Interfaz de Usuario alternativa</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="690"/>
+        <source>Supported parameters (case sensitive):</source>
+        <translation>Parámetros soportados (sensible a mayúsculas):</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="317"/>
+        <source>Minimized</source>
+        <translation>Minimizado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="319"/>
+        <source>Hidden</source>
+        <translation>Oculto</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="334"/>
+        <source>Disabled due to failed to detect system tray presence</source>
+        <translation>Desactivado debido a que no se pudo detectar la presencia de la bandeja del sistema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="583"/>
+        <source>No stop condition is set.</source>
+        <translation>No se establece una condición de parada.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="584"/>
+        <source>Torrent will stop after metadata is received.</source>
+        <translation>El torrent se detendrá después de que se reciban metadatos.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="586"/>
+        <source>Torrent will stop after files are initially checked.</source>
+        <translation>El torrent se detendrá después de que los archivos se verifiquen inicialmente.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="587"/>
+        <source>This will also download metadata if it wasn&apos;t there initially.</source>
+        <translation>Esto también descargará metadatos si no estaba allí inicialmente.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="691"/>
+        <source>%N: Torrent name</source>
+        <translation>%N: Nombre del torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="692"/>
+        <source>%L: Category</source>
+        <translation>%L: Categoría</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="694"/>
+        <source>%F: Content path (same as root path for multifile torrent)</source>
+        <translation>%F: Ruta del contenido (misma ruta que la raíz para torrents muilti-archivo)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="695"/>
+        <source>%R: Root path (first torrent subdirectory path)</source>
+        <translation>%R: Ruta Raíz (primer subdirectorio del torrent)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="696"/>
+        <source>%D: Save path</source>
+        <translation>%D: Ruta de destino</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="697"/>
+        <source>%C: Number of files</source>
+        <translation>%C: Cantidad de archivos</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="698"/>
+        <source>%Z: Torrent size (bytes)</source>
+        <translation>%Z: Tamaño del torrent (bytes)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="699"/>
+        <source>%T: Current tracker</source>
+        <translation>%T: Tracker actual</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="703"/>
+        <source>%M: Comment</source>
+        <translation>%M: Comentario</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="704"/>
+        <source>Tip: Encapsulate parameter with quotation marks to avoid text being cut off at whitespace (e.g., &quot;%N&quot;)</source>
+        <translation>Consejo: Encapsula el parámetro con comillas para evitar que el texto sea cortado en un espacio (ej: &quot;%N&quot;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="768"/>
+        <source>Test email</source>
+        <translation>Correo electrónico de prueba</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="768"/>
+        <source>Attempted to send email. Check your inbox to confirm success</source>
+        <translation>Se intentó enviar un correo electrónico. Revisa tu bandeja de entrada para confirmar el éxito</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="917"/>
+        <source>(None)</source>
+        <translation>(Ninguno)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1134"/>
+        <source>A torrent will be considered slow if its download and upload rates stay below these values for &quot;Torrent inactivity timer&quot; seconds</source>
+        <translation>Un torrent se considerará lento si la velocidad de descarga y subida se mantienen debajo de estos valores por el tiempo indicado en el &quot;Temporizador de inactividad de Torrent&quot; </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1351"/>
+        <source>Certificate</source>
+        <translation>Certificado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1352"/>
+        <source>Select certificate</source>
+        <translation>Seleccionar certificado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1354"/>
+        <source>Private key</source>
+        <translation>Llave privada</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1355"/>
+        <source>Select private key</source>
+        <translation>Seleccionar llave privada</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1360"/>
+        <source>WebUI configuration failed. Reason: %1</source>
+        <translation>La configuración de WebUI falló. Motivo: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1509"/>
+        <location filename="../gui/optionsdialog.cpp" line="1553"/>
+        <source>Rotate API key</source>
+        <translation>Rotar la clave API</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1511"/>
+        <source>Generate an API key? This key can be used to interact with qBittorrent&apos;s API.</source>
+        <translation>¿Generar una clave API? Esta clave se puede usar para interactuar con la API de qBittorrent.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1512"/>
+        <source>Rotate this API key? The current key will immediately stop working and a new key will be generated.</source>
+        <translation>¿Desea cambiar esta clave API? La clave actual dejará de funcionar inmediatamente y se generará una nueva.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1531"/>
+        <source>Delete this API key? The current key will immediately stop working.</source>
+        <translation>¿Eliminar esta clave API? La clave actual dejará de funcionar inmediatamente.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1863"/>
+        <source>%1 is recommended for best compatibility with Windows dark mode</source>
+        <comment>Fusion is recommended for best compatibility with Windows dark mode</comment>
+        <translation>Se recomienda %1 para una mejor compatibilidad con el modo oscuro de Windows</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1870"/>
+        <source>System</source>
+        <comment>System default Qt style</comment>
+        <translation>Systema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1871"/>
+        <source>Let Qt decide the style for this system</source>
+        <translation>Deje que Qt decida el estilo para este sistema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1888"/>
+        <source>Dark</source>
+        <comment>Dark color scheme</comment>
+        <translation>Oscuro</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1889"/>
+        <source>Light</source>
+        <comment>Light color scheme</comment>
+        <translation>Claro</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1890"/>
+        <source>System</source>
+        <comment>System color scheme</comment>
+        <translation>Systema</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2015"/>
+        <source>Select folder to monitor</source>
+        <translation>Seleccione una carpeta para monitorear</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2037"/>
+        <source>Adding entry failed</source>
+        <translation>Fallo al agregar entrada </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <source>The WebUI username must be at least 3 characters long.</source>
+        <translation>El nombre de usuario de WebUI debe tener al menos 3 caracteres.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>Character Error</source>
+        <translation>Error de carácter</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>The WebUI username must not contain a colon.</source>
+        <translation>El nombre de usuario de WebUI no debe contener dos puntos.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>The WebUI password must be at least 6 characters long.</source>
+        <translation>La contraseña de WebUI debe tener al menos 6 caracteres.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>Location Error</source>
+        <translation>Error de ubicación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="647"/>
+        <location filename="../gui/optionsdialog.cpp" line="655"/>
+        <source>Choose export directory</source>
+        <translation>Selecciona una ruta de exportación</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="613"/>
+        <source>When these options are enabled, qBittorrent will &lt;strong&gt;delete&lt;/strong&gt; .torrent files after they were successfully (the first option) or not (the second option) added to its download queue. This will be applied &lt;strong&gt;not only&lt;/strong&gt; to the files opened via &amp;ldquo;Add torrent&amp;rdquo; menu action but to those opened via &lt;strong&gt;file type association&lt;/strong&gt; as well</source>
+        <translation>Cuando estas opciones están habilitadas, qBittorrent &lt;strong&gt;eliminará&lt;/strong&gt; los archivos .torrent después de que se hayan agregado con éxito (la primera opción) o no (la segunda opción) a su cola de descarga. Esto se aplicará &lt;strong&gt;no solo&lt;/strong&gt; a los archivos abiertos mediante &amp;ldquo; Agregar torrent&amp;rdquo;; acción del menú, pero también a los que se abren mediante la &lt;strong&gt;asociación de tipo de archivo&lt;/strong&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="268"/>
+        <source>qBittorrent UI Theme file (*.qbtheme config.json)</source>
+        <translation>Archivo de tema de la interfaz de usuario de qBittorrent (*.qbtheme config.json)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="693"/>
+        <source>%G: Tags (separated by comma)</source>
+        <translation>%G: Tags (separados por coma)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="700"/>
+        <source>%I: Info hash v1 (or &apos;-&apos; if unavailable)</source>
+        <translation>%I: Hash de información v1 (o &apos;-&apos; si no está disponible)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="701"/>
+        <source>%J: Info hash v2 (or &apos;-&apos; if unavailable)</source>
+        <translation>%J: Hash de información v2 (o &apos;-&apos; si no está disponible)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="702"/>
+        <source>%K: Torrent ID (either sha-1 info hash for v1 torrent or truncated sha-256 info hash for v2/hybrid torrent)</source>
+        <translation>%K: ID de torrent (ya sea hash de información sha-1 para torrent v1 o hash de información sha-256 truncado para torrent v2/híbrido)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="361"/>
+        <location filename="../gui/optionsdialog.cpp" line="635"/>
+        <location filename="../gui/optionsdialog.cpp" line="640"/>
+        <source>Choose a save directory</source>
+        <translation>Seleccione una ruta para guardar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="585"/>
+        <source>Torrents that have metadata initially will be added as stopped.</source>
+        <translation>Los torrents que inicialmente tengan metadatos se añadirán como detenidos.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="937"/>
+        <source>Choose an IP filter file</source>
+        <translation>Seleccione un archivo de filtro IP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="939"/>
+        <source>All supported filters</source>
+        <translation>Todos los filtros soportados</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>The alternative WebUI files location cannot be blank.</source>
+        <translation>La ubicación alternativa de los archivos WebUI no puede estar en blanco.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Parsing error</source>
+        <translation>Error de análisis</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Failed to parse the provided IP filter</source>
+        <translation>No se ha podido analizar el filtro IP proporcionado</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully refreshed</source>
+        <translation>Actualizado correctamente</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully parsed the provided IP filter: %1 rules were applied.</source>
+        <comment>%1 is a number</comment>
+        <translation>Filtro IP analizado correctamente: %1 reglas fueron aplicadas.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="167"/>
+        <source>Preferences</source>
+        <translation>Preferencias</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>Time Error</source>
+        <translation>Error de tiempo</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>The start time and the end time can&apos;t be the same.</source>
+        <translation>Los tiempos de inicio y finalización no pueden ser iguales.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>Length Error</source>
+        <translation>Error de longitud</translation>
+    </message>
+</context>
+<context>
+    <name>PeerInfo</name>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="226"/>
+        <source>Unknown</source>
+        <translation>Desconocido</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="303"/>
+        <source>Interested (local) and choked (peer)</source>
+        <translation>Interesado (local) y ahogado (par)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="308"/>
+        <source>Interested (local) and unchoked (peer)</source>
+        <translation>Interesado (local) y desahogado (par)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="317"/>
+        <source>Interested (peer) and choked (local)</source>
+        <translation>Interesado (par) y ahogado (local)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="322"/>
+        <source>Interested (peer) and unchoked (local)</source>
+        <translation>interesado (par) y desahogado (local)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="328"/>
+        <source>Not interested (local) and unchoked (peer)</source>
+        <translation>No interesado (local) y no desahogado (par)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="332"/>
+        <source>Not interested (peer) and unchoked (local)</source>
+        <translation>No interesado (par) y desahogado (local)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="336"/>
+        <source>Optimistic unchoke</source>
+        <translation>Desahogamiento optimista</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="340"/>
+        <source>Peer snubbed</source>
+        <translation>Par descartado</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="344"/>
+        <source>Incoming connection</source>
+        <translation>Conexión entrante</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="348"/>
+        <source>Peer from DHT</source>
+        <translation>Par desde DHT</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="352"/>
+        <source>Peer from PEX</source>
+        <translation>Par desde PEX</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="356"/>
+        <source>Peer from LSD</source>
+        <translation>Par desde LSD</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="360"/>
+        <source>Encrypted traffic</source>
+        <translation>Tráfico cifrado</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="364"/>
+        <source>Encrypted handshake</source>
+        <translation>Establecimiento de comunicación cifrado</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="372"/>
+        <source>Peer is using NAT hole punching</source>
+        <translation>El par está usando la perforación de agujeros NAT</translation>
+    </message>
+</context>
+<context>
+    <name>PeerListWidget</name>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="114"/>
+        <source>Country/Region</source>
+        <translation>País/Región</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="115"/>
+        <source>IP/Address</source>
+        <translation>IP/Dirección</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="116"/>
+        <source>Port</source>
+        <translation>Puerto</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="117"/>
+        <source>Flags</source>
+        <translation>Banderas</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="118"/>
+        <source>Connection</source>
+        <translation>Conexión</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="119"/>
+        <source>Client</source>
+        <comment>i.e.: Client application</comment>
+        <translation>Cliente</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="120"/>
+        <source>Peer ID Client</source>
+        <comment>i.e.: Client resolved from Peer ID</comment>
+        <translation>Cliente de identificación de pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="121"/>
+        <source>Progress</source>
+        <comment>i.e: % downloaded</comment>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="122"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Vel. Descarga</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="123"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Vel. Subida</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="124"/>
+        <source>Downloaded</source>
+        <comment>i.e: total data downloaded</comment>
+        <translation>Descargado</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="125"/>
+        <source>Uploaded</source>
+        <comment>i.e: total data uploaded</comment>
+        <translation>Subido</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="126"/>
+        <source>Relevance</source>
+        <comment>i.e: How relevant this peer is to us. How many pieces it has that we don&apos;t.</comment>
+        <translation>Importancia</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="127"/>
+        <source>Files</source>
+        <comment>i.e. files that are being downloaded right now</comment>
+        <translation>Archivos</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="205"/>
+        <source>Column visibility</source>
+        <translation>Visibilidad de columnas</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="231"/>
+        <source>Resize columns</source>
+        <translation>Redimensionar columnas</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="240"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Reajustar el tamaño de todas las columnas no ocultas al tamaño de sus contenidos.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="294"/>
+        <source>Add peers...</source>
+        <translation>Añadir pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Adding peers</source>
+        <translation>Agregando pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <source>Some peers cannot be added. Check the Log for details.</source>
+        <translation>Algunos pares no pudieron ser añadidos. Revisa el registro para más detalles.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Peers are added to this torrent.</source>
+        <translation>Los pares se añaden a este torrent.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="310"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="353"/>
+        <source>Ban peer permanently</source>
+        <translation>Prohibir este par permanentemente</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="321"/>
+        <source>Cannot add peers to a private torrent</source>
+        <translation>No se pueden añadir pares a un torrent privado</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="323"/>
+        <source>Cannot add peers when the torrent is checking</source>
+        <translation>No se pueden añadir pares cuando el torrent está comprobando</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="325"/>
+        <source>Cannot add peers when the torrent is queued</source>
+        <translation>No se pueden añadir pares cuando el torrent está en cola</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="329"/>
+        <source>No peer was selected</source>
+        <translation>No se ha seleccionado ningún par</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="354"/>
+        <source>Are you sure you want to permanently ban the selected peers?</source>
+        <translation>¿Estás seguro de que deseas vetar permanentemente a los pares seleccionados?</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="360"/>
+        <source>Peer &quot;%1&quot; is manually banned</source>
+        <translation>El par &quot;%1&quot; está vetado manualmente</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="451"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="307"/>
+        <source>Copy IP:port</source>
+        <translation>Copiar IP:puerto</translation>
+    </message>
+</context>
+<context>
+    <name>PeersAdditionDialog</name>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="14"/>
+        <source>Add Peers</source>
+        <translation>Agregar pares</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="20"/>
+        <source>List of peers to add (one IP per line):</source>
+        <translation>Lista de pares a agregar (una IP por línea):</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="36"/>
+        <source>Format: IPv4:port / [IPv6]:port</source>
+        <translation>Formato: IPv4:puerto / [IPv6]:puerto</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="64"/>
+        <source>No peer entered</source>
+        <translation>No se ha introducido ningún par</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="65"/>
+        <source>Please type at least one peer.</source>
+        <translation>Por favor introduce al menos un par.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="78"/>
+        <source>Invalid peer</source>
+        <translation>Par invalido</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="79"/>
+        <source>The peer &apos;%1&apos; is invalid.</source>
+        <translation>El par &apos;%1&apos; es invalido.</translation>
+    </message>
+</context>
+<context>
+    <name>PieceAvailabilityBar</name>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="175"/>
+        <source>Unavailable pieces</source>
+        <translation>Partes no disponibles</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="176"/>
+        <source>Available pieces</source>
+        <translation>Partes disponibles</translation>
+    </message>
+</context>
+<context>
+    <name>PiecesBar</name>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="291"/>
+        <source>Files in this piece:</source>
+        <translation>Archivos en esta pieza:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="293"/>
+        <source>File in this piece:</source>
+        <translation>Archivo en esta pieza:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="295"/>
+        <source>File in these pieces:</source>
+        <translation>Archivo en estas piezas:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="314"/>
+        <source>Wait until metadata become available to see detailed information</source>
+        <translation>Espere hasta que los metadatos estén disponibles para ver la información detallada.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="316"/>
+        <source>Hold Shift key for detailed information</source>
+        <translation>Mantén Shift para información detallada</translation>
+    </message>
+</context>
+<context>
+    <name>PluginSelectDialog</name>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="17"/>
+        <source>Search plugins</source>
+        <translation>Plugins de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="29"/>
+        <source>Installed search plugins:</source>
+        <translation>Plugins de búsqueda instalados:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="52"/>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="57"/>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="62"/>
+        <source>Url</source>
+        <translation>URL</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="67"/>
+        <location filename="../gui/search/pluginselectdialog.ui" line="133"/>
+        <source>Enabled</source>
+        <translation>Habilitado</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="80"/>
+        <source>Warning: Be sure to comply with your country&apos;s copyright laws when downloading torrents from any of these search engines.</source>
+        <translation>Advertencia: Asegúrese de cumplir con las leyes de copyright de su país cuando descarga torrents de estos motores de búsqueda. </translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="95"/>
+        <source>You can get new search engine plugins here: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</source>
+        <translation>Aquí puede conseguir nuevos complementos para motores de búsqueda: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="107"/>
+        <source>Install a new one</source>
+        <translation>Instalar uno nuevo</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="114"/>
+        <source>Check for updates</source>
+        <translation>Buscar actualizaciones</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="121"/>
+        <source>Close</source>
+        <translation>Cerrar</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="138"/>
+        <source>Uninstall</source>
+        <translation>Desinstalar</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="160"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="231"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="296"/>
+        <source>Yes</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="165"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="210"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="236"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="301"/>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Uninstall warning</source>
+        <translation>Advertencia de desinstalación</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Some plugins could not be uninstalled because they are included in qBittorrent. Only the ones you added yourself can be uninstalled.
+Those plugins were disabled.</source>
+        <translation>Algunos plugins no pudieron ser desinstalados porque están incluidos en qBittorrent. Solamente pueden ser desinstalados los que han sido agregados. En su lugar, esos plugins fueron deshabilitados.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>Uninstall success</source>
+        <translation>Desinstalación correcta</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>All selected plugins were uninstalled successfully</source>
+        <translation>Todos los plugins seleccionados fueron desinstalados correctamente</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="448"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="495"/>
+        <source>Search plugin update</source>
+        <translation>Actualización de los plugins de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <source>Plugins installed or updated: %1</source>
+        <translation>Plugins instalados o actualizados: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="363"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="371"/>
+        <source>New search engine plugin URL</source>
+        <translation>URL del nuevo plugin de motor de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="364"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="372"/>
+        <source>URL:</source>
+        <translation>URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>Invalid link</source>
+        <translation>Enlace inválido</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>The link doesn&apos;t seem to point to a search engine plugin.</source>
+        <translation>El enlace no parece contener un plugin de búsqueda.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="386"/>
+        <source>Select search plugins</source>
+        <translation>Seleccione los plugins de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="387"/>
+        <source>qBittorrent search plugin</source>
+        <translation>Plugin de búsqueda de qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="448"/>
+        <source>All your plugins are already up to date.</source>
+        <translation>Todos los plugins ya están actualizados.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
+        <source>Sorry, couldn&apos;t check for plugin updates. %1</source>
+        <translation>No se pudo buscar actualizaciones de plugins. %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="477"/>
+        <source>Search plugin install</source>
+        <translation>Instalar plugin de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="478"/>
+        <source>Couldn&apos;t install &quot;%1&quot; search engine plugin. %2</source>
+        <translation>No se pudo instalar el plugin de motor de búsqueda &quot;%1&quot;. %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="496"/>
+        <source>Couldn&apos;t update &quot;%1&quot; search engine plugin. %2</source>
+        <translation>No se pudo actualizar el plugin de motor de búsqueda &quot;%1&quot;. %2</translation>
+    </message>
+</context>
+<context>
+    <name>PluginSourceDialog</name>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="14"/>
+        <source>Plugin source</source>
+        <translation>Fuente del plugin</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="26"/>
+        <source>Search plugin source:</source>
+        <translation>Fuente del plugin de búsqueda:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="35"/>
+        <source>Local file</source>
+        <translation>Archivo local</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="42"/>
+        <source>Web link</source>
+        <translation>Enlace web</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewSelectDialog</name>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="65"/>
+        <source>The following files from torrent &quot;%1&quot; support previewing, please select one of them:</source>
+        <translation>Los siguientes ficheros del torrent &quot;%1&quot; soportan vista previa, por favor seleccione uno de ellos:</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="68"/>
+        <source>Preview</source>
+        <translation>Previsualizar</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="76"/>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="77"/>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="78"/>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="145"/>
+        <source>Preview impossible</source>
+        <translation>Imposible previsualizar</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="146"/>
+        <source>Sorry, we can&apos;t preview this file: &quot;%1&quot;.</source>
+        <translation>Lo siento, no se puede previsualizar este archivo: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename

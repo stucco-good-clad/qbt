@@ -1,0 +1,2793 @@
+>
+        <translation>Svazilənd</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="366"/>
+        <source>Turks and Caicos Islands</source>
+        <translation>Turks və Kaykos adaları</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="367"/>
+        <source>Chad</source>
+        <translation>Çad</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="368"/>
+        <source>French Southern Territories</source>
+        <translation>Fransa Cənubi və Antarktik ərazisi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="369"/>
+        <source>Togo</source>
+        <translation>Toqo</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="370"/>
+        <source>Thailand</source>
+        <translation>Tailand</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="371"/>
+        <source>Tajikistan</source>
+        <translation>Tacikistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="372"/>
+        <source>Tokelau</source>
+        <translation>Tokelau</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="374"/>
+        <source>Turkmenistan</source>
+        <translation>Türkmənistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="375"/>
+        <source>Tunisia</source>
+        <translation>Tunis</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="376"/>
+        <source>Tonga</source>
+        <translation>Tonqa</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="393"/>
+        <source>Vietnam</source>
+        <translation>Vyetnam</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="431"/>
+        <source>Couldn&apos;t download IP geolocation database file. Reason: %1</source>
+        <translation>İP geolokasiya verilənlər bazası yüklənə bilmir. Səbəb: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="439"/>
+        <source>Could not decompress IP geolocation database file.</source>
+        <translation>İP geolokasiya verilənlər bazası faylı açmaq mümkün olmadı.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="466"/>
+        <source>Couldn&apos;t save downloaded IP geolocation database file. Reason: %1</source>
+        <translation>Endirilmiş İP geolokasiya verilənlər bazası faylını saxlamaq mümkün olmadı. Səbəb: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="462"/>
+        <source>Successfully updated IP geolocation database.</source>
+        <translation>İP geolokasiya verilənlər bazası uğurla yeniləndi.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="373"/>
+        <source>Timor-Leste</source>
+        <translation>Şərqi Timor</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="181"/>
+        <source>Bolivia, Plurinational State of</source>
+        <translation>Boliviya</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="182"/>
+        <source>Bonaire, Sint Eustatius and Saba</source>
+        <translation>Bonari, Sent Estatus və Saba</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="196"/>
+        <source>Cote d&apos;Ivoire</source>
+        <translation>Kot d&apos;İvuar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="288"/>
+        <source>Libya</source>
+        <translation>Liviya</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="293"/>
+        <source>Saint Martin (French part)</source>
+        <translation>Sent Martin (Fransa hissəsi)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="296"/>
+        <source>Macedonia, The Former Yugoslav Republic of</source>
+        <translation>Makedoniya</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="300"/>
+        <source>Macao</source>
+        <translation>Makao</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="333"/>
+        <source>Pitcairn</source>
+        <translation>Pitkarn</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="335"/>
+        <source>Palestine, State of</source>
+        <translation>Fələstin</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="351"/>
+        <source>Saint Helena, Ascension and Tristan da Cunha</source>
+        <translation>Müqəddəs Elena, adası, Merac və Tristan de Kunha</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="360"/>
+        <source>South Sudan</source>
+        <translation>Cənubi Sudan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="363"/>
+        <source>Sint Maarten (Dutch part)</source>
+        <translation>Sent Martin (Almaniya hissəsi)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="377"/>
+        <source>Turkey</source>
+        <translation>Türkiyə</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="378"/>
+        <source>Trinidad and Tobago</source>
+        <translation>Trinidad və Tobako</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="379"/>
+        <source>Tuvalu</source>
+        <translation>Tuvalu</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="380"/>
+        <source>Taiwan</source>
+        <translation>Tayvan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="381"/>
+        <source>Tanzania, United Republic of</source>
+        <translation>Tanzaniya Birləşmiş Respublikası</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="382"/>
+        <source>Ukraine</source>
+        <translation>Ukrayna</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="383"/>
+        <source>Uganda</source>
+        <translation>Uqanda</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="384"/>
+        <source>United States Minor Outlying Islands</source>
+        <translation>Amerika Birləşmiş Ştatları Kiçik Xarici Adaları</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="385"/>
+        <source>United States</source>
+        <translation>Amerika Birləşmiş Ştatları</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="386"/>
+        <source>Uruguay</source>
+        <translation>Uruqvay</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="387"/>
+        <source>Uzbekistan</source>
+        <translation>Özbəkistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="388"/>
+        <source>Holy See (Vatican City State)</source>
+        <translation>Vatikan (Vatikan Şəhər Ştatı)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="389"/>
+        <source>Saint Vincent and the Grenadines</source>
+        <translation>Sant Vincent və Qrenada</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="391"/>
+        <source>Virgin Islands, British</source>
+        <translation>Vircin adaları, İngiltərə</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="392"/>
+        <source>Virgin Islands, U.S.</source>
+        <translation>Vircin adaları, ABŞ</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="394"/>
+        <source>Vanuatu</source>
+        <translation>Vanautu</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="395"/>
+        <source>Wallis and Futuna</source>
+        <translation>Uollis və Futuna</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="396"/>
+        <source>Samoa</source>
+        <translation>Samoa</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="397"/>
+        <source>Yemen</source>
+        <translation>Yəmən</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="398"/>
+        <source>Mayotte</source>
+        <translation>Mayotte</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="342"/>
+        <source>Serbia</source>
+        <translation>Serbiya</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="399"/>
+        <source>South Africa</source>
+        <translation>Cənubi Afrika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="400"/>
+        <source>Zambia</source>
+        <translation>Zambiya</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="292"/>
+        <source>Montenegro</source>
+        <translation>Monteneqro</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="401"/>
+        <source>Zimbabwe</source>
+        <translation>Zimbabve</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="167"/>
+        <source>Aland Islands</source>
+        <translation>Aland adaları</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="233"/>
+        <source>Guernsey</source>
+        <translation>Qernsi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="256"/>
+        <source>Isle of Man</source>
+        <translation>Mən adası</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="263"/>
+        <source>Jersey</source>
+        <translation>Cersi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="178"/>
+        <source>Saint Barthelemy</source>
+        <translation>Müqəddəs Bartalamey</translation>
+    </message>
+</context>
+<context>
+    <name>Net::Smtp</name>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="216"/>
+        <source>Connection failed, unrecognized reply: %1</source>
+        <translation>Bağlantı uğursuz oldu, naməlum cavab: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="256"/>
+        <source>Authentication failed, msg: %1</source>
+        <translation>Kimlik doğrulaması uğursuz oldu, bild: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="269"/>
+        <source>&lt;mail from&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;mail from&gt;, server tərəfindən   rədd edildi, bild: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="282"/>
+        <source>&lt;Rcpt to&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;Rcpt to&gt;, server tərəfindən rədd edildi, bild: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="295"/>
+        <source>&lt;data&gt; was rejected by server, msg: %1</source>
+        <translation>&lt;data&gt;, server tərəfindən rədd edildi, bild: %1 </translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="309"/>
+        <source>Message was rejected by the server, error: %1</source>
+        <translation>Bildiriş server tərəfindən rədd edildi, bild: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="397"/>
+        <source>Both EHLO and HELO failed, msg: %1</source>
+        <translation>Hər iki, EHLO və HELO əmrləri uğursuz oldu, bild: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="478"/>
+        <source>The SMTP server does not seem to support any of the authentications modes we support [CRAM-MD5|PLAIN|LOGIN], skipping authentication, knowing it is likely to fail... Server Auth Modes: %1</source>
+        <translation>Belə görünür ki, SMTP serveri bizim dəstəklədiyimiz kimlik doğrulaması rejimlərini [CRAM-MD5|PLAIN|LOGIN] dəstəkləmir. Kimlik doğrulamasının uğursuz olaçağı məlum olduğundan o ötürülür... Server doğrulama rejimləri: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/smtp.cpp" line="566"/>
+        <source>Email Notification Error: %1</source>
+        <translation>E-poçt bildiriş xətası: %1</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="14"/>
+        <source>Options</source>
+        <translation>Seçimlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="52"/>
+        <source>Behavior</source>
+        <translation>Davranış</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="57"/>
+        <source>Downloads</source>
+        <translation>Yükləmələr</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="62"/>
+        <source>Connection</source>
+        <translation>Bağlantı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="67"/>
+        <source>Speed</source>
+        <translation>Sürət</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="72"/>
+        <source>BitTorrent</source>
+        <translation>BitTorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="82"/>
+        <source>RSS</source>
+        <translation>RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="92"/>
+        <source>Advanced</source>
+        <translation>Əlavə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="264"/>
+        <source>Customize UI Theme...</source>
+        <translation>Fərdi İİ mövzusu...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="274"/>
+        <source>Transfer List</source>
+        <translation>Köçürmə siyahısı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="283"/>
+        <source>Confirm when deleting torrents</source>
+        <translation>Torrentlərin silinməsinin təsdiq edilməsi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="293"/>
+        <source>Use alternating row colors</source>
+        <extracomment>In table elements, every other row will have a grey background.</extracomment>
+        <translation>Alternativ sıra rənglərindən istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="322"/>
+        <source>Hide zero and infinity values</source>
+        <translation>Sıfır və sonsuzluq göstəricilərini gizlətmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="330"/>
+        <source>Always</source>
+        <translation>Həmişə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="358"/>
+        <source>Action on double-click</source>
+        <translation>İki dəfə klik əməli</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="364"/>
+        <source>Downloading torrents:</source>
+        <translation>Torrentlər yüklənir:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="380"/>
+        <location filename="../gui/optionsdialog.ui" line="429"/>
+        <source>Open destination folder</source>
+        <translation>Təyinat qovluğunu açmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="395"/>
+        <location filename="../gui/optionsdialog.ui" line="444"/>
+        <source>No action</source>
+        <translation>Əməl yoxdur</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="416"/>
+        <source>Completed torrents:</source>
+        <translation>Tamamlanmış torrentlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="455"/>
+        <source>Auto hide zero status filters</source>
+        <translation>Sıfır süzgəc nəticələrini avtomatik gizlətmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="462"/>
+        <source>Use separate &quot;Tracker status&quot; filter. Otherwise it gets merged with &quot;Trackers&quot; filter.</source>
+        <translation>&quot;İzləyici vəziyyəti&quot; süzgəci ayırıcısından istifadə edin. Əks halda o, &quot;İzləyicilər&quot; süzgəci ilə birləşdirilir.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="465"/>
+        <source>Use separate &quot;Tracker status&quot; filter</source>
+        <translation>&quot;İzləyici vəziyyyəti&quot; süzgəci ayırıcısından istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="494"/>
+        <source>Desktop</source>
+        <translation>İş Masası</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="500"/>
+        <source>Start qBittorrent on Windows start up</source>
+        <translation>ƏS işə düşdükdə qBittorrent&apos;i başlatmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="507"/>
+        <source>Show splash screen on start up</source>
+        <translation>Başlanğıcda qarşılama ekranını göstərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="551"/>
+        <source>Confirmation on exit when torrents are active</source>
+        <translation>Aktiv torrenlər olduqda çıxarkən təsdiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="561"/>
+        <source>Confirmation on auto-exit when downloads finish</source>
+        <translation>Endirmələr sona çatdıqda avtomtik çıxışı təsdiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="702"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To set qBittorrent as default program for .torrent files and/or Magnet links&lt;br/&gt;you can use &lt;span style=&quot; font-weight:600;&quot;&gt;Default Programs&lt;/span&gt; dialog from &lt;span style=&quot; font-weight:600;&quot;&gt;Control Panel&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;qBitttorenti, .torrent faylları və/vəya Magnet keçidləri&lt;br/&gt;üçün standart proqram kimi, &lt;span style=&quot; font-weight:600;&quot;&gt;Standart proqramlar&lt;/span&gt; dialoquna &lt;span style=&quot; font-weight:600;&quot;&gt;İdarəetmə paneli bölməsindən&lt;/span&gt; daxil olaraq təyin edə bilərsiniz.&lt;/p&gt;&lt;/body&gt;&lt;head/&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="722"/>
+        <source>Show speed in Dock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="729"/>
+        <source>Show qBittorrent in menu bar</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="806"/>
+        <source> KiB</source>
+        <translation> KB</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="899"/>
+        <source>Show free disk space in status bar</source>
+        <translation>Vəziyyət zolağında boş disk sahəsini göstərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="998"/>
+        <source>Torrent content layout:</source>
+        <translation>Torrent məzmunu maketi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1009"/>
+        <source>Original</source>
+        <translation>Orijinal</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1014"/>
+        <source>Create subfolder</source>
+        <translation>Alt qovluq yaratmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1019"/>
+        <source>Don&apos;t create subfolder</source>
+        <translation>Alt qovluq yaratmamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1042"/>
+        <source>The torrent will be added to the top of the download queue</source>
+        <translation>Torrent, fasilə vəziyyətində yükləmə siyahısına əlavə ediləcək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1045"/>
+        <source>Add to top of queue</source>
+        <extracomment>The torrent will be added to the top of the download queue</extracomment>
+        <translation>Növbənin ən üst sırasına əlavə et</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1114"/>
+        <source>Merge trackers to existing torrent</source>
+        <translation>İzləyiciləri mövcud torrentdə birləşdirin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1209"/>
+        <source>Keep unselected files in &quot;.unwanted&quot; folder</source>
+        <translation>Seçilməmiş faylları &quot;baxılmamışlar&quot; qovluğunda saxlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1505"/>
+        <source>Add...</source>
+        <translation>Əlavə edin...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1515"/>
+        <source>Options..</source>
+        <translation>Seçimlər...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1525"/>
+        <source>Remove</source>
+        <translation>Silin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1592"/>
+        <source>Email notification &amp;upon download completion</source>
+        <translation>Endirilmə başa çatdıqdan so&amp;nra e-poçt bildirişi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1696"/>
+        <source>Send test email</source>
+        <translation>Yoxlamaq üçün e-poçt göndərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1712"/>
+        <source>Run on torrent added:</source>
+        <translation>Torrent əlavə edildikdə başlatmaq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1730"/>
+        <source>Run on torrent finished:</source>
+        <translation>Torrent tmamlandıqda başlatmaq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1802"/>
+        <source>Peer connection protocol:</source>
+        <translation>İştirakçı bağlantı protokolu</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1861"/>
+        <source>Any</source>
+        <translation>Hər hansı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2011"/>
+        <source>I2P (experimental)</source>
+        <translation>I2P (təcrübə üçün)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2073"/>
+        <source>Mixed mode</source>
+        <translation>Qarışıq rejim</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2161"/>
+        <source>If checked, hostname lookups are done via the proxy</source>
+        <translation>Əgər işarələnərsə, host adı axtarışı proksi ilə icra olunur.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2164"/>
+        <source>Perform hostname lookup via proxy</source>
+        <translation>Proksi vasitəsilə host adı axtarışını icra etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2224"/>
+        <source>Use proxy for BitTorrent purposes</source>
+        <translation>Proksini BitTorrent məqsədləri üçün istifadə et</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2249"/>
+        <source>RSS feeds will use proxy</source>
+        <translation>RSS xəbər lentləri proksi istifadə edəcək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2252"/>
+        <source>Use proxy for RSS purposes</source>
+        <translation>RSS məqsədləri üçün proksi istifadə et</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2262"/>
+        <source>Search engine, software updates or anything else will use proxy</source>
+        <translation>Axtarış mühərriki, proqram təminatı yenilənmələri və başqaları proksi istifdə edəcək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2265"/>
+        <source>Use proxy for general purposes</source>
+        <translation>Əsas məqsədlər üçün proksi istifadə et</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2278"/>
+        <source>IP Fi&amp;ltering</source>
+        <translation>İP fi&amp;ltirləmə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2527"/>
+        <source>Schedule &amp;the use of alternative rate limits</source>
+        <translation>Alternativ sürət limitinin istifadəsini planlaşdırmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2542"/>
+        <source>From:</source>
+        <comment>From start time</comment>
+        <translation>Bu vaxtdan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2572"/>
+        <source>To:</source>
+        <comment>To end time</comment>
+        <translation>Bu vaxta:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2731"/>
+        <source>Find peers on the DHT network</source>
+        <translation>DHT şəbəkəsindəki iştirakçıları tapmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2779"/>
+        <source>Allow encryption: Connect to peers regardless of setting
+Require encryption: Only connect to peers with protocol encryption
+Disable encryption: Only connect to peers without protocol encryption</source>
+        <translation>Şifrələməyə icazə vermək: Ayardan asılı olmayaraq iştirakçılara qoşulma
+Şifrələmə tələb edtmək: İştirakçılara yalnız şifrələmə protokolu ilə qoşulmaq
+Şifrələməni söndürmək: İştirakşılara yalnız şifrələmə protokolu olmadan qoşulmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2785"/>
+        <source>Allow encryption</source>
+        <translation>Şifrələməyə icazə vermək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2830"/>
+        <source>(&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;More information&lt;/a&gt;)</source>
+        <translation>(&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;Daha ətraflı&lt;/a&gt;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2863"/>
+        <source>Maximum active checking torrents:</source>
+        <translation>Maksimum aktiv torrent yoxlamaları:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2898"/>
+        <source>&amp;Torrent Queueing</source>
+        <translation>&amp;Torrent növbələnməsi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3122"/>
+        <source>When total seeding time reaches</source>
+        <translation>Ümumi göndərmə həddinə çatdıqda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3145"/>
+        <source>When inactive seeding time reaches</source>
+        <translation>Qeyri-aktiv göndərmə həddinə çatdıqda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3431"/>
+        <source>RSS Reader</source>
+        <translation>RSS Oxuyucu</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3437"/>
+        <source>Enable fetching RSS feeds</source>
+        <translation>RSS lentlərinin alınmasını aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3446"/>
+        <source>Feeds refresh interval:</source>
+        <translation>Lentlərin yenilənmə intervalı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3482"/>
+        <source>Same host request delay:</source>
+        <translation>Eyni host tələbi gecikməsi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3502"/>
+        <source>Maximum number of articles per feed:</source>
+        <translation>Hər iştirakçıya ən çox məqalə sayı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3132"/>
+        <location filename="../gui/optionsdialog.ui" line="3155"/>
+        <location filename="../gui/optionsdialog.ui" line="3453"/>
+        <source> min</source>
+        <extracomment>minutes</extracomment>
+        <translation> dəq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3083"/>
+        <source>Seeding Limits</source>
+        <translation>Paylaşım limitləri</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3187"/>
+        <source>Remove torrent</source>
+        <translation>Torrenti silmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3192"/>
+        <source>Remove torrent and its files</source>
+        <translation>Torrenti ə fayllarını silmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3197"/>
+        <source>Enable super seeding for torrent</source>
+        <translation>Torrent üçün super göndərişi aktivləşdirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3089"/>
+        <source>When ratio reaches</source>
+        <translation>Göstəricini aşdıqda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2154"/>
+        <source>Some functions are unavailable with the chosen proxy type!</source>
+        <translation>Bəzi funksiyalar seçilmiş proksi növü ilə əlçatan deyil!</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2214"/>
+        <source>Note: The password is saved unencrypted</source>
+        <translation>Qeyd: Şifrə şifrələnmədən  saxlanılıb</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3182"/>
+        <source>Stop torrent</source>
+        <translation>Torrenti dayandırmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3208"/>
+        <source>A&amp;utomatically append these trackers to new downloads:</source>
+        <translation>Bu izləyiciləri yeni endirmələrə a&amp;vtomatik əlavə etmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3230"/>
+        <source>Automatically append trackers from URL to new downloads:</source>
+        <translation>URL-dakı izləyiciləri avtomatik yeni endirmələrə əlavə etmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3244"/>
+        <source>URL:</source>
+        <translation>URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3256"/>
+        <source>Fetched trackers</source>
+        <translation>İzləyicilər alındı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3321"/>
+        <source>Search UI</source>
+        <translation>Axtarış interfeysi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3327"/>
+        <source>Store opened tabs</source>
+        <translation>Açıq vərəqləri saxlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3339"/>
+        <source>Also store search results</source>
+        <translation>Həmçinin axtarış nəticələrini saxlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3351"/>
+        <source>History length</source>
+        <translation>Tarixçənin uzunluğu</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3524"/>
+        <source>RSS Torrent Auto Downloader</source>
+        <translation>RSS torrent avto yükləyici</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3530"/>
+        <source>Enable auto downloading of RSS torrents</source>
+        <translation>RSS torrentlərinin avtomatik yüklənməsini aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3537"/>
+        <source>Edit auto downloading rules...</source>
+        <translation>Avtomatik yükləmə qaydalarına düzəliş...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3547"/>
+        <source>RSS Smart Episode Filter</source>
+        <translation>RSS Ağıllı Bölmə Filtri</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3553"/>
+        <source>Download REPACK/PROPER episodes</source>
+        <translation>REPACK/PROPER bölümlərini endirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3560"/>
+        <source>Filters:</source>
+        <translation>Filtrlər:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3625"/>
+        <source>Web User Interface (Remote control)</source>
+        <translation>Veb İstifadəçi İnterfeysi (Uzaqdan idarəetmə)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3651"/>
+        <source>IP address:</source>
+        <translation>İP ünvanları:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3658"/>
+        <source>IP address that the Web UI will bind to.
+Specify an IPv4 or IPv6 address. You can specify &quot;0.0.0.0&quot; for any IPv4 address,
+&quot;::&quot; for any IPv6 address, or &quot;*&quot; for both IPv4 and IPv6.</source>
+        <translation>Veb İİ qoşulacaq İP ünvanlar.
+İPv4 və ya İPv6 ünvanı göstərin. Siz hər hansı İPv4 ünvanı üçün &quot;0.0.0.0&quot;, hər hansı İPv6 ünvanı üçün &quot;::&quot;, və ya İPv4 və İPv6-lərin hər ikisi üçün &quot;*&quot; göstərə bilərsiniz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3759"/>
+        <source>User</source>
+        <translation>İstifadəçi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3795"/>
+        <source>API Key</source>
+        <translation>API açarı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3813"/>
+        <source>Generate a key</source>
+        <translation>Bir açar yaradın</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3823"/>
+        <source>Copy API key</source>
+        <translation>API açarı kopyalayın</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3834"/>
+        <location filename="../gui/optionsdialog.cpp" line="1508"/>
+        <location filename="../gui/optionsdialog.cpp" line="1561"/>
+        <source>Generate API key</source>
+        <translation>API açar yaradın</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3845"/>
+        <location filename="../gui/optionsdialog.cpp" line="1530"/>
+        <source>Delete API key</source>
+        <translation>API açarı silin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3890"/>
+        <source>Ban client after consecutive failures:</source>
+        <translation>Belə ardıcıl xətalardan sonra müştərini bloklamaq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3897"/>
+        <source>Never</source>
+        <translation>Heç vaxt</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3920"/>
+        <source>ban for:</source>
+        <translation>bundan sonra bloklamaq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3947"/>
+        <source>Session timeout:</source>
+        <translation>Sessiya bitmə vaxtı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3954"/>
+        <source>Disabled</source>
+        <translation>Söndürülüb</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4065"/>
+        <source>Server domains:</source>
+        <translation>Server domenləri:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4072"/>
+        <source>Whitelist for filtering HTTP Host header values.
+In order to defend against DNS rebinding attack,
+you should put in domain names used by WebUI server.
+
+Use &apos;;&apos; to split multiple entries. Can use wildcard &apos;*&apos;.</source>
+        <translation>HTTP Host başlıqlarının göstəricilərini filtrləmək üçün ağ siyahı.
+DNS ilə təkrar bağlantı hücumundan qorunmaq üçün WebUI
+serveri tərəfindən istifadə olunan domen adını göstərməlisiniz.
+
+Çoxsaylı elementləri bölmək üçün &apos;;&apos; istifadə edin. &apos;*&apos; ümumi nişanından istifadə edə bilərsiniz</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3699"/>
+        <source>&amp;Use HTTPS instead of HTTP</source>
+        <translation>HTTP əvəzinə HTTPS &amp;istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3861"/>
+        <source>Bypass authentication for clients on localhost</source>
+        <translation>Locahosst-da müştəri üçün kimlik doğrulamasını ötürmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3868"/>
+        <source>Bypass authentication for clients in whitelisted IP subnets</source>
+        <translation>İP alt şəbəkələri ağ siyahısında müştəri üçün kimlik doğrulamasını ötürmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3881"/>
+        <source>IP subnet whitelist...</source>
+        <translation>İP al şəbəkəsi ağ siyahısı...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3985"/>
+        <source>Use alternative WebUI</source>
+        <translation>Alternativ WebUI istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4134"/>
+        <source>Specify reverse proxy IPs (or subnets, e.g. 0.0.0.0/24) in order to use forwarded client address (X-Forwarded-For header). Use &apos;;&apos; to split multiple entries.</source>
+        <translation>Yönləndirilmiş müştəri ünvanından (X-Forwarded-For header) istifadə etmək üçün əks proxy IP-lərini (və ya alt şəbəkələri, məs., 0.0.0.0/24) göstərin. Birdən çox girişi bölmək üçün &apos;;&apos; işarəsindən istifadə edin.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4159"/>
+        <source>Upda&amp;te my dynamic domain name</source>
+        <translation>Dinamik domen adını &amp;yeniləmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="583"/>
+        <source>Minimize qBittorrent to notification area</source>
+        <translation>qBittorrent-i bildiriş çubuğuna endirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="77"/>
+        <source>Search</source>
+        <translation>Axtarış</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="87"/>
+        <source>WebUI</source>
+        <translation>Veb istifadəçi interfeysi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="138"/>
+        <source>Interface</source>
+        <translation>İnterfeys</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="158"/>
+        <source>Language:</source>
+        <translation>Dil:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="185"/>
+        <source>Style:</source>
+        <translation>Üslüb:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="204"/>
+        <source>Color scheme:</source>
+        <translation>Rəng sxemi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="303"/>
+        <source>Use different text colors by torrent states</source>
+        <translation>Torrent vəziyyəti üçün müxtəlif mətn rənglərindən istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="313"/>
+        <source>Make progress bars follow text colors</source>
+        <extracomment>Progress bar color is based on text color.</extracomment>
+        <translation>İrəliləmə zolağı mətn rəngini izləsin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="335"/>
+        <source>Stopped torrents only</source>
+        <translation>Yalnız dayandırılmış torrentlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="375"/>
+        <location filename="../gui/optionsdialog.ui" line="424"/>
+        <source>Start / stop torrent</source>
+        <translation>Torrenti başlatmaq / dayandırmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="390"/>
+        <location filename="../gui/optionsdialog.ui" line="439"/>
+        <source>Open torrent options dialog</source>
+        <translation>Torrent seçimləri dialoqunu açmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="475"/>
+        <source>Torrent Content View</source>
+        <translation>Torrent tərkiblərinə baxış</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="481"/>
+        <source>Replaces multi-selection (hold Alt key to invert)</source>
+        <translation>Çoxsaylı seçimi əvəzləyir (çevirmək üçün API düyməsini basıb saxlayın)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="484"/>
+        <source>Drag content from qBittorrent</source>
+        <translation>Tərkibləri qBittorrent-dən götürün</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="605"/>
+        <source>Tray icon style:</source>
+        <translation>Trey nişanı tərzi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="613"/>
+        <location filename="../gui/optionsdialog.cpp" line="316"/>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="649"/>
+        <source>File association</source>
+        <translation>Fayl əlaqələri</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="670"/>
+        <source>Use qBittorrent for .torrent files</source>
+        <translation>Torrent faylları üçün qBittorrent-i istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="677"/>
+        <source>Use qBittorrent for magnet links</source>
+        <translation>Maqnit keçidlər üçün qBittorrent-i istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="715"/>
+        <source>Check for program updates</source>
+        <translation>Proqramın yeni versiyasını yoxlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="739"/>
+        <source>Power Management</source>
+        <translation>Enerjiyə Nəzarət</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="762"/>
+        <source>&amp;Log Files</source>
+        <translation>Jurna&amp;l faylları</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="782"/>
+        <source>Save path:</source>
+        <translation>Saxlama yolu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="799"/>
+        <source>Backup the log file after:</source>
+        <translation>Bundan sonra jurnal faylını yedəkləmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="839"/>
+        <source>Delete backup logs older than:</source>
+        <translation>Bundan köhnə jurnal fayllarını silmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="906"/>
+        <source>Show external IP in status bar</source>
+        <translation>Xarici İP-ni vəziyyət çubuğunda göstərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="968"/>
+        <source>When adding a torrent</source>
+        <translation>Torrent əlavə edildikdə:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="983"/>
+        <source>Bring torrent dialog to the front</source>
+        <translation>Torrent dialoqunu ön plana çıxarmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1052"/>
+        <source>The torrent will be added to download list in a stopped state</source>
+        <translation>Torrent, endirmə siyahısına dayandırılmış vəziyyətdə əlavə ediləcək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1108"/>
+        <source>When adding a duplicate torrent</source>
+        <translation>Təkrar torrent əlavə olunduqda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1124"/>
+        <source>Ask to merge trackers for manually added torrent</source>
+        <translation>Əl ilə əlavə edilmiş torrentlər üçün izləyicilərin birləşdirilməsini soruşmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1152"/>
+        <source>Also delete .torrent files whose addition was cancelled</source>
+        <translation>Həmçinin əlavə edilməsi ləğv olunan .torrent fayllarını silmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1155"/>
+        <source>Also when addition is cancelled</source>
+        <translation>Həmçinin əlavə edilməsi ləğv edildikdə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1177"/>
+        <source>Warning! Data loss possible!</source>
+        <translation>Xəbərdarlıq! Verilənlərin itirilə bilər!</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1226"/>
+        <source>Saving Management</source>
+        <translation>Yaddaşa yazılmanın idarə edilməsi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1234"/>
+        <source>Default Torrent Management Mode:</source>
+        <translation>Standart Torrent İdarəetmə Rejimi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1251"/>
+        <source>Manual</source>
+        <translation>Əl ilə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1256"/>
+        <source>Automatic</source>
+        <translation>Avtomatik</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1279"/>
+        <source>When Torrent Category changed:</source>
+        <translation>Torrent Kateqoriyaları dəyişdirildikdə:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1289"/>
+        <source>Relocate torrent</source>
+        <translation>Torrentin yerini dəyişmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1294"/>
+        <source>Switch torrent to Manual Mode</source>
+        <translation>Torrenti əl ilə idarə rrejiminə keçirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1330"/>
+        <location filename="../gui/optionsdialog.ui" line="1371"/>
+        <source>Relocate affected torrents</source>
+        <translation>Təsirə məruz qalan torrentlərin yerini dəyişmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1335"/>
+        <location filename="../gui/optionsdialog.ui" line="1376"/>
+        <source>Switch affected torrents to Manual Mode</source>
+        <translation>Təsirə məruz qalan torrentləri əl ilə idarə rejiminə keçirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1413"/>
+        <source>Default Save Path:</source>
+        <translation>Standart saxlama yolu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1433"/>
+        <source>Copy .torrent files to:</source>
+        <translation>Torrent fayllarını buraya kopyalamaq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="571"/>
+        <source>Show &amp;qBittorrent in notification area</source>
+        <translation>&amp;qBittorrenti bu bildiriş sahəsində göstərmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="974"/>
+        <source>Display &amp;torrent content and some options</source>
+        <translation>&amp;Torrent tərkibini və bəzi seçimləri göstərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1140"/>
+        <source>De&amp;lete .torrent files afterwards </source>
+        <translation>Əlavə edildikdən sonra torrent fayllarını si&amp;lmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1443"/>
+        <source>Copy .torrent files for finished downloads to:</source>
+        <translation>Bitmiş yükləmələr üçün .torrent fayllarını buraya kopyalamq:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1195"/>
+        <source>Pre-allocate disk space for all files</source>
+        <translation>Bütün fayllar üçün əvvəlcədən yer ayırmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="229"/>
+        <source>Use custom UI Theme</source>
+        <translation>Başqa İstifadəçi interfeysi mövzusu istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="238"/>
+        <source>UI Theme file:</source>
+        <translation>İİ mövzusu faylı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="149"/>
+        <source>Changing Interface settings requires application restart</source>
+        <translation>İnterfeys ayarlarının dəyişdirilməsi tətbiqi yenidən başlatmağı tələb edir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="280"/>
+        <source>Shows a confirmation dialog upon torrent deletion</source>
+        <translation>Torrentin silinməsinin təsdiq edilməsi dialoqunu göstərir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="385"/>
+        <location filename="../gui/optionsdialog.ui" line="434"/>
+        <source>Preview file, otherwise open destination folder</source>
+        <translation>Fayla öncədən baxış, əksa halda təyinat qovluğunu açmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="548"/>
+        <source>Shows a confirmation dialog when exiting with active torrents</source>
+        <translation>Aktiv torrentlər olduqda tətbiqdən çıxarkən, çıxışı təsdiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="580"/>
+        <source>When minimizing, the main window is closed and must be reopened from the systray icon</source>
+        <translation>Yığıldıqda əsas pəncərə bağlanır və onu sistem treyindən yenidən açmaq olar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="593"/>
+        <source>The systray icon will still be visible when closing the main window</source>
+        <translation>Əsas pəncərə bağlandıqda treydəki nişanı hələ də görünəcəkdir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="596"/>
+        <source>Close qBittorrent to notification area</source>
+        <extracomment>The systray icon will still be visible when closing the main window</extracomment>
+        <translation>qBittorrent-i bildiriş çubuğuna endirmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="618"/>
+        <source>Monochrome (for dark theme)</source>
+        <translation>Monoxrom (qara mövzu üçün)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="623"/>
+        <source>Monochrome (for light theme)</source>
+        <translation>Monoxrom (işıqlı mövzu üçün)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="745"/>
+        <source>Inhibit system sleep when torrents are downloading</source>
+        <translation>Torrentlər endirilən zaman komputerin yuxu rejiminə keçməsini əngəlləmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="752"/>
+        <source>Inhibit system sleep when torrents are seeding</source>
+        <translation>Torrentlər paylaşılarkən komputerin yuxu rejiminə keçməsini əngəlləmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="796"/>
+        <source>Creates an additional log file after the log file reaches the specified file size</source>
+        <translation>Jurnal faylı göstərilmiş ölçüyə çatdıqda sonra əlavə jurnal faylı yaradılır</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="863"/>
+        <source>days</source>
+        <extracomment>Delete backup logs older than 10 days</extracomment>
+        <translation>günlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="868"/>
+        <source>months</source>
+        <extracomment>Delete backup logs older than 10 months</extracomment>
+        <translation>aylar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="873"/>
+        <source>years</source>
+        <extracomment>Delete backup logs older than 10 years</extracomment>
+        <translation>illər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="913"/>
+        <source>Log performance warnings</source>
+        <translation>Performans xəbərdarlıqlarını qeydə alamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1055"/>
+        <source>Do not start the download automatically</source>
+        <extracomment>The torrent will be added to download list in a stopped state</extracomment>
+        <translation>Endirməni avtomatik başlatmamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1137"/>
+        <source>Whether the .torrent file should be deleted after adding it</source>
+        <translation>Əlavə edildikdən sonra .torrent faylın silinib silinməməsi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1192"/>
+        <source>Allocate full file sizes on disk before starting downloads, to minimize fragmentation. Only useful for HDDs.</source>
+        <translation>Daha çox hissələrə bölünmənin qarşısını almaq üçün diskdə tam fayl ölçüsündə yer ayrılır. Yalnız HDD-lər (Sərt Disklər) üçün yararlıdır.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1202"/>
+        <source>Append .!qB extension to incomplete files</source>
+        <translation>Tamamlanmamış fayllara .!qB uzantısı əlavə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1216"/>
+        <source>When a torrent is downloaded, offer to add torrents from any .torrent files found inside it</source>
+        <translation>Torrent endirilən zaman onun daxilindəki .torrent fayllarını endirməyi təklif etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1219"/>
+        <source>Enable recursive download dialog</source>
+        <translation>Təkrarlanan yükləmə dialoqunu aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1246"/>
+        <source>Automatic: Various torrent properties (e.g. save path) will be decided by the associated category
+Manual: Various torrent properties (e.g. save path) must be assigned manually</source>
+        <translation>Avtomatik: Müxtəlif torrent xüsusiyyətləri (məs., saxlama yolu) əlaqəli kateqoriyalar tərəfindən təyin ediləcəkdir.
+Əl ilə: Müxtəlif torrent xüsusiyyətləri (məs., saxlama yolu) əl ilə daxil edilməlidir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1317"/>
+        <source>When Default Save/Incomplete Path changed:</source>
+        <translation>Standart saxlam/tamamlanmamış yolu dəyişdirildiyi zaman:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1358"/>
+        <source>When Category Save Path changed:</source>
+        <translation>Saxlama Yolu Kateqoriyası dəyişdirildiyində:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1404"/>
+        <source>Use Category paths in Manual Mode</source>
+        <translation>Kateqoriya yollarını Əl ilə Rejimində istifadə edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1401"/>
+        <source>Resolve relative Save Path against appropriate Category path instead of Default one</source>
+        <translation>Nisbi saxlama yolunu, standarta yola görə deyil, uyğun kateqriya yoluna görə təyin edin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="251"/>
+        <source>Use icons from system theme</source>
+        <translation>Sistem mövzusundakı nişandan istifadə etmək.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="519"/>
+        <source>Window state on start up:</source>
+        <translation>Sistem açıldıqda pəncərnin vəziyyəti:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="526"/>
+        <source>qBittorrent window state on start up</source>
+        <translation>Sistemin açılışında qBittorrent pəncərəsinin vəziyyəti</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1064"/>
+        <source>Torrent stop condition:</source>
+        <translation>Torrentin dayanma vəziyyəti:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1075"/>
+        <location filename="../gui/optionsdialog.cpp" line="583"/>
+        <source>None</source>
+        <translation>Heç nə</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1080"/>
+        <location filename="../gui/optionsdialog.cpp" line="584"/>
+        <source>Metadata received</source>
+        <translation>Meta məlumatları alındı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1085"/>
+        <location filename="../gui/optionsdialog.cpp" line="586"/>
+        <source>Files checked</source>
+        <translation>Fayllar yoxlanıldı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1423"/>
+        <source>Use another path for incomplete torrents:</source>
+        <translation>Tamamlanmamış torrentlər üçün başqa yoldan istifadə edin:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1458"/>
+        <source>Automatically add torrents from:</source>
+        <translation>Torrenti buradan avtomatik əlavə etmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1552"/>
+        <source>Excluded file names</source>
+        <translation>Fayl adları istisna edilir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1564"/>
+        <source>Blacklist filtered file names from being downloaded from torrent(s).
+Files matching any of the filters in this list will have their priority automatically set to &quot;Do not download&quot;.
+
+Use newlines to separate multiple entries. Can use wildcards as outlined below.
+*: matches zero or more of any characters.
+?: matches any single character.
+[...]: sets of characters can be represented in square brackets.
+
+Examples
+*.exe: filter '.exe' file extension.
+readme.txt: filter exact file name.
+?.txt: filter 'a.txt', 'b.txt' but not 'aa.txt'.
+readme[0-9].txt: filter &apos;readme1.txt&apos;, &apos;readme2.txt&apos; but not &apos;readme10.txt&apos;.</source>
+        <translation>Qara siyahı, endiriləcək torrent(lər)in siyahısından fayl adlarını çıxarır.
+Bu ada uyğun fayllara avtomatik &quot;Endirilməsin&quot; parametri təyin olunacaq.
+
+Birdən çox elementləri ayırmaq üçün yeni sətirdən istifadə edin. Aşağıda göst
+rilmiş işarələrdən istifadə edə bilərsiniz.
+*: hər hansı simvolun sıfır və daha çoxuna uyğun gəlir.
+?: tək simvola uyğun gəlir.
+[...]: düzbucaqlı mötərizədə təqdim oluna biləcək simvol dəstləri
+
+Nümunələr
+*.exe: &quot;exe&quot; fayl uzantısını seçir.
+readme.txt: dəqiq fayl adını seçir.
+?.txt: &quot;a.txt&quot;, &quot;b.txt&quot;-ni seçir, lakin &quot;aa.txt&quot;-ni seçmir.
+readme[0-9].txt: &quot;readme1ştxt&quot;, &quot;readme2ştxt&quot;-ni seçir, lakin &quot;readme10.txt&quot;-ni seçmir.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1619"/>
+        <source>Receiver</source>
+        <translation>Qəbuledici</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1622"/>
+        <source>To:</source>
+        <comment>To receiver</comment>
+        <translation>Buraya:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1632"/>
+        <source>SMTP server:</source>
+        <translation>SMTP server:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1606"/>
+        <source>Sender</source>
+        <translation>Göndərən</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1609"/>
+        <source>From:</source>
+        <comment>From sender</comment>
+        <translation>Buradan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1644"/>
+        <source>This server requires a secure connection (SSL)</source>
+        <translation>Bu server təhlükəsiz bağlantı (SSL) tələb edir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1651"/>
+        <location filename="../gui/optionsdialog.ui" line="3753"/>
+        <source>Authentication</source>
+        <translation>Kimlik doğrulaması</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1663"/>
+        <location filename="../gui/optionsdialog.ui" line="2188"/>
+        <location filename="../gui/optionsdialog.ui" line="3765"/>
+        <location filename="../gui/optionsdialog.ui" line="4217"/>
+        <source>Username:</source>
+        <translation>İstifadəçi adı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1673"/>
+        <location filename="../gui/optionsdialog.ui" line="2198"/>
+        <location filename="../gui/optionsdialog.ui" line="3775"/>
+        <location filename="../gui/optionsdialog.ui" line="4227"/>
+        <source>Password:</source>
+        <translation>Şifrə:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1706"/>
+        <source>Run external program</source>
+        <translation>Xarici proqramı başladın</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1748"/>
+        <source>Show console window</source>
+        <translation>Konsol pəncərəsini göstərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1810"/>
+        <source>TCP and μTP</source>
+        <translation>TCP və μTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1843"/>
+        <source>Listening Port</source>
+        <translation>Dinlənilən port</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1851"/>
+        <source>Port used for incoming connections:</source>
+        <translation>Daxil olan bağlantılar üçün istifadə olunan port</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1858"/>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Dəyəri 0 təyin edin ki, sistem istifadə olunmayan portu seçsin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1871"/>
+        <source>Random</source>
+        <translation>Təsadüfi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1893"/>
+        <source>Use UPnP / NAT-PMP port forwarding from my router</source>
+        <translation>UPnP / NAT-PMP portlarının yönləndirməsi üçün routerimdən istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1906"/>
+        <source>Connections Limits</source>
+        <translation>Bağlantı limiti</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1951"/>
+        <source>Maximum number of connections per torrent:</source>
+        <translation>Hər torrent üçün ən çox bağlantı limiti:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1912"/>
+        <source>Global maximum number of connections:</source>
+        <translation>Ən çox ümumi bağlantı sayı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1991"/>
+        <source>Maximum number of upload slots per torrent:</source>
+        <translation>Hər torrent üçün ən çox göndərmə yuvası sayı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="1974"/>
+        <source>Global maximum number of upload slots:</source>
+        <translation>Ən çox ümumi göndərmə yuvaları sayı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2086"/>
+        <source>Proxy Server</source>
+        <translation>Proksi server:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2094"/>
+        <source>Type:</source>
+        <translation>Növ:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="918"/>
+        <source>SOCKS4</source>
+        <translation>SOCKS4</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="919"/>
+        <source>SOCKS5</source>
+        <translation>SOCKS5</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="920"/>
+        <source>HTTP</source>
+        <translation>HTTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2025"/>
+        <location filename="../gui/optionsdialog.ui" line="2104"/>
+        <source>Host:</source>
+        <translation>Host:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2035"/>
+        <location filename="../gui/optionsdialog.ui" line="2114"/>
+        <location filename="../gui/optionsdialog.ui" line="3667"/>
+        <source>Port:</source>
+        <translation>Port:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2236"/>
+        <source>Otherwise, the proxy server is only used for tracker connections</source>
+        <translation>Əks halda proksi server yalnız izləyici bağlantıları üçün istifadə olunur</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2239"/>
+        <source>Use proxy for peer connections</source>
+        <translation>Proksi serveri, iştirakçı bağlantıları üçün istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2174"/>
+        <source>A&amp;uthentication</source>
+        <translation>Kimlik doğr&amp;ulaması</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2286"/>
+        <source>Filter path (.dat, .p2p, .p2b):</source>
+        <translation>Filtr yolu (.dat, .p2p, .p2b):</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2296"/>
+        <source>Reload the filter</source>
+        <translation>Filtri təkrarlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2311"/>
+        <source>Manually banned IP addresses...</source>
+        <translation>İstifadəçinin qadağan etdiyi İP ünvanları...</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2318"/>
+        <source>Apply to trackers</source>
+        <translation>İzləyicilərə tətbiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2376"/>
+        <source>Global Rate Limits</source>
+        <translation>Ümumi sürət limitləri</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2392"/>
+        <location filename="../gui/optionsdialog.ui" line="2431"/>
+        <location filename="../gui/optionsdialog.ui" line="2469"/>
+        <location filename="../gui/optionsdialog.ui" line="2508"/>
+        <location filename="../gui/optionsdialog.ui" line="2917"/>
+        <location filename="../gui/optionsdialog.ui" line="2950"/>
+        <location filename="../gui/optionsdialog.ui" line="2970"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2395"/>
+        <location filename="../gui/optionsdialog.ui" line="2434"/>
+        <location filename="../gui/optionsdialog.ui" line="2472"/>
+        <location filename="../gui/optionsdialog.ui" line="2511"/>
+        <location filename="../gui/optionsdialog.ui" line="3002"/>
+        <location filename="../gui/optionsdialog.ui" line="3038"/>
+        <source> KiB/s</source>
+        <translation> KB/san</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2385"/>
+        <location filename="../gui/optionsdialog.ui" line="2462"/>
+        <source>Upload:</source>
+        <translation>Göndərmə:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2424"/>
+        <location filename="../gui/optionsdialog.ui" line="2501"/>
+        <source>Download:</source>
+        <translation>Yükləmə:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2453"/>
+        <source>Alternative Rate Limits</source>
+        <translation>Alternativ sürət limitləri</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2539"/>
+        <source>Start time</source>
+        <translation>Başlama vaxtı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2569"/>
+        <source>End time</source>
+        <translation>Bitmə tarixi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2609"/>
+        <source>When:</source>
+        <translation>Nə zaman:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2623"/>
+        <source>Every day</source>
+        <translation>Hər gün</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2628"/>
+        <source>Weekdays</source>
+        <translation>Həftəiçi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2633"/>
+        <source>Weekends</source>
+        <translation>Həstə sonları:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2647"/>
+        <source>Rate Limits Settings</source>
+        <translation>Sürət limitləri ayarları</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2667"/>
+        <source>Apply rate limit to peers on LAN</source>
+        <translation>Sürət limitini LAN şəbəkəsindəki hər iştirakçıya tətbiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2660"/>
+        <source>Apply rate limit to transport overhead</source>
+        <translation>Sürət limitini trafik mübadiləsinə tətbiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2070"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If &quot;mixed mode&quot; is enabled I2P torrents are allowed to also get peers from other sources than the tracker, and connect to regular IPs, not providing any anonymization. This may be useful if the user is not interested in the anonymization of I2P, but still wants to be able to connect to I2P peers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Əgər &quot;qarışıq rejim&quot; aktiv edilərsə I2P torrentlər izləyicilərdən başqa digər mənbələrdən iştirakçılar əldə etməyə və heç bir anonimləşdirmə təqdim etmədən müntəzəm İP-lərə qoşulmağa icazə verir. Bu, əgər istifadəçi üçün I2P anonimləşdirilməsi maraqlı deyilsə  və o, hələ də I2P iştirakçılarına qoşulmaq istədiyi halda faydalı ola bilər, &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2653"/>
+        <source>Apply rate limit to µTP protocol</source>
+        <translation>Sürət limitini µTP protokoluna tətbiq etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2725"/>
+        <source>Privacy</source>
+        <translation>Məxfi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2734"/>
+        <source>Enable DHT (decentralized network) to find more peers</source>
+        <translation>Daha çox iştirakçılar tapmaq üçün DHT (mərkəzləşməmiş şəbəkə) aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2744"/>
+        <source>Exchange peers with compatible Bittorrent clients (µTorrent, Vuze, ...)</source>
+        <translation>İştirakçıları uyğun qBittorrent müştəriləri ilə əvəzləmək (µTorrent, Vuze, ...)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2747"/>
+        <source>Enable Peer Exchange (PeX) to find more peers</source>
+        <translation>Daha çox iştirakçılar tapmaq üçün İştirakçı mübadiləsini (PeX) aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2757"/>
+        <source>Look for peers on your local network</source>
+        <translation>Yerli şəbəkədəki iştirakçıları axtarmaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2760"/>
+        <source>Enable Local Peer Discovery to find more peers</source>
+        <translation>Daha çox iştirakçılar tapmaq üçün Yerli İştirakçı Axtarışını aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2772"/>
+        <source>Encryption mode:</source>
+        <translation>Şifrələmə rejimi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2790"/>
+        <source>Require encryption</source>
+        <translation>Şifrələmə tələbi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2795"/>
+        <source>Disable encryption</source>
+        <translation>Şifrələməni söndürmək:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2820"/>
+        <source>Enable when using a proxy or a VPN connection</source>
+        <translation>Proksi və ya VPN bağlantıları istifadə oluduqda</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2823"/>
+        <source>Enable anonymous mode</source>
+        <translation>Anonim rejimi aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2910"/>
+        <source>Maximum active downloads:</source>
+        <translation>Ən çox aktiv yükləmələr:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2943"/>
+        <source>Maximum active uploads:</source>
+        <translation>Ən çox aktiv göndərmələr:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2963"/>
+        <source>Maximum active torrents:</source>
+        <translation>Ən çox aktiv torrentlər:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2983"/>
+        <source>Do not count slow torrents in these limits</source>
+        <translation>Bu limitlərdə yavaş torrentləri saymamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3031"/>
+        <source>Upload rate threshold:</source>
+        <translation>Göndərmə sürəti həddi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="2995"/>
+        <source>Download rate threshold:</source>
+        <translation>Yükləmə sürəti həddi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3061"/>
+        <location filename="../gui/optionsdialog.ui" line="3489"/>
+        <location filename="../gui/optionsdialog.ui" line="3930"/>
+        <location filename="../gui/optionsdialog.ui" line="3957"/>
+        <source> sec</source>
+        <extracomment>seconds</extracomment>
+        <translation> san</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3054"/>
+        <source>Torrent inactivity timer:</source>
+        <translation>Torrent boşdayanma zamanlayıcısı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3168"/>
+        <source>then</source>
+        <translation>sonra</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3689"/>
+        <source>Use UPnP / NAT-PMP to forward the port from my router</source>
+        <translation>UPnP / NAT-PMP portlarının yönləndirməsi üçün routerimdən istifadə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3714"/>
+        <source>Certificate:</source>
+        <translation>Sertifikat:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3727"/>
+        <location filename="../gui/optionsdialog.ui" line="3801"/>
+        <source>Key:</source>
+        <translation>Açar:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3737"/>
+        <source>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;Information about certificates&lt;/a&gt;</source>
+        <translation>&lt;a href=https://httpd.apache.org/docs/current/ssl/ssl_faq.html#aboutcerts&gt;sertifikatlar haqqında məlumat&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3785"/>
+        <source>Change current password</source>
+        <translation>Hazırkı şifrəni dəyişmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="3999"/>
+        <source>Files location:</source>
+        <translation>Fayl yerləşməsi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4011"/>
+        <source>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;List of alternative WebUI&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs&quot;&gt;Alternativ Veb İİ siyahısı&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4027"/>
+        <source>Security</source>
+        <translation>Təhlükəsizlik</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4033"/>
+        <source>Enable clickjacking protection</source>
+        <translation>Klikdən sui-istifadənin qarşısının alınmasını aktiv etnək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4040"/>
+        <source>Enable Cross-Site Request Forgery (CSRF) protection</source>
+        <translation>Saytlar arası sorğuların saxtalaşdırılmasından (CSRF) mühafizəni aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4047"/>
+        <source>Enable cookie Secure flag (requires HTTPS or localhost connection)</source>
+        <translation>Kuk təhlükəsizliyi bayrağını aktiv etmək (HTTPS və ya yerli host bağlantısı tələb olunur)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4054"/>
+        <source>Enable Host header validation</source>
+        <translation>Host başlığı doğrulamasını aktiv etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4091"/>
+        <source>Add custom HTTP headers</source>
+        <translation>Başqa HTTP başlıqları əlavə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4106"/>
+        <source>Header: value pairs, one per line</source>
+        <translation>Başlıq: hər sətir başına bir dəyər cütü</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4116"/>
+        <source>Enable reverse proxy support</source>
+        <translation>Əks proksi dəstəklənməsini açın</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4127"/>
+        <source>Trusted proxies list:</source>
+        <translation>Etibarlı proksilər siyahısı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4143"/>
+        <source>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;Reverse proxy setup examples&lt;/a&gt;</source>
+        <translation>&lt;a href=https://github.com/qbittorrent/qBittorrent/wiki#reverse-proxy-setup-for-webui-access&gt;Əks proksi quraşdırma nümunələri&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4171"/>
+        <source>Service:</source>
+        <translation>Xidmət:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4194"/>
+        <source>Register</source>
+        <translation>Qeydiyyat</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.ui" line="4203"/>
+        <source>Domain name:</source>
+        <translation>Domen adı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="611"/>
+        <source>By enabling these options, you can &lt;strong&gt;irrevocably lose&lt;/strong&gt; your .torrent files!</source>
+        <translation>Bu seçimi aktiv etmək torrent fayllarınızı &lt;strong&gt;birdəfəlik itirmək&lt;/strong&gt; ilə nəticələnə bilər!</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="618"/>
+        <source>If you enable the second option (&amp;ldquo;Also when addition is cancelled&amp;rdquo;) the .torrent file &lt;strong&gt;will be deleted&lt;/strong&gt; even if you press &amp;ldquo;&lt;strong&gt;Cancel&lt;/strong&gt;&amp;rdquo; in the &amp;ldquo;Add torrent&amp;rdquo; dialog</source>
+        <translation>İkinci seçimi aktiv etdikdə (&amp;ldquo;Həmçinin əlavə edilmə ləğv edildikdə&amp;rdquo;) torrent faylları hətta &amp;ldquo;Torrent əlavə etmək&amp;rdquo; dialoqunda &amp;ldquo;&lt;strong&gt;İmtina&lt;/strong&gt;&amp;rdquo; vurduqda belə &lt;strong&gt;silinəcəkdir&lt;/strong&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="267"/>
+        <source>Select qBittorrent UI Theme file</source>
+        <translation>qBittorrent İstifadəçi İnterfeysi mövzusu faylını seçmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1357"/>
+        <source>Choose Alternative UI files location</source>
+        <translation>Alternativ İİ faylları yerini seçmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="690"/>
+        <source>Supported parameters (case sensitive):</source>
+        <translation>Dəstəklnən parametrlər (böyük-kiçik hərflərə həssas)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="317"/>
+        <source>Minimized</source>
+        <translation>Yığılmış</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="319"/>
+        <source>Hidden</source>
+        <translation>Gizli</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="334"/>
+        <source>Disabled due to failed to detect system tray presence</source>
+        <translation>Sistem çəkməcəsinin mövcudluğunu aşkar edə bilmədiyinə görə söndürüldü</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="583"/>
+        <source>No stop condition is set.</source>
+        <translation>Dayanma vəziyyəti təyin edilməyib.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="584"/>
+        <source>Torrent will stop after metadata is received.</source>
+        <translation>Meta məlumatları alındıqdan sonra torrent dayanacaq.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="586"/>
+        <source>Torrent will stop after files are initially checked.</source>
+        <translation>Faylların ilkin yoxlanışından sonra torrrent daynacaq.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="587"/>
+        <source>This will also download metadata if it wasn&apos;t there initially.</source>
+        <translation>Əgər başlanğıcda meta məlumatlar olmasa onlar da yüklənəcək.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="691"/>
+        <source>%N: Torrent name</source>
+        <translation>%N: Torrentin adı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="692"/>
+        <source>%L: Category</source>
+        <translation>%L: Kateqoriyası</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="694"/>
+        <source>%F: Content path (same as root path for multifile torrent)</source>
+        <translation>%F: Məzmun yolu (çoxsaylı torrentlər üçün kök (root) yolu kimi)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="695"/>
+        <source>%R: Root path (first torrent subdirectory path)</source>
+        <translation>%R: Kök (root) yolu (ilk torrent alt qovluqları yolu)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="696"/>
+        <source>%D: Save path</source>
+        <translation>%D: Saxlama yolu</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="697"/>
+        <source>%C: Number of files</source>
+        <translation>%C: Faylların sayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="698"/>
+        <source>%Z: Torrent size (bytes)</source>
+        <translation>%Z: Torrentin ölçüsü (bayt)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="699"/>
+        <source>%T: Current tracker</source>
+        <translation>%T: Cari izləyici</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="703"/>
+        <source>%M: Comment</source>
+        <translation>%M: Şərh</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="704"/>
+        <source>Tip: Encapsulate parameter with quotation marks to avoid text being cut off at whitespace (e.g., &quot;%N&quot;)</source>
+        <translation>Növ: Mətni, ara boşluğunda kəsilmələrndən qorumaq üçün parametrləri dırnaq işarəsinə alın (məs., &quot;%N&quot;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="768"/>
+        <source>Test email</source>
+        <translation>E-poçtu sınamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="768"/>
+        <source>Attempted to send email. Check your inbox to confirm success</source>
+        <translation>E-poçt göndərməyə cəhd edildi. Uğurlu olduğunu təsdiqləmək üçün poçtunuzu yoxlayın.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="917"/>
+        <source>(None)</source>
+        <translation>(Heç nə)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1134"/>
+        <source>A torrent will be considered slow if its download and upload rates stay below these values for &quot;Torrent inactivity timer&quot; seconds</source>
+        <translation>Bir torrent endirmə və göndərmə sürəti, &quot;Torrent boşdayanma zamanlayıcısı&quot;nın saniyələrlə dəyərindən az olarsa, o, yavaş torrent hesab olunacaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1351"/>
+        <source>Certificate</source>
+        <translation>Sertifikat</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1352"/>
+        <source>Select certificate</source>
+        <translation>Sertifakatı seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1354"/>
+        <source>Private key</source>
+        <translation>Məxfi açar</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1355"/>
+        <source>Select private key</source>
+        <translation>Məxfi açarı seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1360"/>
+        <source>WebUI configuration failed. Reason: %1</source>
+        <translation>Veb İİ tənzimləməsini dəyişmək mümkün olmadı. Səbəb: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1509"/>
+        <location filename="../gui/optionsdialog.cpp" line="1553"/>
+        <source>Rotate API key</source>
+        <translation>API açarı döndərmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1511"/>
+        <source>Generate an API key? This key can be used to interact with qBittorrent&apos;s API.</source>
+        <translation>Bir API açarı yaradaq? Bu açar qBittorrent ilə işləmək üçün istifadə oluna bilər.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1512"/>
+        <source>Rotate this API key? The current key will immediately stop working and a new key will be generated.</source>
+        <translation>Bu API açarı döndərək? Bu açarın işləməsi dərhal dayandırılacaq və yeni bir açar yaradılacaq.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1531"/>
+        <source>Delete this API key? The current key will immediately stop working.</source>
+        <translation>Bu API açarını silək? Bu açarın işləməsi dərhal dayandırılacaq.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1863"/>
+        <source>%1 is recommended for best compatibility with Windows dark mode</source>
+        <comment>Fusion is recommended for best compatibility with Windows dark mode</comment>
+        <translation>Windows qaranlıq rejimi ilə daha yaxşı uyğunluq üçün %1 tövsiyyə olunur</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1870"/>
+        <source>System</source>
+        <comment>System default Qt style</comment>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1871"/>
+        <source>Let Qt decide the style for this system</source>
+        <translation>Qt-yə bu sistem üçün üslub seçməyə icazə vermək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1888"/>
+        <source>Dark</source>
+        <comment>Dark color scheme</comment>
+        <translation>Qaranlıq</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1889"/>
+        <source>Light</source>
+        <comment>Light color scheme</comment>
+        <translation>İşıqlı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1890"/>
+        <source>System</source>
+        <comment>System color scheme</comment>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2015"/>
+        <source>Select folder to monitor</source>
+        <translation>İzləmək üçün qovluğu seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2037"/>
+        <source>Adding entry failed</source>
+        <translation>Girişin əlavə edilməsi alınmadı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <source>The WebUI username must be at least 3 characters long.</source>
+        <translation>Veb İİ istifadəçi adı ən az 3 işarədən ibarət olmalıdır.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>Character Error</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>The WebUI username must not contain a colon.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>The WebUI password must be at least 6 characters long.</source>
+        <translation>Veb İİ şifrəsi ən az 6 işarədən ibarət olmalıdır.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>Location Error</source>
+        <translation>Yerləşmə xətası</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="647"/>
+        <location filename="../gui/optionsdialog.cpp" line="655"/>
+        <source>Choose export directory</source>
+        <translation>İxrac qovluğunu seçmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="613"/>
+        <source>When these options are enabled, qBittorrent will &lt;strong&gt;delete&lt;/strong&gt; .torrent files after they were successfully (the first option) or not (the second option) added to its download queue. This will be applied &lt;strong&gt;not only&lt;/strong&gt; to the files opened via &amp;ldquo;Add torrent&amp;rdquo; menu action but to those opened via &lt;strong&gt;file type association&lt;/strong&gt; as well</source>
+        <translation>Bu seçim aktiv olduqda qBittorrent, yükləmə növbəsinə uğurla əlavə olunduqdan (ilk seçim) və ya olunmadıqdan (ikinci seçim) sonra, .torrent fayllarını &lt;strong&gt;siləcək&lt;/strong&gt;. Bu sadəcə &amp;ldquo;Torrent əlavə etmək&amp;rdquo; menyusu vasitəsi ilə açılmış fayllara &lt;strong&gt;deyil&lt;/strong&gt;, həmçinin, &lt;strong&gt;fayl növü əlaqələri&lt;/strong&gt; vasitəsi ilə açılanlara da tətbiq ediləcəkdir</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="268"/>
+        <source>qBittorrent UI Theme file (*.qbtheme config.json)</source>
+        <translation>qBittorrent İİ mövzusu faylı (*.qbtheme config.json)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="693"/>
+        <source>%G: Tags (separated by comma)</source>
+        <translation>%G: Etiketlər (vergüllə ayrılmış)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="700"/>
+        <source>%I: Info hash v1 (or &apos;-&apos; if unavailable)</source>
+        <translation>%I: Məlumat heş&apos;i v1 (və ya əgər əlçatmazdırsa &apos;-&apos;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="701"/>
+        <source>%J: Info hash v2 (or &apos;-&apos; if unavailable)</source>
+        <translation>%J: məlumat heş&apos;i v2 (və ya əgər əlçatmazdırsa &apos;-&apos;)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="702"/>
+        <source>%K: Torrent ID (either sha-1 info hash for v1 torrent or truncated sha-256 info hash for v2/hybrid torrent)</source>
+        <translation>%K: Torrent İD-si (ya məlumat heş&apos;i sha-1 v1 üçün və ya v2/hibrid torrenti üçün qısaldılmış sha-256 məlumat heş&apos; i)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="361"/>
+        <location filename="../gui/optionsdialog.cpp" line="635"/>
+        <location filename="../gui/optionsdialog.cpp" line="640"/>
+        <source>Choose a save directory</source>
+        <translation>Saxlama qovluğunu seçmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="585"/>
+        <source>Torrents that have metadata initially will be added as stopped.</source>
+        <translation>Əvvəlcədən meta məlumatlara malik olan torrentlər dayandırılmış kimi əılavə ediləcək.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="937"/>
+        <source>Choose an IP filter file</source>
+        <translation>İP filtri faylını seçmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="939"/>
+        <source>All supported filters</source>
+        <translation>Bütün dəstəklənən filtrlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>The alternative WebUI files location cannot be blank.</source>
+        <translation>Alternativ Veb İİ faylları üçün boş ola bilməz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Parsing error</source>
+        <translation>Təhlil xətası</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Failed to parse the provided IP filter</source>
+        <translation>Təqdim olunan İP filtrinin təhlil baş tutmadı</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully refreshed</source>
+        <translation>Uğurla təzələndi</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully parsed the provided IP filter: %1 rules were applied.</source>
+        <comment>%1 is a number</comment>
+        <translation>Təqdim olunan İP filtri uğurla təhlil olundu: %1 qayda tətbiq olundu.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="167"/>
+        <source>Preferences</source>
+        <translation>Tərcihlər</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>Time Error</source>
+        <translation>Vaxt xətası</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>The start time and the end time can&apos;t be the same.</source>
+        <translation>Başlama və bitmə vaxtı eyni ola bilməz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>Length Error</source>
+        <translation>Ölçü xətası</translation>
+    </message>
+</context>
+<context>
+    <name>PeerInfo</name>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="226"/>
+        <source>Unknown</source>
+        <translation>Naməlum</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="303"/>
+        <source>Interested (local) and choked (peer)</source>
+        <translation>Maraqlanan (müştəri) və məşğul (iştirakçı)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="308"/>
+        <source>Interested (local) and unchoked (peer)</source>
+        <translation>Maraqlanmır (müştəri) və məğul deyil (iştirakçı)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="317"/>
+        <source>Interested (peer) and choked (local)</source>
+        <translation>Maraqlanan (iştirakçı) və məşğuldur (müştəri)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="322"/>
+        <source>Interested (peer) and unchoked (local)</source>
+        <translation>Maraqlanmır (iştirakçı) və məşğul deyil (müştəri)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="328"/>
+        <source>Not interested (local) and unchoked (peer)</source>
+        <translation>Maraqlanmır (müştəri) və məşğul deyil (iştirakçı)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="332"/>
+        <source>Not interested (peer) and unchoked (local)</source>
+        <translation>Maraqlanmır (iştirakşı) və məşğul deyil (müştəri)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="336"/>
+        <source>Optimistic unchoke</source>
+        <translation>Tezliklə endirilməyə başlanacaq</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="340"/>
+        <source>Peer snubbed</source>
+        <translation>İştirakçıya irad tutuldu</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="344"/>
+        <source>Incoming connection</source>
+        <translation>Daxil olan bağlantı</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="348"/>
+        <source>Peer from DHT</source>
+        <translation>DHT-dən iştirakçı</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="352"/>
+        <source>Peer from PEX</source>
+        <translation>PEX-dən iştirakçı</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="356"/>
+        <source>Peer from LSD</source>
+        <translation>LSD-dən iştirakçı</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="360"/>
+        <source>Encrypted traffic</source>
+        <translation>Şifrələnmiş trafik</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="364"/>
+        <source>Encrypted handshake</source>
+        <translation>Şifrələnmiş görüşmə</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="372"/>
+        <source>Peer is using NAT hole punching</source>
+        <translation>İştirakçı NAT tunellərindən istifadə edir</translation>
+    </message>
+</context>
+<context>
+    <name>PeerListWidget</name>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="114"/>
+        <source>Country/Region</source>
+        <translation>Ölkə/Bölgə</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="115"/>
+        <source>IP/Address</source>
+        <translation>İP/Ünvanlar</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="116"/>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="117"/>
+        <source>Flags</source>
+        <translation>Bayraqlar</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="118"/>
+        <source>Connection</source>
+        <translation>Bağlantı</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="119"/>
+        <source>Client</source>
+        <comment>i.e.: Client application</comment>
+        <translation>Müştəri</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="120"/>
+        <source>Peer ID Client</source>
+        <comment>i.e.: Client resolved from Peer ID</comment>
+        <translation>İştirakçının İD müştərisi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="121"/>
+        <source>Progress</source>
+        <comment>i.e: % downloaded</comment>
+        <translation>İrəliləyiş</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="122"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Endirmə sürəti</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="123"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Göndərmə sürəti</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="124"/>
+        <source>Downloaded</source>
+        <comment>i.e: total data downloaded</comment>
+        <translation>Endirildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="125"/>
+        <source>Uploaded</source>
+        <comment>i.e: total data uploaded</comment>
+        <translation>Göndərildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="126"/>
+        <source>Relevance</source>
+        <comment>i.e: How relevant this peer is to us. How many pieces it has that we don't.</comment>
+        <translation>Uyğunluq</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="127"/>
+        <source>Files</source>
+        <comment>i.e. files that are being downloaded right now</comment>
+        <translation>Fayllar</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="205"/>
+        <source>Column visibility</source>
+        <translation>Sütunun görünməsi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="231"/>
+        <source>Resize columns</source>
+        <translation>Sütunların ölçüsünü dəyişin</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="240"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Bütün gizli olmayan sütunların ölçüsünü tərkiblərinin ölçüsünə görə dəyişmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="294"/>
+        <source>Add peers...</source>
+        <translation>İştirakçı əlavə edin...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Adding peers</source>
+        <translation>İştirakçılar əlavə edilir</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <source>Some peers cannot be added. Check the Log for details.</source>
+        <translation>Bəzi iştirakçılar əlavə edilə bilməz. Təfsilatı üçün Jurnal faylına baxın.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Peers are added to this torrent.</source>
+        <translation>İştirakçılar bi torrentə əlavə edildilər.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="310"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="353"/>
+        <source>Ban peer permanently</source>
+        <translation>İştirakçını birdəfəlik əngəlləmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="321"/>
+        <source>Cannot add peers to a private torrent</source>
+        <translation>Məxfi torrentə iştirakçı əlavə edilə bilməz</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="323"/>
+        <source>Cannot add peers when the torrent is checking</source>
+        <translation>Torrent yoxlanılan zaman iştirakçı əlavə edilə bilməz</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="325"/>
+        <source>Cannot add peers when the torrent is queued</source>
+        <translation>Torrent növbədə olduqda iştirakçı əlavə edilə bilməz</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="329"/>
+        <source>No peer was selected</source>
+        <translation>İştirakçı seçilməyib</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="354"/>
+        <source>Are you sure you want to permanently ban the selected peers?</source>
+        <translation>Siz seçilmiş iştirakçını birdəfəlik əngəlləmək istədiyinizə əminsiniz?</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="360"/>
+        <source>Peer &quot;%1&quot; is manually banned</source>
+        <translation>İştirakçı &quot;%1&quot; həmişəlik əngəlləndi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="451"/>
+        <source>N/A</source>
+        <translation>Ə/D</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="307"/>
+        <source>Copy IP:port</source>
+        <translation>İP portunu kopyalamaq</translation>
+    </message>
+</context>
+<context>
+    <name>PeersAdditionDialog</name>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="14"/>
+        <source>Add Peers</source>
+        <translation>İştirakçılar əlavə etmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="20"/>
+        <source>List of peers to add (one IP per line):</source>
+        <translation>İştirakçılar siyahısı əlavə edildi (hər sətirə bir İP):</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="36"/>
+        <source>Format: IPv4:port / [IPv6]:port</source>
+        <translation>İPv4 portu formatı / [IPv6]:portu</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="64"/>
+        <source>No peer entered</source>
+        <translation>İştirakçı daxil edilmədi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="65"/>
+        <source>Please type at least one peer.</source>
+        <translation>Lütfən, ən azı bir iştirakçı daxil edin.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="78"/>
+        <source>Invalid peer</source>
+        <translation>Səhv iştirakçı</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="79"/>
+        <source>The peer &apos;%1&apos; is invalid.</source>
+        <translation>İştirakçı &quot;%1&quot; səhvdir.</translation>
+    </message>
+</context>
+<context>
+    <name>PieceAvailabilityBar</name>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="175"/>
+        <source>Unavailable pieces</source>
+        <translation>Çatışmayan hissələr</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="176"/>
+        <source>Available pieces</source>
+        <translation>Mövcud hissələr</translation>
+    </message>
+</context>
+<context>
+    <name>PiecesBar</name>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="291"/>
+        <source>Files in this piece:</source>
+        <translation>Bu hissədəki fayllar:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="293"/>
+        <source>File in this piece:</source>
+        <translation>Bu hissədəki fayl:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="295"/>
+        <source>File in these pieces:</source>
+        <translation>Bu hissələrdəki fayl:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="314"/>
+        <source>Wait until metadata become available to see detailed information</source>
+        <translation>Ətraflı məlumatı görmək üçün meta verilənlərinin daxil olmasını gözləyin</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="316"/>
+        <source>Hold Shift key for detailed information</source>
+        <translation>Ətraflı məlumat üçün Shift düyməsini basıb saxlayın</translation>
+    </message>
+</context>
+<context>
+    <name>PluginSelectDialog</name>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="17"/>
+        <source>Search plugins</source>
+        <translation>Axtarış qoşmaları</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="29"/>
+        <source>Installed search plugins:</source>
+        <translation>Quraşdırılmış axtarış qoşmaları</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="52"/>
+        <source>Name</source>
+        <translation>Adı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="57"/>
+        <source>Version</source>
+        <translation>Versiyası</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="62"/>
+        <source>Url</source>
+        <translation>Url</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="67"/>
+        <location filename="../gui/search/pluginselectdialog.ui" line="133"/>
+        <source>Enabled</source>
+        <translation>Aktiv edildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="80"/>
+        <source>Warning: Be sure to comply with your country&apos;s copyright laws when downloading torrents from any of these search engines.</source>
+        <translation>Xəbərdarlıq: Bu axtarış sistemlərinin hər hansı birindən istifadə edərək torrentləri yükləyərkən, mütləq ölkənizin müəllif hüquqları haqqında qanununa rəayət edin.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="95"/>
+        <source>You can get new search engine plugins here: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</source>
+        <translation>Yeni axtarış mühərriki qoşmalarını buradan əldə edə bilərsiniz: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="107"/>
+        <source>Install a new one</source>
+        <translation>Yeni birini quraşdırın</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="114"/>
+        <source>Check for updates</source>
+        <translation>Yenilənmələri yoxlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="121"/>
+        <source>Close</source>
+        <translation>Bağlamaq</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="138"/>
+        <source>Uninstall</source>
+        <translation>Silmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="160"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="231"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="296"/>
+        <source>Yes</source>
+        <translation>Bəli</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="165"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="210"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="236"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="301"/>
+        <source>No</source>
+        <translation>Xeyr</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Uninstall warning</source>
+        <translation>Silmə xəbərdarlığı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Some plugins could not be uninstalled because they are included in qBittorrent. Only the ones you added yourself can be uninstalled.
+Those plugins were disabled.</source>
+        <translation>Bəzi qoşmalar silinə bilməz, belə ki, onlar qBittorrent dailinə quraşdırılıb. Yalnız əlavə etdiklərinizdən hər hansı birini silə bilərsiniz.
+Bu qoşmalar söndürülüb.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>Uninstall success</source>
+        <translation>Uğurla silindi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>All selected plugins were uninstalled successfully</source>
+        <translation>Bütün seçilmiş qoşmalar uğurla silindi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="448"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="495"/>
+        <source>Search plugin update</source>
+        <translation>Axtarış qoşmasını yeniləmək</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <source>Plugins installed or updated: %1</source>
+        <translation>Qoşma quraşdlırıldı və ya yeniləndi: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="363"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="371"/>
+        <source>New search engine plugin URL</source>
+        <translation>Yeni axtarış sistemi qoşması keçidi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="364"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="372"/>
+        <source>URL:</source>
+        <translation>URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>Invalid link</source>
+        <translation>Səhv keçid</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>The link doesn&apos;t seem to point to a search engine plugin.</source>
+        <translation>Keçid axtarış qoşmasına işarə etmir</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="386"/>
+        <source>Select search plugins</source>
+        <translation>Axtarış qoşmalarını seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="387"/>
+        <source>qBittorrent search plugin</source>
+        <translation>qBittorrent axtarış qoşması</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" li

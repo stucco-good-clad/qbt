@@ -1,0 +1,2975 @@
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Gizli olmayan tüm sütunları içeriklerinin boyutuna göre yeniden boyutlandır</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.ui" line="14"/>
+        <source>Preview selection</source>
+        <translation>Önizleme seçimi</translation>
+    </message>
+</context>
+<context>
+    <name>Private::FileLineEdit</name>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="305"/>
+        <source>Path does not exist</source>
+        <translation>Yol mevcut değil</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="307"/>
+        <source>Path does not point to a directory</source>
+        <translation>Yol bir dizini işaret etmiyor</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="309"/>
+        <source>Path does not point to a file</source>
+        <translation>Yol bir dosyayı işaret etmiyor</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="311"/>
+        <source>Don&apos;t have read permission to path</source>
+        <translation>Yol için okuma izni yok</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="313"/>
+        <source>Don&apos;t have write permission to path</source>
+        <translation>Yol için yazma izni yok</translation>
+    </message>
+</context>
+<context>
+    <name>ProgramUpdater</name>
+    <message>
+        <location filename="../gui/programupdater.cpp" line="127"/>
+        <location filename="../gui/programupdater.cpp" line="199"/>
+        <source>Failed to download the program update info. URL: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Program güncelleme bilgisini indirme başarısız. URL: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>PropTabBar</name>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="50"/>
+        <source>General</source>
+        <translation>Genel</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="59"/>
+        <source>Trackers</source>
+        <translation>İzleyiciler</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="68"/>
+        <source>Peers</source>
+        <translation>Kişiler</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="77"/>
+        <source>HTTP Sources</source>
+        <translation>HTTP Kaynakları</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="86"/>
+        <source>Content</source>
+        <translation>İçerik</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="97"/>
+        <source>Speed</source>
+        <translation>Hız</translation>
+    </message>
+</context>
+<context>
+    <name>PropertiesWidget</name>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="262"/>
+        <source>Downloaded:</source>
+        <translation>İndirilen:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="117"/>
+        <source>Availability:</source>
+        <translation>Kullanılabilirlik:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="81"/>
+        <source>Progress:</source>
+        <translation>İlerleme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="157"/>
+        <source>Transfer</source>
+        <translation>Aktarım</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="175"/>
+        <source>Time Active:</source>
+        <extracomment>Time (duration) the torrent is active (not stopped)</extracomment>
+        <translation>Etkinlik Süresi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="204"/>
+        <source>ETA:</source>
+        <translation>TBS:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="291"/>
+        <source>Uploaded:</source>
+        <translation>Gönderilen:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="320"/>
+        <source>Seeds:</source>
+        <translation>Gönderim:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="349"/>
+        <source>Download Speed:</source>
+        <translation>İndirme Hızı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="378"/>
+        <source>Upload Speed:</source>
+        <translation>Gönderme Hızı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="407"/>
+        <source>Peers:</source>
+        <translation>Kişi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="436"/>
+        <source>Download Limit:</source>
+        <translation>İndirme Sınırı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="465"/>
+        <source>Upload Limit:</source>
+        <translation>Gönderme Sınırı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="494"/>
+        <source>Wasted:</source>
+        <translation>Boşa Giden:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="233"/>
+        <source>Connections:</source>
+        <translation>Bağlantı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="642"/>
+        <source>Information</source>
+        <translation>Bilgi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="866"/>
+        <source>Info Hash v1:</source>
+        <translation>Bilgi Adreslemesi v1:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="898"/>
+        <source>Info Hash v2:</source>
+        <translation>Bilgi Adreslemesi v2:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="965"/>
+        <source>Comment:</source>
+        <translation>Açıklama:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="1125"/>
+        <source>Select All</source>
+        <translation>Tümünü Seç</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="1132"/>
+        <source>Select None</source>
+        <translation>Hiçbirini Seçme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="523"/>
+        <source>Share Ratio:</source>
+        <translation>Paylaşma Oranı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="552"/>
+        <source>Reannounce In:</source>
+        <translation>Yeniden Duyurma Süresi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="581"/>
+        <source>Last Seen Complete:</source>
+        <translation>Tam Halinin Görülmesi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="610"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="629"/>
+        <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
+        <translation>Oran / Etkin Süre (ay cinsinden), torrent&apos;in ne kadar yaygın olduğunu gösterir</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="613"/>
+        <source>Popularity:</source>
+        <translation>Yaygınlık:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="660"/>
+        <source>Total Size:</source>
+        <translation>Toplam Boyut:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="689"/>
+        <source>Pieces:</source>
+        <translation>Parça:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="718"/>
+        <source>Created By:</source>
+        <translation>Oluşturan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="747"/>
+        <source>Added On:</source>
+        <translation>Eklenme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="776"/>
+        <source>Completed On:</source>
+        <translation>Tamamlanma:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="805"/>
+        <source>Created On:</source>
+        <translation>Oluşturma:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="834"/>
+        <source>Private:</source>
+        <translation>Özel:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="930"/>
+        <source>Save Path:</source>
+        <translation>Kaydetme Yolu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="468"/>
+        <source>Never</source>
+        <translation>Asla</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="476"/>
+        <source>%1 x %2 (have %3)</source>
+        <comment>(torrent pieces) eg 152 x 4MB (have 25)</comment>
+        <translation>%1 x %2 (%3 var)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="411"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="414"/>
+        <source>%1 (%2 this session)</source>
+        <translation>%1 (bu oturumda %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="326"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="327"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="346"/>
+        <source>N/A</source>
+        <translation>Yok</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="342"/>
+        <source>Yes</source>
+        <translation>Evet</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="342"/>
+        <source>No</source>
+        <translation>Hayır</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="424"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (gönderilme %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="434"/>
+        <source>%1 (%2 max)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 max)</comment>
+        <translation>%1 (en fazla %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="450"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="454"/>
+        <source>%1 (%2 total)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 total)</comment>
+        <translation>%1 (toplam %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="460"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="465"/>
+        <source>%1 (%2 avg.)</source>
+        <comment>%1 and %2 are speed rates, e.g. 200KiB/s (100KiB/s avg.)</comment>
+        <translation>%1 (ort. %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="620"/>
+        <source>Add web seed</source>
+        <comment>Add HTTP source</comment>
+        <translation>Web gönderimi ekle</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="621"/>
+        <source>Add web seed:</source>
+        <translation>Web gönderimi ekle:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="627"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="680"/>
+        <source>This web seed is already in the list.</source>
+        <translation>Bu web gönderimi zaten listede.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="82"/>
+        <source>Filter files...</source>
+        <translation>Dosyaları süzün...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="558"/>
+        <source>Add web seed...</source>
+        <translation>Web gönderimi ekle...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="562"/>
+        <source>Remove web seed</source>
+        <translation>Web gönderimini kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="565"/>
+        <source>Copy web seed URL</source>
+        <translation>Web gönderim URL&apos;sini kopyala</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="567"/>
+        <source>Edit web seed URL...</source>
+        <translation>Web gönderim URL&apos;sini düzenle...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
+        <source>Speed graphs are disabled</source>
+        <translation>Hız grafikleri etkisizleştirildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
+        <source>You can enable it in Advanced Options</source>
+        <translation>Bunu Gelişmiş Seçenekler&apos;de etkinleştirebilirsiniz</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="672"/>
+        <source>Web seed editing</source>
+        <translation>Web gönderim düzenleme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="673"/>
+        <source>Web seed URL:</source>
+        <translation>Web gönderim URL&apos;si:</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::AutoDownloader</name>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="80"/>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="88"/>
+        <source>Invalid data format.</source>
+        <translation>Geçersiz veri biçimi.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="123"/>
+        <source>Couldn&apos;t save RSS AutoDownloader data in %1. Error: %2</source>
+        <translation>%1 içine RSS Otoİndirici verileri kaydedilemedi. Hata: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="307"/>
+        <source>Invalid data format</source>
+        <translation>Geçersiz veri biçimi</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="490"/>
+        <source>RSS article &apos;%1&apos; is accepted by rule &apos;%2&apos;. Trying to add torrent...</source>
+        <translation>RSS makalesi &apos;%1&apos;, &apos;%2&apos; kuralı tarafından kabul edildi. Torrent eklenmeye çalışılıyor...</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="526"/>
+        <source>Failed to read RSS AutoDownloader rules. %1</source>
+        <translation>RSS Otoİndirici kurallarını okuma başarısız. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="544"/>
+        <source>Couldn&apos;t load RSS AutoDownloader rules. Reason: %1</source>
+        <translation>RSS Otoİndirici kuralları yüklenemedi. Sebep: %1</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Feed</name>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="247"/>
+        <source>Failed to download RSS feed at &apos;%1&apos;. Reason: %2</source>
+        <translation>RSS bildirimini &apos;%1&apos; adresinden indirme başarısız. Sebep: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="283"/>
+        <source>RSS feed at &apos;%1&apos; updated. Added %2 new articles.</source>
+        <translation>&apos;%1&apos; adresinden RSS bildirimi güncellendi. %2 yeni makale eklendi.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="280"/>
+        <source>Failed to parse RSS feed at &apos;%1&apos;. Reason: %2</source>
+        <translation>RSS bildirimini &apos;%1&apos; adresinden ayrıştırma başarısız. Sebep: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="234"/>
+        <source>RSS feed at &apos;%1&apos; is successfully downloaded. Starting to parse it.</source>
+        <translation>&apos;%1&apos; adresinden RSS bildirimi başarılı olarak indirildi. Ayrıştırmaya başlanıyor.</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Private::FeedSerializer</name>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="57"/>
+        <source>Failed to read RSS session data. %1</source>
+        <translation>RSS oturum verilerini okuma başarısız. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="79"/>
+        <source>Failed to save RSS feed in &apos;%1&apos;, Reason: %2</source>
+        <translation>RSS bildirimini &apos;%1&apos; içinde kaydetme başarısız. Sebep: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="90"/>
+        <source>Couldn&apos;t parse RSS Session data. Error: %1</source>
+        <translation>RSS Oturum verileri ayrıştırılamadı. Hata: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="97"/>
+        <source>Couldn&apos;t load RSS Session data. Invalid data format.</source>
+        <translation>RSS Oturum verileri yüklenemedi. Geçersiz veri biçimi.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="109"/>
+        <source>Couldn&apos;t load RSS article &apos;%1#%2&apos;. Invalid data format.</source>
+        <translation>RSS makalesi &apos;%1#%2&apos; yüklenemedi. Geçersiz veri biçimi.</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Private::Parser</name>
+    <message>
+        <location filename="../base/rss/rss_parser.cpp" line="594"/>
+        <source>Invalid RSS feed.</source>
+        <translation>Geçersiz RSS bildirimi.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_parser.cpp" line="588"/>
+        <source>%1 (line: %2, column: %3, offset: %4).</source>
+        <translation>%1 (satır: %2, sütün: %3, çıkıntı: %4).</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Session</name>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="79"/>
+        <source>Couldn&apos;t save RSS session configuration. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>RSS oturum yapılandırması kaydedilemedi. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="88"/>
+        <source>Couldn&apos;t save RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>RSS oturum verileri kaydedilemedi. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="156"/>
+        <location filename="../base/rss/rss_session.cpp" line="189"/>
+        <source>RSS feed with given URL already exists: %1.</source>
+        <translation>Verilen URL ile RSS bildirimi zaten var: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="176"/>
+        <source>Feed doesn&apos;t exist: %1.</source>
+        <translation>Bildirim mevcut değil: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="203"/>
+        <source>Cannot move root folder.</source>
+        <translation>Kök klasör taşınamıyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="207"/>
+        <location filename="../base/rss/rss_session.cpp" line="250"/>
+        <source>Item doesn&apos;t exist: %1.</source>
+        <translation>Öğe mevcut değil: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="223"/>
+        <source>Can&apos;t move a folder into itself or its subfolders.</source>
+        <translation>Bir klasör kendisine veya alt klasörlerine taşınamaz.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="246"/>
+        <source>Cannot delete root folder.</source>
+        <translation>Kök klasör silinemiyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="287"/>
+        <source>Failed to read RSS session data. %1</source>
+        <translation>RSS oturum verilerini okuma başarısız. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="295"/>
+        <source>Failed to parse RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>RSS oturum verilerini ayrıştırma başarısız. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="302"/>
+        <source>Failed to load RSS session data. File: &quot;%1&quot;. Error: &quot;Invalid data format.&quot;</source>
+        <translation>RSS oturum verilerini yükleme başarısız. Dosya: &quot;%1&quot;. Hata: &quot;Geçersiz veri biçimi.&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="333"/>
+        <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: URL is required.</source>
+        <translation>RSS bildirimi yüklenemedi. Bildirim: &quot;%1&quot;. Sebep: URL gerekli.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="344"/>
+        <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: UID is invalid.</source>
+        <translation>RSS bildirimi yüklenemedi. Bildirim: &quot;%1&quot;. Sebep: UID geçersiz.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="351"/>
+        <source>Duplicate RSS feed found. UID: &quot;%1&quot;. Error: Configuration seems to be corrupted.</source>
+        <translation>Kopya RSS bildirimi bulundu. UID: &quot;%1&quot;. Hata: Yapılandırma bozuk gibi görünüyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="375"/>
+        <source>Couldn&apos;t load RSS item. Item: &quot;%1&quot;. Invalid data format.</source>
+        <translation>RSS öğesi yüklenemedi. Öğe: &quot;%1&quot;. Geçersiz veri biçimi.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="389"/>
+        <source>Corrupted RSS list, not loading it.</source>
+        <translation>RSS listesi bozuldu, yüklenmiyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="410"/>
+        <source>Failed to add RSS folder item. Reason: &quot;%1&quot;</source>
+        <translation>RSS klasör öğesini ekleme başarısız. Sebep: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="417"/>
+        <source>Failed to add RSS feed item. Reason: &quot;%1&quot;</source>
+        <translation>RSS bildirim öğesini ekleme başarısız. Sebep: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="431"/>
+        <source>Incorrect RSS Item path: %1.</source>
+        <translation>Yanlış RSS Öğesi yolu: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="434"/>
+        <source>RSS item with given path already exists: %1.</source>
+        <translation>Verilen yol ile RSS öğesi zaten var: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="439"/>
+        <source>Parent folder doesn&apos;t exist: %1.</source>
+        <translation>Ana klasör mevcut değil: %1.</translation>
+    </message>
+</context>
+<context>
+    <name>RSSController</name>
+    <message>
+        <location filename="../webui/api/rsscontroller.cpp" line="94"/>
+        <source>Invalid &apos;refreshInterval&apos; value</source>
+        <translation>Geçersiz &apos;refreshInterval&apos; değeri</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/rsscontroller.cpp" line="99"/>
+        <source>Feed doesn&apos;t exist: %1.</source>
+        <translation>Bildirim mevcut değil: %1.</translation>
+    </message>
+</context>
+<context>
+    <name>RSSFeedDialog</name>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="14"/>
+        <source>RSS Feed Options</source>
+        <translation>RSS Bildirim Ayarları</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="22"/>
+        <source>URL:</source>
+        <translation>URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="32"/>
+        <source>Refresh interval:</source>
+        <translation>Yenileme aralığı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.cpp" line="43"/>
+        <source> sec</source>
+        <translation> san</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.cpp" line="44"/>
+        <source>Default</source>
+        <translation>Varsayılan</translation>
+    </message>
+</context>
+<context>
+    <name>RSSWidget</name>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="17"/>
+        <source>Search</source>
+        <translation>Ara</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="31"/>
+        <source>Fetching of RSS feeds is disabled now! You can enable it in application settings.</source>
+        <translation>RSS bildirimlerinin getirilmesi şimdi etkisizleştirildi! Uygulama ayarlarından etkinleştirebilirsiniz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="43"/>
+        <source>New subscription</source>
+        <translation>Yeni abonelik</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="50"/>
+        <location filename="../gui/rss/rsswidget.ui" line="175"/>
+        <location filename="../gui/rss/rsswidget.ui" line="178"/>
+        <source>Mark items read</source>
+        <translation>Öğeleri okundu olarak işaretle</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="57"/>
+        <source>Refresh RSS streams</source>
+        <translation>RSS akışlarını yenile</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="60"/>
+        <source>Update all</source>
+        <translation>Tümünü güncelle</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="80"/>
+        <source>RSS Downloader...</source>
+        <translation>RSS İndirici...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="108"/>
+        <source>Torrents: (double-click to download)</source>
+        <translation>Torrent&apos;ler: (indirmek için çift tıklayın)</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="138"/>
+        <location filename="../gui/rss/rsswidget.ui" line="141"/>
+        <source>Delete</source>
+        <translation>Sil</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="146"/>
+        <source>Rename...</source>
+        <translation>Yeniden adlandır...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="149"/>
+        <source>Rename</source>
+        <translation>Yeniden adlandır</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="154"/>
+        <location filename="../gui/rss/rsswidget.ui" line="157"/>
+        <source>Update</source>
+        <translation>Güncelle</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="162"/>
+        <source>New subscription...</source>
+        <translation>Yeni abonelik...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="167"/>
+        <location filename="../gui/rss/rsswidget.ui" line="170"/>
+        <source>Update all feeds</source>
+        <translation>Tüm bildirimleri güncelle</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="183"/>
+        <source>Download torrent</source>
+        <translation>Torrent&apos;i indir</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="188"/>
+        <source>Open news URL</source>
+        <translation>Haber URL&apos;sini aç</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="193"/>
+        <source>Copy feed URL</source>
+        <translation>Bildirim URL&apos;sini kopyala</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="198"/>
+        <source>New folder...</source>
+        <translation>Yeni klasör...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="203"/>
+        <source>Feed options...</source>
+        <translation>Bildirim seçenekleri...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="136"/>
+        <source>Filter feed items...</source>
+        <translation>Bildirim öğelerini süzün...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="289"/>
+        <source>Please choose a folder name</source>
+        <translation>Lütfen bir klasör adı seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="289"/>
+        <source>Folder name:</source>
+        <translation>Klasör adı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="290"/>
+        <source>New folder</source>
+        <translation>Yeni klasör</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="383"/>
+        <source>Deletion confirmation</source>
+        <translation>Silme onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="383"/>
+        <source>Are you sure you want to delete the selected RSS feeds?</source>
+        <translation>Seçilen RSS bildirimlerini silmek istediğinize emin misiniz?</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="470"/>
+        <source>Blocked opening RSS article URL. URL pointing to local file might be malicious behaviour. Article: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
+        <translation>Engellenmiş açılan RSS makalesi URL&apos;si. Yerel dosyayı işaret eden URL kötü niyetli davranış olabilir. Makale: &quot;%1&quot;. URL: &quot;%2&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="481"/>
+        <source>Blocked opening RSS article URL. The following article URL is pointing to local file and it may be malicious behaviour:
+%1</source>
+        <translation>Engellenmiş açılan RSS makalesi URL&apos;si. Aşağıdaki makale URL&apos;si yerel dosyayı işaret ediyor ve kötü niyetli davranış olabilir:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="483"/>
+        <location filename="../gui/rss/rsswidget.cpp" line="490"/>
+        <source>There are %1 more articles with the same issue.</source>
+        <translation>Aynı soruna sahip %1 makale daha var.</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="488"/>
+        <source>The following article has no news URL provided:
+%1</source>
+        <translation>Aşağıdaki makalede verilen hiç haber URL&apos;si yok:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="510"/>
+        <source>Please choose a new name for this RSS feed</source>
+        <translation>Lütfen bu RSS bildirimi için yeni bir ad seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="510"/>
+        <source>New feed name:</source>
+        <translation>Yeni bildirim adı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="518"/>
+        <source>Rename failed</source>
+        <translation>Yeniden adlandırma başarısız oldu</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="689"/>
+        <source>Date: </source>
+        <translation>Tarih: </translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="691"/>
+        <source>Feed: </source>
+        <translation>Bildirim:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="693"/>
+        <source>Author: </source>
+        <translation>Hazırlayan: </translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="695"/>
+        <source>Open link</source>
+        <translation>Bağlantıyı aç</translation>
+    </message>
+</context>
+<context>
+    <name>SearchController</name>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="90"/>
+        <source>Python must be installed to use the Search Engine.</source>
+        <translation>Arama Motorunu kullanmak için Python yüklenmek zorundadır.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="113"/>
+        <source>Unable to create more than %1 concurrent searches.</source>
+        <translation>%1 taneden fazla eşzamanlı arama oluşturulamıyor.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="190"/>
+        <location filename="../webui/api/searchcontroller.cpp" line="196"/>
+        <source>Offset is out of range</source>
+        <translation>Uzaklık aralık dışında</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="305"/>
+        <source>All plugins are already up to date.</source>
+        <translation>Tüm eklentiler zaten güncel.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="309"/>
+        <source>Updating %1 plugins</source>
+        <translation>%1 eklenti güncelleniyor</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="314"/>
+        <source>Updating plugin %1</source>
+        <translation>%1 eklentisi güncelleniyor</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="323"/>
+        <source>Failed to check for plugin updates: %1</source>
+        <translation>Eklenti güncellemeleri denetimi başarız: %1</translation>
+    </message>
+</context>
+<context>
+    <name>SearchDownloadHandler</name>
+    <message>
+        <location filename="../base/search/searchdownloadhandler.cpp" line="72"/>
+        <source>Error occurred when downloading torrent via search engine. Engine: &quot;%1&quot;. URL: &quot;%2&quot;. Error: &quot;%3&quot;.</source>
+        <translation>Arama motoru aracılığıyla torrent indirilirken hata meydana geldi. Motor: &quot;%1&quot;. URL: &quot;%2&quot;. Hata: &quot;%3&quot;.</translation>
+    </message>
+</context>
+<context>
+    <name>SearchHandler</name>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="70"/>
+        <source>Process failed to start</source>
+        <translation>Başlatmak için işlem başarısız oldu</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="72"/>
+        <source>Process crashed</source>
+        <translation>İşlem çöktü</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="74"/>
+        <source>Process timed out</source>
+        <translation>İşlem zaman aşımına uğradı</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="76"/>
+        <source>Process write error</source>
+        <translation>İşlem yazma hatası</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="78"/>
+        <source>Process read error</source>
+        <translation>İşlem okuma hatası</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="80"/>
+        <source>Process unknown error</source>
+        <translation>İşlem bilinmiyor hatası</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="117"/>
+        <source>Search process failed. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
+        <translation>Arama işlemi başarısız oldu. Arama sorgusu: &quot;%1&quot;. Kategori: &quot;%2&quot;. Motorlar: &quot;%3&quot;. Hata: &quot;%4&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="166"/>
+        <source>Error occurred in search engine. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
+        <translation>Arama motorunda hata meydana geldi. Arama sorgusu: &quot;%1&quot;. Kategori: &quot;%2&quot;. Motorlar: &quot;%3&quot;. Hata: &quot;%4&quot;.</translation>
+    </message>
+</context>
+<context>
+    <name>SearchJobWidget</name>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="19"/>
+        <source>Results(xxx)</source>
+        <translation>Sonuçlar(xxx)</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="39"/>
+        <source>Search in:</source>
+        <translation>Aranan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="46"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Some search engines search in torrent description and in torrent file names too. Whether such results will be shown in the list below is controlled by this mode.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Everywhere &lt;/span&gt;disables filtering and shows everything returned by the search engines.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Torrent names only&lt;/span&gt; shows only torrents whose names match the search query.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bazı arama motorları torrent açıklamalarında ve torrent dosya adlarında da arar. Bu tür sonuçlar bu kip tarafından denetlenen aşağıdaki listede gösterilecektir.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Her yeri&lt;/span&gt; seçeneği süzmeyi etkisizleştirir ve arama motorları tarafından döndürülen her şeyi gösterir.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Sadece torrent adları&lt;/span&gt; seçeneği sadece adları arama sorgusuyla eşleşen torrent&apos;leri gösterir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="69"/>
+        <source>Set minimum and maximum allowed number of seeders</source>
+        <translation>İzin verilen en az ve en fazla gönderen sayısını ayarlayın</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="79"/>
+        <source>Minimum number of seeds</source>
+        <translation>En az gönderim sayısı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="96"/>
+        <source>Maximum number of seeds</source>
+        <translation>En fazla gönderim sayısı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="125"/>
+        <source>Set minimum and maximum allowed size of a torrent</source>
+        <translation>Bir torrent&apos;in izin verilen en az ve en fazla boyutunu ayarlayın</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="137"/>
+        <source>Minimum torrent size</source>
+        <translation>En az torrent boyutu</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="161"/>
+        <source>Maximum torrent size</source>
+        <translation>En fazla torrent boyutu</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="72"/>
+        <source>Seeds:</source>
+        <translation>Gönderim:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="89"/>
+        <location filename="../gui/search/searchjobwidget.ui" line="152"/>
+        <source>to</source>
+        <translation>&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="99"/>
+        <location filename="../gui/search/searchjobwidget.ui" line="164"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="128"/>
+        <source>Size:</source>
+        <translation>Boyut:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="108"/>
+        <source>Name</source>
+        <comment>i.e: file name</comment>
+        <translation>Ad</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="109"/>
+        <source>Size</source>
+        <comment>i.e: file size</comment>
+        <translation>Boyut</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="110"/>
+        <source>Seeders</source>
+        <comment>i.e: Number of full sources</comment>
+        <translation>Gönderen</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="111"/>
+        <source>Leechers</source>
+        <comment>i.e: Number of partial sources</comment>
+        <translation>Çeken</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="169"/>
+        <source>Filter search results...</source>
+        <translation>Arama sonuçlarını süzün...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="350"/>
+        <source>Blocked opening search result description page URL. URL pointing to local file might be malicious behaviour. Name: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
+        <translation>Engellenmiş açılan arama sonucu açıklama sayfası URL&apos;si. Yerel dosyayı işaret eden URL kötü niyetli davranış olabilir. Ad: &quot;%1&quot;. URL: &quot;%2&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="361"/>
+        <source>Blocked opening search result description page URL. The following result URL is pointing to local file and it may be malicious behaviour:
+%1</source>
+        <translation>Engellenmiş açılan arama sonucu açıklama sayfası URL&apos;si. Aşağıdaki sonuç URL&apos;si yerel dosyayı işaret ediyor ve kötü niyetli davranış olabilir:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="363"/>
+        <source>There are %1 more results with the same issue.</source>
+        <translation>Aynı soruna sahip %1 sonuç daha var.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="368"/>
+        <source>Entry &quot;%1&quot; has no description page URL provided.</source>
+        <translation>&quot;%1&quot; girişinde verilen hiç açıklama sayfası URL&apos;si yok.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="370"/>
+        <source>There are %1 more entries with the same issue.</source>
+        <translation>Aynı soruna sahip %1 giriş daha var.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="451"/>
+        <source>Results (showing &lt;i&gt;%1&lt;/i&gt; out of &lt;i&gt;%2&lt;/i&gt;):</source>
+        <comment>i.e: Search results</comment>
+        <translation>Sonuçlar (&lt;i&gt;%1&lt;/i&gt; / &lt;i&gt;%2&lt;/i&gt; gösteriliyor):</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="510"/>
+        <source>Torrent names only</source>
+        <translation>Sadece torrent adları</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="511"/>
+        <source>Everywhere</source>
+        <translation>Her yeri</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="533"/>
+        <source>Use regular expressions</source>
+        <translation>Düzenli ifadeleri kullan</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="548"/>
+        <source>Open download window</source>
+        <translation>İndirme penceresini aç</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="550"/>
+        <source>Download</source>
+        <translation>İndir</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="552"/>
+        <source>Open description page</source>
+        <translation>Açıklama sayfasını aç</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="556"/>
+        <source>Copy</source>
+        <translation>Kopyala</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="558"/>
+        <source>Name</source>
+        <translation>Ad</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="560"/>
+        <source>Download link</source>
+        <translation>İndirme bağlantısı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="562"/>
+        <source>Description page URL</source>
+        <translation>Açıklama sayfası URL&apos;si</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="74"/>
+        <source>Searching...</source>
+        <translation>Aranıyor...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="76"/>
+        <source>Search has finished</source>
+        <translation>Arama tamamlandı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="78"/>
+        <source>Search aborted</source>
+        <translation>Arama iptal edildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="80"/>
+        <source>An error occurred during search...</source>
+        <translation>Arama sırasında bir hata meydana geldi...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="82"/>
+        <source>Search returned no results</source>
+        <translation>Arama hiç sonuç bulamadı</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="112"/>
+        <source>Engine</source>
+        <translation>Motor</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="113"/>
+        <source>Engine URL</source>
+        <translation>Motor URL&apos;si</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="114"/>
+        <source>Published On</source>
+        <translation>Yayınlanma Tarihi</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="594"/>
+        <source>Column visibility</source>
+        <translation>Sütun görünürlüğü</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="617"/>
+        <source>Resize columns</source>
+        <translation>Sütunları yeniden boyutlandır</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="626"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Gizli olmayan tüm sütunları içeriklerinin boyutuna göre yeniden boyutlandır</translation>
+    </message>
+</context>
+<context>
+    <name>SearchPluginManager</name>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="246"/>
+        <source>Unknown search engine plugin file format.</source>
+        <translation>Bilinmeyen arama motoru eklentisi dosya biçimi.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="257"/>
+        <source>Plugin already at version %1, which is greater than %2</source>
+        <translation>Eklenti zaten %2 sürümünden büyük olan %1 sürümünde</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="258"/>
+        <source>A more recent version of this plugin is already installed.</source>
+        <translation>Bu eklentinin en son sürümü zaten yüklü.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="282"/>
+        <source>Plugin %1 is not supported.</source>
+        <translation>%1 eklentisi desteklenmiyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="290"/>
+        <location filename="../base/search/searchpluginmanager.cpp" line="294"/>
+        <source>Plugin is not supported.</source>
+        <translation>Eklenti desteklenmiyor.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="302"/>
+        <source>Plugin %1 has been successfully updated.</source>
+        <translation>%1 eklentisi başarılı olarak güncellendi.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="376"/>
+        <source>All categories</source>
+        <translation>Tüm kategoriler</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="380"/>
+        <source>Movies</source>
+        <translation>Filmler</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="384"/>
+        <source>TV shows</source>
+        <translation>TV programları</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="381"/>
+        <source>Music</source>
+        <translation>Müzik</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="379"/>
+        <source>Games</source>
+        <translation>Oyunlar</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="377"/>
+        <source>Anime</source>
+        <translation>Çizgi film</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="383"/>
+        <source>Software</source>
+        <translation>Yazılım</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="382"/>
+        <source>Pictures</source>
+        <translation>Resimler</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="378"/>
+        <source>Books</source>
+        <translation>Kitaplar</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="484"/>
+        <source>Update server is temporarily unavailable. %1</source>
+        <translation>Güncelleme sunucusu geçici olarak kullanılamaz. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="504"/>
+        <location filename="../base/search/searchpluginmanager.cpp" line="506"/>
+        <source>Failed to download the plugin file. %1</source>
+        <translation>Eklenti dosyasını indirme başarısız. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="568"/>
+        <source>Error occurred when fetching search engine capabilities. Error: &quot;%1&quot;.</source>
+        <translation>Arama motoru yetenekleri getirilirken hata meydana geldi. Hata: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="651"/>
+        <source>Plugin &quot;%1&quot; is outdated, updating to version %2</source>
+        <translation>&quot;%1&quot; eklentisi eski, %2 sürümüne güncelleniyor</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="658"/>
+        <source>Incorrect update info received for %1 out of %2 plugins.</source>
+        <translation>%1 / %2 eklenti için yanlış güncelleme bilgisi alındı.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="700"/>
+        <source>Search plugin &apos;%1&apos; contains invalid version string (&apos;%2&apos;)</source>
+        <translation>Aranan eklenti &apos;%1&apos; geçersiz sürüm dizgisi (&apos;%2&apos;) içeriyor</translation>
+    </message>
+</context>
+<context>
+    <name>SearchWidget</name>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="14"/>
+        <location filename="../gui/search/searchwidget.ui" line="51"/>
+        <source>Search</source>
+        <translation>Ara</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="86"/>
+        <source>There aren&apos;t any search plugins installed.
+Click the &quot;Search plugins...&quot; button at the bottom right of the window to install some.</source>
+        <translation>Yüklü herhangi bir arama eklentisi yok.
+Bazılarını yüklemek için pencerenin sağ altındaki &quot;Arama eklentileri...&quot; düğmesine tıklayın.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="142"/>
+        <source>Search plugins...</source>
+        <translation>Arama eklentileri...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="358"/>
+        <source>A phrase to search for.</source>
+        <translation>Aranacak bir ifade.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="359"/>
+        <source>Spaces in a search term may be protected by double quotes.</source>
+        <translation>Aranan bir terimdeki boşluklar çift tırnaklar ile korunabilir.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="361"/>
+        <source>Example:</source>
+        <comment>Search phrase example</comment>
+        <translation>Örnek:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="367"/>
+        <source>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: search for &lt;b&gt;foo bar&lt;/b&gt;</source>
+        <comment>Search phrase example, illustrates quotes usage, double quotedpair of space delimited words, the whole pair is highlighted</comment>
+        <translation>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: aranacak olan &lt;b&gt;foo bar&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="592"/>
+        <source>All plugins</source>
+        <translation>Tüm eklentiler</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="591"/>
+        <source>Only enabled</source>
+        <translation>Sadece etkinleştirilenler</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="196"/>
+        <location filename="../gui/search/searchwidget.cpp" line="254"/>
+        <source>Invalid data format.</source>
+        <translation>Geçersiz veri biçimi.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="363"/>
+        <source>&lt;b&gt;foo bar&lt;/b&gt;: search for &lt;b&gt;foo&lt;/b&gt; and &lt;b&gt;bar&lt;/b&gt;</source>
+        <comment>Search phrase example, illustrates quotes usage, a pair of space delimited words, individual words are highlighted</comment>
+        <translation>&lt;b&gt;foo bar&lt;/b&gt;: aranacak olan &lt;b&gt;foo&lt;/b&gt; ve &lt;b&gt;bar&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="847"/>
+        <source>Close tab</source>
+        <translation>Sekmeyi kapat</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="848"/>
+        <source>Close all tabs</source>
+        <translation>Tüm sekmeleri kapat</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="593"/>
+        <source>Select...</source>
+        <translation>Seç...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="839"/>
+        <source>Refresh tab</source>
+        <translation>Sekmeyi yenile</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="843"/>
+        <source>Stop search</source>
+        <translation>Aramayı durdur</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="890"/>
+        <location filename="../gui/search/searchwidget.cpp" line="967"/>
+        <source>Search Engine</source>
+        <translation>Arama Motoru</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="890"/>
+        <location filename="../gui/search/searchwidget.cpp" line="967"/>
+        <source>Please install Python to use the Search Engine.</source>
+        <translation>Arama Motorunu kullanmak için lütfen Python&apos;u yükleyin.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="884"/>
+        <source>Empty search pattern</source>
+        <translation>Boş arama örneği</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="884"/>
+        <source>Please type a search pattern first</source>
+        <translation>Lütfen önce bir arama örneği girin</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="58"/>
+        <source>Stop</source>
+        <translation>Durdur</translation>
+    </message>
+</context>
+<context>
+    <name>SearchWidget::DataStorage</name>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="982"/>
+        <source>Failed to load Search UI saved state data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Arama arayüzü kaydedilmiş durum verilerini yükleme başarısız. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1002"/>
+        <source>Failed to load saved search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
+        <translation>Kaydedilmiş arama sonuçlarını yükleme başarısız. Sekme: &quot;%1&quot;. Dosya: &quot;%2&quot;. Hata: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1034"/>
+        <source>Failed to save Search UI state. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Arama arayüzü durumunu kaydetme başarısız. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1066"/>
+        <source>Failed to save search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
+        <translation>Arama sonuçlarını kaydetme başarısız. Sekme: &quot;%1&quot;. Dosya: &quot;%2&quot;. Hata: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1082"/>
+        <source>Failed to load Search UI history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Arama arayüzü geçmişini yükleme başarısız. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1096"/>
+        <source>Failed to save search history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Arama geçmişini kaydetme başarısız. Dosya: &quot;%1&quot;. Hata: &quot;%2&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsStorage</name>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="147"/>
+        <source>Detected unclean program exit. Using fallback file to restore settings: %1</source>
+        <translation>Programdan düzgün olmayan bir şekilde çıkıldığı algılandı. Ayarları geri yüklemek için geri alma dosyası kullanılıyor: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="187"/>
+        <source>An access error occurred while trying to write the configuration file.</source>
+        <translation>Yapılandırma dosyasını yazmaya çalışırken bir erişim hatası meydana geldi.</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="190"/>
+        <source>A format error occurred while trying to write the configuration file.</source>
+        <translation>Yapılandırma dosyasını yazmaya çalışırken bir biçim hatası meydana geldi.</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="193"/>
+        <source>An unknown error occurred while trying to write the configuration file.</source>
+        <translation>Yapılandırma dosyasını yazmaya çalışırken bilinmeyen bir hata meydana geldi.</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownConfirmDialog</name>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.ui" line="64"/>
+        <source>Don&apos;t show again</source>
+        <translation>Bir daha gösterme</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="118"/>
+        <source>qBittorrent will now exit.</source>
+        <translation>qBittorrent&apos;ten şimdi çıkılacak.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="119"/>
+        <source>E&amp;xit Now</source>
+        <translation>Şimdi Çı&amp;k</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="120"/>
+        <source>Exit confirmation</source>
+        <translation>Çıkış onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="123"/>
+        <source>The computer is going to shutdown.</source>
+        <translation>Bilgisayar kapatılacak.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="124"/>
+        <source>&amp;Shutdown Now</source>
+        <translation>Şimdi Ka&amp;pat</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="125"/>
+        <source>Shutdown confirmation</source>
+        <translation>Kapatma onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="128"/>
+        <source>The computer is going to enter suspend mode.</source>
+        <translation>Bilgisayar askıya alma kipine girecek.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="129"/>
+        <source>&amp;Suspend Now</source>
+        <translation>Şimdi &amp;Askıya Al</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="130"/>
+        <source>Suspend confirmation</source>
+        <translation>Askıya alma onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="133"/>
+        <source>The computer is going to enter hibernation mode.</source>
+        <translation>Bilgisayar hazırda bekletme kipine girecek.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="134"/>
+        <source>&amp;Hibernate Now</source>
+        <translation>Şimdi &amp;Hazırda Beklet</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="135"/>
+        <source>Hibernate confirmation</source>
+        <translation>Hazırda bekletme onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="138"/>
+        <source>The computer is going to reboot.</source>
+        <translation>Bilgisayar yeniden başlatılacak.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="139"/>
+        <source>&amp;Reboot Now</source>
+        <translation>Şimdi &amp;Yeniden Başlat</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="140"/>
+        <source>Reboot confirmation</source>
+        <translation>Yeniden başlatma onayı</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="150"/>
+        <source>You can cancel the action within %1 seconds.</source>
+        <translation>Eylemi %1 saniye içinde iptal edebilirsiniz.</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedLimitDialog</name>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="14"/>
+        <source>Global Speed Limits</source>
+        <translation>Genel Hız Sınırları</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="20"/>
+        <source>Speed limits</source>
+        <translation>Hız sınırları</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="33"/>
+        <location filename="../gui/speedlimitdialog.ui" line="109"/>
+        <source>Upload:</source>
+        <translation>Gönderme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="47"/>
+        <location filename="../gui/speedlimitdialog.ui" line="77"/>
+        <location filename="../gui/speedlimitdialog.ui" line="123"/>
+        <location filename="../gui/speedlimitdialog.ui" line="153"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="50"/>
+        <location filename="../gui/speedlimitdialog.ui" line="80"/>
+        <location filename="../gui/speedlimitdialog.ui" line="126"/>
+        <location filename="../gui/speedlimitdialog.ui" line="156"/>
+        <source> KiB/s</source>
+        <translation> KiB/s</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="63"/>
+        <location filename="../gui/speedlimitdialog.ui" line="139"/>
+        <source>Download:</source>
+        <translation>İndirme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="96"/>
+        <source>Alternative speed limits</source>
+        <translation>Alternatif hız sınırları</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedPlotView</name>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="172"/>
+        <source>Total Upload</source>
+        <translation>Toplam Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="173"/>
+        <source>Total Download</source>
+        <translation>Toplam İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="177"/>
+        <source>Payload Upload</source>
+        <translation>Yük Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="178"/>
+        <source>Payload Download</source>
+        <translation>Yük İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="182"/>
+        <source>Overhead Upload</source>
+        <translation>Ek Yük Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="183"/>
+        <source>Overhead Download</source>
+        <translation>Ek Yük İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="187"/>
+        <source>DHT Upload</source>
+        <translation>DHT Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="188"/>
+        <source>DHT Download</source>
+        <translation>DHT İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="192"/>
+        <source>Tracker Upload</source>
+        <translation>İzleyici Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="193"/>
+        <source>Tracker Download</source>
+        <translation>İzleyici İndirme</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedWidget</name>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="67"/>
+        <source>Period:</source>
+        <translation>Süre:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="70"/>
+        <source>1 Minute</source>
+        <translation>1 Dakika</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="71"/>
+        <source>5 Minutes</source>
+        <translation>5 Dakika</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="72"/>
+        <source>30 Minutes</source>
+        <translation>30 Dakika</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="74"/>
+        <source>6 Hours</source>
+        <translation>6 Saat</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="104"/>
+        <source>Select Graphs</source>
+        <translation>Grafikleri Seç</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="82"/>
+        <source>Total Upload</source>
+        <translation>Toplam Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="73"/>
+        <source>3 Hours</source>
+        <translation>3 Saat</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="75"/>
+        <source>12 Hours</source>
+        <translation>12 Saat</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="76"/>
+        <source>24 Hours</source>
+        <translation>24 Saat</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="83"/>
+        <source>Total Download</source>
+        <translation>Toplam İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="84"/>
+        <source>Payload Upload</source>
+        <translation>Yük Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="85"/>
+        <source>Payload Download</source>
+        <translation>Yük İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="86"/>
+        <source>Overhead Upload</source>
+        <translation>Ek Yük Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="87"/>
+        <source>Overhead Download</source>
+        <translation>Ek Yük İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="88"/>
+        <source>DHT Upload</source>
+        <translation>DHT Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="89"/>
+        <source>DHT Download</source>
+        <translation>DHT İndirme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="90"/>
+        <source>Tracker Upload</source>
+        <translation>İzleyici Gönderme</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="91"/>
+        <source>Tracker Download</source>
+        <translation>İzleyici İndirme</translation>
+    </message>
+</context>
+<context>
+    <name>StacktraceDialog</name>
+    <message>
+        <location filename="../gui/stacktracedialog.ui" line="14"/>
+        <source>Crash info</source>
+        <translation>Arıza bilgisi</translation>
+    </message>
+</context>
+<context>
+    <name>StatsDialog</name>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="14"/>
+        <source>Statistics</source>
+        <translation>İstatistikler</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="20"/>
+        <source>User statistics</source>
+        <translation>Kullanıcı istatistikleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="99"/>
+        <source>Cache statistics</source>
+        <translation>Önbellek istatistikleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="105"/>
+        <source>Read cache hits:</source>
+        <translation>Okuma önbelleği yoklaması:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="184"/>
+        <source>Average time in queue:</source>
+        <translation>Kuyruktaki ortalama süre:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="82"/>
+        <source>Connected peers:</source>
+        <translation>Bağlı kişi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="54"/>
+        <source>All-time share ratio:</source>
+        <translation>Tüm zaman paylaşma oranı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="40"/>
+        <source>All-time download:</source>
+        <translation>Tüm zaman indirilen:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="68"/>
+        <source>Session waste:</source>
+        <translation>Oturum israfı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="26"/>
+        <source>All-time upload:</source>
+        <translation>Tüm zaman gönderilen:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="119"/>
+        <source>Total buffer size:</source>
+        <translation>Toplam arabellek boyutu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="136"/>
+        <source>Performance statistics</source>
+        <translation>Performans istatistikleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="170"/>
+        <source>Queued I/O jobs:</source>
+        <translation>Kuyruğa alınmış G/Ç işi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="142"/>
+        <source>Write cache overload:</source>
+        <translation>Yazma önbelleği aşırı yükü:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="156"/>
+        <source>Read cache overload:</source>
+        <translation>Okuma önbelleği aşırı yükü:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="198"/>
+        <source>Total queued size:</source>
+        <translation>Toplam kuyruğa alınmış boyut:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.cpp" line="112"/>
+        <source>%1 ms</source>
+        <comment>18 milliseconds</comment>
+        <translation>%1 ms</translation>
+    </message>
+</context>
+<context>
+    <name>StatusBar</name>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="81"/>
+        <source>Connection status:</source>
+        <translation>Bağlantı durumu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="82"/>
+        <location filename="../gui/statusbar.cpp" line="217"/>
+        <source>No direct connections. This may indicate network configuration problems.</source>
+        <translation>Doğrudan bağlantılar yok. Bu, ağ yapılandırma sorunlarını gösterebilir.</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="103"/>
+        <source>Free space: N/A</source>
+        <translation>Boş alan: Yok</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="107"/>
+        <location filename="../gui/statusbar.cpp" line="254"/>
+        <source>External IP: N/A</source>
+        <translation>Dış IP: Yok</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="111"/>
+        <location filename="../gui/statusbar.cpp" line="229"/>
+        <source>DHT: %1 nodes</source>
+        <translation>DHT: %1 düğüm</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="182"/>
+        <source>qBittorrent needs to be restarted!</source>
+        <translation>qBittorrent&apos;in yeniden başlatılması gerek!</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="202"/>
+        <location filename="../gui/statusbar.cpp" line="211"/>
+        <location filename="../gui/statusbar.cpp" line="217"/>
+        <source>Connection Status:</source>
+        <translation>Bağlantı Durumu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="202"/>
+        <source>Offline. This usually means that qBittorrent failed to listen on the selected port for incoming connections.</source>
+        <translation>Çevrimdışı. Bu genellikle qBittorrent&apos;in gelen bağlantılar için seçilen bağlantı noktasını dinlemede başarısız olduğu anlamına gelir.</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="211"/>
+        <source>Online</source>
+        <translation>Çevrimiçi</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="240"/>
+        <source>Free space: </source>
+        <translation>Boş alan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="260"/>
+        <source>External IPs: %1, %2</source>
+        <translation>Dış IP&apos;ler: %1, %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="262"/>
+        <source>External IP: %1%2</source>
+        <translation>Dış IP: %1%2</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="312"/>
+        <source>Click to switch to alternative speed limits</source>
+        <translation>Alternatif hız sınırlarını değiştirmek için tıklayın</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="306"/>
+        <source>Click to switch to regular speed limits</source>
+        <translation>Düzenli hız sınırlarını değiştirmek için tıklayın</translation>
+    </message>
+</context>
+<context>
+    <name>StatusFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="47"/>
+        <source>All (0)</source>
+        <comment>this is for the status filter</comment>
+        <translation>Tümü (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="50"/>
+        <source>Downloading (0)</source>
+        <translation>İndiriliyor (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="53"/>
+        <source>Seeding (0)</source>
+        <translation>Gönderiliyor (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="56"/>
+        <source>Completed (0)</source>
+        <translation>Tamamlandı (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="59"/>
+        <source>Running (0)</source>
+        <translation>Çalışıyor (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="62"/>
+        <source>Stopped (0)</source>
+        <translation>Durduruldu (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="65"/>
+        <source>Active (0)</source>
+        <translation>Etkin (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="68"/>
+        <source>Inactive (0)</source>
+        <translation>Etkin Değil (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="71"/>
+        <source>Stalled (0)</source>
+        <translation>Durdu (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="74"/>
+        <source>Stalled Uploading (0)</source>
+        <translation>Duran Gönderme (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="77"/>
+        <source>Stalled Downloading (0)</source>
+        <translation>Duran İndirme (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="80"/>
+        <source>Checking (0)</source>
+        <translation>Denetleniyor (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="83"/>
+        <source>Moving (0)</source>
+        <translation>Taşınıyor (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="86"/>
+        <source>Errored (0)</source>
+        <translation>Hata Oldu (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="164"/>
+        <source>All (%1)</source>
+        <translation>Tümü (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="165"/>
+        <source>Downloading (%1)</source>
+        <translation>İndiriliyor (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="166"/>
+        <source>Seeding (%1)</source>
+        <translation>Gönderiliyor (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="167"/>
+        <source>Completed (%1)</source>
+        <translation>Tamamlandı (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="168"/>
+        <source>Running (%1)</source>
+        <translation>Çalışıyor (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="169"/>
+        <source>Stopped (%1)</source>
+        <translation>Durduruldu (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="219"/>
+        <source>Start torrents</source>
+        <translation>Torrent&apos;leri başlat</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="221"/>
+        <source>Stop torrents</source>
+        <translation>Torrent&apos;leri durdur</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="176"/>
+        <source>Moving (%1)</source>
+        <translation>Taşınıyor (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="223"/>
+        <source>Remove torrents</source>
+        <translation>Torrent&apos;leri kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="170"/>
+        <source>Active (%1)</source>
+        <translation>Etkin (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="171"/>
+        <source>Inactive (%1)</source>
+        <translation>Etkin Değil (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="172"/>
+        <source>Stalled (%1)</source>
+        <translation>Durdu (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="173"/>
+        <source>Stalled Uploading (%1)</source>
+        <translation>Duran Gönderme (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="174"/>
+        <source>Stalled Downloading (%1)</source>
+        <translation>Duran İndirme (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="175"/>
+        <source>Checking (%1)</source>
+        <translation>Denetleniyor (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="177"/>
+        <source>Errored (%1)</source>
+        <translation>Hata Oldu (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>TagFilterModel</name>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfiltermodel.cpp" line="146"/>
+        <source>Tags</source>
+        <translation>Etiketler</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfiltermodel.cpp" line="114"/>
+        <source>All</source>
+        <translation>Tümü</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfiltermodel.cpp" line="116"/>
+        <source>Untagged</source>
+        <translation>Etiketlenmemiş</translation>
+    </message>
+</context>
+<context>
+    <name>TagFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="107"/>
+        <source>Add tag...</source>
+        <translation>Etiket ekle...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="113"/>
+        <source>Remove tag</source>
+        <translation>Etiketi kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="117"/>
+        <source>Remove unused tags</source>
+        <translation>Kullanılmayan etiketleri kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="124"/>
+        <source>Remove torrents</source>
+        <translation>Torrent&apos;leri kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="120"/>
+        <source>Start torrents</source>
+        <translation>Torrent&apos;leri başlat</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="122"/>
+        <source>Stop torrents</source>
+        <translation>Torrent&apos;leri durdur</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="167"/>
+        <source>Tag:</source>
+        <translation>Etiket:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="167"/>
+        <source>Add tag</source>
+        <translation>Etiket ekle</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="174"/>
+        <source>Invalid tag name</source>
+        <translation>Geçersiz etiket adı</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="175"/>
+        <source>Tag name &apos;%1&apos; is invalid</source>
+        <translation>Etiket adı &apos;%1&apos; geçersiz</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="191"/>
+        <source>Tag exists</source>
+        <translation>Etiket var</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/tagfilterwidget.cpp" line="191"/>
+        <source>Tag name already exists.</source>
+        <translation>Etiket adı zaten var.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentCategoryDialog</name>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="14"/>
+        <source>Torrent Category Properties</source>
+        <translation>Torrent Kategorisi Özellikleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="35"/>
+        <source>Name:</source>
+        <translation>Ad:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="64"/>
+        <source>Save path for incomplete torrents:</source>
+        <translation>Tamamlanmamış torrent&apos;ler için kaydetme yolu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="72"/>
+        <source>Use another path for incomplete torrents:</source>
+        <translation>Tamamlanmamış torrent&apos;ler için başka bir yol kullan:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="83"/>
+        <source>Default</source>
+        <translation>Varsayılan</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="88"/>
+        <source>Yes</source>
+        <translation>Evet</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="93"/>
+        <source>No</source>
+        <translation>Hayır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="124"/>
+        <source>Path:</source>
+        <translation>Yol:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="146"/>
+        <source>Torrent share limits</source>
+        <translation>Torrent paylaşma sınırları</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.ui" line="45"/>
+        <source>Save path:</source>
+        <translation>Kaydetme yolu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="46"/>
+        <source>Choose save path</source>
+        <translation>Kaydetme yolunu seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="49"/>
+        <source>Choose download path</source>
+        <translation>İndirme yolunu seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="84"/>
+        <source>New Category</source>
+        <translation>Yeni Kategori</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="94"/>
+        <source>Invalid category name</source>
+        <translation>Geçersiz kategori adı</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="95"/>
+        <source>Category name cannot contain &apos;\&apos;.
+Category name cannot start/end with &apos;/&apos;.
+Category name cannot contain &apos;//&apos; sequence.</source>
+        <translation>Kategori adı &apos;\&apos; içeremez.
+Kategori adı &apos;/&apos; ile başlayamaz/bitemez.
+Kategori adı &apos;//&apos; şeklinde dizi içeremez.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="102"/>
+        <source>Category creation error</source>
+        <translation>Kategori oluşturma hatası</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcategorydialog.cpp" line="103"/>
+        <source>Category with the given name already exists.
+Please choose a different name and try again.</source>
+        <translation>Verilen isimde kategori zaten var.
+Lütfen farklı bir isim seçin ve tekrar deneyin.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentContentItemDelegate</name>
+    <message>
+        <location filename="../gui/torrentcontentitemdelegate.cpp" line="79"/>
+        <source>Do not download</source>
+        <comment>Do not download (priority)</comment>
+        <translation>İndirme yapma</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentitemdelegate.cpp" line="80"/>
+        <source>Normal</source>
+        <comment>Normal (priority)</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentitemdelegate.cpp" line="81"/>
+        <source>High</source>
+        <comment>High (priority)</comment>
+        <translation>Yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentitemdelegate.cpp" line="82"/>
+        <source>Maximum</source>
+        <comment>Maximum (priority)</comment>
+        <translation>En yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentitemdelegate.cpp" line="88"/>
+        <source>Mixed</source>
+        <comment>Mixed (priorities)</comment>
+        <translation>Karışık</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentContentModel</name>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Name</source>
+        <translation>Ad</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Progress</source>
+        <translation>İlerleme</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Download Priority</source>
+        <translation>İndirme Önceliği</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Remaining</source>
+        <translation>Kalan</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Availability</source>
+        <translation>Kullanılabilirlik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="169"/>
+        <source>Total Size</source>
+        <translation>Toplam Boyut</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodel.cpp" line="308"/>
+        <source>The name is invalid: &quot;%1&quot;</source>
+        <translation>Ad geçersiz: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentContentModelItem</name>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="113"/>
+        <source>Mixed</source>
+        <comment>Mixed (priorities</comment>
+        <translation>Karışık</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="115"/>
+        <source>Do not download</source>
+        <comment>Do not download (priority)</comment>
+        <translation>İndirme yapma</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="117"/>
+        <source>High</source>
+        <comment>High (priority)</comment>
+        <translation>Yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="119"/>
+        <source>Maximum</source>
+        <comment>Maximum (priority)</comment>
+        <translation>En yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="121"/>
+        <source>Normal</source>
+        <comment>Normal (priority)</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentmodelitem.cpp" line="135"/>
+        <source>N/A</source>
+        <translation>Yok</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentContentWidget</name>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="87"/>
+        <source>Rename error</source>
+        <translation>Yeniden adlandırma hatası</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="287"/>
+        <source>Renaming</source>
+        <translation>Yeniden adlandırma</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="287"/>
+        <source>New name:</source>
+        <translation>Yeni adı:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="370"/>
+        <source>Column visibility</source>
+        <translation>Sütun görünürlüğü</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="393"/>
+        <source>Resize columns</source>
+        <translation>Sütunları yeniden boyutlandır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="403"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Gizli olmayan tüm sütunları içeriklerinin boyutuna göre yeniden boyutlandır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="423"/>
+        <source>Open</source>
+        <translation>Aç</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="425"/>
+        <source>Open containing folder</source>
+        <translation>İçeren klasörü aç</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="428"/>
+        <source>Rename...</source>
+        <translation>Yeniden adlandır...</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="432"/>
+        <source>Priority</source>
+        <translation>Öncelik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="434"/>
+        <location filename="../gui/torrentcontentwidget.cpp" line="455"/>
+        <source>Do not download</source>
+        <translation>İndirme yapma</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="438"/>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="442"/>
+        <source>High</source>
+        <translation>Yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="446"/>
+        <source>Maximum</source>
+        <translation>En yüksek</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="451"/>
+        <source>By shown file order</source>
+        <translation>Gösterilen dosya sırasına göre</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="459"/>
+        <source>Normal priority</source>
+        <translation>Normal öncelik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="463"/>
+        <source>High priority</source>
+        <translation>Yüksek öncelik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="467"/>
+        <source>Maximum priority</source>
+        <translation>En yüksek öncelik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="472"/>
+        <source>Priority by shown file order</source>
+        <translation>Gösterilen dosya sırasına göre öncelik</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentCreatorController</name>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="153"/>
+        <source>Too many active tasks</source>
+        <translation>Çok fazla etkin görev</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="240"/>
+        <source>Torrent creation is still unfinished.</source>
+        <translation>Torrent oluşturma hala tamamlanmadı.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="243"/>
+        <source>Torrent creation failed.</source>
+        <translation>Torrent oluşturma başarısız oldu.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentCreatorDialog</name>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="17"/>
+        <source>Torrent Creator</source>
+        <translation>Torrent Oluşturucu</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="56"/>
+        <source>Select file/folder to share</source>
+        <translation>Paylaşmak için dosya/klasör seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="64"/>
+        <source>Path:</source>
+        <translation>Yol:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="91"/>
+        <source>[Drag and drop area]</source>
+        <translation>[Sürükle ve bırak alanı]</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="101"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="179"/>
+        <source>Select file</source>
+        <translation>Dosya seç</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="108"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="171"/>
+        <source>Select folder</source>
+        <translation>Klasör seç</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="120"/>
+        <source>Settings</source>
+        <translation>Ayarlar</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="141"/>
+        <source>Torrent format:</source>
+        <translation>Torrent biçimi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="154"/>
+        <source>Hybrid</source>
+        <translation>Hibrit</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="185"/>
+        <source>Piece size:</source>
+        <translation>Parça boyutu:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="123"/>
+        <source>Auto</source>
+        <translation>Otomatik</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="202"/>
+        <source>Calculate number of pieces:</source>
+        <translation>Parçaların sayısını hesapla:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="231"/>
+        <source>Private torrent (Won&apos;t distribute on DHT network)</source>
+        <translation>Özel torrent (DHT ağında dağıtılmayacak)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="238"/>
+        <source>Start seeding immediately</source>
+        <translation>Gönderimi hemen başlat</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="248"/>
+        <source>Ignore share ratio limits for this torrent</source>
+        <translation>Bu torrent için paylaşma oranı sınırlarını yoksay</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="255"/>
+        <source>Optimize alignment</source>
+        <translation>Hizalamayı en iyi duruma getir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="266"/>
+        <source>Align to piece boundary for files larger than:</source>
+        <translation>Şundan daha büyük dosyaları parça sınırına hizala:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="273"/>
+        <source>Disabled</source>
+        <translation>Etkisizleştirildi</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="276"/>
+        <source> KiB</source>
+        <translation> KiB</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="313"/>
+        <source>Fields</source>
+        <translation>Alanlar</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="326"/>
+        <source>You can separate tracker tiers / groups with an empty line.</source>
+        <translation>İzleyici katmanlarını / gruplarını boş bir satırla ayırabilirsiniz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="339"/>
+        <source>Web seed URLs:</source>
+        <translation>Web gönderim URL&apos;leri:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="319"/>
+        <source>Tracker URLs:</source>
+        <translation>İzleyici URL&apos;leri:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="356"/>
+        <source>Comments:</source>
+        <translation>Açıklamalar:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="373"/>
+        <source>Source:</source>
+        <translation>Kaynak:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="392"/>
+        <source>Progress:</source>
+        <translation>İlerleme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="131"/>
+        <source>Create Torrent</source>
+        <translation>Torrent Oluştur</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="235"/>
+        <source>Calculating...</source>
+        <translation>Hesaplanıyor...</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="280"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="331"/>
+        <source>Torrent creation failed</source>
+        <translation>Torrent oluşturma başarısız oldu</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="280"/>
+        <source>Reason: Path to file/folder is not readable.</source>
+        <translation>Sebep: Dosya/klasör için yol okunabilir değil.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="286"/>
+        <source>Select where to save the new torrent</source>
+        <translation>Yeni torrent&apos;in kaydedileceği yeri seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="286"/>
+        <source>Torrent Files (*.torrent)</source>
+        <translation>Torrent Dosyaları (*.torrent)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="368"/>
+        <source>Add torrent to transfer list failed.</source>
+        <translation>Torrent&apos;i aktarım listesine ekleme başarısız oldu.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="368"/>
+        <source>Reason: &quot;%1&quot;</source>
+        <translation>Sebep: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="369"/>
+        <source>Add torrent failed</source>
+        <translation>Torrent ekleme başarısız oldu</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="340"/>
+        <source>Torrent creator</source>
+        <translation>Torrent oluşturucu</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="341"/>
+        <source>Torrent created:</source>
+        <translation>Torrent oluşturuldu:</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentFilesWatcher</name>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="169"/>
+        <source>Failed to load Watched Folders configuration. %1</source>
+        <translation>İzlenen Klasörler yapılandırmasını yükleme başarısız. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="177"/>
+        <source>Failed to parse Watched Folders configuration from %1. Error: &quot;%2&quot;</source>
+        <translation>%1 konumundan İzlenen Klasörler yapılandırmasını ayrıştırma başarısız. Hata: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="184"/>
+        <source>Failed to load Watched Folders configuration from %1. Error: &quot;Invalid data format.&quot;</source>
+        <translation>%1 konumundan İzlenen Klasörler yapılandırmasını yükleme başarısız. Hata: &quot;Geçersiz veri biçimi.&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="257"/>
+        <source>Couldn&apos;t store Watched Folders configuration to %1. Error: %2</source>
+        <translation>%1 konumuna İzlenen Klasörler yapılandırması depolanamadı. Hata: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="276"/>
+        <source>Watched folder Path cannot be empty.</source>
+        <translation>İzlenen klasör Yolu boş olamaz.</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="279"/>
+        <source>Watched folder Path cannot be relative.</source>
+        <translation>İzlenen klasör Yolu göreceli olamaz.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentFilesWatcher::Worker</name>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="412"/>
+        <source>Invalid Magnet URI. URI: %1. Reason: %2</source>
+        <translation>Geçersiz Magnet URI&apos;si. URI: %1. Sebep: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="420"/>
+        <source>Magnet file too big. File: %1</source>
+        <translation>Magnet dosyası çok büyük. Dosya: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="425"/>
+        <source>Failed to open magnet file: %1</source>
+        <translation>Magnet dosyasını açma başarısız: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="495"/>
+        <source>Rejecting failed torrent file: %1</source>
+        <translation>Başarısız olan torrent dosyası reddediliyor: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="534"/>
+        <source>Watching folder: &quot;%1&quot;</source>
+        <translation>İzlenen klasör: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentOptionsDialog</name>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="14"/>
+        <source>Torrent Options</source>
+        <translation>Torrent Seçenekleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="20"/>
+        <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
+        <translation>Otomatik kip, çeşitli torrent özelliklerine (örn. kaydetme yolu) ilişkilendirilmiş kategori tarafından karar verileceği anlamına gelir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="23"/>
+        <source>Automatic Torrent Management</source>
+        <translation>Otomatik Torrent Yönetimi</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="30"/>
+        <source>Save at</source>
+        <translation>Kaydetme yeri</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="39"/>
+        <source>Use another path for incomplete torrent</source>
+        <translation>Tamamlanmamış torrent için başka bir yol kullan</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="58"/>
+        <source>Category:</source>
+        <translation>Kategori:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="162"/>
+        <source>Torrent Share Limits</source>
+        <translation>Torrent Paylaşma Sınırları</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="122"/>
+        <source>Download:</source>
+        <translation>İndirme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="106"/>
+        <location filename="../gui/torrentoptionsdialog.ui" line="136"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="86"/>
+        <source>Torrent Speed Limits</source>
+        <translation>Torrent Hız Sınırları</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="109"/>
+        <location filename="../gui/torrentoptionsdialog.ui" line="139"/>
+        <source> KiB/s</source>
+        <translation> KiB/s</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="152"/>
+        <source>These will not exceed the global limits</source>
+        <translation>Bunlar genel sınırları aşmayacaktır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="92"/>
+        <source>Upload:</source>
+        <translation>Gönderme:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="176"/>
+        <source>Disable DHT for this torrent</source>
+        <translation>Bu torrent için DHT&apos;yi etkisizleştir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="183"/>
+        <source>Download in sequential order</source>
+        <translation>Sıralı düzende indir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="203"/>
+        <source>Disable PeX for this torrent</source>
+        <translation>Bu torrent için PeX&apos;i etkisizleştir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="210"/>
+        <source>Download first and last pieces first</source>
+        <translation>Önce ilk ve son parçaları indir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="217"/>
+        <source>Disable LSD for this torrent</source>
+        <translation>Bu torrent için LSD&apos;yi etkisizleştir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="65"/>
+        <source>Currently used categories</source>
+        <translation>Şu anda kullanılan kategoriler</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="75"/>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="77"/>
+        <source>Choose save path</source>
+        <translation>Kaydetme yolunu seçin</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="334"/>
+        <source>Not applicable to private torrents</source>
+        <translation>Özel torrent&apos;lere uygulanamaz</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentShareLimitsWidget</name>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="73"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="410"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="411"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="412"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="416"/>
+        <source>Default</source>
+        <translation>Varsayılan</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="87"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="92"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="97"/>
+        <source>Unlimited</source>
+        <translation>Sınırsız</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="88"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="93"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="98"/>
+        <source>Set to</source>
+        <translation>Şuna ayarla</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="42"/>
+        <source>Seeding time:</source>
+        <translation>Gönderim süresi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="55"/>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="81"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="244"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="259"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="368"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="373"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="392"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="397"/>
+        <source> min</source>
+        <extracomment>minutes</extracomment>
+        <translation> dak</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="68"/>
+        <source>Inactive seeding time:</source>
+        <translation>Etkin olmayan gönderim süresi:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="98"/>
+        <source>Action when the limit is reached:</source>
+        <translation>Sınıra ulaşıldığında yapılacak eylem:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="61"/>
+        <source>Stop torrent</source>
+        <translation>Torrent&apos;i durdur</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="64"/>
+        <source>Remove torrent</source>
+        <translation>Torrent&apos;i kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="67"/>
+        <source>Remove torrent and its content</source>
+        <translation>Torrent&apos;i ve içeriğini kaldır</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="70"/>
+        <source>Enable super seeding for torrent</source>
+        <translation>Torrent için süper gönderimi etkinleştir</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="417"/>
+        <source>Default (%1)</source>
+        <comment>Default (share limit action)</comment>
+        <translation>Varsayılan (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="421"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="422"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="423"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="427"/>
+        <source>From category</source>
+        <translation>Kategoriden</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="428"/>
+        <source>From category (%1)</source>
+        <comment>From category (share limit action)</comment>
+        <translation>Kategoriden (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="19"/>
+        <source>Ratio:</source>
+        <translation>Oran:</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentTagsDialog</name>
+    <message>
+        <location filename="../gui/torrenttagsdialog.ui" line="14"/>
+        <source>Torrent Tags</source>
+        <translation>Torrent Etiketleri</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="100"/>
+        <source>Add tag</source>
+        <translation>Etiket ekle</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="101"/>
+        <source>Tag:</source>
+        <translation>Etiket:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Invalid tag name</source>
+        <translation>Geçersiz etiket adı</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Tag name &apos;%1&apos; is invalid.</source>
+        <translation>Etiket adı &apos;%1&apos; geçersiz.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag exists</source>
+        <translation>Etiket var</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag name already exists.</source>
+        <translation>Etiket adı zaten var.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentsController</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1259"/>
+        <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
+        <translation>Hata: &apos;%1&apos; geçerli bir torrent dosyası değil.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="503"/>
+        <source>Priority must be an integer</source>
+        <translation>Öncelik bir tam sayı olmak zorundadır</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="505"/>
+        <source>Priority is not valid</source>
+        <translation>Öncelik geçerli değil</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1113"/>
+        <source>Cannot specify filePriorities when adding multiple torrents</source>
+        <translation>Birden çok torrent eklenirken filePriorities belirlenemiyor</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1115"/>
+        <source>Cannot specify filePriorities when uploading torrent files</source>
+        <translation>Torrent dosyaları gönderilirken filePriorities belirlenemiyor</translation>
+    <

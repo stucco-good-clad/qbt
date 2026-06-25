@@ -1,0 +1,2660 @@
+n>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1531"/>
+        <source>Delete this API key? The current key will immediately stop working.</source>
+        <translation> Видалити цей API-ключ? Поточний ключ негайно перестане працювати.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1863"/>
+        <source>%1 is recommended for best compatibility with Windows dark mode</source>
+        <comment>Fusion is recommended for best compatibility with Windows dark mode</comment>
+        <translation>%1 рекомендується для кращої сумісності з темним режимом Windows</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1870"/>
+        <source>System</source>
+        <comment>System default Qt style</comment>
+        <translation>Система</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1871"/>
+        <source>Let Qt decide the style for this system</source>
+        <translation>Хай Qt визначить стиль для цієї системи</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1888"/>
+        <source>Dark</source>
+        <comment>Dark color scheme</comment>
+        <translation>Темна тема</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1889"/>
+        <source>Light</source>
+        <comment>Light color scheme</comment>
+        <translation>Світла тема</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="1890"/>
+        <source>System</source>
+        <comment>System color scheme</comment>
+        <translation>Система</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2015"/>
+        <source>Select folder to monitor</source>
+        <translation>Виберіть теку для спостереження</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2037"/>
+        <source>Adding entry failed</source>
+        <translation>Не вдалося додати запис</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <source>The WebUI username must be at least 3 characters long.</source>
+        <translation>Ім&apos;я користувача WebUI повинно мати довжину не менше 3 символів.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>Character Error</source>
+        <translation>Помилка символу</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2142"/>
+        <source>The WebUI username must not contain a colon.</source>
+        <translation>Ім&apos;я користувача для веб-інтерфейсу не повинно містити двокрапку.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>The WebUI password must be at least 6 characters long.</source>
+        <translation>Пароль WebUI повинен мати довжину не менше 6 символів.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>Location Error</source>
+        <translation>Помилка розташування</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="647"/>
+        <location filename="../gui/optionsdialog.cpp" line="655"/>
+        <source>Choose export directory</source>
+        <translation>Виберіть каталог для експорту</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="613"/>
+        <source>When these options are enabled, qBittorrent will &lt;strong&gt;delete&lt;/strong&gt; .torrent files after they were successfully (the first option) or not (the second option) added to its download queue. This will be applied &lt;strong&gt;not only&lt;/strong&gt; to the files opened via &amp;ldquo;Add torrent&amp;rdquo; menu action but to those opened via &lt;strong&gt;file type association&lt;/strong&gt; as well</source>
+        <translation>Коли ці параметри увімкнено, qBittorrent &lt;strong&gt;видалить&lt;/strong&gt; файли .torrent після того як їх успішно (перший варіант) або неуспішно (другий варіант) додано до черги завантаження. Це буде застосовано &lt;strong&gt;не лише&lt;/strong&gt; до файлів відкритих через меню &amp;ldquo;Додати тооррент&amp;rdquo;, але також до тих, що відкриваються через &lt;strong&gt;асоціацію типів файлів&lt;/strong&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="268"/>
+        <source>qBittorrent UI Theme file (*.qbtheme config.json)</source>
+        <translation>Файл теми інтерфейсу користувача qBittorrent (*.qbtheme config.json)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="693"/>
+        <source>%G: Tags (separated by comma)</source>
+        <translation>%G: Мітки (розділені комами)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="700"/>
+        <source>%I: Info hash v1 (or &apos;-&apos; if unavailable)</source>
+        <translation>%I: інфо хеш v1 (або &apos;-&apos;, якщо він недоступний)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="701"/>
+        <source>%J: Info hash v2 (or &apos;-&apos; if unavailable)</source>
+        <translation>%J: інфо хеш v2 (або &apos;-&apos;, якщо він недоступний)</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="702"/>
+        <source>%K: Torrent ID (either sha-1 info hash for v1 torrent or truncated sha-256 info hash for v2/hybrid torrent)</source>
+        <translation>%K: Torrent ID (або sha-1 інфо хеш для торрента v1 або урізаний інфо хеш sha-256 для v2/гібридного торрента) </translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="361"/>
+        <location filename="../gui/optionsdialog.cpp" line="635"/>
+        <location filename="../gui/optionsdialog.cpp" line="640"/>
+        <source>Choose a save directory</source>
+        <translation>Виберіть каталог для збереження</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="585"/>
+        <source>Torrents that have metadata initially will be added as stopped.</source>
+        <translation>Торренти, які мають метадані, будуть додані як зупинені.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="937"/>
+        <source>Choose an IP filter file</source>
+        <translation>Виберіть файл IP-фільтра</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="939"/>
+        <source>All supported filters</source>
+        <translation>Всі підтримувані фільтри</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2159"/>
+        <source>The alternative WebUI files location cannot be blank.</source>
+        <translation>Альтернативне розташування файлів WebUI не може бути порожнім.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Parsing error</source>
+        <translation>Помилка розбору</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2196"/>
+        <source>Failed to parse the provided IP filter</source>
+        <translation>Не вдалося розібрати даний фільтр IP</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully refreshed</source>
+        <translation>Успішно оновлено</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2198"/>
+        <source>Successfully parsed the provided IP filter: %1 rules were applied.</source>
+        <comment>%1 is a number</comment>
+        <translation>Успішно розібрано наданий фільтр IP: застосовано %1 правил.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="167"/>
+        <source>Preferences</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>Time Error</source>
+        <translation>Помилка часу</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2207"/>
+        <source>The start time and the end time can&apos;t be the same.</source>
+        <translation>Час початку і кінця не може бути тим самим.</translation>
+    </message>
+    <message>
+        <location filename="../gui/optionsdialog.cpp" line="2137"/>
+        <location filename="../gui/optionsdialog.cpp" line="2149"/>
+        <source>Length Error</source>
+        <translation>Помилка довжини</translation>
+    </message>
+</context>
+<context>
+    <name>PeerInfo</name>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="226"/>
+        <source>Unknown</source>
+        <translation>Невідомий</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="303"/>
+        <source>Interested (local) and choked (peer)</source>
+        <translation>ми зацікавлені, пір відмовляється</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="308"/>
+        <source>Interested (local) and unchoked (peer)</source>
+        <translation>ми зацікавлені, пір погоджується (успішно завантажуємо)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="317"/>
+        <source>Interested (peer) and choked (local)</source>
+        <translation>пір зацікавлений, ми відмовляємось</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="322"/>
+        <source>Interested (peer) and unchoked (local)</source>
+        <translation>пір зацікавлений, ми погоджуємося (успішно відвантажуємо)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="328"/>
+        <source>Not interested (local) and unchoked (peer)</source>
+        <translation>ми незацікавлені, пір погоджується</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="332"/>
+        <source>Not interested (peer) and unchoked (local)</source>
+        <translation>пір незацікавлений, ми погоджуємося</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="336"/>
+        <source>Optimistic unchoke</source>
+        <translation>оптимістичний вибір</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="340"/>
+        <source>Peer snubbed</source>
+        <translation>пір зупинився</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="344"/>
+        <source>Incoming connection</source>
+        <translation>Вхідне з&apos;єднання</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="348"/>
+        <source>Peer from DHT</source>
+        <translation>Пір із DHT</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="352"/>
+        <source>Peer from PEX</source>
+        <translation>Пір із PEX</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="356"/>
+        <source>Peer from LSD</source>
+        <translation>Пір із LSD</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="360"/>
+        <source>Encrypted traffic</source>
+        <translation>Шифрований трафік</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="364"/>
+        <source>Encrypted handshake</source>
+        <translation>зашифроване рукостискання</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="372"/>
+        <source>Peer is using NAT hole punching</source>
+        <translation>Peer використовує пробивання отворів NAT</translation>
+    </message>
+</context>
+<context>
+    <name>PeerListWidget</name>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="114"/>
+        <source>Country/Region</source>
+        <translation>Країна/регіон</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="115"/>
+        <source>IP/Address</source>
+        <translation>IP/Адреса</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="116"/>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="117"/>
+        <source>Flags</source>
+        <translation>Властивості</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="118"/>
+        <source>Connection</source>
+        <translation>З&apos;єднання</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="119"/>
+        <source>Client</source>
+        <comment>i.e.: Client application</comment>
+        <translation>Клієнт</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="120"/>
+        <source>Peer ID Client</source>
+        <comment>i.e.: Client resolved from Peer ID</comment>
+        <translation>Peer ID Клієнт</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="121"/>
+        <source>Progress</source>
+        <comment>i.e: % downloaded</comment>
+        <translation>Прогрес</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="122"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Шв. завантаження</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="123"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Шв. відвантаження</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="124"/>
+        <source>Downloaded</source>
+        <comment>i.e: total data downloaded</comment>
+        <translation>Завантажено</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="125"/>
+        <source>Uploaded</source>
+        <comment>i.e: total data uploaded</comment>
+        <translation>Відвантажено</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="126"/>
+        <source>Relevance</source>
+        <comment>i.e: How relevant this peer is to us. How many pieces it has that we don&apos;t.</comment>
+        <translation>Доречність</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="127"/>
+        <source>Files</source>
+        <comment>i.e. files that are being downloaded right now</comment>
+        <translation>Файли</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="205"/>
+        <source>Column visibility</source>
+        <translation>Показані колонки</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="231"/>
+        <source>Resize columns</source>
+        <translation>Змінити розмір стовпців</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="240"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Змінити розмір усіх не прихованих стовпців до розміру їх вмісту</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="294"/>
+        <source>Add peers...</source>
+        <translation>Додати піри...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Adding peers</source>
+        <translation>Додавання пірів</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="303"/>
+        <source>Some peers cannot be added. Check the Log for details.</source>
+        <translation>Деякі піри не можуть бути додані. Дивіться журнал для отримання докладної інформації.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="305"/>
+        <source>Peers are added to this torrent.</source>
+        <translation>Піри додані до цього торрента.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="310"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="353"/>
+        <source>Ban peer permanently</source>
+        <translation>Заблокувати піра</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="321"/>
+        <source>Cannot add peers to a private torrent</source>
+        <translation>Неможливо додати піри до приватного торрента</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="323"/>
+        <source>Cannot add peers when the torrent is checking</source>
+        <translation>Неможливо додати піри, коли торрент перевіряється</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="325"/>
+        <source>Cannot add peers when the torrent is queued</source>
+        <translation>Неможливо додати піри, коли торрент стоїть у черзі</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="329"/>
+        <source>No peer was selected</source>
+        <translation>Не було вибрано жодного піра</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="354"/>
+        <source>Are you sure you want to permanently ban the selected peers?</source>
+        <translation>Ви впевнені, що хочете назавжди заблокувати виділених пірів?</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="360"/>
+        <source>Peer &quot;%1&quot; is manually banned</source>
+        <translation>Пір &quot;%1&quot; заблокований вручну</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="451"/>
+        <source>N/A</source>
+        <translation>—</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="307"/>
+        <source>Copy IP:port</source>
+        <translation>Копіювати IP:порт</translation>
+    </message>
+</context>
+<context>
+    <name>PeersAdditionDialog</name>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="14"/>
+        <source>Add Peers</source>
+        <translation>Додати пірів</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="20"/>
+        <source>List of peers to add (one IP per line):</source>
+        <translation>Список пірів, яких ви хочете додати (один IP на рядок):</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.ui" line="36"/>
+        <source>Format: IPv4:port / [IPv6]:port</source>
+        <translation>Формат: IPv4:порт / [IPv6]:порт</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="64"/>
+        <source>No peer entered</source>
+        <translation>Не введено піра</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="65"/>
+        <source>Please type at least one peer.</source>
+        <translation>Будь ласка, введіть хоча б одного піра.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="78"/>
+        <source>Invalid peer</source>
+        <translation>Хибний пір</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/peersadditiondialog.cpp" line="79"/>
+        <source>The peer &apos;%1&apos; is invalid.</source>
+        <translation>Пір &apos;%1&apos; хибний.</translation>
+    </message>
+</context>
+<context>
+    <name>PieceAvailabilityBar</name>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="175"/>
+        <source>Unavailable pieces</source>
+        <translation>Недоступні частини</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="176"/>
+        <source>Available pieces</source>
+        <translation>Доступні частини</translation>
+    </message>
+</context>
+<context>
+    <name>PiecesBar</name>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="291"/>
+        <source>Files in this piece:</source>
+        <translation>Файли в даній частині:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="293"/>
+        <source>File in this piece:</source>
+        <translation>Файл у цій частині:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="295"/>
+        <source>File in these pieces:</source>
+        <translation>Файл у таких частинах:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="314"/>
+        <source>Wait until metadata become available to see detailed information</source>
+        <translation>Для перегляду детальної інформації, зачекайте, поки метадані стануть доступними</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/piecesbar.cpp" line="316"/>
+        <source>Hold Shift key for detailed information</source>
+        <translation>Утримуйте клавішу Shift для перегляду розширеної інформації</translation>
+    </message>
+</context>
+<context>
+    <name>PluginSelectDialog</name>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="17"/>
+        <source>Search plugins</source>
+        <translation>Пошукові додатки</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="29"/>
+        <source>Installed search plugins:</source>
+        <translation>Встановлені пошукові додатки:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="52"/>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="57"/>
+        <source>Version</source>
+        <translation>Версія</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="62"/>
+        <source>Url</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="67"/>
+        <location filename="../gui/search/pluginselectdialog.ui" line="133"/>
+        <source>Enabled</source>
+        <translation>Увімкнено</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="80"/>
+        <source>Warning: Be sure to comply with your country&apos;s copyright laws when downloading torrents from any of these search engines.</source>
+        <translation>Попередження: Під час завантаження торрентів з будь-якої з цих пошукових систем, обов&apos;язково дотримуйтесь законів про захист авторських прав у вашій країні.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="95"/>
+        <source>You can get new search engine plugins here: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</source>
+        <translation>Ви можете отримати нові плагіни для пошукових систем тут: &lt;a href=&quot;https://plugins.qbittorrent.org&quot;&gt;https://plugins.qbittorrent.org&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="107"/>
+        <source>Install a new one</source>
+        <translation>Встановити новий</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="114"/>
+        <source>Check for updates</source>
+        <translation>Перевірити оновлення</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="121"/>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.ui" line="138"/>
+        <source>Uninstall</source>
+        <translation>Видалити</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="160"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="231"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="296"/>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="165"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="210"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="236"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="301"/>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Uninstall warning</source>
+        <translation>Попередження про видалення</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="216"/>
+        <source>Some plugins could not be uninstalled because they are included in qBittorrent. Only the ones you added yourself can be uninstalled.
+Those plugins were disabled.</source>
+        <translation>Деякі додатки не вдалось видалити, бо вони є частиною qBittorrent. Можна видалити лише ті додатки, які ви встановили власноруч.
+Ці додатки було вимкнено.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>Uninstall success</source>
+        <translation>Видалення успішне</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="218"/>
+        <source>All selected plugins were uninstalled successfully</source>
+        <translation>Всі вибрані додатки успішно видалено</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="448"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="495"/>
+        <source>Search plugin update</source>
+        <translation>Оновити пошуковий додаток</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="341"/>
+        <source>Plugins installed or updated: %1</source>
+        <translation>Встановлені або оновлені додатки: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="363"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="371"/>
+        <source>New search engine plugin URL</source>
+        <translation>Нова адреса пошукового додатка</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="364"/>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="372"/>
+        <source>URL:</source>
+        <translation>Адреса:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>Invalid link</source>
+        <translation>Хибне посилання</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="369"/>
+        <source>The link doesn&apos;t seem to point to a search engine plugin.</source>
+        <translation>Це посилання не вказує на пошуковий додаток.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="386"/>
+        <source>Select search plugins</source>
+        <translation>Вибрати пошукові додатки</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="387"/>
+        <source>qBittorrent search plugin</source>
+        <translation>Пошуковий додаток qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="448"/>
+        <source>All your plugins are already up to date.</source>
+        <translation>Всі ваші додатки свіжої версії.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="463"/>
+        <source>Sorry, couldn&apos;t check for plugin updates. %1</source>
+        <translation>Вибачте, не вдалося перевірити оновлення додатків. %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="477"/>
+        <source>Search plugin install</source>
+        <translation>Встановити пошуковий додаток</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="478"/>
+        <source>Couldn&apos;t install &quot;%1&quot; search engine plugin. %2</source>
+        <translation>Не вдалося встановити пошуковий додаток &quot;%1&quot;. %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginselectdialog.cpp" line="496"/>
+        <source>Couldn&apos;t update &quot;%1&quot; search engine plugin. %2</source>
+        <translation>Не вдалося оновити пошуковий додаток &quot;%1&quot;. %2</translation>
+    </message>
+</context>
+<context>
+    <name>PluginSourceDialog</name>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="14"/>
+        <source>Plugin source</source>
+        <translation>Джерело додатка</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="26"/>
+        <source>Search plugin source:</source>
+        <translation>Джерело пошукового додатка:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="35"/>
+        <source>Local file</source>
+        <translation>Локальний файл</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/pluginsourcedialog.ui" line="42"/>
+        <source>Web link</source>
+        <translation>Веб-посилання</translation>
+    </message>
+</context>
+<context>
+    <name>PreviewSelectDialog</name>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="65"/>
+        <source>The following files from torrent &quot;%1&quot; support previewing, please select one of them:</source>
+        <translation>Наступні файли з торрента &quot;%1&quot; підтримують попередній перегляд, будь ласка, виберіть один з них:</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="68"/>
+        <source>Preview</source>
+        <translation>Попередній перегляд</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="76"/>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="77"/>
+        <source>Size</source>
+        <translation>Розмір</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="78"/>
+        <source>Progress</source>
+        <translation>Перебіг</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="145"/>
+        <source>Preview impossible</source>
+        <translation>Попередній перегляд неможливий</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="146"/>
+        <source>Sorry, we can&apos;t preview this file: &quot;%1&quot;.</source>
+        <translation>Вибачте, попередній перегляд цього файла неможливий: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="162"/>
+        <source>Resize columns</source>
+        <translation>Змінити розмір стовпців</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.cpp" line="170"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Змінити розмір усіх не прихованих стовпців до розміру їх вмісту</translation>
+    </message>
+    <message>
+        <location filename="../gui/previewselectdialog.ui" line="14"/>
+        <source>Preview selection</source>
+        <translation>Вибір перегляду</translation>
+    </message>
+</context>
+<context>
+    <name>Private::FileLineEdit</name>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="305"/>
+        <source>Path does not exist</source>
+        <translation>Шляху не існує</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="307"/>
+        <source>Path does not point to a directory</source>
+        <translation>Шлях не вказує на каталог</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="309"/>
+        <source>Path does not point to a file</source>
+        <translation>Шлях не вказує на файл</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="311"/>
+        <source>Don&apos;t have read permission to path</source>
+        <translation>Немає дозволу на читання шляху</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit_p.cpp" line="313"/>
+        <source>Don&apos;t have write permission to path</source>
+        <translation>Немає дозволу на запис до шляху</translation>
+    </message>
+</context>
+<context>
+    <name>ProgramUpdater</name>
+    <message>
+        <location filename="../gui/programupdater.cpp" line="127"/>
+        <location filename="../gui/programupdater.cpp" line="199"/>
+        <source>Failed to download the program update info. URL: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation> Не вдалося завантажити інформацію про оновлення програми. URL: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>PropTabBar</name>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="50"/>
+        <source>General</source>
+        <translation>Загальні</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="59"/>
+        <source>Trackers</source>
+        <translation>Трекери</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="68"/>
+        <source>Peers</source>
+        <translation>Піри</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="77"/>
+        <source>HTTP Sources</source>
+        <translation>Джерела HTTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="86"/>
+        <source>Content</source>
+        <translation>Вміст</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/proptabbar.cpp" line="97"/>
+        <source>Speed</source>
+        <translation>Швидкість</translation>
+    </message>
+</context>
+<context>
+    <name>PropertiesWidget</name>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="262"/>
+        <source>Downloaded:</source>
+        <translation>Завантажено:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="117"/>
+        <source>Availability:</source>
+        <translation>Доступно:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="81"/>
+        <source>Progress:</source>
+        <translation>Прогрес:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="157"/>
+        <source>Transfer</source>
+        <translation>Передача</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="175"/>
+        <source>Time Active:</source>
+        <extracomment>Time (duration) the torrent is active (not stopped)</extracomment>
+        <translation>Активний протягом:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="204"/>
+        <source>ETA:</source>
+        <translation>Залишилось:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="291"/>
+        <source>Uploaded:</source>
+        <translation>Відвантажено:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="320"/>
+        <source>Seeds:</source>
+        <translation>Сіди:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="349"/>
+        <source>Download Speed:</source>
+        <translation>Швидкість завантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="378"/>
+        <source>Upload Speed:</source>
+        <translation>Швидкість відвантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="407"/>
+        <source>Peers:</source>
+        <translation>Піри:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="436"/>
+        <source>Download Limit:</source>
+        <translation>Обмеження завантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="465"/>
+        <source>Upload Limit:</source>
+        <translation>Обмеження відвантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="494"/>
+        <source>Wasted:</source>
+        <translation>Змарновано:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="233"/>
+        <source>Connections:</source>
+        <translation>З&apos;єднання:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="642"/>
+        <source>Information</source>
+        <translation>Інформація</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="866"/>
+        <source>Info Hash v1:</source>
+        <translation>Інфо-хеш v1:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="898"/>
+        <source>Info Hash v2:</source>
+        <translation>Інфо-хеш v2:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="965"/>
+        <source>Comment:</source>
+        <translation>Коментар:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="1125"/>
+        <source>Select All</source>
+        <translation>Вибрати все</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="1132"/>
+        <source>Select None</source>
+        <translation>Зняти виділення</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="523"/>
+        <source>Share Ratio:</source>
+        <translation>Коефіцієнт роздачі:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="552"/>
+        <source>Reannounce In:</source>
+        <translation>Повторне анонсування через:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="581"/>
+        <source>Last Seen Complete:</source>
+        <translation>Востаннє завершений:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="610"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="629"/>
+        <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
+        <translation>Співвідношення / Час активності (у місяцях), вказує на популярність торрента</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="613"/>
+        <source>Popularity:</source>
+        <translation>Популярність:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="660"/>
+        <source>Total Size:</source>
+        <translation>Загальний розмір:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="689"/>
+        <source>Pieces:</source>
+        <translation>Частин:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="718"/>
+        <source>Created By:</source>
+        <translation>Автор:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="747"/>
+        <source>Added On:</source>
+        <translation>Додано:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="776"/>
+        <source>Completed On:</source>
+        <translation>Завершено:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="805"/>
+        <source>Created On:</source>
+        <translation>Створено:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="834"/>
+        <source>Private:</source>
+        <translation>Приватний:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.ui" line="930"/>
+        <source>Save Path:</source>
+        <translation>Шлях збереження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="468"/>
+        <source>Never</source>
+        <translation>Ніколи</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="476"/>
+        <source>%1 x %2 (have %3)</source>
+        <comment>(torrent pieces) eg 152 x 4MB (have 25)</comment>
+        <translation>%1 × %2 (є %3)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="411"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="414"/>
+        <source>%1 (%2 this session)</source>
+        <translation>%1 (%2 цього сеансу)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="326"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="327"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="346"/>
+        <source>N/A</source>
+        <translation>—</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="342"/>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="342"/>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="424"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (роздавався %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="434"/>
+        <source>%1 (%2 max)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 max)</comment>
+        <translation>%1 (макс. %2)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="450"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="454"/>
+        <source>%1 (%2 total)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 total)</comment>
+        <translation>%1 (%2 загалом)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="460"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="465"/>
+        <source>%1 (%2 avg.)</source>
+        <comment>%1 and %2 are speed rates, e.g. 200KiB/s (100KiB/s avg.)</comment>
+        <translation>%1 (%2 середн.)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="620"/>
+        <source>Add web seed</source>
+        <comment>Add HTTP source</comment>
+        <translation>Додайте веб seed</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="621"/>
+        <source>Add web seed:</source>
+        <translation>Додайте веб seed</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="627"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="680"/>
+        <source>This web seed is already in the list.</source>
+        <translation>Це веб seed вже в списку.</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="82"/>
+        <source>Filter files...</source>
+        <translation>Фільтрувати файли...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="558"/>
+        <source>Add web seed...</source>
+        <translation>Додайте веб seed...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="562"/>
+        <source>Remove web seed</source>
+        <translation>Видаліть веб seed</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="565"/>
+        <source>Copy web seed URL</source>
+        <translation>Скопіюйте URL -адресу веб seed</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="567"/>
+        <source>Edit web seed URL...</source>
+        <translation>Редагувати URL -адресу веб seed ...</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
+        <source>Speed graphs are disabled</source>
+        <translation>Графіки швидкості вимкнені</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="607"/>
+        <source>You can enable it in Advanced Options</source>
+        <translation>Ви можете увімкнути їх в додаткових параметрах</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="672"/>
+        <source>Web seed editing</source>
+        <translation>Редагування Веб-сіда</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="673"/>
+        <source>Web seed URL:</source>
+        <translation>Адреса Веб-сіда:</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::AutoDownloader</name>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="80"/>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="88"/>
+        <source>Invalid data format.</source>
+        <translation>Хибний формат даних.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="123"/>
+        <source>Couldn&apos;t save RSS AutoDownloader data in %1. Error: %2</source>
+        <translation>Не вдалося зберегти дані Автозавантажувача RSS з %1. Помилка: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="307"/>
+        <source>Invalid data format</source>
+        <translation>Хибний формат даних</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="490"/>
+        <source>RSS article &apos;%1&apos; is accepted by rule &apos;%2&apos;. Trying to add torrent...</source>
+        <translation>RSS-стаття &apos;%1&apos; прийнята правилом &apos;%2&apos;. Спроба додати торрент.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="526"/>
+        <source>Failed to read RSS AutoDownloader rules. %1</source>
+        <translation>Не вдалося прочитати правила Автозавантажувача RSS. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_autodownloader.cpp" line="544"/>
+        <source>Couldn&apos;t load RSS AutoDownloader rules. Reason: %1</source>
+        <translation>Не вдалося завантажити правила Автозавантажувача RSS. Причина: %1</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Feed</name>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="247"/>
+        <source>Failed to download RSS feed at &apos;%1&apos;. Reason: %2</source>
+        <translation>Не вдалося завантажити RSS-канал з &apos;%1&apos;. Причина: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="283"/>
+        <source>RSS feed at &apos;%1&apos; updated. Added %2 new articles.</source>
+        <translation>RSS-канал з &apos;%1&apos; оновлено. Додано %2 нових статей.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="280"/>
+        <source>Failed to parse RSS feed at &apos;%1&apos;. Reason: %2</source>
+        <translation>Не вдалося розібрати RSS-канал з &apos;%1&apos;. Причина: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_feed.cpp" line="234"/>
+        <source>RSS feed at &apos;%1&apos; is successfully downloaded. Starting to parse it.</source>
+        <translation>RSS-канал з &apos;%1&apos; успішно завантажений. Почався його розбір.</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Private::FeedSerializer</name>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="57"/>
+        <source>Failed to read RSS session data. %1</source>
+        <translation>Не вдалося прочитати дані сеансу RSS. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="79"/>
+        <source>Failed to save RSS feed in &apos;%1&apos;, Reason: %2</source>
+        <translation>Не вдалося зберегти канал RSS у «%1», причина: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="90"/>
+        <source>Couldn&apos;t parse RSS Session data. Error: %1</source>
+        <translation>Не вдалося проаналізувати дані сеансу RSS. Помилка: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="97"/>
+        <source>Couldn&apos;t load RSS Session data. Invalid data format.</source>
+        <translation>Не вдалося завантажити дані сеансу RSS. Недійсний формат даних.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/feed_serializer.cpp" line="109"/>
+        <source>Couldn&apos;t load RSS article &apos;%1#%2&apos;. Invalid data format.</source>
+        <translation>Не вдалося завантажити статтю RSS &quot;%1#%2&quot;. Недійсний формат даних.</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Private::Parser</name>
+    <message>
+        <location filename="../base/rss/rss_parser.cpp" line="594"/>
+        <source>Invalid RSS feed.</source>
+        <translation>Некоректна RSS подача.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_parser.cpp" line="588"/>
+        <source>%1 (line: %2, column: %3, offset: %4).</source>
+        <translation>%1 (рядок: %2, стовпець: %3, зсув: %4).</translation>
+    </message>
+</context>
+<context>
+    <name>RSS::Session</name>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="79"/>
+        <source>Couldn&apos;t save RSS session configuration. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося зберегти конфігурацію сесії RSS подачі. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="88"/>
+        <source>Couldn&apos;t save RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося зберегти данні сесії RSS подачі. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="156"/>
+        <location filename="../base/rss/rss_session.cpp" line="189"/>
+        <source>RSS feed with given URL already exists: %1.</source>
+        <translation>RSS канал за адресою вже присутній: %1. </translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="176"/>
+        <source>Feed doesn&apos;t exist: %1.</source>
+        <translation>Канал не існує: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="203"/>
+        <source>Cannot move root folder.</source>
+        <translation>Не вдалося перемістити кореневу теку</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="207"/>
+        <location filename="../base/rss/rss_session.cpp" line="250"/>
+        <source>Item doesn&apos;t exist: %1.</source>
+        <translation>Елемент не існує: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="223"/>
+        <source>Can&apos;t move a folder into itself or its subfolders.</source>
+        <translation>Неможливо перемістити теку в саму теку або її підтеки.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="246"/>
+        <source>Cannot delete root folder.</source>
+        <translation>Не вдалося видалити кореневу теку.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="287"/>
+        <source>Failed to read RSS session data. %1</source>
+        <translation>Не вдалося прочитати дані сеансу RSS. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="295"/>
+        <source>Failed to parse RSS session data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося розібрати дані сеансу RSS. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="302"/>
+        <source>Failed to load RSS session data. File: &quot;%1&quot;. Error: &quot;Invalid data format.&quot;</source>
+        <translation>Не вдалося завантажити дані сеансу RSS. Файл: &quot;%1&quot;. Помилка: &quot;Неправильний формат даних&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="333"/>
+        <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: URL is required.</source>
+        <translation>Не вдалося завантажити RSS-канал &quot;%1&quot;. Канал: &quot;%1&quot;. Причина: Потрібна адреса.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="344"/>
+        <source>Couldn&apos;t load RSS feed. Feed: &quot;%1&quot;. Reason: UID is invalid.</source>
+        <translation>Не вдалося завантажити RSS-канал &quot;%1&quot;. Канал: &quot;%1&quot;. Причина: Хибний UID.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="351"/>
+        <source>Duplicate RSS feed found. UID: &quot;%1&quot;. Error: Configuration seems to be corrupted.</source>
+        <translation>Повторна RSS роздача знайдена. UID: &quot;%1&quot;. Помилка: Конфігурація схоже пошкоджена.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="375"/>
+        <source>Couldn&apos;t load RSS item. Item: &quot;%1&quot;. Invalid data format.</source>
+        <translation>Не вдалося завантажити елемент RSS. Елемент: &quot;%1&quot;. Хибний формат даних.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="389"/>
+        <source>Corrupted RSS list, not loading it.</source>
+        <translation>Пошкоджений список RSS подач, не завантажую його.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="410"/>
+        <source>Failed to add RSS folder item. Reason: &quot;%1&quot;</source>
+        <translation>Не вдалося додати елемент теки RSS. Причина: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="417"/>
+        <source>Failed to add RSS feed item. Reason: &quot;%1&quot;</source>
+        <translation> Не вдалося додати елемент стрічки RSS. Причина: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="431"/>
+        <source>Incorrect RSS Item path: %1.</source>
+        <translation>Некоректний шлях елемента RSS: %1.</translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="434"/>
+        <source>RSS item with given path already exists: %1.</source>
+        <translation>Запис RSS за даним шляхом вже присутній: %1. </translation>
+    </message>
+    <message>
+        <location filename="../base/rss/rss_session.cpp" line="439"/>
+        <source>Parent folder doesn&apos;t exist: %1.</source>
+        <translation>Батьківська тека не існує: %1.</translation>
+    </message>
+</context>
+<context>
+    <name>RSSController</name>
+    <message>
+        <location filename="../webui/api/rsscontroller.cpp" line="94"/>
+        <source>Invalid &apos;refreshInterval&apos; value</source>
+        <translation>Неправильне значення &quot;refreshInterval&quot;</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/rsscontroller.cpp" line="99"/>
+        <source>Feed doesn&apos;t exist: %1.</source>
+        <translation>Канал не існує: %1.</translation>
+    </message>
+</context>
+<context>
+    <name>RSSFeedDialog</name>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="14"/>
+        <source>RSS Feed Options</source>
+        <translation>Параметри RSS-стрічки</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="22"/>
+        <source>URL:</source>
+        <translation>Адреса:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.ui" line="32"/>
+        <source>Refresh interval:</source>
+        <translation>Інтервал оновлення:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.cpp" line="43"/>
+        <source> sec</source>
+        <translation>сек</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rssfeeddialog.cpp" line="44"/>
+        <source>Default</source>
+        <translation>Типово</translation>
+    </message>
+</context>
+<context>
+    <name>RSSWidget</name>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="17"/>
+        <source>Search</source>
+        <translation>Пошук</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="31"/>
+        <source>Fetching of RSS feeds is disabled now! You can enable it in application settings.</source>
+        <translation>Завантаження RSS-подач зараз вимкнено! Ви можете увімкнути його у налаштуваннях програми.</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="43"/>
+        <source>New subscription</source>
+        <translation>Нова підписка</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="50"/>
+        <location filename="../gui/rss/rsswidget.ui" line="175"/>
+        <location filename="../gui/rss/rsswidget.ui" line="178"/>
+        <source>Mark items read</source>
+        <translation>Позначити як прочитане</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="57"/>
+        <source>Refresh RSS streams</source>
+        <translation>Оновити подачі RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="60"/>
+        <source>Update all</source>
+        <translation>Оновити всі</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="80"/>
+        <source>RSS Downloader...</source>
+        <translation>Завантажувач RSS...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="108"/>
+        <source>Torrents: (double-click to download)</source>
+        <translation>Торренти: (двічі клацніть щоб завантажити)</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="138"/>
+        <location filename="../gui/rss/rsswidget.ui" line="141"/>
+        <source>Delete</source>
+        <translation>Видалити</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="146"/>
+        <source>Rename...</source>
+        <translation>Перейменувати...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="149"/>
+        <source>Rename</source>
+        <translation>Перейменувати</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="154"/>
+        <location filename="../gui/rss/rsswidget.ui" line="157"/>
+        <source>Update</source>
+        <translation>Оновити</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="162"/>
+        <source>New subscription...</source>
+        <translation>Нова підписка...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="167"/>
+        <location filename="../gui/rss/rsswidget.ui" line="170"/>
+        <source>Update all feeds</source>
+        <translation>Оновити всі подачі</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="183"/>
+        <source>Download torrent</source>
+        <translation>Завантажити торрент</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="188"/>
+        <source>Open news URL</source>
+        <translation>Відкрити адресу новини</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="193"/>
+        <source>Copy feed URL</source>
+        <translation>Копіювати адресу подачі</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="198"/>
+        <source>New folder...</source>
+        <translation>Нова тека...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.ui" line="203"/>
+        <source>Feed options...</source>
+        <translation>Параметри стрічки...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="136"/>
+        <source>Filter feed items...</source>
+        <translation> Фільтрувати елементи стрічки…</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="289"/>
+        <source>Please choose a folder name</source>
+        <translation>Будь ласка, виберіть назву теки</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="289"/>
+        <source>Folder name:</source>
+        <translation>Назва теки:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="290"/>
+        <source>New folder</source>
+        <translation>Нова тека</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="383"/>
+        <source>Deletion confirmation</source>
+        <translation>Підтвердження видалення</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="383"/>
+        <source>Are you sure you want to delete the selected RSS feeds?</source>
+        <translation>Ви впевнені, що хочете видалити вибрані RSS-подачі?</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="470"/>
+        <source>Blocked opening RSS article URL. URL pointing to local file might be malicious behaviour. Article: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
+        <translation>Заблоковано відкриття URL-адреси RSS-статті. URL, що вказує на локальний файл, може бути шкідливим. Стаття: «%1». URL: «%2».</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="481"/>
+        <source>Blocked opening RSS article URL. The following article URL is pointing to local file and it may be malicious behaviour:
+%1</source>
+        <translation>Заблоковано відкриття адреси RSS-статті. Наступна адреса статті вказує на локальний файл який може бути шкідливим:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="483"/>
+        <location filename="../gui/rss/rsswidget.cpp" line="490"/>
+        <source>There are %1 more articles with the same issue.</source>
+        <translation>Є ще %1 стаття(ей) з такою ж проблемою.</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="488"/>
+        <source>The following article has no news URL provided:
+%1</source>
+        <translation>Наступна стаття не має адреси новини:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="510"/>
+        <source>Please choose a new name for this RSS feed</source>
+        <translation>Будь ласка, виберіть нову назву для цієї RSS-подачі</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="510"/>
+        <source>New feed name:</source>
+        <translation>Нова назва подачі:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="518"/>
+        <source>Rename failed</source>
+        <translation>Перейменування не вдалося</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="689"/>
+        <source>Date: </source>
+        <translation>Дата: </translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="691"/>
+        <source>Feed: </source>
+        <translation>канал:</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="693"/>
+        <source>Author: </source>
+        <translation>Автор: </translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/rsswidget.cpp" line="695"/>
+        <source>Open link</source>
+        <translation>Відкрити посилання</translation>
+    </message>
+</context>
+<context>
+    <name>SearchController</name>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="90"/>
+        <source>Python must be installed to use the Search Engine.</source>
+        <translation>Для використання пошуковика вимагається встановлений Python.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="113"/>
+        <source>Unable to create more than %1 concurrent searches.</source>
+        <translation>Не можна створити більше %1 одночасних пошуків.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="190"/>
+        <location filename="../webui/api/searchcontroller.cpp" line="196"/>
+        <source>Offset is out of range</source>
+        <translation>Зсув поза діапазоном</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="305"/>
+        <source>All plugins are already up to date.</source>
+        <translation>Всі додатки свіжої версії.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="309"/>
+        <source>Updating %1 plugins</source>
+        <translation>Оновлення %1 додатків</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="314"/>
+        <source>Updating plugin %1</source>
+        <translation>Оновлюється додаток %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/searchcontroller.cpp" line="323"/>
+        <source>Failed to check for plugin updates: %1</source>
+        <translation>Не вдалося перевірити оновлення додатку: %1</translation>
+    </message>
+</context>
+<context>
+    <name>SearchDownloadHandler</name>
+    <message>
+        <location filename="../base/search/searchdownloadhandler.cpp" line="72"/>
+        <source>Error occurred when downloading torrent via search engine. Engine: &quot;%1&quot;. URL: &quot;%2&quot;. Error: &quot;%3&quot;.</source>
+        <translation> Сталася помилка під час завантаження торрента через пошукову систему. Рушій: &quot;%1&quot;. URL: &quot;%2&quot;. Помилка: &quot;%3&quot;.</translation>
+    </message>
+</context>
+<context>
+    <name>SearchHandler</name>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="70"/>
+        <source>Process failed to start</source>
+        <translation> Не вдалося запустити процес</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="72"/>
+        <source>Process crashed</source>
+        <translation> Процес аварійно завершився</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="74"/>
+        <source>Process timed out</source>
+        <translation> Час очікування процесу вичерпано</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="76"/>
+        <source>Process write error</source>
+        <translation>Помилка запису процесу</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="78"/>
+        <source>Process read error</source>
+        <translation>Помилка читання процесу</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="80"/>
+        <source>Process unknown error</source>
+        <translation>Невідома помилка процесу</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="117"/>
+        <source>Search process failed. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
+        <translation>Пошук не вдався. Запит: «%1». Категорія: «%2». Пошукові системи: «%3». Помилка: «%4».</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchhandler.cpp" line="166"/>
+        <source>Error occurred in search engine. Search query: &quot;%1&quot;. Category: &quot;%2&quot;. Engines: &quot;%3&quot;. Error: &quot;%4&quot;.</source>
+        <translation>Сталася помилка в пошуковій системі. Запит: «%1». Категорія: «%2». Пошукові системи: «%3». Помилка: «%4».</translation>
+    </message>
+</context>
+<context>
+    <name>SearchJobWidget</name>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="19"/>
+        <source>Results(xxx)</source>
+        <translation>Результати(xxx)</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="39"/>
+        <source>Search in:</source>
+        <translation>Шукати в:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="46"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Some search engines search in torrent description and in torrent file names too. Whether such results will be shown in the list below is controlled by this mode.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Everywhere &lt;/span&gt;disables filtering and shows everything returned by the search engines.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Torrent names only&lt;/span&gt; shows only torrents whose names match the search query.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Деякі пошуковики шукають як в описі торрента, так і в назві торрент-файла. Цей режим визначає, чи будуть такі результати показані у списку нижче.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Всюди &lt;/span&gt;вимикає фільтрацію і показує все, що повертають пошуковики.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Лише назви торрентів&lt;/span&gt; показує лише торренти, назви яких збігаються з пошуковим запитом.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="69"/>
+        <source>Set minimum and maximum allowed number of seeders</source>
+        <translation>Встановити мінімум та максимум дозволеної кількості сідів</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="79"/>
+        <source>Minimum number of seeds</source>
+        <translation>Мінімальна кількість сідів</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="96"/>
+        <source>Maximum number of seeds</source>
+        <translation>Максимальна кількість сідів</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="125"/>
+        <source>Set minimum and maximum allowed size of a torrent</source>
+        <translation>Встановити мінімум та максимум дозволеного розміру торрента</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="137"/>
+        <source>Minimum torrent size</source>
+        <translation>Мінімальний розмір торренту</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="161"/>
+        <source>Maximum torrent size</source>
+        <translation>Максимальний розмір торренту</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="72"/>
+        <source>Seeds:</source>
+        <translation>Сіди:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="89"/>
+        <location filename="../gui/search/searchjobwidget.ui" line="152"/>
+        <source>to</source>
+        <translation>-</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="99"/>
+        <location filename="../gui/search/searchjobwidget.ui" line="164"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.ui" line="128"/>
+        <source>Size:</source>
+        <translation>Розмір:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="108"/>
+        <source>Name</source>
+        <comment>i.e: file name</comment>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="109"/>
+        <source>Size</source>
+        <comment>i.e: file size</comment>
+        <translation>Розмір</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="110"/>
+        <source>Seeders</source>
+        <comment>i.e: Number of full sources</comment>
+        <translation>Сідери</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="111"/>
+        <source>Leechers</source>
+        <comment>i.e: Number of partial sources</comment>
+        <translation>Лічери</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="169"/>
+        <source>Filter search results...</source>
+        <translation>Фільтрувати результати пошуку...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="350"/>
+        <source>Blocked opening search result description page URL. URL pointing to local file might be malicious behaviour. Name: &quot;%1&quot;. URL: &quot;%2&quot;.</source>
+        <translation>Заблоковано відкриття адреси сторінки опису результатів пошуку. URL, що вказує на локальний файл, який може бути шкідливим. Ім&apos;я: «%1». Адреса: «%2».</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="361"/>
+        <source>Blocked opening search result description page URL. The following result URL is pointing to local file and it may be malicious behaviour:
+%1</source>
+        <translation>Заблоковано відкриття адреси сторінки з описом результатів пошуку. Наступна адреса результату вказує на локальний файл, що може бути шкідливим:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="363"/>
+        <source>There are %1 more results with the same issue.</source>
+        <translation>Є ще 1% результат(-ів) з такою ж проблемою.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="368"/>
+        <source>Entry &quot;%1&quot; has no description page URL provided.</source>
+        <translation>Для запису «%1» не вказано адресу сторінки опису.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="370"/>
+        <source>There are %1 more entries with the same issue.</source>
+        <translation>Є ще 1% запис(-ів) з такою ж проблемою.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="451"/>
+        <source>Results (showing &lt;i&gt;%1&lt;/i&gt; out of &lt;i&gt;%2&lt;/i&gt;):</source>
+        <comment>i.e: Search results</comment>
+        <translation>Результати (показано &lt;i&gt;%1&lt;/i&gt; із &lt;i&gt;%2&lt;/i&gt;):</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="510"/>
+        <source>Torrent names only</source>
+        <translation>Лише назви торрентів</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="511"/>
+        <source>Everywhere</source>
+        <translation>Всюди</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="533"/>
+        <source>Use regular expressions</source>
+        <translation>Використовувати регулярні вирази</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="548"/>
+        <source>Open download window</source>
+        <translation>Відкрити вікно завантаження</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="550"/>
+        <source>Download</source>
+        <translation>Завантажити</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="552"/>
+        <source>Open description page</source>
+        <translation>Відкрити сторінку опису</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="556"/>
+        <source>Copy</source>
+        <translation>Копіювати</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="558"/>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="560"/>
+        <source>Download link</source>
+        <translation>Посилання для завантаження</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="562"/>
+        <source>Description page URL</source>
+        <translation>Адреса сторінки з описом</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="74"/>
+        <source>Searching...</source>
+        <translation>Шукаю...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="76"/>
+        <source>Search has finished</source>
+        <translation>Пошук закінчено</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="78"/>
+        <source>Search aborted</source>
+        <translation>Пошук скасовано</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="80"/>
+        <source>An error occurred during search...</source>
+        <translation>Під час пошуку сталася помилка...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="82"/>
+        <source>Search returned no results</source>
+        <translation>Пошук не дав результів</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="112"/>
+        <source>Engine</source>
+        <translation>Двигун</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="113"/>
+        <source>Engine URL</source>
+        <translation>URL-адреса двигуна</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="114"/>
+        <source>Published On</source>
+        <translation>Опубліковано</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="594"/>
+        <source>Column visibility</source>
+        <translation>Показані колонки</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="617"/>
+        <source>Resize columns</source>
+        <translation>Змінити розмір стовпців</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchjobwidget.cpp" line="626"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Змінити розмір усіх не прихованих стовпців до розміру їх вмісту</translation>
+    </message>
+</context>
+<context>
+    <name>SearchPluginManager</name>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="246"/>
+        <source>Unknown search engine plugin file format.</source>
+        <translation>Нова адреса пошукового додатка</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="257"/>
+        <source>Plugin already at version %1, which is greater than %2</source>
+        <translation>Плаґін уже має версію %1, що вище ніж %2</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="258"/>
+        <source>A more recent version of this plugin is already installed.</source>
+        <translation>Новіша версія цього пошукового додатка вже встановлена.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="282"/>
+        <source>Plugin %1 is not supported.</source>
+        <translation>Додаток %1 не підтримується.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="290"/>
+        <location filename="../base/search/searchpluginmanager.cpp" line="294"/>
+        <source>Plugin is not supported.</source>
+        <translation>Додаток не підтримується.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="302"/>
+        <source>Plugin %1 has been successfully updated.</source>
+        <translation>Додаток %1 успішно оновлено.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="376"/>
+        <source>All categories</source>
+        <translation>Всі категорії</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="380"/>
+        <source>Movies</source>
+        <translation>Фільми</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="384"/>
+        <source>TV shows</source>
+        <translation>Телешоу</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="381"/>
+        <source>Music</source>
+        <translation>Музика</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="379"/>
+        <source>Games</source>
+        <translation>Ігри</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="377"/>
+        <source>Anime</source>
+        <translation>Аніме</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="383"/>
+        <source>Software</source>
+        <translation>Програми</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="382"/>
+        <source>Pictures</source>
+        <translation>Зображення</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="378"/>
+        <source>Books</source>
+        <translation>Книги</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="484"/>
+        <source>Update server is temporarily unavailable. %1</source>
+        <translation>Сервер оновлень тимчасово недоступний. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="504"/>
+        <location filename="../base/search/searchpluginmanager.cpp" line="506"/>
+        <source>Failed to download the plugin file. %1</source>
+        <translation>Не вдалося завантажити файл додатка. %1</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="568"/>
+        <source>Error occurred when fetching search engine capabilities. Error: &quot;%1&quot;.</source>
+        <translation>Сталася помилка під час отримання даних про можливості пошукової системи. Помилка: «%1».</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="651"/>
+        <source>Plugin &quot;%1&quot; is outdated, updating to version %2</source>
+        <translation>Плаґін &quot;%1 &quot; застарів, оновлення до версії %2</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="658"/>
+        <source>Incorrect update info received for %1 out of %2 plugins.</source>
+        <translation>Отримано неправильну інформацію про оновлення для %1 з %2 плаґінів.</translation>
+    </message>
+    <message>
+        <location filename="../base/search/searchpluginmanager.cpp" line="700"/>
+        <source>Search plugin &apos;%1&apos; contains invalid version string (&apos;%2&apos;)</source>
+        <translation>Пошуковий додаток &apos;%1&apos; містить хибний рядок версії (&apos;%2&apos;)</translation>
+    </message>
+</context>
+<context>
+    <name>SearchWidget</name>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="14"/>
+        <location filename="../gui/search/searchwidget.ui" line="51"/>
+        <source>Search</source>
+        <translation>Пошук</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="86"/>
+        <source>There aren&apos;t any search plugins installed.
+Click the &quot;Search plugins...&quot; button at the bottom right of the window to install some.</source>
+        <translation>Не встановлено жодного пошукового додатку.
+Клацніть кнопку &quot;Шукати додатки...&quot; справа знизу, щоб встановити їх.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="142"/>
+        <source>Search plugins...</source>
+        <translation>Пошукові додатки...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="358"/>
+        <source>A phrase to search for.</source>
+        <translation>Пошукова фраза.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="359"/>
+        <source>Spaces in a search term may be protected by double quotes.</source>
+        <translation>Пробіли в пошуковій фразі можна захистити прямими подвійними лапками</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="361"/>
+        <source>Example:</source>
+        <comment>Search phrase example</comment>
+        <translation>Наприклад:</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="367"/>
+        <source>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: search for &lt;b&gt;foo bar&lt;/b&gt;</source>
+        <comment>Search phrase example, illustrates quotes usage, double quotedpair of space delimited words, the whole pair is highlighted</comment>
+        <translation>&lt;b&gt;&amp;quot;foo bar&amp;quot;&lt;/b&gt;: шукати &lt;b&gt;foo bar&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="592"/>
+        <source>All plugins</source>
+        <translation>Всі додатки</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="591"/>
+        <source>Only enabled</source>
+        <translation>Лише увімкнені</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="196"/>
+        <location filename="../gui/search/searchwidget.cpp" line="254"/>
+        <source>Invalid data format.</source>
+        <translation>Хибний формат даних.</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="363"/>
+        <source>&lt;b&gt;foo bar&lt;/b&gt;: search for &lt;b&gt;foo&lt;/b&gt; and &lt;b&gt;bar&lt;/b&gt;</source>
+        <comment>Search phrase example, illustrates quotes usage, a pair of space delimited words, individual words are highlighted</comment>
+        <translation>&lt;b&gt;foo bar&lt;/b&gt;: пошук для &lt;b&gt;foo&lt;/b&gt; і &lt;b&gt;bar&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="847"/>
+        <source>Close tab</source>
+        <translation>Закрити вкладку</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="848"/>
+        <source>Close all tabs</source>
+        <translation>Закрити усі вкладки</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="593"/>
+        <source>Select...</source>
+        <translation>Вибрати...</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="839"/>
+        <source>Refresh tab</source>
+        <translation>Оновити вкладку</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="843"/>
+        <source>Stop search</source>
+        <translation>Зупинити пошук</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="890"/>
+        <location filename="../gui/search/searchwidget.cpp" line="967"/>
+        <source>Search Engine</source>
+        <translation>Пошуковик</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="890"/>
+        <location filename="../gui/search/searchwidget.cpp" line="967"/>
+        <source>Please install Python to use the Search Engine.</source>
+        <translation>Будь ласка, встановіть Python, щоб використовувати Пошуковик</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="884"/>
+        <source>Empty search pattern</source>
+        <translation>Порожній шаблон пошуку</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="884"/>
+        <source>Please type a search pattern first</source>
+        <translation>Будь ласка, спочатку введіть шаблон пошуку</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.ui" line="58"/>
+        <source>Stop</source>
+        <translation>Зупинити</translation>
+    </message>
+</context>
+<context>
+    <name>SearchWidget::DataStorage</name>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="982"/>
+        <source>Failed to load Search UI saved state data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося завантажити пошук за збереженим UI даних. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1002"/>
+        <source>Failed to load saved search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
+        <translation>Не вдалося завантажити збережені результати пошуку. Вкладка: &quot;%1&quot;. Файл: &quot;%2&quot;. Помилка: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1034"/>
+        <source>Failed to save Search UI state. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося зберегти пошук стану UI. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1066"/>
+        <source>Failed to save search results. Tab: &quot;%1&quot;. File: &quot;%2&quot;. Error: &quot;%3&quot;</source>
+        <translation>Не вдалося зберегти результати пошуку. Вкладка: &quot;%1&quot;. Файл: &quot;%2&quot;. Помилка: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1082"/>
+        <source>Failed to load Search UI history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося завантажити пошук історії UI. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/search/searchwidget.cpp" line="1096"/>
+        <source>Failed to save search history. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Не вдалося зберегти історію пошуку. Файл: &quot;%1&quot;. Помилка: &quot;%2&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsStorage</name>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="147"/>
+        <source>Detected unclean program exit. Using fallback file to restore settings: %1</source>
+        <translation>Виявлено аварійний вихід програми. Використання резервного файлу для відновлення налаштувань: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="187"/>
+        <source>An access error occurred while trying to write the configuration file.</source>
+        <translation>Виникла помилка доступу при спробі запису файла конфігурації.</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="190"/>
+        <source>A format error occurred while trying to write the configuration file.</source>
+        <translation>Виникла помилка формату при спробі запису файла конфігурації.</translation>
+    </message>
+    <message>
+        <location filename="../base/settingsstorage.cpp" line="193"/>
+        <source>An unknown error occurred while trying to write the configuration file.</source>
+        <translation>Під час спроби записати файл конфігурації сталася невідома помилка.</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownConfirmDialog</name>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.ui" line="64"/>
+        <source>Don&apos;t show again</source>
+        <translation>Більше не показувати</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="118"/>
+        <source>qBittorrent will now exit.</source>
+        <translation>Зараз qBittorrent завершиться</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="119"/>
+        <source>E&amp;xit Now</source>
+        <translation>&amp;Вийти зараз</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="120"/>
+        <source>Exit confirmation</source>
+        <translation>Підтвердження виходу</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="123"/>
+        <source>The computer is going to shutdown.</source>
+        <translation>Зараз комп&apos;ютер вимкнеться.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="124"/>
+        <source>&amp;Shutdown Now</source>
+        <translation>&amp;Вимкнути комп&apos;ютер зараз</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="125"/>
+        <source>Shutdown confirmation</source>
+        <translation>Підтвердження вимкнення</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="128"/>
+        <source>The computer is going to enter suspend mode.</source>
+        <translation>Зараз комп&apos;ютер призупиниться.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="129"/>
+        <source>&amp;Suspend Now</source>
+        <translation>При&amp;зупинити зараз</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="130"/>
+        <source>Suspend confirmation</source>
+        <translation>Підтвердження призупинки</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="133"/>
+        <source>The computer is going to enter hibernation mode.</source>
+        <translation>Зараз комп&apos;ютер перейде у режим сну.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="134"/>
+        <source>&amp;Hibernate Now</source>
+        <translation>При&amp;спати зараз</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="135"/>
+        <source>Hibernate confirmation</source>
+        <translation>Підтвердження гібернації</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="138"/>
+        <source>The computer is going to reboot.</source>
+        <translation>Комп&apos;ютер буде перезавантажено.</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="139"/>
+        <source>&amp;Reboot Now</source>
+        <translation>&amp;Перезавантажити зараз</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="140"/>
+        <source>Reboot confirmation</source>
+        <translation>Підтвердження перезавантаження</translation>
+    </message>
+    <message>
+        <location filename="../gui/shutdownconfirmdialog.cpp" line="150"/>
+        <source>You can cancel the action within %1 seconds.</source>
+        <translation>Ви можете скасувати дію впродовж %1 секунд.</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedLimitDialog</name>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="14"/>
+        <source>Global Speed Limits</source>
+        <translation>Глобальний ліміт швидкості</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="20"/>
+        <source>Speed limits</source>
+        <translation>Обмеження швидкості</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="33"/>
+        <location filename="../gui/speedlimitdialog.ui" line="109"/>
+        <source>Upload:</source>
+        <translation>Відвантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="47"/>
+        <location filename="../gui/speedlimitdialog.ui" line="77"/>
+        <location filename="../gui/speedlimitdialog.ui" line="123"/>
+        <location filename="../gui/speedlimitdialog.ui" line="153"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="50"/>
+        <location filename="../gui/speedlimitdialog.ui" line="80"/>
+        <location filename="../gui/speedlimitdialog.ui" line="126"/>
+        <location filename="../gui/speedlimitdialog.ui" line="156"/>
+        <source> KiB/s</source>
+        <translation> КіБ/с</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="63"/>
+        <location filename="../gui/speedlimitdialog.ui" line="139"/>
+        <source>Download:</source>
+        <translation>Завантаження:</translation>
+    </message>
+    <message>
+        <location filename="../gui/speedlimitdialog.ui" line="96"/>
+        <source>Alternative speed limits</source>
+        <translation>Альтернативні обмеження швидкості</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedPlotView</name>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="172"/>
+        <source>Total Upload</source>
+        <translation>Загалом відвантажено</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="173"/>
+        <source>Total Download</source>
+        <translation>Завантаження: загалом</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="177"/>
+        <source>Payload Upload</source>
+        <translation>Відвантаження: власне дані</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="178"/>
+        <source>Payload Download</source>
+        <translation>Завантаження: власне дані</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="182"/>
+        <source>Overhead Upload</source>
+        <translation>Відвантаження: протокол</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="183"/>
+        <source>Overhead Download</source>
+        <translation>Завантаження: протокол</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="187"/>
+        <source>DHT Upload</source>
+        <translation>Відвантаження: DHT</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="188"/>
+        <source>DHT Download</source>
+        <translation>Завантаження: DHT</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="192"/>
+        <source>Tracker Upload</source>
+        <translation>Відвантаження: трекери</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedplotview.cpp" line="193"/>
+        <source>Tracker Download</source>
+        <translation>Завантаження: трекери</translation>
+    </message>
+</context>
+<context>
+    <name>SpeedWidget</name>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="67"/>
+        <source>Period:</source>
+        <translation>Період:</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="70"/>
+        <source>1 Minute</source>
+        <translation>1 хвилина</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="71"/>
+        <source>5 Minutes</source>
+        <translation>5 хвилин</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="72"/>
+        <source>30 Minutes</source>
+        <translation>30 хвилин</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="74"/>
+        <source>6 Hours</source>
+        <translation>6 годин</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="104"/>
+        <source>Select Graphs</source>
+        <translation>Вибрати графіки</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="82"/>
+        <source>Total Upload</source>
+        <translation>Відвантаження: загалом</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="73"/>
+        <source>3 Hours</source>
+        <translation>3 години</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="75"/>
+        <source>12 Hours</source>
+        <translation>12 годин</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="76"/>
+        <source>24 Hours</source>
+        <translation>24 години</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="83"/>
+        <source>Total Download</source>
+        <translation>Завантаження: загалом</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="84"/>
+        <source>Payload Upload</source>
+        <translation>Відвантаження: власне дані</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="85"/>
+        <source>Payload Download</source>
+        <translation>Завантаження: власне дані</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="86"/>
+        <source>Overhead Upload</source>
+        <translation>Відвантаження: протокол</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="87"/>
+        <source>Overhead Download</source>
+        <translation>Завантаження: протокол</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="88"/>
+        <source>DHT Upload</source>
+        <translation>Відвантаження: DHT</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="89"/>
+        <source>DHT Download</source>
+        <translation>Завантаження: DHT</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="90"/>
+        <source>Tracker Upload</source>
+        <translation>Відвантаження: трекери</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/speedwidget.cpp" line="91"/>
+        <source>Tracker Download</source>
+        <translation>Завантаження: трекери</translation>
+    </message>
+</context>
+<context>
+    <name>StacktraceDialog</name>
+    <message>
+        <location filename="../gui/stacktracedialog.ui" line="14"/>
+        <source>Crash info</source>
+        <translation>Інформація про падіння</translation>
+    </message>
+</context>
+<context>
+    <name>StatsDialog</name>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="14"/>
+        <source>Statistics</source>
+        <translation>Статистика</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="20"/>
+        <source>User statistics</source>
+        <translation>Статистика користувача</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="99"/>
+        <source>Cache statistics</source>
+        <translation>Статистика кешу</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="105"/>
+        <source>Read cache hits:</source>
+        <translation>Попадань в кеші зчитування:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="184"/>
+        <source>Average time in queue:</source>
+        <translation>Середній час в черзі:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="82"/>
+        <source>Connected peers:</source>
+        <translation>Під&apos;єднані піри:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="54"/>
+        <source>All-time share ratio:</source>
+        <translation>Коєфіцієнт відданого за весь час:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="40"/>
+        <source>All-time download:</source>
+        <translation>Завантажено за весь час:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="68"/>
+        <source>Session waste:</source>
+        <translation>Змарновано за сеанс:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="26"/>
+        <source>All-time upload:</source>
+        <translation>Відвантажено за весь час:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="119"/>
+        <source>Total buffer size:</source>
+        <translation>Загальний розмір буфера:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="136"/>
+        <source>Performance statistics</source>
+        <translation>Статистика швидкодії</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="170"/>
+        <source>Queued I/O jobs:</source>
+        <translation>Завдання вводу/виводу в черзі:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="142"/>
+        <source>Write cache overload:</source>
+        <translation>Перевантаження кешу запису:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="156"/>
+        <source>Read cache overload:</source>
+        <translation>Перевантаження кешу зчитування:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.ui" line="198"/>
+        <source>Total queued size:</source>
+        <translation>Загальний розмір в черзі:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statsdialog.cpp" line="112"/>
+        <source>%1 ms</source>
+        <comment>18 milliseconds</comment>
+        <translation>%1 мс</translation>
+    </message>
+</context>
+<context>
+    <name>StatusBar</name>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="81"/>
+        <source>Connection status:</source>
+        <translation>Статус з&apos;єднання:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="82"/>
+        <location filename="../gui/statusbar.cpp" line="217"/>
+        <source>No direct connections. This may indicate network configuration problems.</source>
+        <translation>Немає прямих з&apos;єднань. Це може означати, що є проблеми з налаштуванням мережі.</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="103"/>
+        <source>Free space: N/A</source>
+        <translation>Вільне місце: Н/Д</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="107"/>
+        <location filename="../gui/statusbar.cpp" line="254"/>
+        <source>External IP: N/A</source>
+        <translation>Зовнішній IP: N/A</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="111"/>
+        <location filename="../gui/statusbar.cpp" line="229"/>
+        <source>DHT: %1 nodes</source>
+        <translation>DHT: %1 вузлів</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="182"/>
+        <source>qBittorrent needs to be restarted!</source>
+        <translation>Потрібно перезапустити qBittorrent!</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="202"/>
+        <location filename="../gui/statusbar.cpp" line="211"/>
+        <location filename="../gui/statusbar.cpp" line="217"/>
+        <source>Connection Status:</source>
+        <translation>Статус з&apos;єднання:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="202"/>
+        <source>Offline. This usually means that qBittorrent failed to listen on the selected port for incoming connections.</source>
+        <translation>Не в мережі. Зазвичай це означає, що qBittorrent не може приймати вхідні з&apos;єднання з вибраного порту.</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="211"/>
+        <source>Online</source>
+        <translation>В мережі</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="240"/>
+        <source>Free space: </source>
+        <translation>Вільне місце:</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="260"/>
+        <source>External IPs: %1, %2</source>
+        <translation>Зовнішні IPs: %1, %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="262"/>
+        <source>External IP: %1%2</source>
+        <translation>Зовнішній IP: %1 %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="312"/>
+        <source>Click to switch to alternative speed limits</source>
+        <translation>Клацніть, щоб перемкнутись на альтернативні обмеження швидкості</translation>
+    </message>
+    <message>
+        <location filename="../gui/statusbar.cpp" line="306"/>
+        <source>Click to switch to regular speed limits</source>
+        <translation>Клацніть, щоб повернутись до звичайних обмежень швидкості</translation>
+    </message>
+</context>
+<context>
+    <name>StatusFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="47"/>
+        <source>All (0)</source>
+        <comment>this is for the status filter</comment>
+        <translation>Всі (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="50"/>
+        <source>Downloading (0)</source>
+        <translation>Завантажуються (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="53"/>
+        <source>Seeding (0)</source>
+        <translation>Роздаються (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="56"/>
+        <source>Completed (0)</source>
+        <translation>Завершені (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/statusfilterwidget.cpp" line="59

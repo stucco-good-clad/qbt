@@ -1,0 +1,2369 @@
+="428"/>
+        <source>Rename...</source>
+        <translation>Преименувай...</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="432"/>
+        <source>Priority</source>
+        <translation>Предимство</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="434"/>
+        <location filename="../gui/torrentcontentwidget.cpp" line="455"/>
+        <source>Do not download</source>
+        <translation>Не сваляй</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="438"/>
+        <source>Normal</source>
+        <translation>Нормален</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="442"/>
+        <source>High</source>
+        <translation>Висок</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="446"/>
+        <source>Maximum</source>
+        <translation>Максимален</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="451"/>
+        <source>By shown file order</source>
+        <translation>По реда на показания файл</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="459"/>
+        <source>Normal priority</source>
+        <translation>Нормален приоритет</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="463"/>
+        <source>High priority</source>
+        <translation>Висок приоритет</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="467"/>
+        <source>Maximum priority</source>
+        <translation>Максимален приоритет</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcontentwidget.cpp" line="472"/>
+        <source>Priority by shown file order</source>
+        <translation>Приоритет според реда на показания файл</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentCreatorController</name>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="153"/>
+        <source>Too many active tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="240"/>
+        <source>Torrent creation is still unfinished.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentcreatorcontroller.cpp" line="243"/>
+        <source>Torrent creation failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorrentCreatorDialog</name>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="17"/>
+        <source>Torrent Creator</source>
+        <translation>Торентов Създател</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="56"/>
+        <source>Select file/folder to share</source>
+        <translation>Избор на източник</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="64"/>
+        <source>Path:</source>
+        <translation>Път:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="91"/>
+        <source>[Drag and drop area]</source>
+        <translation>[Област за плъзгане и пускане]</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="101"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="179"/>
+        <source>Select file</source>
+        <translation>Избери файл</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="108"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="171"/>
+        <source>Select folder</source>
+        <translation>Избери папка</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="120"/>
+        <source>Settings</source>
+        <translation>Настройки</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="141"/>
+        <source>Torrent format:</source>
+        <translation>Торент формат:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="154"/>
+        <source>Hybrid</source>
+        <translation>Хибриден</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="185"/>
+        <source>Piece size:</source>
+        <translation>Размер на частта:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="123"/>
+        <source>Auto</source>
+        <translation>Автоматично</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="202"/>
+        <source>Calculate number of pieces:</source>
+        <translation>Изчисляване на броя на частите:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="231"/>
+        <source>Private torrent (Won&apos;t distribute on DHT network)</source>
+        <translation>Частен торент (няма да се разпространява в DHT мрежа)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="238"/>
+        <source>Start seeding immediately</source>
+        <translation>Започни незабавен сийд</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="248"/>
+        <source>Ignore share ratio limits for this torrent</source>
+        <translation>Игнориране на коефициента на споделяне за този торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="255"/>
+        <source>Optimize alignment</source>
+        <translation>Оптимизиране на файловата подредба</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="266"/>
+        <source>Align to piece boundary for files larger than:</source>
+        <translation>Подравняване на части от файлове по-големи от:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="273"/>
+        <source>Disabled</source>
+        <translation>Забранено</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="276"/>
+        <source> KiB</source>
+        <translation>КиБ</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="313"/>
+        <source>Fields</source>
+        <translation>Полета</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="326"/>
+        <source>You can separate tracker tiers / groups with an empty line.</source>
+        <translation>Можете да разделите тракер комплекти / групи с празен ред.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="339"/>
+        <source>Web seed URLs:</source>
+        <translation>Уеб сийд:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="319"/>
+        <source>Tracker URLs:</source>
+        <translation>Адрес на тракера:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="356"/>
+        <source>Comments:</source>
+        <translation>Коментари:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="373"/>
+        <source>Source:</source>
+        <translation>Източник:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.ui" line="392"/>
+        <source>Progress:</source>
+        <translation>Напредък:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="131"/>
+        <source>Create Torrent</source>
+        <translation>Създай торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="235"/>
+        <source>Calculating...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="280"/>
+        <location filename="../gui/torrentcreatordialog.cpp" line="331"/>
+        <source>Torrent creation failed</source>
+        <translation>Създаването на торента се провали</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="280"/>
+        <source>Reason: Path to file/folder is not readable.</source>
+        <translation>Причина: Пътят до файл/папка не може да се чете.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="286"/>
+        <source>Select where to save the new torrent</source>
+        <translation>Изберете къде да запазите новия торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="286"/>
+        <source>Torrent Files (*.torrent)</source>
+        <translation>Торент файлове (*.torrent)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="368"/>
+        <source>Add torrent to transfer list failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="368"/>
+        <source>Reason: &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="369"/>
+        <source>Add torrent failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="340"/>
+        <source>Torrent creator</source>
+        <translation>Създаване на нов торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentcreatordialog.cpp" line="341"/>
+        <source>Torrent created:</source>
+        <translation>Торентът е създаден:</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentFilesWatcher</name>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="169"/>
+        <source>Failed to load Watched Folders configuration. %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="177"/>
+        <source>Failed to parse Watched Folders configuration from %1. Error: &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="184"/>
+        <source>Failed to load Watched Folders configuration from %1. Error: &quot;Invalid data format.&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="257"/>
+        <source>Couldn&apos;t store Watched Folders configuration to %1. Error: %2</source>
+        <translation>Не можа да се съхрани Наблюдавани папки конфигурация към %1. Грешка: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="276"/>
+        <source>Watched folder Path cannot be empty.</source>
+        <translation>Пътя на наблюдаваната папка не може да бъде празен.</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="279"/>
+        <source>Watched folder Path cannot be relative.</source>
+        <translation>Пътя на наблюдаваната папка не може да бъде относителен.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentFilesWatcher::Worker</name>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="412"/>
+        <source>Invalid Magnet URI. URI: %1. Reason: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="420"/>
+        <source>Magnet file too big. File: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="425"/>
+        <source>Failed to open magnet file: %1</source>
+        <translation>Неуспешно отваряне на магнитен файл: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="495"/>
+        <source>Rejecting failed torrent file: %1</source>
+        <translation>Отхвърляне на неуспешен торент файл: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/torrentfileswatcher.cpp" line="534"/>
+        <source>Watching folder: &quot;%1&quot;</source>
+        <translation>Наблюдаване на папка: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentOptionsDialog</name>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="14"/>
+        <source>Torrent Options</source>
+        <translation>Торент опции</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="20"/>
+        <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
+        <translation>Автоматичен режим значи, че различни свойства на торент (н. пр. местоположение) ще бъдат решени от асоциираната категория</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="23"/>
+        <source>Automatic Torrent Management</source>
+        <translation>Автоматично управление на торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="30"/>
+        <source>Save at</source>
+        <translation>Съхрани при</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="39"/>
+        <source>Use another path for incomplete torrent</source>
+        <translation>Използвай друг път за незавършен торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="58"/>
+        <source>Category:</source>
+        <translation>Категория:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="162"/>
+        <source>Torrent Share Limits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="122"/>
+        <source>Download:</source>
+        <translation>Сваляне:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="106"/>
+        <location filename="../gui/torrentoptionsdialog.ui" line="136"/>
+        <source>∞</source>
+        <translation>∞</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="86"/>
+        <source>Torrent Speed Limits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="109"/>
+        <location filename="../gui/torrentoptionsdialog.ui" line="139"/>
+        <source> KiB/s</source>
+        <translation>КиБ/с</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="152"/>
+        <source>These will not exceed the global limits</source>
+        <translation>Тези няма да надхвърлят глобалните ограничения</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="92"/>
+        <source>Upload:</source>
+        <translation>Качване:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="176"/>
+        <source>Disable DHT for this torrent</source>
+        <translation>Забраняване DHT за този торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="183"/>
+        <source>Download in sequential order</source>
+        <translation>Сваляне в последователен ред</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="203"/>
+        <source>Disable PeX for this torrent</source>
+        <translation>Забраняване PeX за този торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="210"/>
+        <source>Download first and last pieces first</source>
+        <translation>Сваляне на първите и последните парчета първо</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="217"/>
+        <source>Disable LSD for this torrent</source>
+        <translation>Забраняване LSD за този торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="65"/>
+        <source>Currently used categories</source>
+        <translation>Текущо използвани категории</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="75"/>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="77"/>
+        <source>Choose save path</source>
+        <translation>Избери път на запазване</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="334"/>
+        <source>Not applicable to private torrents</source>
+        <translation>Не приложимо за частни торенти</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentShareLimitsWidget</name>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="73"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="410"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="411"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="412"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="416"/>
+        <source>Default</source>
+        <translation>По подразбиране</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="87"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="92"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="97"/>
+        <source>Unlimited</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="88"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="93"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="98"/>
+        <source>Set to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="42"/>
+        <source>Seeding time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="55"/>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="81"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="244"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="259"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="368"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="373"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="392"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="397"/>
+        <source> min</source>
+        <extracomment>minutes</extracomment>
+        <translation>мин</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="68"/>
+        <source>Inactive seeding time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="98"/>
+        <source>Action when the limit is reached:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="61"/>
+        <source>Stop torrent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="64"/>
+        <source>Remove torrent</source>
+        <translation>Премахни торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="67"/>
+        <source>Remove torrent and its content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="70"/>
+        <source>Enable super seeding for torrent</source>
+        <translation>Разреши супер засяване за торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="417"/>
+        <source>Default (%1)</source>
+        <comment>Default (share limit action)</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="421"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="422"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="423"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="427"/>
+        <source>From category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="428"/>
+        <source>From category (%1)</source>
+        <comment>From category (share limit action)</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="19"/>
+        <source>Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorrentTagsDialog</name>
+    <message>
+        <location filename="../gui/torrenttagsdialog.ui" line="14"/>
+        <source>Torrent Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="100"/>
+        <source>Add tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="101"/>
+        <source>Tag:</source>
+        <translation>Етикет:</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Invalid tag name</source>
+        <translation>Невалидно име на етикет</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Tag name &apos;%1&apos; is invalid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag exists</source>
+        <translation>Етикетът вече съществува</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag name already exists.</source>
+        <translation>Името на етикета вече съществува.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentsController</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1259"/>
+        <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
+        <translation>Грешка: &apos;%1&apos; не е валиден торент файл.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="503"/>
+        <source>Priority must be an integer</source>
+        <translation>Приоритет трябва да е цяло число</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="505"/>
+        <source>Priority is not valid</source>
+        <translation>Приоритет не е валиден</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1113"/>
+        <source>Cannot specify filePriorities when adding multiple torrents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1115"/>
+        <source>Cannot specify filePriorities when uploading torrent files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1129"/>
+        <source>`downloader` must be a valid search plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1188"/>
+        <source>Length of filePriorities must equal number of files in torrent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1205"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1220"/>
+        <source>`filePriorities` may only be specified when metadata has already been fetched</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1306"/>
+        <source>Must specify at least one of [newUrl, tier]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1314"/>
+        <source>tier must be an integer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1316"/>
+        <source>tier must be between 0 and 255</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1326"/>
+        <source>New tracker URL is invalid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1344"/>
+        <source>New tracker URL already exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1367"/>
+        <source>Tracker not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1408"/>
+        <source>No valid peers were specified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1464"/>
+        <source>Torrent&apos;s metadata has not yet downloaded</source>
+        <translation>Метаданни на торент все още не са свалени</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1474"/>
+        <source>File IDs must be integers</source>
+        <translation>Файлови ИД-та трябва да са цели числа</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1476"/>
+        <source>File ID is not valid</source>
+        <translation>Файлов ИД не е валиден</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1642"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1655"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1668"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1681"/>
+        <source>Torrent queueing must be enabled</source>
+        <translation>Торентово нареждане на опашка трябва да бъде разрешено</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1697"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1722"/>
+        <source>Save path cannot be empty</source>
+        <translation>Пътя на запазване не може да бъде празен</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1726"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1752"/>
+        <source>Cannot create target directory</source>
+        <translation>Не може да се създаде целева директория</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1882"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1909"/>
+        <source>Category cannot be empty</source>
+        <translation>Категория не може да бъде празна</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1898"/>
+        <source>Unable to create category</source>
+        <translation>Не можа да се създаде категория</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1922"/>
+        <source>Category does not exist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2059"/>
+        <source>File name has invalid characters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2087"/>
+        <source>Folder name has invalid characters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2120"/>
+        <source>Unable to export torrent file. Error: %1</source>
+        <translation>Не може да се изнесе торент файл. Грешка: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2174"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2282"/>
+        <source>Must specify URI or hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2178"/>
+        <source>downloader must be a valid search plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2209"/>
+        <source>Unable to download metadata for &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2247"/>
+        <source>Unable to parse &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2256"/>
+        <source>Must specify torrent file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2269"/>
+        <source>&apos;%1&apos; is not a valid torrent file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2298"/>
+        <source>Metadata is not yet available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2302"/>
+        <source>Unable to export torrent metadata. Error: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2326"/>
+        <source>Parse magnet URI failed. URI: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2372"/>
+        <source>Reading downloaded torrent data failed. Data: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2388"/>
+        <source>Parse torrent failed. URL: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1701"/>
+        <source>Cannot make save path</source>
+        <translation>Не може да се направи път на запазване</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="390"/>
+        <source>&quot;%1&quot; is not a valid URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="393"/>
+        <source>URL scheme must be one of [%1]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="646"/>
+        <source>&apos;sort&apos; parameter is invalid</source>
+        <translation>&apos;сортиране&apos; параметър е невалиден</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="916"/>
+        <source>&quot;%1&quot; is not an existing URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="984"/>
+        <source>&quot;%1&quot; is not a valid file index.</source>
+        <translation>&quot;%1&quot; не е валиден файлов индекс.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="986"/>
+        <source>Index %1 is out of bounds.</source>
+        <translation>Индекс %1 е извън граници.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1730"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1756"/>
+        <source>Cannot write to directory</source>
+        <translation>Не може да се запише в директория</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1705"/>
+        <source>WebUI Set location: moving &quot;%1&quot;, from &quot;%2&quot; to &quot;%3&quot;</source>
+        <translation>УебПИ Задаване на местоположение: преместване &quot;%1&quot;, от &quot;%2&quot; в &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1776"/>
+        <source>Incorrect torrent name</source>
+        <translation>Неправилно име на торент</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1870"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1885"/>
+        <source>Incorrect category name</source>
+        <translation>Неправилно име на категория</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerEntriesDialog</name>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="14"/>
+        <source>Edit trackers</source>
+        <translation>Редактирай тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="20"/>
+        <source>One tracker URL per line.
+
+- You can split the trackers into groups by inserting blank lines.
+- All trackers within the same group will belong to the same tier.
+- The group on top will be tier 0, the next group tier 1 and so on.
+- Below will show the common subset of trackers of the selected torrents.</source>
+        <translation>Един URL на тракер на ред.
+
+- Можете да разделите тракерите по групи като вмъкнете празни редове.
+- Всички тракери в същата група ще принадлежат към същият ред.
+- Групата на върха ще бъде ред 0, следващата група ред 1 и така нататък.
+- Отдолу ще се покажат често срещаните подмножества на тракери на избраните торенти.</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListModel</name>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="66"/>
+        <source>Working</source>
+        <translation>Работи</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="67"/>
+        <source>Disabled</source>
+        <translation>Забранено</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="68"/>
+        <source>Disabled for this torrent</source>
+        <translation>Забранено за този торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="69"/>
+        <source>This torrent is private</source>
+        <translation>Този торент е частен</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="73"/>
+        <source>N/A</source>
+        <translation>Няма</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="228"/>
+        <source>Updating...</source>
+        <translation>Обновяване...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="235"/>
+        <source>Not working</source>
+        <translation>Не работи</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="237"/>
+        <source>Tracker error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="239"/>
+        <source>Unreachable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="241"/>
+        <source>Not contacted yet</source>
+        <translation>Още не е свързан</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="244"/>
+        <source>Invalid state!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="502"/>
+        <source>URL/Announce Endpoint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="506"/>
+        <source>BT Protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="520"/>
+        <source>Next Announce</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="522"/>
+        <source>Min Announce</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="504"/>
+        <source>Tier</source>
+        <translation>Ред</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="508"/>
+        <source>Status</source>
+        <translation>Състояние</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="510"/>
+        <source>Peers</source>
+        <translation>Участници</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="512"/>
+        <source>Seeds</source>
+        <translation>Споделящи</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="514"/>
+        <source>Leeches</source>
+        <translation>Лийчове</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="516"/>
+        <source>Times Downloaded</source>
+        <translation>Пъти свалено</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="518"/>
+        <source>Message</source>
+        <translation>Съобщение</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListWidget</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="238"/>
+        <source>This torrent is private</source>
+        <translation>Този торент е частен</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker editing</source>
+        <translation>Редактиране на тракера</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker URL:</source>
+        <translation>URL адрес на тракера:</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>Tracker editing failed</source>
+        <translation>Редактирането на тракера е неуспешно</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <source>The tracker URL entered is invalid.</source>
+        <translation>Въведеният URL адрес на тракер е невалиден.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>The tracker URL already exists.</source>
+        <translation>URL адреса на тракера вече съществува.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="370"/>
+        <source>Edit tracker URL...</source>
+        <translation>Редактирай URL на тракера...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="372"/>
+        <source>Remove tracker</source>
+        <translation>Премахни тракер</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="374"/>
+        <source>Copy tracker URL</source>
+        <translation>Копиране на URL на тракер</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="378"/>
+        <source>Force reannounce to selected trackers</source>
+        <translation>Принудително повторно анонсиране към избраните тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="386"/>
+        <source>Force reannounce to all trackers</source>
+        <translation>Принудително анонсиране към всички тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="451"/>
+        <source>Resize columns</source>
+        <translation>Преоразмери колони</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="460"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Преоразмери всички нескрити колони до размерът на техните съдържания</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="365"/>
+        <source>Add trackers...</source>
+        <translation>Добави тракери...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="428"/>
+        <source>Column visibility</source>
+        <translation>Видимост на колона</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerStatusFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="60"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Всички (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="62"/>
+        <source>Warning (%1)</source>
+        <translation>Внимание (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="64"/>
+        <source>Tracker error (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="66"/>
+        <source>Other error (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="146"/>
+        <source>Start torrents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="148"/>
+        <source>Stop torrents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="150"/>
+        <source>Remove torrents</source>
+        <translation>Премахни торенти</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersAdditionDialog</name>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="14"/>
+        <source>Add trackers</source>
+        <translation>Добави тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="20"/>
+        <source>List of trackers to add (one per line):</source>
+        <translation>Списък тракери за добавяне (по един на ред):</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="40"/>
+        <source>µTorrent compatible list URL:</source>
+        <translation>µTorrent съвместим списък URL:</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="52"/>
+        <source>Download trackers list</source>
+        <translation>Свали списък тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="58"/>
+        <source>Add</source>
+        <translation>Добави</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>Trackers list URL error</source>
+        <translation>Грешка в списък URL на тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>The trackers list URL cannot be empty</source>
+        <translation>Списъкът URL на тракери не може да бъде празен</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="114"/>
+        <source>Download trackers list error</source>
+        <translation>Грешка в сваляне списък тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="115"/>
+        <source>Error occurred when downloading the trackers list. Reason: &quot;%1&quot;</source>
+        <translation>Грешка възникна при сваляне на списъкът тракери. Причина: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="124"/>
+        <source>Warning (%1)</source>
+        <translation>Внимание (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="118"/>
+        <source>Trackerless (%1)</source>
+        <translation>Без тракери (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="120"/>
+        <source>Tracker error (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="122"/>
+        <source>Other error (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="546"/>
+        <source>Remove tracker</source>
+        <translation>Премахни тракер</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="551"/>
+        <source>Start torrents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="553"/>
+        <source>Stop torrents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="555"/>
+        <source>Remove torrents</source>
+        <translation>Премахни торенти</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="683"/>
+        <source>Removal confirmation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="684"/>
+        <source>Are you sure you want to remove tracker &quot;%1&quot; from all torrents?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="686"/>
+        <source>Don&apos;t ask me again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="116"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Всички (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferController</name>
+    <message>
+        <location filename="../webui/api/transfercontroller.cpp" line="141"/>
+        <source>&apos;mode&apos;: invalid argument</source>
+        <translation>&apos;режим&apos;: невалиден аргумент</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListFiltersWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="68"/>
+        <source>Status</source>
+        <translation>Състояние</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="85"/>
+        <source>Categories</source>
+        <translation>Категории</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="106"/>
+        <source>Tags</source>
+        <translation>Етикети</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="121"/>
+        <source>Trackers</source>
+        <translation>Тракери</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="139"/>
+        <source>Tracker status</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TransferListModel</name>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="95"/>
+        <source>Downloading</source>
+        <translation>Сваляне</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="96"/>
+        <source>Stalled</source>
+        <comment>Torrent is waiting for download to begin</comment>
+        <translation>Застоял</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="97"/>
+        <source>Downloading metadata</source>
+        <comment>Used when loading a magnet link</comment>
+        <translation>Сваляне на метаданни</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="98"/>
+        <source>[F] Downloading metadata</source>
+        <comment>Used when forced to load a magnet link. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[Ф] Сваляне метаданни</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="99"/>
+        <source>[F] Downloading</source>
+        <comment>Used when the torrent is forced started. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[Ф] Сваляне</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="100"/>
+        <location filename="../gui/transferlistmodel.cpp" line="101"/>
+        <source>Seeding</source>
+        <comment>Torrent is complete and in upload-only mode</comment>
+        <translation>Споделяне</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="102"/>
+        <source>[F] Seeding</source>
+        <comment>Used when the torrent is forced started. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[Ф] Сийдване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="103"/>
+        <location filename="../gui/transferlistmodel.cpp" line="104"/>
+        <source>Queued</source>
+        <comment>Torrent is queued</comment>
+        <translation>На опашка</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="105"/>
+        <location filename="../gui/transferlistmodel.cpp" line="106"/>
+        <source>Checking</source>
+        <comment>Torrent local data is being checked</comment>
+        <translation>Направи проверка</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="107"/>
+        <source>Checking resume data</source>
+        <comment>Used when loading the torrents from disk after qbt is launched. It checks the correctness of the .fastresume file. Normally it is completed in a fraction of a second, unless loading many many torrents.</comment>
+        <translation>Проверка на данните за продължаване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="109"/>
+        <source>Completed</source>
+        <translation>Приключено</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="110"/>
+        <source>Moving</source>
+        <comment>Torrent local data are being moved/relocated</comment>
+        <translation>Преместване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="111"/>
+        <source>Missing Files</source>
+        <translation>Липсващи файлове</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="112"/>
+        <source>Errored</source>
+        <comment>Torrent status, the torrent has an error</comment>
+        <translation>С грешки</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="161"/>
+        <source>Name</source>
+        <comment>i.e: torrent name</comment>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="162"/>
+        <source>Size</source>
+        <comment>i.e: torrent size</comment>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="163"/>
+        <source>Progress</source>
+        <comment>% Done</comment>
+        <translation>Напредък</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="108"/>
+        <source>Stopped</source>
+        <translation>Спрян</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="164"/>
+        <source>Status</source>
+        <comment>Torrent status (e.g. downloading, seeding, stopped)</comment>
+        <translation>Състояние</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="165"/>
+        <source>Seeds</source>
+        <comment>i.e. full sources (often untranslated)</comment>
+        <translation>Споделящи</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="166"/>
+        <source>Peers</source>
+        <comment>i.e. partial sources (often untranslated)</comment>
+        <translation>Участници</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="167"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Скорост теглене</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="168"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Скорост качване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="169"/>
+        <source>Ratio</source>
+        <comment>Share ratio</comment>
+        <translation>Съотношение</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="170"/>
+        <source>Popularity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="171"/>
+        <source>ETA</source>
+        <comment>i.e: Estimated Time of Arrival / Time left</comment>
+        <translation>Оставащо време</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="172"/>
+        <source>Category</source>
+        <translation>Категория</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="173"/>
+        <source>Tags</source>
+        <translation>Етикети</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="174"/>
+        <source>Created On</source>
+        <comment>Torrent was initially created on 01/01/2010 08:00</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="175"/>
+        <source>Added On</source>
+        <comment>Torrent was added to transfer list on 01/01/2010 08:00</comment>
+        <translation>Добавен на</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="176"/>
+        <source>Completed On</source>
+        <comment>Torrent was completed on 01/01/2010 08:00</comment>
+        <translation>Завършен на</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="177"/>
+        <source>Tracker</source>
+        <translation>Тракер</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="178"/>
+        <source>Down Limit</source>
+        <comment>i.e: Download limit</comment>
+        <translation>Ограничение теглене</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="179"/>
+        <source>Up Limit</source>
+        <comment>i.e: Upload limit</comment>
+        <translation>Ограничение качване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="180"/>
+        <source>Downloaded</source>
+        <comment>Amount of data downloaded (e.g. in MB)</comment>
+        <translation>Свалени</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="181"/>
+        <source>Uploaded</source>
+        <comment>Amount of data uploaded (e.g. in MB)</comment>
+        <translation>Качени</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="184"/>
+        <source>Remaining</source>
+        <comment>Amount of data left to download (e.g. in MB)</comment>
+        <translation>Оставащо</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="185"/>
+        <source>Time Active</source>
+        <comment>Time (duration) the torrent is active (not stopped)</comment>
+        <translation>Време активен</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>No</source>
+        <translation>Не</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="186"/>
+        <source>Save Path</source>
+        <comment>Torrent save path</comment>
+        <translation>Път на запазване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="182"/>
+        <source>Session Downloaded</source>
+        <comment>Amount of data downloaded since program open (e.g. in MB)</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="183"/>
+        <source>Session Uploaded</source>
+        <comment>Amount of data uploaded since program open (e.g. in MB)</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="187"/>
+        <source>Incomplete Save Path</source>
+        <comment>Torrent incomplete save path</comment>
+        <translation>Непълен път на запазване</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="188"/>
+        <source>Completed</source>
+        <comment>Amount of data completed (e.g. in MB)</comment>
+        <translation>Приключено</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="189"/>
+        <source>Ratio Limit</source>
+        <comment>Upload share ratio limit</comment>
+        <translation>Ограничение на коефицента</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="190"/>
+        <source>Last Seen Complete</source>
+        <comment>Indicates the time when the torrent was last seen complete/whole</comment>
+        <translation>Последно видян приключен</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="191"/>
+        <source>Last Activity</source>
+        <comment>Time passed since a chunk was downloaded/uploaded</comment>
+        <translation>Последна активност</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="192"/>
+        <source>Total Size</source>
+        <comment>i.e. Size including unwanted data</comment>
+        <translation>Общ размер</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="193"/>
+        <source>Availability</source>
+        <comment>The number of distributed copies of the torrent</comment>
+        <translation>Наличност</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="194"/>
+        <source>Info Hash v1</source>
+        <comment>i.e: torrent info hash v1</comment>
+        <translation>Инфо хеш в1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="195"/>
+        <source>Info Hash v2</source>
+        <comment>i.e: torrent info hash v2</comment>
+        <translation>Инфо хеш в2:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="196"/>
+        <source>Reannounce In</source>
+        <comment>Indicates the time until next trackers reannounce</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="197"/>
+        <source>Private</source>
+        <comment>Flags private torrents</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="205"/>
+        <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="259"/>
+        <location filename="../gui/transferlistmodel.cpp" line="352"/>
+        <location filename="../gui/transferlistmodel.cpp" line="368"/>
+        <source>N/A</source>
+        <translation>Няма</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="316"/>
+        <source>%1 ago</source>
+        <comment>e.g.: 1h 20m ago</comment>
+        <translation>преди %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="329"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (споделян за %2)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListWidget</name>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="689"/>
+        <source>Column visibility</source>
+        <translation>Видимост на колона</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Recheck confirmation</source>
+        <translation>Потвърждение за повторна проверка</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Are you sure you want to recheck the selected torrent(s)?</source>
+        <translation>Сигурни ли сте, че искате повторно да проверите избрания торент(и)?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>Rename</source>
+        <translation>Преименувай</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>New name:</source>
+        <translation>Ново име:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="348"/>
+        <source>Choose save path</source>
+        <translation>Избери път за съхранение</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>Unable to preview</source>
+        <translation>Не може да се визуализира</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>The selected torrent &quot;%1&quot; does not contain previewable files</source>
+        <translation>Избраният торент &quot;%1&quot; не съдържа файлове за визуализация</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="718"/>
+        <source>Resize columns</source>
+        <translation>Преоразмери колони</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="727"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Преоразмери всички нескрити колони до размерът на техните съдържания</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="757"/>
+        <source>Enable automatic torrent management</source>
+        <translation>Разреши автоматично управление на торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="758"/>
+        <source>Are you sure you want to enable Automatic Torrent Management for the selected torrent(s)? They may be relocated.</source>
+        <translation>Сигурни ли сте, че искате да разрешите автоматично управление на торент за избраният/те торент(и)? Те могат да бъдат преместени.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="822"/>
+        <source>Choose folder to save exported .torrent files</source>
+        <translation>Изберете папка за запазване на изнесени .torrent файлове</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="836"/>
+        <source>Export .torrent file failed. Torrent: &quot;%1&quot;. Save path: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
+        <translation>Изнасяне на .torrent файл неуспешно. Торент &quot;%1&quot;. Път на запазване: &quot;%2&quot;. Причина: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="861"/>
+        <source>Export .torrent file error</source>
+        <translation>Грешка при изнасяне на .torrent файл</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove All Tags</source>
+        <translation>Изтрий Всички Етикети</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove all tags from selected torrents?</source>
+        <translation>Изтриване на всички етикети от избраните торенти?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="887"/>
+        <source>Comma-separated tags:</source>
+        <translation>Етикети разделени чрез запетаи:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Invalid tag</source>
+        <translation>Невалиден етикет</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Tag name: &apos;%1&apos; is invalid</source>
+        <translation>Името на етикета &apos;%1&apos; е невалидно</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="986"/>
+        <source>Pre&amp;view file...</source>
+        <translation>Пре&amp;гледай файл...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="988"/>
+        <source>Torrent &amp;options...</source>
+        <translation>Торент &amp;опции...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="990"/>
+        <source>Open destination &amp;folder</source>
+        <translation>Отвори &amp;папка на местонахождение</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="992"/>
+        <source>Move &amp;up</source>
+        <comment>i.e. move up in the queue</comment>
+        <translation>Премести &amp;нагоре</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="994"/>
+        <source>Move &amp;down</source>
+        <comment>i.e. Move down in the queue</comment>
+        <translation>Премести &amp;надолу</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="996"/>
+        <source>Move to &amp;top</source>
+        <comment>i.e. Move to top of the queue</comment>
+        <translation>Премести на &amp;върха</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="998"/>
+        <source>Move to &amp;bottom</source>
+        <comment>i.e. Move to bottom of the queue</comment>
+        <translation>Премести на &amp;дъното</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1000"/>
+        <source>Set loc&amp;ation...</source>
+        <translation>Задаване на мес&amp;тоположение...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1002"/>
+        <source>Force rec&amp;heck</source>
+        <translation>Принудително пре&amp;провери</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1004"/>
+        <source>Force r&amp;eannounce</source>
+        <translation>Принудително р&amp;еанонсирай</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1006"/>
+        <source>&amp;Magnet link</source>
+        <translation>&amp;Магнитна връзка</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1008"/>
+        <source>Torrent &amp;ID</source>
+        <translation>Торент &amp;ИД</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1010"/>
+        <source>&amp;Comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1012"/>
+        <source>&amp;Name</source>
+        <translation>&amp;Име</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1014"/>
+        <source>Info &amp;hash v1</source>
+        <translation>Инфо &amp;хеш в1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1016"/>
+        <source>Info h&amp;ash v2</source>
+        <translation>Инфо &amp;хеш в2</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1018"/>
+        <source>Content &amp;Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1022"/>
+        <source>Re&amp;name...</source>
+        <translation>Пре&amp;именувай...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1031"/>
+        <source>Edit trac&amp;kers...</source>
+        <translation>Редактирай тра&amp;кери...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1033"/>
+        <source>E&amp;xport .torrent...</source>
+        <translation>И&amp;знеси .torrent...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1177"/>
+        <source>Categor&amp;y</source>
+        <translation>Категори&amp;я</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1179"/>
+        <source>&amp;New...</source>
+        <comment>New category...</comment>
+        <translation>&amp;Нов...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1181"/>
+        <source>&amp;Reset</source>
+        <comment>Reset category</comment>
+        <translation>&amp;Нулирай</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1199"/>
+        <source>Ta&amp;gs</source>
+        <translation>Та&amp;гове</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1201"/>
+        <source>&amp;Add...</source>
+        <comment>Add / assign multiple tags...</comment>
+        <translation>&amp;Добави...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1203"/>
+        <source>&amp;Remove All</source>
+        <comment>Remove all tags</comment>
+        <translation>&amp;Премахни всички</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1279"/>
+        <source>Can not force reannounce if torrent is Stopped/Queued/Errored/Checking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1286"/>
+        <source>&amp;Queue</source>
+        <translation>&amp;Опашка</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1293"/>
+        <source>&amp;Copy</source>
+        <translation>&amp;Копирай</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1304"/>
+        <source>Exported torrent is not necessarily the same as the imported</source>
+        <translation>Изнесен торент е необезателно същият като внесения торент</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1024"/>
+        <source>Download in sequential order</source>
+        <translation>Сваляне по азбучен ред</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="776"/>
+        <source>Add tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="862"/>
+        <source>Errors occurred when exporting .torrent files. Check execution log for details.</source>
+        <translation>Грешки възникнаха при изнасяне на .torrent файлове. Проверете дневника на изпълняване за подробности.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="978"/>
+        <source>&amp;Start</source>
+        <comment>Resume/start the torrent</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="980"/>
+        <source>Sto&amp;p</source>
+        <comment>Stop the torrent</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="982"/>
+        <source>Force Star&amp;t</source>
+        <comment>Force Resume/start the torrent</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="984"/>
+        <source>&amp;Remove</source>
+        <comment>Remove the torrent</comment>
+        <translation>&amp;Премахни</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1026"/>
+        <source>Download first and last pieces first</source>
+        <translation>Сваляне първо на първото и последното парче</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1028"/>
+        <source>Automatic Torrent Management</source>
+        <translation>Автоматичен Торентов Режим на Управаление</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1029"/>
+        <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
+        <translation>Автоматичен режим значи, че различни свойства на торент (н. пр. път на запазване) ще бъдат решени от асоциираната категория</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1020"/>
+        <source>Super seeding mode</source>
+        <translation>Режим на супер-даване</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeDialog</name>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="14"/>
+        <source>UI Theme Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="33"/>
+        <source>Colors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="78"/>
+        <source>Note that some custom colors may not be applied in some desktop environments.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="100"/>
+        <source>Color ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="112"/>
+        <location filename="../gui/uithemedialog.ui" line="215"/>
+        <source>Light Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="124"/>
+        <location filename="../gui/uithemedialog.ui" line="227"/>
+        <source>Dark Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="151"/>
+        <source>Icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="203"/>
+        <source>Icon ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="269"/>
+        <source>UI Theme Configuration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="270"/>
+        <source>The UI Theme changes could not be fully applied. The details can be found in the Log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="354"/>
+        <source>Couldn&apos;t save UI Theme configuration. Reason: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="385"/>
+        <location filename="../gui/uithemedialog.cpp" line="394"/>
+        <source>Couldn&apos;t remove icon file. File: %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="403"/>
+        <source>Couldn&apos;t copy icon file. Source: %1. Destination: %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeManager</name>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="82"/>
+        <source>Set app style failed. Unknown style: &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="101"/>
+        <source>Failed to load UI theme from file: &quot;%1&quot;</source>
+        <translation>Неуспешно зареждане на UI тема от файл: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeSource</name>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="54"/>
+        <source>Couldn&apos;t parse UI Theme configuration file. Reason: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="61"/>
+        <source>UI Theme configuration file has invalid format. Reason: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="62"/>
+        <source>Root JSON value is not an object</source>
+        <translation>Основната стойност на JSON не е обект</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="77"/>
+        <source>Invalid color for ID &quot;%1&quot; is provided by theme</source>
+        <translation>Невалиден цвят за ID &quot;%1&quot; е представен от темата</translation>
+    </message>
+</context>
+<context>
+    <name>Upgrade</name>
+    <message>
+        <location filename="../app/upgrade.cpp" line="59"/>
+        <source>Migrate preferences failed: WebUI https, file: &quot;%1&quot;, error: &quot;%2&quot;</source>
+        <translation>Мигриране на предпочитанията се провали: УебПИ http-та, файл: &quot;%1&quot;, грешка: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="74"/>
+        <source>Migrated preferences: WebUI https, exported data to file: &quot;%1&quot;</source>
+        <translation>Мигрирани предпочитания: УебПИ http-та, изнесени данни във файл: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="166"/>
+        <location filename="../app/upgrade.cpp" line="197"/>
+        <location filename="../app/upgrade.cpp" line="228"/>
+        <location filename="../app/upgrade.cpp" line="366"/>
+        <location filename="../app/upgrade.cpp" line="464"/>
+        <source>Invalid value found in configuration file, reverting it to default. Key: &quot;%1&quot;. Invalid value: &quot;%2&quot;.</source>
+        <translation>Невалидна стойност намерена в конфигурационен файл, връщане към по подразбиране. Ключ: &quot;%1&quot;. Невалидна стойност: &quot;%2&quot;.</translation>
+    </message>
+</context>
+<context>
+    <name>Utils::ForeignApps</name>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="91"/>
+        <source>Found Python executable. Name: &quot;%1&quot;. Version: &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="243"/>
+        <source>Python failed to meet minimum version requirement. Path: &quot;%1&quot;. Found version: &quot;%2&quot;. Minimum supported version: &quot;%3&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="258"/>
+        <source>Failed to find Python executable. Path: &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="282"/>
+        <source>Failed to find `%1` executable in PATH environment variable. PATH: &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="301"/>
+        <source>Failed to find Python executable</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Utils::IO</name>
+    <message>
+        <location filename="../base/utils/io.cpp" line="83"/>
+        <source>File open error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="91"/>
+        <source>File size exceeds limit. File: &quot;%1&quot;. File size: %2. Size limit: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="97"/>
+        <source>File size exceeds data size limit. File: &quot;%1&quot;. File size: %2. Array limit: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="107"/>
+        <source>File read error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="122"/>
+        <source>Read size mismatch. File: &quot;%1&quot;. Expected: %2. Actual: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFolderOptionsDialog</name>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="14"/>
+        <source>Watched Folder Options</source>
+        <translation>Наблюдавана папка опции</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="22"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will watch the folder and all its subfolders. In Manual torrent management mode it will also add subfolder name to the selected Save path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ще следи папката и всички нейни подпапки. В режим за ръчно управление на торенти също така ще добави име на подпапка към избрания път за запис.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="25"/>
+        <source>Recursive mode</source>
+        <translation>Рекурсивен режим</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="47"/>
+        <source>Torrent parameters</source>
+        <translation>Параметри на торента</translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFoldersModel</name>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="76"/>
+        <source>Watched Folder</source>
+        <translation>Наблюдавана папка</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="106"/>
+        <source>Watched folder path cannot be empty.</source>
+        <translation>Пътя на наблюдаваната папка не може да бъде празен.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="109"/>
+        <source>Watched folder path cannot be relative.</source>
+        <translation>Пътя на наблюдаваната папка не може да бъде относителен.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="112"/>
+        <source>Folder &apos;%1&apos; is already in watch list.</source>
+        <translation>Папката &apos;%1&apos; вече е в списъка за наблюдение.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="116"/>
+        <source>Folder &apos;%1&apos; doesn&apos;t exist.</source>
+        <translation>Папка &apos;%1&apos; не съществува.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="118"/>
+        <source>Folder &apos;%1&apos; isn&apos;t readable.</source>
+        <translation>Папка &apos;%1&apos; не се чете.</translation>
+    </message>
+</context>
+<context>
+    <name>WebApplication</name>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="217"/>
+        <source>Unacceptable file type, only regular file is allowed.</source>
+        <translation>Неприемлив тип файл, разрешен е само обикновен файл.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="235"/>
+        <source>Symlinks inside alternative UI folder are forbidden.</source>
+        <translation>Символните връзки в алтернативната папка на потребителския интерфейс са забранени.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="445"/>
+        <source>Using built-in WebUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="447"/>
+        <source>Using custom WebUI. Location: &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="459"/>
+        <source>WebUI translation for selected locale (%1) has been successfully loaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="464"/>
+        <source>Couldn&apos;t load WebUI translation for selected locale (%1).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="521"/>
+        <source>Missing &apos;:&apos; separator in WebUI custom HTTP header: &quot;%1&quot;</source>
+        <translation>Липсва разделител &quot;:&quot; в WebUI потребителски HTTP заглавка: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="588"/>
+        <source>Web server error. %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="608"/>
+        <source>Web server error. Unknown error.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="920"/>
+        <source>WebUI: Origin header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Origin header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>WebUI: Заглавната част на източника и целевия източник не съответстват. IP източник: &apos;%1&apos;. Заглавна част на източник: &apos;%2&apos;. Целеви източник: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="932"/>
+        <source>WebUI: Referer header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Referer header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>WebUI: Заглавната част на рефера и целевия източник не съвпадат! IP на източник: &apos;%1&apos;. Заглавна част на рефера: &apos;%2. Целеви източник: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="951"/>
+        <source>WebUI: Invalid Host header, port mismatch. Request source IP: &apos;%1&apos;. Server port: &apos;%2&apos;. Received Host header: &apos;%3&apos;</source>
+        <translation>WebUI: Невалидна заглавна част на хоста, несъвпадение на порт! Заявка на IP на източник: &apos;%1&apos;. Сървър порт: &apos;%2. Получена заглавна част на хост: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="972"/>
+        <source>WebUI: Invalid Host header. Request source IP: &apos;%1&apos;. Received Host header: &apos;%2&apos;</source>
+        <translation>WebUI: Невалидна заглавна част на хост. Заявка на  IP на източник: &apos;%1&apos;. Получена заглавна част на хост: &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1018"/>
+        <source>WebAPI login failure. Reason: IP has been banned, IP: %1, username: %2</source>
+        <translation>Грешка при влизане в уеб API. Причина: IP е забранен, IP: %1, потребителско име: %2</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1021"/>
+        <source>Your IP address has been banned after too many failed authentication attempts.</source>
+        <translation>Вашият IP адрес е забранен след твърде много неуспешни опити за удостоверяване.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1030"/>
+        <source>WebAPI login success. IP: %1</source>
+        <translation>Успешно влизане в уеб API. IP: %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1038"/>
+        <source>WebAPI login failure. Reason: invalid credentials, attempt count: %1, IP: %2, username: %3</source>
+        <translation>Грешка при влизане в WebAPI. Причина: невалидни идентификационни данни, брой опити: %1, IP: %2, потребителско име: %3</translation>
+    </message>
+</context>
+<context>
+    <name>WebUI</name>
+    <message>
+        <location filename="../webui/webui.cpp" line="69"/>
+        <source>Credentials are not set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="120"/>
+        <source>WebUI: HTTPS setup successful</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="122"/>
+        <source>WebUI: HTTPS setup failed, fallback to HTTP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="134"/>
+        <source>WebUI: Now listening on IP: %1, port: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="138"/>
+        <source>Unable to bind to IP: %1, port: %2. Reason: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fs</name>
+    <message>
+        <location filename="../base/utils/fs.cpp" line="397"/>
+        <source>Unknown error</source>
+        <translation>Непозната грешка</translation>
+    </message>
+</context>
+<context>
+    <name>misc</name>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="59"/>
+        <source>B</source>
+        <comment>bytes</comment>
+        <translation>Б</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="60"/>
+        <source>KiB</source>
+        <comment>kibibytes (1024 bytes)</comment>
+        <translation>КБ</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="61"/>
+        <source>MiB</source>
+        <comment>mebibytes (1024 kibibytes)</comment>
+        <translation>МБ</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="62"/>
+        <source>GiB</source>
+        <comment>gibibytes (1024 mibibytes)</comment>
+        <translation>ГБ</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="63"/>
+        <source>TiB</source>
+        <comment>tebibytes (1024 gibibytes)</comment>
+        <translation>ТБ</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="64"/>
+        <source>PiB</source>
+        <comment>pebibytes (1024 tebibytes)</comment>
+        <translation>PiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="65"/>
+        <source>EiB</source>
+        <comment>exbibytes (1024 pebibytes)</comment>
+        <translation>EiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="101"/>
+        <source>/s</source>
+        <comment>per second</comment>
+        <translation>/с</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="239"/>
+        <source>%1s</source>
+        <comment>e.g: 10 seconds</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="244"/>
+        <source>%1m</source>
+        <comment>e.g: 10 minutes</comment>
+        <translation>%1мин</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="250"/>
+        <source>%1h %2m</source>
+        <comment>e.g: 3 hours 5 minutes</comment>
+        <translation>%1ч%2мин</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="257"/>
+        <source>%1d %2h</source>
+        <comment>e.g: 2 days 10 hours</comment>
+        <translation>%1д%2ч</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="262"/>
+        <source>%1y %2d</source>
+        <comment>e.g: 2 years 10 days</comment>
+        <translation>%1y %2d</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="109"/>
+        <location filename="../base/utils/misc.cpp" line="121"/>
+        <source>Unknown</source>
+        <comment>Unknown (size)</comment>
+        <translation>Неизвестен</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="92"/>
+        <source>qBittorrent will shutdown the computer now because all downloads are complete.</source>
+        <translation>qBittorrent ще угаси компютъра, защото всички сваляния са завършени.</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="98"/>
+        <source>qBittorrent will reboot the computer now because all downloads are complete.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="237"/>
+        <source>&lt; 1m</source>
+        <comment>&lt; 1 minute</comment>
+        <translation>&lt; 1мин</translation>
+    </message>
+</context>
+</TS>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

@@ -1,0 +1,3076 @@
+onimpl.cpp" line="5588"/>
+        <source>Failed to load Categories configuration. File: &quot;%1&quot;. Error: &quot;Invalid data format&quot;</source>
+        <translation>Nije uspelo učitavanje konfiguracije kategorija. Datoteka: „%1“. Greška: „Nevažeći format podataka“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6095"/>
+        <source>%1 is disabled</source>
+        <comment>this peer was blocked. Reason: uTP is disabled.</comment>
+        <translation>%1 je onemogućeno</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6098"/>
+        <source>%1 is disabled</source>
+        <comment>this peer was blocked. Reason: TCP is disabled.</comment>
+        <translation>%1 je onemogućeno</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6128"/>
+        <source>Received error message from URL seed. Torrent: &quot;%1&quot;. URL: &quot;%2&quot;. Message: &quot;%3&quot;</source>
+        <translation>Primljena je poruka o grešci sa URL semena. Torent: &quot;%1&quot;. URL: &quot;%2&quot;. Poruka: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6137"/>
+        <source>Successfully listening on IP. IP: &quot;%1&quot;. Port: &quot;%2/%3&quot;</source>
+        <translation>Uspešno slušanje na IP adresi. IP adresa: „%1“. Port: „%2/%3“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6144"/>
+        <source>Failed to listen on IP. IP: &quot;%1&quot;. Port: &quot;%2/%3&quot;. Reason: &quot;%4&quot;</source>
+        <translation>Nije uspelo slušanje na IP adresi. IP adresa: „%1“. Port: „%2/%3“. Razlog: „%4“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6152"/>
+        <source>Detected external IP. IP: &quot;%1&quot;</source>
+        <translation>Otkrivena je spoljna IP adresa. IP adresa: „%1“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6281"/>
+        <source>Error: Internal alert queue is full and alerts are dropped, you might see degraded performance. Dropped alert type: &quot;%1&quot;. Message: &quot;%2&quot;</source>
+        <translation>Greška: Interni red upozorenja je pun i upozorenja su odbačena, moguće je da ćete videti smanjene performanse. Tip odbačenog upozorenja: „%1“. Poruka: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6297"/>
+        <source>Moved torrent successfully. Torrent: &quot;%1&quot;. Destination: &quot;%2&quot;</source>
+        <translation>Torent uspešno premešten. Torent: „%1“. Odredište: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/sessionimpl.cpp" line="6314"/>
+        <source>Failed to move torrent. Torrent: &quot;%1&quot;. Source: &quot;%2&quot;. Destination: &quot;%3&quot;. Reason: &quot;%4&quot;</source>
+        <translation>Premeštanje torrenta nije uspelo. Torent: &quot;%1&quot;. Izvor: &quot;%2&quot;. Odredište: &quot;%3&quot;. Razlog: &quot;%4&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>BitTorrent::TorrentCreationTask</name>
+    <message>
+        <location filename="../base/bittorrent/torrentcreationtask.cpp" line="76"/>
+        <source>Failed to start seeding.</source>
+        <translation>Pokretanje setve nije uspelo.</translation>
+    </message>
+</context>
+<context>
+    <name>BitTorrent::TorrentCreator</name>
+    <message>
+        <location filename="../base/bittorrent/torrentcreator.cpp" line="93"/>
+        <source>Operation aborted</source>
+        <translation>Operacija otkazana</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentcreator.cpp" line="261"/>
+        <location filename="../base/bittorrent/torrentcreator.cpp" line="265"/>
+        <source>Create new torrent file failed. Reason: %1.</source>
+        <translation>Kreiranje nove torent datoteke nije uspelo. Razlog: %1.</translation>
+    </message>
+</context>
+<context>
+    <name>BitTorrent::TorrentImpl</name>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="853"/>
+        <source>Failed to add peer &quot;%1&quot; to torrent &quot;%2&quot;. Reason: %3</source>
+        <translation>Dodavanje peer-a „%1“ u torent „%2“ nije uspelo. Razlog: %3</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="858"/>
+        <source>Peer &quot;%1&quot; is added to torrent &quot;%2&quot;</source>
+        <translation>Vršnjak „%1“ je dodat torentu „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="918"/>
+        <source>Unexpected data detected. Torrent: %1. Data: total_wanted=%2 total_wanted_done=%3.</source>
+        <translation>Otkriveni neočekivani podaci. Torent: %1. Podaci: total_wanted=%2 total_wanted_done=%3.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="1318"/>
+        <source>Couldn&apos;t write to file. Reason: &quot;%1&quot;. Torrent is now in &quot;upload only&quot; mode.</source>
+        <translation>Nije moguće pisati u datoteku. Razlog: „%1“. Torent je sada u režimu „samo otpremanje“.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="1729"/>
+        <source>Download first and last piece first: %1, torrent: &apos;%2&apos;</source>
+        <translation>Prvo preuzmite prvi i poslednji deo: %1, torent: &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="1730"/>
+        <source>On</source>
+        <translation>Uključeno</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="1730"/>
+        <source>Off</source>
+        <translation>Isključeno</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="1932"/>
+        <source>Failed to reload torrent. Torrent: %1. Reason: %2</source>
+        <translation>Ponovno učitavanje torenta nije uspelo. Torent: %1. Razlog: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/torrentimpl.cpp" line="2800"/>
+        <source>Missing metadata</source>
+        <translation>Nedostaju metapodaci</translation>
+    </message>
+</context>
+<context>
+    <name>BitTorrent::Tracker</name>
+    <message>
+        <location filename="../base/bittorrent/tracker.cpp" line="217"/>
+        <source>Embedded Tracker: Now listening on IP: %1, port: %2</source>
+        <translation>Ugrađeni treker: slušam na IP: %1, port: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/tracker.cpp" line="222"/>
+        <source>Embedded Tracker: Unable to bind to IP: %1, port: %2. Reason: %3</source>
+        <translation>Ugrađeni treker: nije uspelo kačenje za IP: %1, port: %2. Razlog: %3</translation>
+    </message>
+</context>
+<context>
+    <name>CMD Options</name>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="152"/>
+        <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
+        <comment>e.g. Parameter '--webui-port' must follow syntax '--webui-port=value'</comment>
+        <translation>Parametar &quot;%1&quot; mora poštovati sintaksu &quot;%1=%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="201"/>
+        <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
+        <comment>e.g. Parameter '--webui-port' must follow syntax '--webui-port=&lt;value&gt;'</comment>
+        <translation>Parametar &quot;%1&quot; mora poštovati sintaksu &quot;%1=%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="217"/>
+        <source>Expected integer number in environment variable &apos;%1&apos;, but got &apos;%2&apos;</source>
+        <translation>Očekivao se ceo broj u promenljivoj okruženja &quot;%1&quot;, ali nađeno je &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="295"/>
+        <source>Expected %1 in environment variable &apos;%2&apos;, but got &apos;%3&apos;</source>
+        <translation>Očekivalo se %1 u promenljivoj okruženja &quot;%2&quot;, ali nađeno je &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="385"/>
+        <location filename="../app/cmdoptions.cpp" line="393"/>
+        <source>%1 must specify a valid port (1 to 65535).</source>
+        <translation>%1 mora biti važeći port (1 do 65535)</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="502"/>
+        <source>Usage:</source>
+        <translation>Upotreba:</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="503"/>
+        <source>[options] [(&lt;filename&gt; | &lt;url&gt;)...]</source>
+        <translation>[opcije] [(&lt;filename&gt; | &lt;url&gt;)...]</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="505"/>
+        <source>Options:</source>
+        <translation>Podešavanja:</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="508"/>
+        <source>Display program version and exit</source>
+        <translation>Prikaži verziju programa i izađu</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="506"/>
+        <source>Display this help message and exit</source>
+        <translation>Prikaži ovu pomoćnu poruku i izađi</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="268"/>
+        <source>Parameter &apos;%1&apos; must follow syntax &apos;%1=%2&apos;</source>
+        <comment>e.g. Parameter '--add-stopped' must follow syntax '--add-stopped=&lt;true|false&gt;'</comment>
+        <translation>Parametar &quot;%1&quot; mora poštovati sintaksu &quot;%1=%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="510"/>
+        <source>Confirm the legal notice</source>
+        <translation>Potvrdite pravno obaveštenje</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="511"/>
+        <location filename="../app/cmdoptions.cpp" line="514"/>
+        <source>port</source>
+        <translation>port</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="512"/>
+        <source>Change the WebUI port</source>
+        <translation>Promenite WebUI port</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="515"/>
+        <source>Change the torrenting port</source>
+        <translation>Promeni port za torentovanje</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="518"/>
+        <source>Disable splash screen</source>
+        <translation>Isključi pozdravni ekran</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="520"/>
+        <source>Run in daemon-mode (background)</source>
+        <translation>Radi u servisnom režimu (u pozadini)</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="523"/>
+        <source>dir</source>
+        <extracomment>Use appropriate short form or abbreviation of &quot;directory&quot;</extracomment>
+        <translation>dir</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="524"/>
+        <source>Store configuration files in &lt;dir&gt;</source>
+        <translation>Čuvaj konfiguracione fajlove u &lt;dir&gt;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="525"/>
+        <location filename="../app/cmdoptions.cpp" line="538"/>
+        <source>name</source>
+        <translation>ime</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="526"/>
+        <source>Store configuration files in directories qBittorrent_&lt;name&gt;</source>
+        <translation>Čuvaj konfiguracione fajlove u fasciklama qBittorrent_&lt;name&gt;</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="528"/>
+        <source>Hack into libtorrent fastresume files and make file paths relative to the profile directory</source>
+        <translation>Hakujte libtorrent fastresume datoteke i napravite putanje datoteka relativne u odnosu na direktorijum profila</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="530"/>
+        <source>files or URLs</source>
+        <translation>fajlovi ili URL-ovi</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="531"/>
+        <source>Download the torrents passed by the user</source>
+        <translation>Preuzmite torent datoteke koje je korisnik prosledio</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="534"/>
+        <source>Options when adding new torrents:</source>
+        <translation>Podešavanja pri dodavanju novih torenata:</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="535"/>
+        <source>path</source>
+        <translation>putanja</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="535"/>
+        <source>Torrent save path</source>
+        <translation>Putanja čuvanja torenta</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="536"/>
+        <source>Add torrents as running or stopped</source>
+        <translation>Dodajte torent kao pokrenute ili zaustavljene</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="537"/>
+        <source>Skip hash check</source>
+        <translation>Preskoči proveru heša</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="539"/>
+        <source>Assign torrents to category. If the category doesn&apos;t exist, it will be created.</source>
+        <translation>Naznači torente po kategorijama. Ako kategorija ne postoji, biće kreirana.</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="541"/>
+        <source>Download files in sequential order</source>
+        <translation>Preuzmi fajlove po redu</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="543"/>
+        <source>Download first and last pieces first</source>
+        <translation>Prvo preuzmi početne i krajnje delove</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="545"/>
+        <source>Specify whether the &quot;Add New Torrent&quot; dialog opens when adding a torrent.</source>
+        <translation>Navedite da li se dijalog „Dodaj novi torent“ otvara prilikom dodavanja torenta.</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="549"/>
+        <source>Option values may be supplied via environment variables. For option named &apos;parameter-name&apos;, environment variable name is &apos;QBT_PARAMETER_NAME&apos; (in upper case, &apos;-&apos; replaced with &apos;_&apos;). To pass flag values, set the variable to &apos;1&apos; or &apos;TRUE&apos;. For example, to disable the splash screen: </source>
+        <translation>Vrednosti opcija mogu biti dostavljene preko promenljivih okruženja. Za opciju pod nazivom „ime-parametra“, naziv promenljive okruženja je „QBT_PARAMETER_NAME“ (velikim slovima, „-“ zamenjeno sa „_“). Da biste prosledili vrednosti zastavica, postavite promenljivu na „1“ ili „TRUE“. Na primer, da biste onemogućili početni ekran: </translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="554"/>
+        <source>Command line parameters take precedence over environment variables</source>
+        <translation>Parametri komandne linije imaju prioritet u odnosu na promenljive okruženja</translation>
+    </message>
+    <message>
+        <location filename="../app/cmdoptions.cpp" line="562"/>
+        <source>Help</source>
+        <translation>Pomoć</translation>
+    </message>
+</context>
+<context>
+    <name>CategoryFilterModel</name>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfiltermodel.cpp" line="254"/>
+        <source>Categories</source>
+        <translation>Kategorije</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfiltermodel.cpp" line="432"/>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfiltermodel.cpp" line="439"/>
+        <source>Uncategorized</source>
+        <translation>Nesvrstano</translation>
+    </message>
+</context>
+<context>
+    <name>CategoryFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="118"/>
+        <source>Add category...</source>
+        <translation>Dodaj kategoriju...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="124"/>
+        <source>Add subcategory...</source>
+        <translation>Dodaj potkategoriju...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="126"/>
+        <source>Edit category...</source>
+        <translation>Izmeni kategoriju...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="128"/>
+        <source>Remove category</source>
+        <translation>Ukloni kategoriju</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="132"/>
+        <source>Remove unused categories</source>
+        <translation>Ukloni nekorišćene kategorije</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="135"/>
+        <source>Start torrents</source>
+        <translation>Pokreni torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="137"/>
+        <source>Stop torrents</source>
+        <translation>Zaustavite torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/categoryfilterwidget.cpp" line="139"/>
+        <source>Remove torrents</source>
+        <translation>Ukloni torente</translation>
+    </message>
+</context>
+<context>
+    <name>ClientDataController</name>
+    <message>
+        <location filename="../webui/api/clientdatacontroller.cpp" line="61"/>
+        <source>`keys` must be an array</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/api/clientdatacontroller.cpp" line="67"/>
+        <source>Items of `keys` must be strings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/api/clientdatacontroller.cpp" line="83"/>
+        <source>`data` must be an object</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>ClientDataStorage</name>
+    <message>
+        <location filename="../webui/clientdatastorage.cpp" line="53"/>
+        <source>Failed to load web client data. %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/clientdatastorage.cpp" line="61"/>
+        <source>Failed to parse web client data. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/clientdatastorage.cpp" line="68"/>
+        <source>Failed to load web client data. File: &quot;%1&quot;. Error: &quot;Invalid data format&quot;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/clientdatastorage.cpp" line="113"/>
+        <source>Total web client data must not be larger than %1 bytes</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../webui/clientdatastorage.cpp" line="116"/>
+        <source>Failed to save web client data. Error: &quot;%1&quot;</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>ColorWidget</name>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="103"/>
+        <source>Edit...</source>
+        <translation>Uredi...</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="104"/>
+        <source>Reset</source>
+        <translation>Resetu</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="133"/>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+</context>
+<context>
+    <name>CookiesDialog</name>
+    <message>
+        <location filename="../gui/cookiesdialog.ui" line="14"/>
+        <source>Manage Cookies</source>
+        <translation>Upravljanje kolačićima</translation>
+    </message>
+</context>
+<context>
+    <name>CookiesModel</name>
+    <message>
+        <location filename="../gui/cookiesmodel.cpp" line="51"/>
+        <source>Domain</source>
+        <translation>Domen</translation>
+    </message>
+    <message>
+        <location filename="../gui/cookiesmodel.cpp" line="53"/>
+        <source>Path</source>
+        <translation>Putanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/cookiesmodel.cpp" line="55"/>
+        <source>Name</source>
+        <translation>Ime</translation>
+    </message>
+    <message>
+        <location filename="../gui/cookiesmodel.cpp" line="57"/>
+        <source>Value</source>
+        <translation>Vrednost</translation>
+    </message>
+    <message>
+        <location filename="../gui/cookiesmodel.cpp" line="59"/>
+        <source>Expiration Date</source>
+        <translation>Datum isticanja</translation>
+    </message>
+</context>
+<context>
+    <name>CustomThemeSource</name>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="249"/>
+        <source>Failed to load custom theme style sheet. %1</source>
+        <translation>Nije uspelo učitavanje prilagođenog stilskog lista teme. %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="273"/>
+        <source>Failed to load custom theme colors. %1</source>
+        <translation>Učitavanje prilagođenih boja teme nije uspelo. %1</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultThemeSource</name>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="166"/>
+        <source>Failed to load default theme colors. %1</source>
+        <translation>Nije uspelo učitavanje podrazumevanih boja teme. %1</translation>
+    </message>
+</context>
+<context>
+    <name>DeletionConfirmationDialog</name>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.ui" line="20"/>
+        <source>Remove torrent(s)</source>
+        <translation>Ukloni torent(e)</translation>
+    </message>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.ui" line="67"/>
+        <source>Remember choice</source>
+        <translation>Zapamti izbor</translation>
+    </message>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.ui" line="91"/>
+        <source>Also remove the content files</source>
+        <translation>Takođe uklonite datoteke sadržaja</translation>
+    </message>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.cpp" line="47"/>
+        <source>Are you sure you want to remove &apos;%1&apos; from the transfer list?</source>
+        <comment>Are you sure you want to remove 'ubuntu-linux-iso' from the transfer list?</comment>
+        <translation>Da li sigurno želite da uklonite &quot;%1&quot; sa liste prenosa?</translation>
+    </message>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.cpp" line="49"/>
+        <source>Are you sure you want to remove these %1 torrents from the transfer list?</source>
+        <comment>Are you sure you want to remove these 5 torrents from the transfer list?</comment>
+        <translation>Da li sigurno želite da uklonite ovih %1 torenata sa liste prenosa?</translation>
+    </message>
+    <message>
+        <location filename="../gui/deletionconfirmationdialog.cpp" line="60"/>
+        <source>Remove</source>
+        <translation>Ukloni</translation>
+    </message>
+</context>
+<context>
+    <name>DownloadFromURLDialog</name>
+    <message>
+        <location filename="../gui/downloadfromurldialog.ui" line="14"/>
+        <source>Download from URLs</source>
+        <translation>Preuzimanje sa URLova</translation>
+    </message>
+    <message>
+        <location filename="../gui/downloadfromurldialog.ui" line="25"/>
+        <source>Add torrent links</source>
+        <translation>Dodaj torent linkove</translation>
+    </message>
+    <message>
+        <location filename="../gui/downloadfromurldialog.ui" line="47"/>
+        <source>One link per line (HTTP links, Magnet links and info-hashes are supported)</source>
+        <translation>Jedna veza po redu (podržani su HTTP i Magnet linkovi i info heševi)</translation>
+    </message>
+    <message>
+        <location filename="../gui/downloadfromurldialog.cpp" line="68"/>
+        <source>Download</source>
+        <translation>Preuzmi</translation>
+    </message>
+    <message>
+        <location filename="../gui/downloadfromurldialog.cpp" line="136"/>
+        <source>No URL entered</source>
+        <translation>URL nije unesen</translation>
+    </message>
+    <message>
+        <location filename="../gui/downloadfromurldialog.cpp" line="136"/>
+        <source>Please type at least one URL.</source>
+        <translation>Molim upišite najmanje jedan URL.</translation>
+    </message>
+</context>
+<context>
+    <name>DownloadedPiecesBar</name>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="200"/>
+        <source>Missing pieces</source>
+        <translation>Delići koji fale</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="201"/>
+        <source>Partial pieces</source>
+        <translation>Delimični delići</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="202"/>
+        <source>Completed pieces</source>
+        <translation>Preuzeti delići</translation>
+    </message>
+</context>
+<context>
+    <name>ExecutionLogWidget</name>
+    <message>
+        <location filename="../gui/executionlogwidget.ui" line="36"/>
+        <source>General</source>
+        <translation>Opšte</translation>
+    </message>
+    <message>
+        <location filename="../gui/executionlogwidget.ui" line="42"/>
+        <source>Blocked IPs</source>
+        <translation>Blokirane IP adrese</translation>
+    </message>
+    <message>
+        <location filename="../gui/executionlogwidget.cpp" line="95"/>
+        <source>Copy</source>
+        <translation>Kopiraj</translation>
+    </message>
+    <message>
+        <location filename="../gui/executionlogwidget.cpp" line="99"/>
+        <source>Clear</source>
+        <translation>Očisti</translation>
+    </message>
+</context>
+<context>
+    <name>FeedListWidget</name>
+    <message>
+        <location filename="../gui/rss/feedlistwidget.cpp" line="97"/>
+        <source>RSS feeds</source>
+        <translation>RSS poruke</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/feedlistwidget.cpp" line="110"/>
+        <location filename="../gui/rss/feedlistwidget.cpp" line="154"/>
+        <source>Unread  (%1)</source>
+        <translation>Nepročitano (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>FileLogger</name>
+    <message>
+        <location filename="../app/filelogger.cpp" line="180"/>
+        <source>An error occurred while trying to open the log file. Logging to file is disabled. File: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>FileSystemPathEdit</name>
+    <message>
+        <location filename="../gui/fspathedit.cpp" line="59"/>
+        <source>...</source>
+        <comment>Launch file dialog button text (brief)</comment>
+        <translation>...</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit.cpp" line="61"/>
+        <source>&amp;Browse...</source>
+        <comment>Launch file dialog button text (full)</comment>
+        <translation>&amp;Potraži...</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit.cpp" line="63"/>
+        <source>Choose a file</source>
+        <comment>Caption for file open/save dialog</comment>
+        <translation>Odaberi fajl</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit.cpp" line="65"/>
+        <source>Choose a folder</source>
+        <comment>Caption for directory open dialog</comment>
+        <translation>Odaberi folder</translation>
+    </message>
+    <message>
+        <location filename="../gui/fspathedit.cpp" line="97"/>
+        <source>Any file</source>
+        <translation>Bilo koji fajl</translation>
+    </message>
+</context>
+<context>
+    <name>FilterParserThread</name>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="132"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="304"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="485"/>
+        <source>I/O Error: Could not open IP filter file in read mode.</source>
+        <translation>Greška u/iz: Nije moguće otvoriti datoteku IP filtera u režimu čitanja.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="227"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="380"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="390"/>
+        <source>IP filter line %1 is malformed.</source>
+        <translation>Linija IP filtera %1 je neispravna.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="237"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="400"/>
+        <source>IP filter line %1 is malformed. Start IP of the range is malformed.</source>
+        <translation>Linija IP filtera %1 je pogrešno formirana. Početna IP adresa opsega je pogrešno formirana.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="247"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="410"/>
+        <source>IP filter line %1 is malformed. End IP of the range is malformed.</source>
+        <translation>Linija IP filtera %1 je pogrešno formirana. Krajnja IP adresa opsega je pogrešno formirana.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="256"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="419"/>
+        <source>IP filter line %1 is malformed. One IP is IPv4 and the other is IPv6!</source>
+        <translation>Linija IP filtera %1 je pogrešno formirana. Jedna IP adresa je IPv4, a druga je IPv6!</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="264"/>
+        <source>IP filter line %1 is malformed. End IP is lower than Start IP!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="280"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="434"/>
+        <source>IP filter exception thrown for line %1. Exception is: %2</source>
+        <translation>Izuzetak IP filtera je bačen za liniju %1. Izuzetak je: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="290"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="444"/>
+        <source>%1 extra IP filter parsing errors occurred.</source>
+        <comment>513 extra IP filter parsing errors occurred.</comment>
+        <translation>%1 dodatnih grešaka pri parsiranju IP filtera se dogodilo.</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="497"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="512"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="536"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="547"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="558"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="570"/>
+        <location filename="../base/bittorrent/filterparserthread.cpp" line="592"/>
+        <source>Parsing Error: The filter file is not a valid PeerGuardian P2B file.</source>
+        <translation>Greška pri parsiranju: Datoteka filtera nije važeća PeerGuardian P2B datoteka.</translation>
+    </message>
+</context>
+<context>
+    <name>FilterPatternFormatMenu</name>
+    <message>
+        <location filename="../gui/filterpatternformatmenu.cpp" line="36"/>
+        <source>Pattern Format</source>
+        <translation>Format šablona</translation>
+    </message>
+    <message>
+        <location filename="../gui/filterpatternformatmenu.cpp" line="41"/>
+        <source>Plain text</source>
+        <translation>Običan tekst</translation>
+    </message>
+    <message>
+        <location filename="../gui/filterpatternformatmenu.cpp" line="45"/>
+        <source>Wildcards</source>
+        <translation>Džokerski znakovi</translation>
+    </message>
+    <message>
+        <location filename="../gui/filterpatternformatmenu.cpp" line="49"/>
+        <source>Regular expression</source>
+        <translation>Regularni izraz</translation>
+    </message>
+</context>
+<context>
+    <name>GUIAddTorrentManager</name>
+    <message>
+        <location filename="../gui/guiaddtorrentmanager.cpp" line="113"/>
+        <source>Downloading torrent... Source: &quot;%1&quot;</source>
+        <translation>Preuzimanje torenta... Izvor: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/guiaddtorrentmanager.cpp" line="207"/>
+        <source>Torrent is already present</source>
+        <translation>Torent je već prisutan</translation>
+    </message>
+    <message>
+        <location filename="../gui/guiaddtorrentmanager.cpp" line="213"/>
+        <source>Trackers cannot be merged because it is a private torrent.</source>
+        <translation>Trakeri se ne mogu spojiti jer je u pitanju privatni torent.</translation>
+    </message>
+    <message>
+        <location filename="../gui/guiaddtorrentmanager.cpp" line="219"/>
+        <source>Torrent &apos;%1&apos; is already in the transfer list. Do you want to merge trackers from new source?</source>
+        <translation>Torent &quot;%1&quot; je već na spisku prenosa. Želite li da spojite trekere iz novog izvora?</translation>
+    </message>
+</context>
+<context>
+    <name>GeoIPDatabase</name>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="90"/>
+        <location filename="../base/net/geoipdatabase.cpp" line="123"/>
+        <source>Unsupported database file size.</source>
+        <translation>Nepodržana veličina fajla baze podataka.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="232"/>
+        <source>Metadata error: &apos;%1&apos; entry not found.</source>
+        <translation>Greška u metapodacima: Unos „%1“ nije pronađen.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="233"/>
+        <source>Metadata error: &apos;%1&apos; entry has invalid type.</source>
+        <translation>Greška metapodataka: Unos &apos;%1&apos; ima nevažeći tip.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="243"/>
+        <source>Unsupported database version: %1.%2</source>
+        <translation>Nepodržana verzija baze podataka: %1.%2</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="251"/>
+        <source>Unsupported IP version: %1</source>
+        <translation>Nepodržana verzija IP: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="259"/>
+        <source>Unsupported record size: %1</source>
+        <translation>Nepodržana veličina zapisa: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipdatabase.cpp" line="290"/>
+        <source>Database corrupted: no data section found.</source>
+        <translation>Baza podataka je oštećena: nije pronađen odeljak sa podacima.</translation>
+    </message>
+</context>
+<context>
+    <name>Http::Connection</name>
+    <message>
+        <location filename="../base/http/connection.cpp" line="96"/>
+        <source>Http request size exceeds limitation, closing socket. Limit: %1, IP: %2</source>
+        <translation>Veličina HTTP zahteva prelazi ograničenje, zatvaranje soketa. Ograničenje: %1, IP adresa: %2</translation>
+    </message>
+    <message>
+        <location filename="../base/http/connection.cpp" line="110"/>
+        <source>Bad Http request method, closing socket. IP: %1. Method: &quot;%2&quot;</source>
+        <translation>Neispravan metod HTTP zahteva, zatvaranje soketa. IP adresa: %1. Metoda: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/http/connection.cpp" line="123"/>
+        <source>Bad Http request, closing socket. IP: %1</source>
+        <translation>Loš HTTP zahtev, zatvaranje soketa. IP adresa: %1</translation>
+    </message>
+</context>
+<context>
+    <name>IPSubnetWhitelistOptionsDialog</name>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.ui" line="14"/>
+        <source>List of whitelisted IP subnets</source>
+        <translation>Lista IP podmreža na beloj listi</translation>
+    </message>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.ui" line="53"/>
+        <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
+        <translation>Primer: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.ui" line="64"/>
+        <source>Add subnet</source>
+        <translation>Dodaj podmrežu (subnet)</translation>
+    </message>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.ui" line="71"/>
+        <source>Delete</source>
+        <translation>Obriši</translation>
+    </message>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.cpp" line="98"/>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
+        <location filename="../gui/ipsubnetwhitelistoptionsdialog.cpp" line="98"/>
+        <source>The entered subnet is invalid.</source>
+        <translation>Navedena podmreža nije validna.</translation>
+    </message>
+</context>
+<context>
+    <name>IconWidget</name>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="185"/>
+        <source>Browse...</source>
+        <translation>Potraži...</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="186"/>
+        <source>Reset</source>
+        <translation>Resetu</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="213"/>
+        <source>Select icon</source>
+        <translation>Izaberite ikonicu</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="214"/>
+        <source>Supported image files</source>
+        <translation>Podržani fajlovi slika</translation>
+    </message>
+</context>
+<context>
+    <name>InhibitorDBus</name>
+    <message>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="70"/>
+        <source>Power management found suitable D-Bus interface. Interface: %1</source>
+        <translation>Upravljanje napajanjem je pronašlo odgovarajući D-Bus interfejs. Interfejs: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="75"/>
+        <source>Power management error. Did not find a suitable D-Bus interface.</source>
+        <translation>Greška u upravljanju napajanjem. Nije pronađen odgovarajući D-Bus interfejs.</translation>
+    </message>
+    <message>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="163"/>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="182"/>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="200"/>
+        <source>Power management error. Action: %1. Error: %2</source>
+        <translation>Greška u upravljanju napajanjem. Akcija: %1. Greška: %2</translation>
+    </message>
+    <message>
+        <location filename="../gui/powermanagement/inhibitordbus.cpp" line="220"/>
+        <source>Power management unexpected error. State: %1. Error: %2</source>
+        <translation>Neočekivana greška u upravljanju napajanjem. Stanje: %1. Greška: %2</translation>
+    </message>
+</context>
+<context>
+    <name>InhibitorMacOS</name>
+    <message>
+        <location filename="../gui/powermanagement/inhibitormacos.cpp" line="36"/>
+        <source>PMMacOS</source>
+        <comment>qBittorrent is active</comment>
+        <translation>PMMacOS</translation>
+    </message>
+</context>
+<context>
+    <name>LegalNotice</name>
+    <message>
+        <location filename="../app/legalnotice.cpp" line="50"/>
+        <source>Legal Notice</source>
+        <translation>Pravno Obaveštenje</translation>
+    </message>
+    <message>
+        <location filename="../app/legalnotice.cpp" line="51"/>
+        <source>qBittorrent is a file sharing program. When you run a torrent, its data will be made available to others by means of upload. Any content you share is your sole responsibility.</source>
+        <translation>qBittorrent je program za deljenje datoteka. Kada pokrenete Torent, deljene datoteke će biti dostupne drugima za preuzimanje. Bilo koji sadržaj koji podelite je Vaša lična odgovornost.</translation>
+    </message>
+    <message>
+        <location filename="../app/legalnotice.cpp" line="52"/>
+        <source>No further notices will be issued.</source>
+        <translation>Neće biti daljih napomena.</translation>
+    </message>
+    <message>
+        <location filename="../app/legalnotice.cpp" line="58"/>
+        <source>If you have read the legal notice, you can use command line option `--confirm-legal-notice` to suppress this message.</source>
+        <translation>Ako ste pročitali pravno obaveštenje, možete koristiti opciju komandne linije `--confirm-legal-notice` da biste sakrili ovu poruku.</translation>
+    </message>
+    <message>
+        <location filename="../app/legalnotice.cpp" line="67"/>
+        <source>Press &apos;Enter&apos; key to continue...</source>
+        <translation>Pritisnite taster „Enter“ da biste nastavili...</translation>
+    </message>
+</context>
+<context>
+    <name>LogPeerModel</name>
+    <message>
+        <location filename="../gui/log/logmodel.cpp" line="198"/>
+        <source>%1 was blocked. Reason: %2.</source>
+        <comment>0.0.0.0 was blocked. Reason: reason for blocking.</comment>
+        <translation>%1 je blokiran. Razlog: %2.</translation>
+    </message>
+    <message>
+        <location filename="../gui/log/logmodel.cpp" line="199"/>
+        <source>%1 was banned</source>
+        <comment>0.0.0.0 was banned</comment>
+        <translation>%1 je banovan</translation>
+    </message>
+</context>
+<context>
+    <name>Main</name>
+    <message>
+        <location filename="../app/main.cpp" line="223"/>
+        <source>%1 is an unknown command line parameter.</source>
+        <comment>--random-parameter is an unknown command line parameter.</comment>
+        <translation>%1 je nepoznat parametar komandne linije.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="91"/>
+        <source>Run application with -h option to read about command line parameters.</source>
+        <translation>Pokrenite aplikaciju sa opcijom -h da pročitate o parametrima komandne linije.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="93"/>
+        <source>Bad command line</source>
+        <translation>Pogrešna komandna linija</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="99"/>
+        <source>Bad command line: </source>
+        <translation>Pogrešna komandna linija: </translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="113"/>
+        <source>An unrecoverable error occurred.</source>
+        <translation>Došlo je do nepopravljive greške.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="121"/>
+        <location filename="../app/main.cpp" line="125"/>
+        <source>qBittorrent has encountered an unrecoverable error.</source>
+        <translation>qBittorrent je naišao na nepopravljivu grešku.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="234"/>
+        <source>You cannot use %1: qBittorrent is already running.</source>
+        <translation>Ne možete koristiti %1: qBittorrent je već pokrenut.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="241"/>
+        <source>Another qBittorrent instance is already running.</source>
+        <translation>Još jedna instanca qBittorrent-a je već pokrenuta.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="297"/>
+        <source>Found unexpected qBittorrent instance. Exiting this instance. Current process ID: %1.</source>
+        <translation>Pronađena je neočekivana instanca qBittorrent-a. Izlaz iz ove instance. Trenutni ID procesa: %1.</translation>
+    </message>
+    <message>
+        <location filename="../app/main.cpp" line="306"/>
+        <source>Error when daemonizing. Reason: &quot;%1&quot;. Error code: %2.</source>
+        <translation>Greška prilikom demonizacije. Razlog: „%1“. Kod greške: %2.</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="43"/>
+        <source>&amp;Edit</source>
+        <translation>&amp;Uredi</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="69"/>
+        <source>&amp;Tools</source>
+        <translation>&amp;Alati</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="91"/>
+        <source>&amp;File</source>
+        <translation>&amp;Fajl</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="59"/>
+        <source>&amp;Help</source>
+        <translation>&amp;Pomoć</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="73"/>
+        <source>On Downloads &amp;Done</source>
+        <translation>Po zavr&amp;šetku preuzimanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="101"/>
+        <source>&amp;View</source>
+        <translation>&amp;Izgled</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="185"/>
+        <source>&amp;Options...</source>
+        <translation>&amp;Podešavanja...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="215"/>
+        <source>&amp;Remove</source>
+        <translation>&amp;Ukloni</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="228"/>
+        <source>Torrent &amp;Creator</source>
+        <translation>&amp;Kreator torenata</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="290"/>
+        <location filename="../gui/mainwindow.ui" line="293"/>
+        <source>Alternative Speed Limits</source>
+        <translation>Alternativna ograničenja brzine</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="301"/>
+        <source>&amp;Top Toolbar</source>
+        <translation>Traka na &amp;vrhu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="304"/>
+        <source>Display Top Toolbar</source>
+        <translation>Prikaži traku sa alatkama na vrhu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="312"/>
+        <source>Status &amp;Bar</source>
+        <translation>Statusna &amp;traka</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="320"/>
+        <source>Filters Sidebar</source>
+        <translation>Bočna traka sa filterima</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="328"/>
+        <source>S&amp;peed in Title Bar</source>
+        <translation>B&amp;rzina na naslovnoj traci</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="331"/>
+        <source>Show Transfer Speed in Title Bar</source>
+        <translation>Prikaži brzinu prenosa na naslovnoj traci</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="339"/>
+        <source>&amp;RSS Reader</source>
+        <translation>RSS &amp;čitač</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="347"/>
+        <source>Search &amp;Engine</source>
+        <translation>Pretra&amp;živač</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="352"/>
+        <source>L&amp;ock qBittorrent</source>
+        <translation>Za&amp;ključaj qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="363"/>
+        <source>Do&amp;nate!</source>
+        <translation>Donira&amp;j!</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="398"/>
+        <source>Sh&amp;utdown System</source>
+        <translation>Sistem za isključivanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="406"/>
+        <source>&amp;Reboot System</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="414"/>
+        <source>&amp;Do nothing</source>
+        <translation>Ne radi &amp;ništa</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="490"/>
+        <source>Close Window</source>
+        <translation>Zatvori prozor</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="442"/>
+        <source>Manage Cookies...</source>
+        <translation>Upravljaj kolačićima...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="445"/>
+        <source>Manage stored network cookies</source>
+        <translation>Upravljaj sačuvanim mrežnim kolačićima</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="461"/>
+        <source>Normal Messages</source>
+        <translation>Normalne poruke</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="469"/>
+        <source>Information Messages</source>
+        <translation>Informacione poruke</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="477"/>
+        <source>Warning Messages</source>
+        <translation>Poruke upozorenja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="485"/>
+        <source>Critical Messages</source>
+        <translation>Kritične poruke</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="105"/>
+        <source>&amp;Log</source>
+        <translation>&amp;Zapis</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="195"/>
+        <source>Sta&amp;rt</source>
+        <translation>Pokreni</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="200"/>
+        <source>Sto&amp;p</source>
+        <translation>Zaustavi</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="205"/>
+        <source>R&amp;esume Session</source>
+        <translation>Nastavi sesiju</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="210"/>
+        <source>Pau&amp;se Session</source>
+        <translation>Pauziraj sesiju</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="238"/>
+        <source>Set Global Speed Limits...</source>
+        <translation>Podesi opšta ograničenja brzine...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="243"/>
+        <source>Bottom of Queue</source>
+        <translation>Kraj redosleda</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="246"/>
+        <source>Move to the bottom of the queue</source>
+        <translation>Premesti na kraj redosleda</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="254"/>
+        <source>Top of Queue</source>
+        <translation>Početak redosleda</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="257"/>
+        <source>Move to the top of the queue</source>
+        <translation>Premesti na početak redosleda</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="265"/>
+        <source>Move Down Queue</source>
+        <translation>Premesti niz redosled</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="268"/>
+        <source>Move down in the queue</source>
+        <translation>Premesti nadole u redosledu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="276"/>
+        <source>Move Up Queue</source>
+        <translation>Premesti uz redosled</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="279"/>
+        <source>Move up in the queue</source>
+        <translation>Premesti nagore u redosledu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="374"/>
+        <source>&amp;Exit qBittorrent</source>
+        <translation>Na&amp;pusti qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="382"/>
+        <source>&amp;Suspend System</source>
+        <translation>&amp;Suspenduj sistem</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="390"/>
+        <source>&amp;Hibernate System</source>
+        <translation>&amp;Hiberniraj sistem</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="429"/>
+        <source>&amp;Statistics</source>
+        <translation>&amp;Statistika</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="434"/>
+        <source>Check for Updates</source>
+        <translation>Proveri ažuriranja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="437"/>
+        <source>Check for Program Updates</source>
+        <translation>Proveri ažuriranja programa</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="190"/>
+        <source>&amp;About</source>
+        <translation>&amp;O programu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="172"/>
+        <source>&amp;Add Torrent File...</source>
+        <translation>&amp;Dodaj fajl torenta...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="175"/>
+        <source>Open</source>
+        <translation>Otvori</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="180"/>
+        <source>E&amp;xit</source>
+        <translation>Iza&amp;đi</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="223"/>
+        <source>Open URL</source>
+        <translation>Otvori URL</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="233"/>
+        <source>&amp;Documentation</source>
+        <translation>&amp;Dokumentacija</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="355"/>
+        <source>Lock</source>
+        <translation>Zaključaj</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="419"/>
+        <location filename="../gui/mainwindow.ui" line="453"/>
+        <location filename="../gui/mainwindow.cpp" line="1521"/>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1679"/>
+        <source>Check for program updates</source>
+        <translation>Proveri ažuriranja programa</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="220"/>
+        <source>Add Torrent &amp;Link...</source>
+        <translation>Dodaj &amp;vezu za torent...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.ui" line="366"/>
+        <source>If you like qBittorrent, please donate!</source>
+        <translation>Ako volite qBittorrent, molimo Vas da donirate!</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1759"/>
+        <location filename="../gui/mainwindow.cpp" line="1761"/>
+        <source>Execution Log</source>
+        <translation>Dnevnik događaja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="683"/>
+        <source>Clear the password</source>
+        <translation>Očisti lozinku</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="209"/>
+        <source>&amp;Set Password</source>
+        <translation>&amp;Podesi šifru</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="161"/>
+        <source>Preferences</source>
+        <translation>Opcije</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="210"/>
+        <source>&amp;Clear Password</source>
+        <translation>O&amp;čisti šifru</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="265"/>
+        <source>Transfers</source>
+        <translation>Transferi</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="346"/>
+        <source>&amp;Window</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="472"/>
+        <location filename="../gui/mainwindow.cpp" line="1288"/>
+        <source>qBittorrent is minimized to tray</source>
+        <translation>qBittorrent je umanjen na paletu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="472"/>
+        <location filename="../gui/mainwindow.cpp" line="1195"/>
+        <location filename="../gui/mainwindow.cpp" line="1288"/>
+        <source>This behavior can be changed in the settings. You won&apos;t be reminded again.</source>
+        <translation>Ovo ponašanje se može promeniti u podešavanjima. Nećemo vas više podsećati.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="581"/>
+        <source>Icons Only</source>
+        <translation>Samo ikone</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="582"/>
+        <source>Text Only</source>
+        <translation>Samo tekst</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="583"/>
+        <source>Text Alongside Icons</source>
+        <translation>Tekst pored ikona</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="584"/>
+        <source>Text Under Icons</source>
+        <translation>Tekst ispod ikona</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="585"/>
+        <source>Follow System Style</source>
+        <translation>Prati stil sistema</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="666"/>
+        <location filename="../gui/mainwindow.cpp" line="1036"/>
+        <source>UI lock password</source>
+        <translation>Zaključavanje KI-a lozinkom</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="667"/>
+        <location filename="../gui/mainwindow.cpp" line="1037"/>
+        <source>Please type the UI lock password:</source>
+        <translation>Molim upišite lozinku zaključavanja KI-a:</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="684"/>
+        <source>Are you sure you want to clear the password?</source>
+        <translation>Da li sigurno želite da očistite šifru?</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="743"/>
+        <source>Use regular expressions</source>
+        <translation>Koristi regularne izraze</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="766"/>
+        <location filename="../gui/mainwindow.cpp" line="768"/>
+        <source>Search Engine</source>
+        <translation>Pretraživač</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="766"/>
+        <source>Search has failed</source>
+        <translation>Pretraga nije uspela</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="768"/>
+        <source>Search has finished</source>
+        <translation>Pretraživanje je završeno</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="775"/>
+        <source>Search</source>
+        <translation>Pretraživanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="800"/>
+        <source>Transfers (%1)</source>
+        <translation>Transferi (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1059"/>
+        <source>qBittorrent was just updated and needs to be restarted for the changes to be effective.</source>
+        <translation>qBittorrent je upravo ažuriran i treba biti restartovan, da bi&apos; promene imale efekta.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1195"/>
+        <source>qBittorrent is closed to tray</source>
+        <translation>qBittorrent je zatvoren na paletu</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1215"/>
+        <source>Some files are currently transferring.</source>
+        <translation>U toku je prenos fajlova.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1215"/>
+        <source>Are you sure you want to quit qBittorrent?</source>
+        <translation>Da li ste sigurni da želite da napustite qBittorrent?</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1217"/>
+        <source>&amp;No</source>
+        <translation>&amp;Ne</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1218"/>
+        <source>&amp;Yes</source>
+        <translation>&amp;Da</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1219"/>
+        <source>&amp;Always Yes</source>
+        <translation>&amp;Uvek da</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1348"/>
+        <source>Options saved.</source>
+        <translation>Opcije sačuvane.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1870"/>
+        <source>[PAUSED] %1</source>
+        <comment>%1 is the rest of the window title</comment>
+        <translation>[PAUZIRANO] %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1877"/>
+        <source>[D: %1, U: %2] %3</source>
+        <comment>D = Download; U = Upload; %3 is the rest of the window title</comment>
+        <translation>[D: %1, U: %2] %3</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1989"/>
+        <source>Python installer could not be downloaded. Error: %1.
+Please install it manually.</source>
+        <translation>Instalater za Pajton nije mogao biti preuzet. Greška: %1.
+Molimo vas da ga instalirate ručno.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1997"/>
+        <source>Rename Python installer failed. Source: &quot;%1&quot;. Destination: &quot;%2&quot;.</source>
+        <translation>Preimenovanje instalatera Pajtona nije uspelo. Izvor: „%1“. Odredište: „%2“.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="2014"/>
+        <source>Python installation success.</source>
+        <translation>Uspešna instalacija Pajtona.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="2029"/>
+        <source>Exit code: %1.</source>
+        <translation>Izlazni kod: %1.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="2030"/>
+        <source>Reason: installer crashed.</source>
+        <translation>Razlog: instalater se srušio.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="2031"/>
+        <source>Python installation failed.</source>
+        <translation>Instalacija Pajtona nije uspela.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="2034"/>
+        <source>Launching Python installer. File: &quot;%1&quot;.</source>
+        <translation>Pokretanje instalera za Pajton. Datoteka: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1621"/>
+        <location filename="../gui/mainwindow.cpp" line="1627"/>
+        <source>Missing Python Runtime</source>
+        <translation>Nedostaje Python Runtime</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1694"/>
+        <source>qBittorrent Update Available</source>
+        <translation>Dostupno ažuriranje za qBittorrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1622"/>
+        <source>Python is required to use the search engine but it does not seem to be installed.
+Do you want to install it now?</source>
+        <translation>Python je potreban za korišćenje pretraživačkog modula, ali izgleda da nije instaliran.
+Da li želite da ga instalirate?</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1628"/>
+        <source>Python is required to use the search engine but it does not seem to be installed.</source>
+        <translation>Python je potreban za korišćenje pretraživačkog modula, ali izgleda da nije instaliran.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1640"/>
+        <location filename="../gui/mainwindow.cpp" line="1647"/>
+        <source>Old Python Runtime</source>
+        <translation>Zastareo Python Runtime</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1691"/>
+        <source>A new version is available.</source>
+        <translation>Nova verzija je dostupna.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1692"/>
+        <source>Do you want to download %1?</source>
+        <translation>Da li želite da preuzmete %1?</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1693"/>
+        <source>Open changelog...</source>
+        <translation>Otvori spisak izmena...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1715"/>
+        <source>No updates available.
+You are already using the latest version.</source>
+        <translation>Nema novih ažuriranja.
+Odveć koristite najnoviju verziju.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1678"/>
+        <source>&amp;Check for Updates</source>
+        <translation>&amp;Potraži ažuriranja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1641"/>
+        <source>Your Python version (%1) is outdated. Minimum requirement: %2.
+Do you want to install a newer version now?</source>
+        <translation>Vaša verzija Python-a (%1) je zastarela, neophodna je barem %2.
+Želite li da instalirate noviju verziju?</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1648"/>
+        <source>Your Python version (%1) is outdated. Please upgrade to latest version for search engines to work.
+Minimum requirement: %2.</source>
+        <translation>Vaša verzija Python-a (%1) je zastarela. Molimo instalirajte najnoviju verziju da bi pretraživanje radilo.
+Minimalni zahtev: %2.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1900"/>
+        <source>Paused</source>
+        <translation>Pauziran</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1911"/>
+        <source>Checking for Updates...</source>
+        <translation>Tražim ažuriranja...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1912"/>
+        <source>Already checking for program updates in the background</source>
+        <translation>Odveć u pozadini proveravam ima li ažuriranja</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1928"/>
+        <source>Python installation in progress...</source>
+        <translation>Instalacija Pajtona je u toku...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1947"/>
+        <source>Failed to open Python installer. File: &quot;%1&quot;.</source>
+        <translation>Nije uspelo otvaranje instalatera za Pajton. Datoteka: &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1955"/>
+        <source>Failed MD5 hash check for Python installer. File: &quot;%1&quot;. Result hash: &quot;%2&quot;. Expected hash: &quot;%3&quot;.</source>
+        <translation>Neuspešna provera MD5 heša za instalater Pajtona. Datoteka: &quot;%1&quot;. Heš rezultata: &quot;%2&quot;. Očekivani heš: &quot;%3&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1967"/>
+        <source>Failed SHA3-512 hash check for Python installer. File: &quot;%1&quot;. Result hash: &quot;%2&quot;. Expected hash: &quot;%3&quot;.</source>
+        <translation>Neuspešna provera SHA3-512 heša za instalater Pajtona. Datoteka: &quot;%1&quot;. Heš rezultata: &quot;%2&quot;. Očekivani heš: &quot;%3&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1988"/>
+        <source>Download error</source>
+        <translation>Greška pri preuzimanju</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="673"/>
+        <location filename="../gui/mainwindow.cpp" line="1045"/>
+        <source>Invalid password</source>
+        <translation>Pogrešna lozinka</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="230"/>
+        <source>Filter torrents...</source>
+        <translation>Filtriraj torente...</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="235"/>
+        <source>Filter by:</source>
+        <translation>Filtriraj prema:</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="673"/>
+        <source>The password must be at least 3 characters long</source>
+        <translation>Šifra mora sadržati barem 3 karaktera</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="709"/>
+        <location filename="../gui/mainwindow.cpp" line="722"/>
+        <location filename="../gui/mainwindow.cpp" line="724"/>
+        <source>RSS (%1)</source>
+        <translation>RSS (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1045"/>
+        <source>The password is invalid</source>
+        <translation>Lozinka je pogrešna</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1894"/>
+        <source>DL speed: %1</source>
+        <comment>e.g: Download speed: 10 KiB/s</comment>
+        <translation>Brzina preuzimanja: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1895"/>
+        <source>UP speed: %1</source>
+        <comment>e.g: Upload speed: 10 KiB/s</comment>
+        <translation>Brzina slanja: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1521"/>
+        <source>Hide</source>
+        <translation>Sakrij</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1213"/>
+        <source>Exiting qBittorrent</source>
+        <translation>Izlazak iz qBittorrent-a</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1321"/>
+        <source>Open Torrent Files</source>
+        <translation>Otvori Torent fajlove</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.cpp" line="1322"/>
+        <source>Torrent Files</source>
+        <translation>Torent Fajlovi</translation>
+    </message>
+</context>
+<context>
+    <name>Net::DNSUpdater</name>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="187"/>
+        <source>Your dynamic DNS was successfully updated.</source>
+        <translation>Dinamički DNS je uspešno ažuriran.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="193"/>
+        <source>Dynamic DNS error: The service is temporarily unavailable, it will be retried in 30 minutes.</source>
+        <translation>Dinamički DNS greška: servis je privremeno nedostupan, biće provereno za 30 minuta.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="204"/>
+        <source>Dynamic DNS error: hostname supplied does not exist under specified account.</source>
+        <translation>Dinamički DNS greška: navedeno ime računara ne postoji na specifiranom nalogu.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="211"/>
+        <source>Dynamic DNS error: Invalid username/password.</source>
+        <translation>Greška dinamičkog DNS-a: Neispravno korisničko ime ili lozinka.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="218"/>
+        <source>Dynamic DNS error: qBittorrent was blacklisted by the service, please submit a bug report at https://bugs.qbittorrent.org.</source>
+        <translation>Greška dinamičkog DNS-a: qBittorrent je stavljen na crnu listu od strane servisa, pošaljite izveštaj o grešci na https://bugs.qbittorrent.org.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="226"/>
+        <source>Dynamic DNS error: %1 was returned by the service, please submit a bug report at https://bugs.qbittorrent.org.</source>
+        <translation>Greška dinamičkog DNS-a: Servis je vratio %1, pošaljite izveštaj o grešci na https://bugs.qbittorrent.org.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="234"/>
+        <source>Dynamic DNS error: Your username was blocked due to abuse.</source>
+        <translation>Dinamički DNS greška: Vaše korisničko ime je blokirano zbog zloupotrebe.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="256"/>
+        <source>Dynamic DNS error: supplied domain name is invalid.</source>
+        <translation>Dinamički DNS greška: Navedeno ime domena je pogrešno.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="269"/>
+        <source>Dynamic DNS error: supplied username is too short.</source>
+        <translation>Dinamički DNS greška: Navedeno korisničko ime je prekratko.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/dnsupdater.cpp" line="282"/>
+        <source>Dynamic DNS error: supplied password is too short.</source>
+        <translation>Dinamički DNS greška: Navedena lozinka je prekratka.</translation>
+    </message>
+</context>
+<context>
+    <name>Net::DownloadHandlerImpl</name>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="164"/>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="181"/>
+        <source>I/O Error: %1</source>
+        <translation>I/O greška: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="201"/>
+        <source>The file size (%1) exceeds the download limit (%2)</source>
+        <translation>Veličina datoteke (%1) premašuje ograničenje preuzimanja (%2)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="212"/>
+        <source>Exceeded max redirections (%1)</source>
+        <translation>Prekoračen maksimalni broj preusmerenja (%1)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="227"/>
+        <source>Redirected to magnet URI</source>
+        <translation>Preusmereno na magnet URI</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="236"/>
+        <source>Redirect to unsupported or dangerous protocol: &apos;%1&apos;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="269"/>
+        <source>The remote host name was not found (invalid hostname)</source>
+        <translation>Ime udaljenog računara nije pronađeno (neispravno ime računara)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="271"/>
+        <source>The operation was canceled</source>
+        <translation>Operacija je otkazana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="273"/>
+        <source>The remote server closed the connection prematurely, before the entire reply was received and processed</source>
+        <translation>Udaljeni server je prerano zatvorio konekciju, pre nego što je ceo odgovor primljen i obrađen</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="275"/>
+        <source>The connection to the remote server timed out</source>
+        <translation>Konekcija na udaljeni server je vremenski istekla (pokušajte ponovo)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="277"/>
+        <source>SSL/TLS handshake failed</source>
+        <translation>SSL/TLS upravljanje neuspešno</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="279"/>
+        <source>The remote server refused the connection</source>
+        <translation>Udaljeni server ne prihvata konekciju</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="281"/>
+        <source>The connection to the proxy server was refused</source>
+        <translation>Konekcija na proksi server je odbijena</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="283"/>
+        <source>The proxy server closed the connection prematurely</source>
+        <translation>Proksi server je prevremeno zatvorio konekciju</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="285"/>
+        <source>The proxy host name was not found</source>
+        <translation>Naziv proksi servera nije pronađen</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="287"/>
+        <source>The connection to the proxy timed out or the proxy did not reply in time to the request sent</source>
+        <translation>Vreme povezivanja sa proksi-jem je isteklo, ili proksi nije odgovorio kada je zahtev poslat</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="289"/>
+        <source>The proxy requires authentication in order to honor the request but did not accept any credentials offered</source>
+        <translation>Proksi zahteva autentifikaciju da bi ispunio zahtev, ali nije prihvatio nijedan ponuđeni akreditiv</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="291"/>
+        <source>The access to the remote content was denied (403)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="297"/>
+        <source>The remote server requires authentication to serve the content but the credentials provided were not accepted (401)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="293"/>
+        <source>The operation requested on the remote content is not permitted</source>
+        <translation>Zahtevana operacija za udaljenim sadržajem se ne odobrava</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="295"/>
+        <source>The remote content was not found at the server (404)</source>
+        <translation>Zahtevani sadržaj, nije pronađen na serveru (404)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="299"/>
+        <source>The Network Access API cannot honor the request because the protocol is not known</source>
+        <translation>Mrežni pristup API-ja ne može da se prihvati jer protokol nije poznat</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="301"/>
+        <source>The requested operation is invalid for this protocol</source>
+        <translation>Zahtevana operacija je pogrešna za ovaj protokol</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="303"/>
+        <source>An unknown network-related error was detected</source>
+        <translation>Detektovana je nepoznata greška u vezi sa mrežom</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="305"/>
+        <source>An unknown proxy-related error was detected</source>
+        <translation>Detektovana je nepoznata greška u vezi sa proksijem</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="307"/>
+        <source>An unknown error related to the remote content was detected</source>
+        <translation>Detektovana je nepoznata greška u vezi sa udaljenim sadržajem</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="309"/>
+        <source>A breakdown in protocol was detected</source>
+        <translation>Detektovan je problem sa protokolom</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadhandlerimpl.cpp" line="311"/>
+        <source>Unknown error</source>
+        <translation>Nepoznata greška</translation>
+    </message>
+</context>
+<context>
+    <name>Net::DownloadManager</name>
+    <message>
+        <location filename="../base/net/downloadmanager.cpp" line="155"/>
+        <source>SSL error, URL: &quot;%1&quot;, errors: &quot;%2&quot;</source>
+        <translation>SSL greška, URL: „%1“, greške: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/net/downloadmanager.cpp" line="159"/>
+        <source>Ignoring SSL error, URL: &quot;%1&quot;, errors: &quot;%2&quot;</source>
+        <translation>SSL greška se ignoriše, URL: &quot;%1&quot;, greške: &quot;%2&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>Net::GeoIPManager</name>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="390"/>
+        <source>Venezuela, Bolivarian Republic of</source>
+        <translation>Venecuela</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="403"/>
+        <location filename="../base/net/geoipmanager.cpp" line="406"/>
+        <source>N/A</source>
+        <translation>Nedostupno</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="153"/>
+        <source>Andorra</source>
+        <translation>Andora</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="96"/>
+        <location filename="../base/net/geoipmanager.cpp" line="451"/>
+        <source>IP geolocation database loaded. Type: %1. Build time: %2.</source>
+        <translation>Baza podataka IP geolokacije učitana. Tip: %1. Vreme sastavljanja: %2.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="102"/>
+        <location filename="../base/net/geoipmanager.cpp" line="477"/>
+        <source>Couldn&apos;t load IP geolocation database. Reason: %1</source>
+        <translation>Učitavanje baze podataka IP geolokacije nije uspelo. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="154"/>
+        <source>United Arab Emirates</source>
+        <translation>Ujedinjeni Arapski Emirati</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="155"/>
+        <source>Afghanistan</source>
+        <translation>Avganistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="156"/>
+        <source>Antigua and Barbuda</source>
+        <translation>Antiga i Barbuda</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="157"/>
+        <source>Anguilla</source>
+        <translation>Angila</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="158"/>
+        <source>Albania</source>
+        <translation>Albanija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="159"/>
+        <source>Armenia</source>
+        <translation>Jermenija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="160"/>
+        <source>Angola</source>
+        <translation>Angola</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="161"/>
+        <source>Antarctica</source>
+        <translation>Antarktik</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="162"/>
+        <source>Argentina</source>
+        <translation>Argentina</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="163"/>
+        <source>American Samoa</source>
+        <translation>Američka Samoa</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="164"/>
+        <source>Austria</source>
+        <translation>Austrija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="165"/>
+        <source>Australia</source>
+        <translation>Australija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="166"/>
+        <source>Aruba</source>
+        <translation>Aruba</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="168"/>
+        <source>Azerbaijan</source>
+        <translation>Azerbejdžan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="169"/>
+        <source>Bosnia and Herzegovina</source>
+        <translation>Bosna i Hercegovina</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="170"/>
+        <source>Barbados</source>
+        <translation>Barbados</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="171"/>
+        <source>Bangladesh</source>
+        <translation>Bangladeš</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="172"/>
+        <source>Belgium</source>
+        <translation>Belgija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="173"/>
+        <source>Burkina Faso</source>
+        <translation>Burkina Faso</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="174"/>
+        <source>Bulgaria</source>
+        <translation>Bugarska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="175"/>
+        <source>Bahrain</source>
+        <translation>Bahrein</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="176"/>
+        <source>Burundi</source>
+        <translation>Burundi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="177"/>
+        <source>Benin</source>
+        <translation>Benin</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="179"/>
+        <source>Bermuda</source>
+        <translation>Bermuda</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="180"/>
+        <source>Brunei Darussalam</source>
+        <translation>Brunej</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="183"/>
+        <source>Brazil</source>
+        <translation>Brazil</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="184"/>
+        <source>Bahamas</source>
+        <translation>Bahami</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="185"/>
+        <source>Bhutan</source>
+        <translation>Butan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="186"/>
+        <source>Bouvet Island</source>
+        <translation>Ostrvo Buve</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="187"/>
+        <source>Botswana</source>
+        <translation>Bocvana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="188"/>
+        <source>Belarus</source>
+        <translation>Belorusija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="189"/>
+        <source>Belize</source>
+        <translation>Belize</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="190"/>
+        <source>Canada</source>
+        <translation>Kanada</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="191"/>
+        <source>Cocos (Keeling) Islands</source>
+        <translation>Kokosova (Kiling) ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="192"/>
+        <source>Congo, The Democratic Republic of the</source>
+        <translation>Kongo</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="193"/>
+        <source>Central African Republic</source>
+        <translation>Centralnoafrička Republika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="194"/>
+        <source>Congo</source>
+        <translation>Kongo</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="195"/>
+        <source>Switzerland</source>
+        <translation>Švajcarska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="197"/>
+        <source>Cook Islands</source>
+        <translation>Kukova ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="198"/>
+        <source>Chile</source>
+        <translation>Čile</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="199"/>
+        <source>Cameroon</source>
+        <translation>Kamerun</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="200"/>
+        <source>China</source>
+        <translation>Kina</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="201"/>
+        <source>Colombia</source>
+        <translation>Kolumbija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="202"/>
+        <source>Costa Rica</source>
+        <translation>Kosta Rika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="203"/>
+        <source>Cuba</source>
+        <translation>Kuba</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="204"/>
+        <source>Cape Verde</source>
+        <translation>Zelenortska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="205"/>
+        <source>Curacao</source>
+        <translation>Kuraka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="206"/>
+        <source>Christmas Island</source>
+        <translation>Božićno ostvro</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="207"/>
+        <source>Cyprus</source>
+        <translation>Kipar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="208"/>
+        <source>Czech Republic</source>
+        <translation>Češka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="209"/>
+        <source>Germany</source>
+        <translation>Nemačka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="210"/>
+        <source>Djibouti</source>
+        <translation>Džibuti</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="211"/>
+        <source>Denmark</source>
+        <translation>Danska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="212"/>
+        <source>Dominica</source>
+        <translation>Dominika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="213"/>
+        <source>Dominican Republic</source>
+        <translation>Dominikanska Republika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="214"/>
+        <source>Algeria</source>
+        <translation>Alžir</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="215"/>
+        <source>Ecuador</source>
+        <translation>Ekvador</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="216"/>
+        <source>Estonia</source>
+        <translation>Estonija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="217"/>
+        <source>Egypt</source>
+        <translation>Egipat</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="218"/>
+        <source>Western Sahara</source>
+        <translation>Zapadna Sahara</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="219"/>
+        <source>Eritrea</source>
+        <translation>Eritreja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="220"/>
+        <source>Spain</source>
+        <translation>Španija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="221"/>
+        <source>Ethiopia</source>
+        <translation>Etiopija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="222"/>
+        <source>Finland</source>
+        <translation>Finska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="223"/>
+        <source>Fiji</source>
+        <translation>Fidži</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="224"/>
+        <source>Falkland Islands (Malvinas)</source>
+        <translation>Foklandska ostrva (Malvinas)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="225"/>
+        <source>Micronesia, Federated States of</source>
+        <translation>Mikronezija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="226"/>
+        <source>Faroe Islands</source>
+        <translation>Farska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="227"/>
+        <source>France</source>
+        <translation>Francuska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="228"/>
+        <source>Gabon</source>
+        <translation>Gabon</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="229"/>
+        <source>United Kingdom</source>
+        <translation>Ujedinjeno Kraljevstvo</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="230"/>
+        <source>Grenada</source>
+        <translation>Grenada</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="231"/>
+        <source>Georgia</source>
+        <translation>Džordžija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="232"/>
+        <source>French Guiana</source>
+        <translation>Francuska Gvajana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="234"/>
+        <source>Ghana</source>
+        <translation>Gana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="235"/>
+        <source>Gibraltar</source>
+        <translation>Gibraltar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="236"/>
+        <source>Greenland</source>
+        <translation>Grenland</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="237"/>
+        <source>Gambia</source>
+        <translation>Gambija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="238"/>
+        <source>Guinea</source>
+        <translation>Gvineja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="239"/>
+        <source>Guadeloupe</source>
+        <translation>Gvadalupa</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="240"/>
+        <source>Equatorial Guinea</source>
+        <translation>Ekvatorijalna Gvineja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="241"/>
+        <source>Greece</source>
+        <translation>Grčka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="242"/>
+        <source>South Georgia and the South Sandwich Islands</source>
+        <translation>Južna Džordžija i Južna Sendvička ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="243"/>
+        <source>Guatemala</source>
+        <translation>Gvatemala</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="244"/>
+        <source>Guam</source>
+        <translation>Guam</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="245"/>
+        <source>Guinea-Bissau</source>
+        <translation>Gvineja Bisao</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="246"/>
+        <source>Guyana</source>
+        <translation>Gvajana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="247"/>
+        <source>Hong Kong</source>
+        <translation>Hong Kong</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="248"/>
+        <source>Heard Island and McDonald Islands</source>
+        <translation>Ostrvo Herd i ostrva Makdonald</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="249"/>
+        <source>Honduras</source>
+        <translation>Honduras</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="250"/>
+        <source>Croatia</source>
+        <translation>Hrvatska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="251"/>
+        <source>Haiti</source>
+        <translation>Haiti</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="252"/>
+        <source>Hungary</source>
+        <translation>Mađarska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="253"/>
+        <source>Indonesia</source>
+        <translation>Indonezija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="254"/>
+        <source>Ireland</source>
+        <translation>Irska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="255"/>
+        <source>Israel</source>
+        <translation>Izrael</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="257"/>
+        <source>India</source>
+        <translation>Indija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="258"/>
+        <source>British Indian Ocean Territory</source>
+        <translation>Britanska teritorija Indijskog okeana</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="259"/>
+        <source>Iraq</source>
+        <translation>Irak</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="260"/>
+        <source>Iran, Islamic Republic of</source>
+        <translation>Iran</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="261"/>
+        <source>Iceland</source>
+        <translation>Island</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="262"/>
+        <source>Italy</source>
+        <translation>Italija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="264"/>
+        <source>Jamaica</source>
+        <translation>Jamajka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="265"/>
+        <source>Jordan</source>
+        <translation>Jordan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="266"/>
+        <source>Japan</source>
+        <translation>Japan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="267"/>
+        <source>Kenya</source>
+        <translation>Kenija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="268"/>
+        <source>Kyrgyzstan</source>
+        <translation>Kirgistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="269"/>
+        <source>Cambodia</source>
+        <translation>Kambodža</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="270"/>
+        <source>Kiribati</source>
+        <translation>Kiribati</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="271"/>
+        <source>Comoros</source>
+        <translation>Komoros</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="272"/>
+        <source>Saint Kitts and Nevis</source>
+        <translation>Sveti Kiti i Nevis</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="273"/>
+        <source>Korea, Democratic People&apos;s Republic of</source>
+        <translation>Demokratska narodna republika Koreja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="274"/>
+        <source>Korea, Republic of</source>
+        <translation>Republika Koreja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="275"/>
+        <source>Kuwait</source>
+        <translation>Kuvajt</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="276"/>
+        <source>Cayman Islands</source>
+        <translation>Kajmanska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="277"/>
+        <source>Kazakhstan</source>
+        <translation>Kazahstan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="278"/>
+        <source>Lao People&apos;s Democratic Republic</source>
+        <translation>Laos</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="279"/>
+        <source>Lebanon</source>
+        <translation>Lebanon</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="280"/>
+        <source>Saint Lucia</source>
+        <translation>Sveta Lucija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="281"/>
+        <source>Liechtenstein</source>
+        <translation>Lihtenštaj</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="282"/>
+        <source>Sri Lanka</source>
+        <translation>Šri Lanka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="283"/>
+        <source>Liberia</source>
+        <translation>Liberija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="284"/>
+        <source>Lesotho</source>
+        <translation>Lezoto</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="285"/>
+        <source>Lithuania</source>
+        <translation>Litvanija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="286"/>
+        <source>Luxembourg</source>
+        <translation>Luksemburg</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="287"/>
+        <source>Latvia</source>
+        <translation>Letonija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="289"/>
+        <source>Morocco</source>
+        <translation>Moroko</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="290"/>
+        <source>Monaco</source>
+        <translation>Monako</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="291"/>
+        <source>Moldova, Republic of</source>
+        <translation>Moldavija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="294"/>
+        <source>Madagascar</source>
+        <translation>Madagaskar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="295"/>
+        <source>Marshall Islands</source>
+        <translation>Maršalska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="297"/>
+        <source>Mali</source>
+        <translation>Mali</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="298"/>
+        <source>Myanmar</source>
+        <translation>Mjanmar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="299"/>
+        <source>Mongolia</source>
+        <translation>Mongolija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="301"/>
+        <source>Northern Mariana Islands</source>
+        <translation>Severna Marijanska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="302"/>
+        <source>Martinique</source>
+        <translation>Martinik</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="303"/>
+        <source>Mauritania</source>
+        <translation>Mauritanija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="304"/>
+        <source>Montserrat</source>
+        <translation>Monserat</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="305"/>
+        <source>Malta</source>
+        <translation>Malta</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="306"/>
+        <source>Mauritius</source>
+        <translation>Mauricijus</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="307"/>
+        <source>Maldives</source>
+        <translation>Maldivi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="308"/>
+        <source>Malawi</source>
+        <translation>Malavi</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="309"/>
+        <source>Mexico</source>
+        <translation>Meksiko</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="310"/>
+        <source>Malaysia</source>
+        <translation>Malezija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="311"/>
+        <source>Mozambique</source>
+        <translation>Mozambik</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="312"/>
+        <source>Namibia</source>
+        <translation>Namibija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="313"/>
+        <source>New Caledonia</source>
+        <translation>Nova Kaledonija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="314"/>
+        <source>Niger</source>
+        <translation>Niger</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="315"/>
+        <source>Norfolk Island</source>
+        <translation>Ostrvo Norfolk</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="316"/>
+        <source>Nigeria</source>
+        <translation>Nigerija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="317"/>
+        <source>Nicaragua</source>
+        <translation>Nikaragva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="318"/>
+        <source>Netherlands</source>
+        <translation>Holandija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="319"/>
+        <source>Norway</source>
+        <translation>Norveška</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="320"/>
+        <source>Nepal</source>
+        <translation>Nepal</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="321"/>
+        <source>Nauru</source>
+        <translation>Nauru</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="322"/>
+        <source>Niue</source>
+        <translation>Nijue</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="323"/>
+        <source>New Zealand</source>
+        <translation>Novi Zeland</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="324"/>
+        <source>Oman</source>
+        <translation>Oman</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="325"/>
+        <source>Panama</source>
+        <translation>Panama</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="326"/>
+        <source>Peru</source>
+        <translation>Peru</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="327"/>
+        <source>French Polynesia</source>
+        <translation>Francuska Polinezija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="328"/>
+        <source>Papua New Guinea</source>
+        <translation>Papua Nova Gvineja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="329"/>
+        <source>Philippines</source>
+        <translation>Filipini</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="330"/>
+        <source>Pakistan</source>
+        <translation>Pakistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="331"/>
+        <source>Poland</source>
+        <translation>Poljska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="332"/>
+        <source>Saint Pierre and Miquelon</source>
+        <translation>Sen Pjer i Mikelon</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="334"/>
+        <source>Puerto Rico</source>
+        <translation>Porto Riko</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="336"/>
+        <source>Portugal</source>
+        <translation>Portugal</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="337"/>
+        <source>Palau</source>
+        <translation>Palau</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="338"/>
+        <source>Paraguay</source>
+        <translation>Paragvaj</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="339"/>
+        <source>Qatar</source>
+        <translation>Katar</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="340"/>
+        <source>Reunion</source>
+        <translation>Reinion</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="341"/>
+        <source>Romania</source>
+        <translation>Rumunija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="343"/>
+        <source>Russian Federation</source>
+        <translation>Rusija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="344"/>
+        <source>Rwanda</source>
+        <translation>Ruanda</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="345"/>
+        <source>Saudi Arabia</source>
+        <translation>Saudi Arabija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="346"/>
+        <source>Solomon Islands</source>
+        <translation>Solomonska ostrva</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="347"/>
+        <source>Seychelles</source>
+        <translation>Sejšeli</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="348"/>
+        <source>Sudan</source>
+        <translation>Sudan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="349"/>
+        <source>Sweden</source>
+        <translation>Švedska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="350"/>
+        <source>Singapore</source>
+        <translation>Singapur</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="352"/>
+        <source>Slovenia</source>
+        <translation>Slovenija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="353"/>
+        <source>Svalbard and Jan Mayen</source>
+        <translation>Svalbard i Jan Majen</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="354"/>
+        <source>Slovakia</source>
+        <translation>Slovačka</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="355"/>
+        <source>Sierra Leone</source>
+        <translation>Siera Leone</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="356"/>
+        <source>San Marino</source>
+        <translation>San Marino</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="357"/>
+        <source>Senegal</source>
+        <translation>Senegal</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="358"/>
+        <source>Somalia</source>
+        <translation>Somalia</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="359"/>
+        <source>Suriname</source>
+        <translation>Surinam</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="361"/>
+        <source>Sao Tome and Principe</source>
+        <translation>Sao Tome i Principe</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="362"/>
+        <source>El Salvador</source>
+        <translation>El Salvador</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="364"/>
+        <source>Syrian Arab Republic</source>
+        <translation>Sirija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="365"/>
+        <source>Swaziland</source>
+        <translation>Svaziland</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="366"/>
+        <source>Turks and Caicos Islands</source>
+        <translation>Ostrva Terks i Kejkos</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="367"/>
+        <source>Chad</source>
+        <translation>Čad</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="368"/>
+        <source>French Southern Territories</source>
+        <translation>Južne Francuske teritorije</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="369"/>
+        <source>Togo</source>
+        <translation>Togo</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="370"/>
+        <source>Thailand</source>
+        <translation>Tajland</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="371"/>
+        <source>Tajikistan</source>
+        <translation>Tadžikistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="372"/>
+        <source>Tokelau</source>
+        <translation>Tokelau</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="374"/>
+        <source>Turkmenistan</source>
+        <translation>Turkmenistan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="375"/>
+        <source>Tunisia</source>
+        <translation>Tunis</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="376"/>
+        <source>Tonga</source>
+        <translation>Tonga</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="393"/>
+        <source>Vietnam</source>
+        <translation>Vijetnam</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="431"/>
+        <source>Couldn&apos;t download IP geolocation database file. Reason: %1</source>
+        <translation>Preuzimanje baze podataka IP geolokacije nije uspelo. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="439"/>
+        <source>Could not decompress IP geolocation database file.</source>
+        <translation>Dekompresija baze podataka IP geolokacije nije uspela.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="466"/>
+        <source>Couldn&apos;t save downloaded IP geolocation database file. Reason: %1</source>
+        <translation>Čuvanje baze podataka IP geolokacije nije uspelo. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="462"/>
+        <source>Successfully updated IP geolocation database.</source>
+        <translation>Baza IP geolokacija uspešno ažurirana.</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="373"/>
+        <source>Timor-Leste</source>
+        <translation>Timor-Leste</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="181"/>
+        <source>Bolivia, Plurinational State of</source>
+        <translation>Bolivija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="182"/>
+        <source>Bonaire, Sint Eustatius and Saba</source>
+        <translation>Boner, Sveti Eustahije i Saba</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="196"/>
+        <source>Cote d&apos;Ivoire</source>
+        <translation>Obala Slonovače</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="288"/>
+        <source>Libya</source>
+        <translation>Libija</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="293"/>
+        <source>Saint Martin (French part)</source>
+        <translation>Sveti Martin (francuski deo)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="296"/>
+        <source>Macedonia, The Former Yugoslav Republic of</source>
+        <translation>Makedonija, bivša Jugoslovenska republika</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="300"/>
+        <source>Macao</source>
+        <translation>Makau</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="333"/>
+        <source>Pitcairn</source>
+        <translation>Pitkalm</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="335"/>
+        <source>Palestine, State of</source>
+        <translation>Palestina</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="351"/>
+        <source>Saint Helena, Ascension and Tristan da Cunha</source>
+        <translation>Sveta Jelena, Asension i Tristan da Kunja</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="360"/>
+        <source>South Sudan</source>
+        <translation>Južni Sudan</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="363"/>
+        <source>Sint Maarten (Dutch part)</source>
+        <translation>Sveti Martin (Holandija)</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="377"/>
+        <source>Turkey</source>
+        <translation>Turska</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="378"/>
+        <source>Trinidad and Tobago</source>
+        <translation>Trinidad i Tobago</translation>
+    </message>
+    <message>
+        <location filename="../base/net/geoipmanager.cpp" line="379"/>
+        <source>Tuvalu</source>
+        <translation>Tuvalu</t

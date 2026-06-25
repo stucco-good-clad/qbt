@@ -1,0 +1,1568 @@
+ntroller.cpp" line="984"/>
+        <source>&quot;%1&quot; is not a valid file index.</source>
+        <translation>„%1“ nije važeći indeks datoteke.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="986"/>
+        <source>Index %1 is out of bounds.</source>
+        <translation>Indeks %1 je izvan granica.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1730"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1756"/>
+        <source>Cannot write to directory</source>
+        <translation>Upis u fasciklu nije moguć</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1705"/>
+        <source>WebUI Set location: moving &quot;%1&quot;, from &quot;%2&quot; to &quot;%3&quot;</source>
+        <translation>Postavljanje lokacije WebUI-ja: premeštanje „%1“ sa „%2“ na „%3“</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1776"/>
+        <source>Incorrect torrent name</source>
+        <translation>Netačno ime torenta</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1870"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1885"/>
+        <source>Incorrect category name</source>
+        <translation>Netačno ime kategorije</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerEntriesDialog</name>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="14"/>
+        <source>Edit trackers</source>
+        <translation>Uređuj trekere</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="20"/>
+        <source>One tracker URL per line.
+
+- You can split the trackers into groups by inserting blank lines.
+- All trackers within the same group will belong to the same tier.
+- The group on top will be tier 0, the next group tier 1 and so on.
+- Below will show the common subset of trackers of the selected torrents.</source>
+        <translation>Jedan URL trekera po redu.
+
+- Možete razdeliti trekere u grupe umetanjem praznih redova.
+Svi trekeri iz iste grupe će pripadati istom nivou.
+Grupa na vrhu će biti nivo 0, sledeća nivo 1 i tako dalje.
+Ispod će se prikazati česti trekeri izabranih torenata.</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListModel</name>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="66"/>
+        <source>Working</source>
+        <translation>Radi</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="67"/>
+        <source>Disabled</source>
+        <translation>Onemogućeno</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="68"/>
+        <source>Disabled for this torrent</source>
+        <translation>Onemogućeno za ovaj torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="69"/>
+        <source>This torrent is private</source>
+        <translation>Ovaj torent je privatan</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="73"/>
+        <source>N/A</source>
+        <translation>Nedostupno</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="228"/>
+        <source>Updating...</source>
+        <translation>Ažuriranje...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="235"/>
+        <source>Not working</source>
+        <translation>Ne radi</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="237"/>
+        <source>Tracker error</source>
+        <translation>Greška praćenja</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="239"/>
+        <source>Unreachable</source>
+        <translation>Nedostupno</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="241"/>
+        <source>Not contacted yet</source>
+        <translation>Nije još kontaktiran</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="244"/>
+        <source>Invalid state!</source>
+        <translation>Nevažeća država!</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="502"/>
+        <source>URL/Announce Endpoint</source>
+        <translation>URL/Najavi krajnju tačku</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="506"/>
+        <source>BT Protocol</source>
+        <translation>BT protokol</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="520"/>
+        <source>Next Announce</source>
+        <translation>Sledeće obaveštenje</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="522"/>
+        <source>Min Announce</source>
+        <translation>Minimalno obaveštenje</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="504"/>
+        <source>Tier</source>
+        <translation>Rang</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="508"/>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="510"/>
+        <source>Peers</source>
+        <translation>Peers (učesnici)</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="512"/>
+        <source>Seeds</source>
+        <translation>Donori</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="514"/>
+        <source>Leeches</source>
+        <translation>Pijavice</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="516"/>
+        <source>Times Downloaded</source>
+        <translation>Puta preuzeto</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="518"/>
+        <source>Message</source>
+        <translation>Poruka</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListWidget</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="238"/>
+        <source>This torrent is private</source>
+        <translation>Ovaj torent je privatan</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker editing</source>
+        <translation>Uređivanje trekera</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker URL:</source>
+        <translation>URL trekera:</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>Tracker editing failed</source>
+        <translation>Uređivanje trekera nije uspelo</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <source>The tracker URL entered is invalid.</source>
+        <translation>Zadati URL trekera nije važeći.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>The tracker URL already exists.</source>
+        <translation>URL adresa za praćenje već postoji.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="370"/>
+        <source>Edit tracker URL...</source>
+        <translation>Uredi URL trekera...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="372"/>
+        <source>Remove tracker</source>
+        <translation>Ukloni pratilac</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="374"/>
+        <source>Copy tracker URL</source>
+        <translation>Kopiraj URL trekera</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="378"/>
+        <source>Force reannounce to selected trackers</source>
+        <translation>Prisilno ponovo objavi sledećim trekerima</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="386"/>
+        <source>Force reannounce to all trackers</source>
+        <translation>Prisilno ponovo objavi svim trekerima</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="451"/>
+        <source>Resize columns</source>
+        <translation>Promeni veličinu kolona</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="460"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Promeni širinu svih vidljivih kolona na širinu njihovog sadržaja</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="365"/>
+        <source>Add trackers...</source>
+        <translation>Dodaj trekere...</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="428"/>
+        <source>Column visibility</source>
+        <translation>Preglednost kolona</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerStatusFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="60"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Ukupno (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="62"/>
+        <source>Warning (%1)</source>
+        <translation>Upozorenje (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="64"/>
+        <source>Tracker error (%1)</source>
+        <translation>Greška praćenja (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="66"/>
+        <source>Other error (%1)</source>
+        <translation>Druga greška (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="146"/>
+        <source>Start torrents</source>
+        <translation>Pokreni torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="148"/>
+        <source>Stop torrents</source>
+        <translation>Zaustavite torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="150"/>
+        <source>Remove torrents</source>
+        <translation>Ukloni torente</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersAdditionDialog</name>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="14"/>
+        <source>Add trackers</source>
+        <translation>Dodaj trekere</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="20"/>
+        <source>List of trackers to add (one per line):</source>
+        <translation>Lista za dodavanje pratilaca (jedan po liniji):</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="40"/>
+        <source>µTorrent compatible list URL:</source>
+        <translation>µTorrent kompatibilna lista URL adresa:</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="52"/>
+        <source>Download trackers list</source>
+        <translation>Preuzmi spisak trekera</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="58"/>
+        <source>Add</source>
+        <translation>Dodaj</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>Trackers list URL error</source>
+        <translation>Greška URL-a spiska trekera</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>The trackers list URL cannot be empty</source>
+        <translation>URL spiska trekera ne sme biti prazan</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="114"/>
+        <source>Download trackers list error</source>
+        <translation>Greška u preuzimanju spiska trekera</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="115"/>
+        <source>Error occurred when downloading the trackers list. Reason: &quot;%1&quot;</source>
+        <translation>Greška tokom preuzimanja spiska trekera. Razlog: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="124"/>
+        <source>Warning (%1)</source>
+        <translation>Upozorenje (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="118"/>
+        <source>Trackerless (%1)</source>
+        <translation>Bez servera (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="120"/>
+        <source>Tracker error (%1)</source>
+        <translation>Greška praćenja (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="122"/>
+        <source>Other error (%1)</source>
+        <translation>Druga greška (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="546"/>
+        <source>Remove tracker</source>
+        <translation>Ukloni pratilac</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="551"/>
+        <source>Start torrents</source>
+        <translation>Pokreni torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="553"/>
+        <source>Stop torrents</source>
+        <translation>Zaustavite torent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="555"/>
+        <source>Remove torrents</source>
+        <translation>Ukloni torente</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="683"/>
+        <source>Removal confirmation</source>
+        <translation>Potvrda uklanjanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="684"/>
+        <source>Are you sure you want to remove tracker &quot;%1&quot; from all torrents?</source>
+        <translation>Da li ste sigurni da želite da uklonite traker „%1“ sa svih torent prodavnica?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="686"/>
+        <source>Don&apos;t ask me again.</source>
+        <translation>Ne pitaj me više.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="116"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Ukupno (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferController</name>
+    <message>
+        <location filename="../webui/api/transfercontroller.cpp" line="141"/>
+        <source>&apos;mode&apos;: invalid argument</source>
+        <translation>&quot;mode&quot;: nevažeći argument</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListFiltersWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="68"/>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="85"/>
+        <source>Categories</source>
+        <translation>Kategorije</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="106"/>
+        <source>Tags</source>
+        <translation>Tagovi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="121"/>
+        <source>Trackers</source>
+        <translation>Pratioci</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="139"/>
+        <source>Tracker status</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>TransferListModel</name>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="95"/>
+        <source>Downloading</source>
+        <translation>Preuzimanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="96"/>
+        <source>Stalled</source>
+        <comment>Torrent is waiting for download to begin</comment>
+        <translation>Zastoj</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="97"/>
+        <source>Downloading metadata</source>
+        <comment>Used when loading a magnet link</comment>
+        <translation>Preuzimanje metapodataka</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="98"/>
+        <source>[F] Downloading metadata</source>
+        <comment>Used when forced to load a magnet link. You probably shouldn't translate the F.</comment>
+        <translation>[F] Preuzimanje metapodataka</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="99"/>
+        <source>[F] Downloading</source>
+        <comment>Used when the torrent is forced started. You probably shouldn't translate the F.</comment>
+        <translation>[F] Preuzimanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="100"/>
+        <location filename="../gui/transferlistmodel.cpp" line="101"/>
+        <source>Seeding</source>
+        <comment>Torrent is complete and in upload-only mode</comment>
+        <translation>Doniranje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="102"/>
+        <source>[F] Seeding</source>
+        <comment>Used when the torrent is forced started. You probably shouldn't translate the F.</comment>
+        <translation>[F] Slanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="103"/>
+        <location filename="../gui/transferlistmodel.cpp" line="104"/>
+        <source>Queued</source>
+        <comment>Torrent is queued</comment>
+        <translation>Redosled</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="105"/>
+        <location filename="../gui/transferlistmodel.cpp" line="106"/>
+        <source>Checking</source>
+        <comment>Torrent local data is being checked</comment>
+        <translation>Provera</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="107"/>
+        <source>Checking resume data</source>
+        <comment>Used when loading the torrents from disk after qbt is launched. It checks the correctness of the .fastresume file. Normally it is completed in a fraction of a second, unless loading many many torrents.</comment>
+        <translation>Provera podataka za nastavljanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="109"/>
+        <source>Completed</source>
+        <translation>Kompletirani</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="110"/>
+        <source>Moving</source>
+        <comment>Torrent local data are being moved/relocated</comment>
+        <translation>Premeštanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="111"/>
+        <source>Missing Files</source>
+        <translation>Nedostaju fajlovi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="112"/>
+        <source>Errored</source>
+        <comment>Torrent status, the torrent has an error</comment>
+        <translation>Greška</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="161"/>
+        <source>Name</source>
+        <comment>i.e: torrent name</comment>
+        <translation>Ime</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="162"/>
+        <source>Size</source>
+        <comment>i.e: torrent size</comment>
+        <translation>Veličina</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="163"/>
+        <source>Progress</source>
+        <comment>% Done</comment>
+        <translation>Napredak</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="108"/>
+        <source>Stopped</source>
+        <translation>Stopiran</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="164"/>
+        <source>Status</source>
+        <comment>Torrent status (e.g. downloading, seeding, stopped)</comment>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="165"/>
+        <source>Seeds</source>
+        <comment>i.e. full sources (often untranslated)</comment>
+        <translation>Donori</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="166"/>
+        <source>Peers</source>
+        <comment>i.e. partial sources (often untranslated)</comment>
+        <translation>Peers (učesnici)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="167"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Brzina Preuz</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="168"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Brzina Slanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="169"/>
+        <source>Ratio</source>
+        <comment>Share ratio</comment>
+        <translation>Odnos</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="170"/>
+        <source>Popularity</source>
+        <translation>Popularnost</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="171"/>
+        <source>ETA</source>
+        <comment>i.e: Estimated Time of Arrival / Time left</comment>
+        <translation>ETA</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="172"/>
+        <source>Category</source>
+        <translation>Kategorija</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="173"/>
+        <source>Tags</source>
+        <translation>Tagovi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="174"/>
+        <source>Created On</source>
+        <comment>Torrent was initially created on 01/01/2010 08:00</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="175"/>
+        <source>Added On</source>
+        <comment>Torrent was added to transfer list on 01/01/2010 08:00</comment>
+        <translation>Dodato na</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="176"/>
+        <source>Completed On</source>
+        <comment>Torrent was completed on 01/01/2010 08:00</comment>
+        <translation>Završeno dana</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="177"/>
+        <source>Tracker</source>
+        <translation>Pratilac</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="178"/>
+        <source>Down Limit</source>
+        <comment>i.e: Download limit</comment>
+        <translation>Ograničenje brzine preuzimanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="179"/>
+        <source>Up Limit</source>
+        <comment>i.e: Upload limit</comment>
+        <translation>Ograničenje brzine slanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="180"/>
+        <source>Downloaded</source>
+        <comment>Amount of data downloaded (e.g. in MB)</comment>
+        <translation>Preuzeto</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="181"/>
+        <source>Uploaded</source>
+        <comment>Amount of data uploaded (e.g. in MB)</comment>
+        <translation>Poslato</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="184"/>
+        <source>Remaining</source>
+        <comment>Amount of data left to download (e.g. in MB)</comment>
+        <translation>Preostalo</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="185"/>
+        <source>Time Active</source>
+        <comment>Time (duration) the torrent is active (not stopped)</comment>
+        <translation>Proteklo vreme</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="186"/>
+        <source>Save Path</source>
+        <comment>Torrent save path</comment>
+        <translation>Putanja čuvanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="182"/>
+        <source>Session Downloaded</source>
+        <comment>Amount of data downloaded since program open (e.g. in MB)</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="183"/>
+        <source>Session Uploaded</source>
+        <comment>Amount of data uploaded since program open (e.g. in MB)</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="187"/>
+        <source>Incomplete Save Path</source>
+        <comment>Torrent incomplete save path</comment>
+        <translation>Nepotpuna putanja čuvanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="188"/>
+        <source>Completed</source>
+        <comment>Amount of data completed (e.g. in MB)</comment>
+        <translation>Kompletirani</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="189"/>
+        <source>Ratio Limit</source>
+        <comment>Upload share ratio limit</comment>
+        <translation>Limit odnosa</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="190"/>
+        <source>Last Seen Complete</source>
+        <comment>Indicates the time when the torrent was last seen complete/whole</comment>
+        <translation>Poslednji put viđen potpun</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="191"/>
+        <source>Last Activity</source>
+        <comment>Time passed since a chunk was downloaded/uploaded</comment>
+        <translation>Poslednja aktivnost</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="192"/>
+        <source>Total Size</source>
+        <comment>i.e. Size including unwanted data</comment>
+        <translation>Ukupna veličina</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="193"/>
+        <source>Availability</source>
+        <comment>The number of distributed copies of the torrent</comment>
+        <translation>Dostupnost</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="194"/>
+        <source>Info Hash v1</source>
+        <comment>i.e: torrent info hash v1</comment>
+        <translation>Info heš v1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="195"/>
+        <source>Info Hash v2</source>
+        <comment>i.e: torrent info hash v2</comment>
+        <translation>Info heš v2</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="196"/>
+        <source>Reannounce In</source>
+        <comment>Indicates the time until next trackers reannounce</comment>
+        <translation>Ponovo objavi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="197"/>
+        <source>Private</source>
+        <comment>Flags private torrents</comment>
+        <translation>Privatni</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="205"/>
+        <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
+        <translation>Odnos / Vreme aktivnosti (u mesecima), pokazuje koliko je torent popularan</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="259"/>
+        <location filename="../gui/transferlistmodel.cpp" line="352"/>
+        <location filename="../gui/transferlistmodel.cpp" line="368"/>
+        <source>N/A</source>
+        <translation>Nedostupno</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="316"/>
+        <source>%1 ago</source>
+        <comment>e.g.: 1h 20m ago</comment>
+        <translation>Pre %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="329"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (donirano za %2)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListWidget</name>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="689"/>
+        <source>Column visibility</source>
+        <translation>Preglednost kolona</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Recheck confirmation</source>
+        <translation>Potvrda ponovne provere</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Are you sure you want to recheck the selected torrent(s)?</source>
+        <translation>Da li sigurno želite da ponovo proverite izabrane torente?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>Rename</source>
+        <translation>Preimenuj</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>New name:</source>
+        <translation>Novo ime:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="348"/>
+        <source>Choose save path</source>
+        <translation>Izaberite putanju čuvanja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>Unable to preview</source>
+        <translation>Pregled nije uspeo</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>The selected torrent &quot;%1&quot; does not contain previewable files</source>
+        <translation>Izabrani torent &quot;%1&quot; ne sadrži fajlove koje je moguće pregledati</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="718"/>
+        <source>Resize columns</source>
+        <translation>Promeni veličinu kolona</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="727"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Promeni širinu svih vidljivih kolona na širinu njihovog sadržaja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="757"/>
+        <source>Enable automatic torrent management</source>
+        <translation>Omogući automatski menadžment torenata</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="758"/>
+        <source>Are you sure you want to enable Automatic Torrent Management for the selected torrent(s)? They may be relocated.</source>
+        <translation>Da li sigurno želite da omogućite automatski menadžment torenata za izabrane torente? Moguće je da budu premešteni.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="822"/>
+        <source>Choose folder to save exported .torrent files</source>
+        <translation>Izaberite fasciklu u kojoj će se čuvati izvezeni .torrent fajlovi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="836"/>
+        <source>Export .torrent file failed. Torrent: &quot;%1&quot;. Save path: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
+        <translation>Izvoz .torrent fajla nije uspeo. Torent: &quot;%1&quot;. Putanja: &quot;%2&quot;. Razlog: &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="861"/>
+        <source>Export .torrent file error</source>
+        <translation>Greška tokom izvoza .torrent datoteke</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove All Tags</source>
+        <translation>Ukloni sve oznake</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove all tags from selected torrents?</source>
+        <translation>Ukloniti sve oznake sa izabranih torenata?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="887"/>
+        <source>Comma-separated tags:</source>
+        <translation>Oznake odvojene zarezima:</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Invalid tag</source>
+        <translation>Nevažeća oznaka</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Tag name: &apos;%1&apos; is invalid</source>
+        <translation>Ime oznake: &quot;%1&quot; nije važeće</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="986"/>
+        <source>Pre&amp;view file...</source>
+        <translation>Pre&amp;gled fajla...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="988"/>
+        <source>Torrent &amp;options...</source>
+        <translation>&amp;Opcije torenta...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="990"/>
+        <source>Open destination &amp;folder</source>
+        <translation>Otvori odredišnu &amp;fasciklu</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="992"/>
+        <source>Move &amp;up</source>
+        <comment>i.e. move up in the queue</comment>
+        <translation>Pomeri na&amp;gore</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="994"/>
+        <source>Move &amp;down</source>
+        <comment>i.e. Move down in the queue</comment>
+        <translation>Pomeri na&amp;dole</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="996"/>
+        <source>Move to &amp;top</source>
+        <comment>i.e. Move to top of the queue</comment>
+        <translation>Pomeri na &amp;vrh</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="998"/>
+        <source>Move to &amp;bottom</source>
+        <comment>i.e. Move to bottom of the queue</comment>
+        <translation>Pomeri na d&amp;no</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1000"/>
+        <source>Set loc&amp;ation...</source>
+        <translation>Podesi loka&amp;ciju...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1002"/>
+        <source>Force rec&amp;heck</source>
+        <translation>Prisilna ponovna provera</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1004"/>
+        <source>Force r&amp;eannounce</source>
+        <translation>Prisilno ponovno objavljivanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1006"/>
+        <source>&amp;Magnet link</source>
+        <translation>&amp;Magnet veza</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1008"/>
+        <source>Torrent &amp;ID</source>
+        <translation>ID torenta (&amp;I)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1010"/>
+        <source>&amp;Comment</source>
+        <translation>&amp;Komentar</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1012"/>
+        <source>&amp;Name</source>
+        <translation>&amp;Ime</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1014"/>
+        <source>Info &amp;hash v1</source>
+        <translation>Info heš v&amp;1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1016"/>
+        <source>Info h&amp;ash v2</source>
+        <translation>Info heš v&amp;2</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1018"/>
+        <source>Content &amp;Path</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1022"/>
+        <source>Re&amp;name...</source>
+        <translation>Pre&amp;imenuj...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1031"/>
+        <source>Edit trac&amp;kers...</source>
+        <translation>Uredi tre&amp;kere...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1033"/>
+        <source>E&amp;xport .torrent...</source>
+        <translation>Iz&amp;vezi .torrent fajl...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1177"/>
+        <source>Categor&amp;y</source>
+        <translation>Kategori&amp;ja</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1179"/>
+        <source>&amp;New...</source>
+        <comment>New category...</comment>
+        <translation>&amp;Novo...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1181"/>
+        <source>&amp;Reset</source>
+        <comment>Reset category</comment>
+        <translation>&amp;Reset</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1199"/>
+        <source>Ta&amp;gs</source>
+        <translation>O&amp;znake</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1201"/>
+        <source>&amp;Add...</source>
+        <comment>Add / assign multiple tags...</comment>
+        <translation>D&amp;odaj...</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1203"/>
+        <source>&amp;Remove All</source>
+        <comment>Remove all tags</comment>
+        <translation>&amp;Ukloni sve</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1279"/>
+        <source>Can not force reannounce if torrent is Stopped/Queued/Errored/Checking</source>
+        <translation>Ne može se nametnuti ponovna objava ako je torent zaustavljen/u redu čekanja/ima grešku/proverava se</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1286"/>
+        <source>&amp;Queue</source>
+        <translation>U &amp;redosled</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1293"/>
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopiraj</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1304"/>
+        <source>Exported torrent is not necessarily the same as the imported</source>
+        <translation>Izvezeni torent ne mora nužno biti identičan uvezenom</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1024"/>
+        <source>Download in sequential order</source>
+        <translation>Preuzimanje u serijskom redosledu</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="776"/>
+        <source>Add tags</source>
+        <translation>Dodaj datoteke</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="862"/>
+        <source>Errors occurred when exporting .torrent files. Check execution log for details.</source>
+        <translation>Greška tokom izvoza .torrent fajlova. Pogledajte dnevnik za detalje.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="978"/>
+        <source>&amp;Start</source>
+        <comment>Resume/start the torrent</comment>
+        <translation>&amp;Pokreni</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="980"/>
+        <source>Sto&amp;p</source>
+        <comment>Stop the torrent</comment>
+        <translation>Zaustavi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="982"/>
+        <source>Force Star&amp;t</source>
+        <comment>Force Resume/start the torrent</comment>
+        <translation>Prisilno pokretanje</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="984"/>
+        <source>&amp;Remove</source>
+        <comment>Remove the torrent</comment>
+        <translation>&amp;Ukloni</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1026"/>
+        <source>Download first and last pieces first</source>
+        <translation>Prvo preuzmi početne i krajnje delove</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1028"/>
+        <source>Automatic Torrent Management</source>
+        <translation>Automatski menedžment torenata</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1029"/>
+        <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
+        <translation>Automatski mod znači da će se razna svojstva torenta (npr. putanja čuvanja) odlučivati automatski na osnovu asocirane kategorije</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1020"/>
+        <source>Super seeding mode</source>
+        <translation>Super seeding (donirajući) režim</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeDialog</name>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="14"/>
+        <source>UI Theme Configuration</source>
+        <translation>Konfiguracija teme KI</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="33"/>
+        <source>Colors</source>
+        <translation>Boje</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="78"/>
+        <source>Note that some custom colors may not be applied in some desktop environments.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="100"/>
+        <source>Color ID</source>
+        <translation>ID boje</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="112"/>
+        <location filename="../gui/uithemedialog.ui" line="215"/>
+        <source>Light Mode</source>
+        <translation>Svetla tema</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="124"/>
+        <location filename="../gui/uithemedialog.ui" line="227"/>
+        <source>Dark Mode</source>
+        <translation>Tamna tema</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="151"/>
+        <source>Icons</source>
+        <translation>Ikonice</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="203"/>
+        <source>Icon ID</source>
+        <translation>ID ikonice</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="269"/>
+        <source>UI Theme Configuration.</source>
+        <translation>Konfiguracija teme KI.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="270"/>
+        <source>The UI Theme changes could not be fully applied. The details can be found in the Log.</source>
+        <translation>Promene u temi KI nisu u potpunosti primenjene. Detalji su dostupni u zapisu.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="354"/>
+        <source>Couldn&apos;t save UI Theme configuration. Reason: %1</source>
+        <translation>Čuvanje konfiguracije teme KI nije uspelo. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="385"/>
+        <location filename="../gui/uithemedialog.cpp" line="394"/>
+        <source>Couldn&apos;t remove icon file. File: %1.</source>
+        <translation>Uklanjanje fajla ikonice nije uspelo. Fajl: %1.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="403"/>
+        <source>Couldn&apos;t copy icon file. Source: %1. Destination: %2.</source>
+        <translation>Kopiranje fajla ikonice nije uspelo. Izvor: %1. Cilj: %2.</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeManager</name>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="82"/>
+        <source>Set app style failed. Unknown style: &quot;%1&quot;</source>
+        <translation>Podešavanje stila aplikacije nije uspelo. Nepoznati stil: „%1“</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="101"/>
+        <source>Failed to load UI theme from file: &quot;%1&quot;</source>
+        <translation>Učitavanje teme KI iz datoteke nije uspelo: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeSource</name>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="54"/>
+        <source>Couldn&apos;t parse UI Theme configuration file. Reason: %1</source>
+        <translation>Parsiranje fajla konfiguracije teme KI nije uspelo. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="61"/>
+        <source>UI Theme configuration file has invalid format. Reason: %1</source>
+        <translation>Fajl konfiguracije teme KI je u nevažećem formatu. Razlog: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="62"/>
+        <source>Root JSON value is not an object</source>
+        <translation>Korenska JSON vrednost nije objekat</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="77"/>
+        <source>Invalid color for ID &quot;%1&quot; is provided by theme</source>
+        <translation>Nevažeća boja za ID &quot;%1&quot; navedena u temi</translation>
+    </message>
+</context>
+<context>
+    <name>Upgrade</name>
+    <message>
+        <location filename="../app/upgrade.cpp" line="59"/>
+        <source>Migrate preferences failed: WebUI https, file: &quot;%1&quot;, error: &quot;%2&quot;</source>
+        <translation>Migracija podešavanja nije uspela: WebUI https, datoteka: „%1“, greška: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="74"/>
+        <source>Migrated preferences: WebUI https, exported data to file: &quot;%1&quot;</source>
+        <translation>Migrirane postavke: WebUI https, izvezeni podaci u datoteku: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="166"/>
+        <location filename="../app/upgrade.cpp" line="197"/>
+        <location filename="../app/upgrade.cpp" line="228"/>
+        <location filename="../app/upgrade.cpp" line="366"/>
+        <location filename="../app/upgrade.cpp" line="464"/>
+        <source>Invalid value found in configuration file, reverting it to default. Key: &quot;%1&quot;. Invalid value: &quot;%2&quot;.</source>
+        <translation>Nevažeća vrednost pronađena u konfiguracionoj datoteci, vraća se na podrazumevanu vrednost. Ključ: „%1“. Nevažeća vrednost: „%2“.</translation>
+    </message>
+</context>
+<context>
+    <name>Utils::ForeignApps</name>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="91"/>
+        <source>Found Python executable. Name: &quot;%1&quot;. Version: &quot;%2&quot;</source>
+        <translation>Pronađen je izvršni program za Pajton. Ime: &quot;%1&quot;. Verzija: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="243"/>
+        <source>Python failed to meet minimum version requirement. Path: &quot;%1&quot;. Found version: &quot;%2&quot;. Minimum supported version: &quot;%3&quot;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="258"/>
+        <source>Failed to find Python executable. Path: &quot;%1&quot;.</source>
+        <translation>Nije pronađena izvršna datoteka u Pajtonu. Putanja: „%1“.</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="282"/>
+        <source>Failed to find `%1` executable in PATH environment variable. PATH: &quot;%2&quot;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="301"/>
+        <source>Failed to find Python executable</source>
+        <translation>Nije pronađena izvršna datoteka u Pajtonu</translation>
+    </message>
+</context>
+<context>
+    <name>Utils::IO</name>
+    <message>
+        <location filename="../base/utils/io.cpp" line="83"/>
+        <source>File open error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Greška pri otvaranju datoteke. Datoteka: „%1“. Greška: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="91"/>
+        <source>File size exceeds limit. File: &quot;%1&quot;. File size: %2. Size limit: %3</source>
+        <translation>Veličina datoteke prelazi ograničenje. Datoteka: „%1“. Veličina datoteke: %2. Ograničenje veličine: %3</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="97"/>
+        <source>File size exceeds data size limit. File: &quot;%1&quot;. File size: %2. Array limit: %3</source>
+        <translation>Veličina datoteke prelazi ograničenje veličine podataka. Datoteka: „%1“. Veličina datoteke: %2. Ograničenje niza: %3</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="107"/>
+        <source>File read error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Greška u čitanju datoteke. Datoteka: „%1“. Greška: „%2“</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="122"/>
+        <source>Read size mismatch. File: &quot;%1&quot;. Expected: %2. Actual: %3</source>
+        <translation>Neusklađenost veličine za čitanje. Datoteka: „%1“. Očekivano: %2. Stvarno: %3</translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFolderOptionsDialog</name>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="14"/>
+        <source>Watched Folder Options</source>
+        <translation>Opcije nadgledanja fascikli</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="22"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will watch the folder and all its subfolders. In Manual torrent management mode it will also add subfolder name to the selected Save path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Držaće fasciklu i sve njene potfascikle pod prismotrom. U ručnom modu menedžmenta torenata, takođe će dodavati ime potfascikle izabranoj putanji za čuvanje. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="25"/>
+        <source>Recursive mode</source>
+        <translation>Rekurzivni režim</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="47"/>
+        <source>Torrent parameters</source>
+        <translation>Parametri torenata</translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFoldersModel</name>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="76"/>
+        <source>Watched Folder</source>
+        <translation>Nadgledani Folder</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="105"/>
+        <source>Watched folder path cannot be empty.</source>
+        <translation>Putanja fascikle pod prismotrom ne može biti prazna.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="108"/>
+        <source>Watched folder path cannot be relative.</source>
+        <translation>Putanja fascikle pod prismotrom ne može biti relativna.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="111"/>
+        <source>Folder &apos;%1&apos; is already in watch list.</source>
+        <translation>Fascikla &quot;%1&quot; je već u spisku za prismotru.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="115"/>
+        <source>Folder &apos;%1&apos; doesn&apos;t exist.</source>
+        <translation>Fascikla &quot;%1&quot; ne postoji.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="117"/>
+        <source>Folder &apos;%1&apos; isn&apos;t readable.</source>
+        <translation>Fascikla &quot;%1&quot; nije čitljiva.</translation>
+    </message>
+</context>
+<context>
+    <name>WebApplication</name>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="217"/>
+        <source>Unacceptable file type, only regular file is allowed.</source>
+        <translation>Nedozvoljeni tip fajla, samo obični fajlovi su dozvoljeni.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="235"/>
+        <source>Symlinks inside alternative UI folder are forbidden.</source>
+        <translation>Simboličke veze unutar fascikle alternativnog KI nisu dozvoljene.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="445"/>
+        <source>Using built-in WebUI.</source>
+        <translation>Korišćenje ugrađenog WebUI-ja.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="447"/>
+        <source>Using custom WebUI. Location: &quot;%1&quot;.</source>
+        <translation>Koristi se prilagođeni WebUI. Lokacija: „%1“.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="459"/>
+        <source>WebUI translation for selected locale (%1) has been successfully loaded.</source>
+        <translation>Prevod WebUI-ja za izabrani lokal (%1) je uspešno učitan.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="464"/>
+        <source>Couldn&apos;t load WebUI translation for selected locale (%1).</source>
+        <translation>Nije moguće učitati prevod WebUI-ja za izabrani lokal (%1).</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="521"/>
+        <source>Missing &apos;:&apos; separator in WebUI custom HTTP header: &quot;%1&quot;</source>
+        <translation>Nedostaje separator &apos;:&apos; u prilagođenom HTTP zaglavlju WebUI-ja: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="588"/>
+        <source>Web server error. %1</source>
+        <translation>Greška veb servera. %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="608"/>
+        <source>Web server error. Unknown error.</source>
+        <translation>Greška veb servera. Nepoznata greška.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="918"/>
+        <source>WebUI: Origin header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Origin header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>VebI: Neslaganje zaglavlja izvora i ciljnog porekla! Izvorna IP adresa: &apos;%1&apos;. Zaglavlje izvora: &apos;%2&apos;. Ciljno poreklo: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="930"/>
+        <source>WebUI: Referer header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Referer header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>VebUI: Nepodudaranje zaglavlja upućivača i porekla cilja! Izvorna IP adresa: &apos;%1&apos;. Referentno zaglavlje: &apos;%2&apos;. Ciljno poreklo: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="949"/>
+        <source>WebUI: Invalid Host header, port mismatch. Request source IP: &apos;%1&apos;. Server port: &apos;%2&apos;. Received Host header: &apos;%3&apos;</source>
+        <translation>Veb korisnički interfejs: Nevažeći zaglavlje hosta, neusklađenost porta. IP adresa izvora zahteva: &apos;%1&apos;. Port servera: &apos;%2&apos;. Primljeno zaglavlje hosta: &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="970"/>
+        <source>WebUI: Invalid Host header. Request source IP: &apos;%1&apos;. Received Host header: &apos;%2&apos;</source>
+        <translation>VebI: Nevažeći zaglavlje hosta. IP adresa izvora zahteva: &apos;%1&apos;. Primljeno zaglavlje hosta: &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1016"/>
+        <source>WebAPI login failure. Reason: IP has been banned, IP: %1, username: %2</source>
+        <translation>Logovanje preko WebAPI-ja nije uspelo. Razlog: IP je banovan, IP: %1, korisničko ime: %2</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1019"/>
+        <source>Your IP address has been banned after too many failed authentication attempts.</source>
+        <translation>Vaša IP adresa je odbijena posle više pokušaja autentifikacije.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1028"/>
+        <source>WebAPI login success. IP: %1</source>
+        <translation>Uspešan login na WebAPI. IP: %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1036"/>
+        <source>WebAPI login failure. Reason: invalid credentials, attempt count: %1, IP: %2, username: %3</source>
+        <translation>Logovanje preko WebAPI-ja nije uspelo. Razlog: nevažeći akreditivi, broj pokušaja: %1, IP: %2, korisničko ime: %3</translation>
+    </message>
+</context>
+<context>
+    <name>WebUI</name>
+    <message>
+        <location filename="../webui/webui.cpp" line="69"/>
+        <source>Credentials are not set</source>
+        <translation>Akreditivi nisu podešeni</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="120"/>
+        <source>WebUI: HTTPS setup successful</source>
+        <translation>WebUI: HTTPS podešavanje je uspešno</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="122"/>
+        <source>WebUI: HTTPS setup failed, fallback to HTTP</source>
+        <translation>VebI: Podešavanje HTTPS-a nije uspelo, vraćanje na HTTP</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="134"/>
+        <source>WebUI: Now listening on IP: %1, port: %2</source>
+        <translation>VebI: Trenutno sluša na IP adresi: %1, portu: %2</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="138"/>
+        <source>Unable to bind to IP: %1, port: %2. Reason: %3</source>
+        <translation>Nije moguće povezati se sa IP adresom: %1, portom: %2. Razlog: %3</translation>
+    </message>
+</context>
+<context>
+    <name>fs</name>
+    <message>
+        <location filename="../base/utils/fs.cpp" line="397"/>
+        <source>Unknown error</source>
+        <translation>Nepoznata greška</translation>
+    </message>
+</context>
+<context>
+    <name>misc</name>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="59"/>
+        <source>B</source>
+        <comment>bytes</comment>
+        <translation>B</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="60"/>
+        <source>KiB</source>
+        <comment>kibibytes (1024 bytes)</comment>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="61"/>
+        <source>MiB</source>
+        <comment>mebibytes (1024 kibibytes)</comment>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="62"/>
+        <source>GiB</source>
+        <comment>gibibytes (1024 mibibytes)</comment>
+        <translation>GiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="63"/>
+        <source>TiB</source>
+        <comment>tebibytes (1024 gibibytes)</comment>
+        <translation>TiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="64"/>
+        <source>PiB</source>
+        <comment>pebibytes (1024 tebibytes)</comment>
+        <translation>PiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="65"/>
+        <source>EiB</source>
+        <comment>exbibytes (1024 pebibytes)</comment>
+        <translation>EiB</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="101"/>
+        <source>/s</source>
+        <comment>per second</comment>
+        <translation>/s</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="239"/>
+        <source>%1s</source>
+        <comment>e.g: 10 seconds</comment>
+        <translation>%1s</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="244"/>
+        <source>%1m</source>
+        <comment>e.g: 10 minutes</comment>
+        <translation>%1m</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="250"/>
+        <source>%1h %2m</source>
+        <comment>e.g: 3 hours 5 minutes</comment>
+        <translation>%1h%2m</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="257"/>
+        <source>%1d %2h</source>
+        <comment>e.g: 2 days 10 hours</comment>
+        <translation>%1d %2h</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="262"/>
+        <source>%1y %2d</source>
+        <comment>e.g: 2 years 10 days</comment>
+        <translation>%1g %2d</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="109"/>
+        <location filename="../base/utils/misc.cpp" line="121"/>
+        <source>Unknown</source>
+        <comment>Unknown (size)</comment>
+        <translation>Nepoznat-a</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="92"/>
+        <source>qBittorrent will shutdown the computer now because all downloads are complete.</source>
+        <translation>qBittorrent će isključiti računar sada, jer su sva preuzimanja završena.</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="98"/>
+        <source>qBittorrent will reboot the computer now because all downloads are complete.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="237"/>
+        <source>&lt; 1m</source>
+        <comment>&lt; 1 minute</comment>
+        <translation>&lt; 1m</translation>
+    </message>
+</context>
+</TS>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

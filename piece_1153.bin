@@ -1,0 +1,1956 @@
+arger les premiers et derniers morceaux en premier</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.ui" line="217"/>
+        <source>Disable LSD for this torrent</source>
+        <translation>Désactiver le LSD pour ce torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="65"/>
+        <source>Currently used categories</source>
+        <translation>Catégories actuellement utilisées</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="75"/>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="77"/>
+        <source>Choose save path</source>
+        <translation>Choisir le répertoire de destination</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentoptionsdialog.cpp" line="334"/>
+        <source>Not applicable to private torrents</source>
+        <translation>Non applicable aux torrents privés</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentShareLimitsWidget</name>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="73"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="410"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="411"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="412"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="416"/>
+        <source>Default</source>
+        <translation>Par défaut</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="87"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="92"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="97"/>
+        <source>Unlimited</source>
+        <translation>Illimité</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="88"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="93"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="98"/>
+        <source>Set to</source>
+        <translation>Définit à</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="42"/>
+        <source>Seeding time:</source>
+        <translation>Temps en partage :</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="55"/>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="81"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="244"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="259"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="368"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="373"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="392"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="397"/>
+        <source> min</source>
+        <extracomment>minutes</extracomment>
+        <translation> min</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="68"/>
+        <source>Inactive seeding time:</source>
+        <translation>Temps en partage inactif :</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="98"/>
+        <source>Action when the limit is reached:</source>
+        <translation>Action lorsque la limite est atteinte :</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="61"/>
+        <source>Stop torrent</source>
+        <translation>Arrêter le torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="64"/>
+        <source>Remove torrent</source>
+        <translation>Retirer le torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="67"/>
+        <source>Remove torrent and its content</source>
+        <translation>Retiré les torrent et son contenu</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="70"/>
+        <source>Enable super seeding for torrent</source>
+        <translation>Activer le super partage pour ce torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="417"/>
+        <source>Default (%1)</source>
+        <comment>Default (share limit action)</comment>
+        <translation>Par défaut (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="421"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="422"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="423"/>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="427"/>
+        <source>From category</source>
+        <translation>De la catégorie</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.cpp" line="428"/>
+        <source>From category (%1)</source>
+        <comment>From category (share limit action)</comment>
+        <translation>De la catégorie (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrentsharelimitswidget.ui" line="19"/>
+        <source>Ratio:</source>
+        <translation>Ratio :</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentTagsDialog</name>
+    <message>
+        <location filename="../gui/torrenttagsdialog.ui" line="14"/>
+        <source>Torrent Tags</source>
+        <translation>Étiquettes du torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="100"/>
+        <source>Add tag</source>
+        <translation>Ajouter une étiquette</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="101"/>
+        <source>Tag:</source>
+        <translation>Étiquette :</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Invalid tag name</source>
+        <translation>Nom de l’étiquette invalide</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="107"/>
+        <source>Tag name &apos;%1&apos; is invalid.</source>
+        <translation>Le nom de l’étiquette &apos;%1&apos; est invalide.</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag exists</source>
+        <translation>L&apos;étiquette existe déjà</translation>
+    </message>
+    <message>
+        <location filename="../gui/torrenttagsdialog.cpp" line="111"/>
+        <source>Tag name already exists.</source>
+        <translation>Le nom de l&apos;étiquette existe déjà.</translation>
+    </message>
+</context>
+<context>
+    <name>TorrentsController</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1259"/>
+        <source>Error: &apos;%1&apos; is not a valid torrent file.</source>
+        <translation>Erreur : &apos;%1&apos; n&apos;est pas un fichier torrent valide.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="503"/>
+        <source>Priority must be an integer</source>
+        <translation>La priorité doit être un nombre</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="505"/>
+        <source>Priority is not valid</source>
+        <translation>Priorité invalide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1113"/>
+        <source>Cannot specify filePriorities when adding multiple torrents</source>
+        <translation>Impossible de spécifier `filePriorities` lors de l&apos;ajout de plusieurs torrents</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1115"/>
+        <source>Cannot specify filePriorities when uploading torrent files</source>
+        <translation>Impossible de spécifier `filePriorities` lors du chargement de fichiers torrent</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1129"/>
+        <source>`downloader` must be a valid search plugin</source>
+        <translation>`downloader` doit être un greffon de recherche valide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1188"/>
+        <source>Length of filePriorities must equal number of files in torrent</source>
+        <translation>La longueur de `filePriorities` doit correspondre au nombre de fichiers dans le torrent</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1205"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1220"/>
+        <source>`filePriorities` may only be specified when metadata has already been fetched</source>
+        <translation>`filePriorities` ne peut être spécifiée que lorsque les métadonnées ont déjà été récupérées</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1306"/>
+        <source>Must specify at least one of [newUrl, tier]</source>
+        <translation>Vous devez spécifier au moins l&apos;un des éléments suivants&#xa0;: [nouvelleUrl, niveau]</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1314"/>
+        <source>tier must be an integer</source>
+        <translation>niveau doit être un entier</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1316"/>
+        <source>tier must be between 0 and 255</source>
+        <translation>niveau doit être compris entre 0 et 255</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1326"/>
+        <source>New tracker URL is invalid</source>
+        <translation>La nouvelle URL du tracker est invalide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1344"/>
+        <source>New tracker URL already exists</source>
+        <translation>Une nouvelle URL du tracker existe déjà</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1367"/>
+        <source>Tracker not found</source>
+        <translation>Tracker introuvable</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1408"/>
+        <source>No valid peers were specified</source>
+        <translation>Aucun pair valide n&apos;a été spécifié</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1464"/>
+        <source>Torrent&apos;s metadata has not yet downloaded</source>
+        <translation>Les métadonnées du torrent n’ont pas encore été téléchargées</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1474"/>
+        <source>File IDs must be integers</source>
+        <translation>Les identifiants de fichier doivent être des entiers</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1476"/>
+        <source>File ID is not valid</source>
+        <translation>L&apos;ID du fichier n&apos;est pas valide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1642"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1655"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1668"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1681"/>
+        <source>Torrent queueing must be enabled</source>
+        <translation>La mise en file d&apos;attente du torrent doit être activée</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1697"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1722"/>
+        <source>Save path cannot be empty</source>
+        <translation>Le répertoire de destination ne peut être vide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1726"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1752"/>
+        <source>Cannot create target directory</source>
+        <translation>Impossible de créer le répertoire cible</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1882"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1909"/>
+        <source>Category cannot be empty</source>
+        <translation>La catégorie ne peut être vide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1898"/>
+        <source>Unable to create category</source>
+        <translation>Impossible de créer la catégorie</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1922"/>
+        <source>Category does not exist</source>
+        <translation>La catégorie n&apos;existe pas</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2059"/>
+        <source>File name has invalid characters</source>
+        <translation>Le nom du fichier contient des caractères invalides</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2087"/>
+        <source>Folder name has invalid characters</source>
+        <translation>Le nom du dossier contient des caractères invalides</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2120"/>
+        <source>Unable to export torrent file. Error: %1</source>
+        <translation>Échec de l’exportation du fichier torrent. Erreur : %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2174"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2282"/>
+        <source>Must specify URI or hash</source>
+        <translation>L&apos;URI ou le hachage doit être spécifié.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2178"/>
+        <source>downloader must be a valid search plugin</source>
+        <translation>`downloader` doit être un greffon de recherche valide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2209"/>
+        <source>Unable to download metadata for &apos;%1&apos;</source>
+        <translation>Impossible de télécharger les métadonnées pour &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2247"/>
+        <source>Unable to parse &apos;%1&apos;</source>
+        <translation>Impossible d&apos;analyser &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2256"/>
+        <source>Must specify torrent file(s)</source>
+        <translation>Vous devez spécifier le(s) fichier(s) torrent</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2269"/>
+        <source>&apos;%1&apos; is not a valid torrent file.</source>
+        <translation>&apos;%1&apos; n&apos;est pas un fichier torrent valide.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2298"/>
+        <source>Metadata is not yet available</source>
+        <translation>Les métadonnées ne sont pas encore disponibles</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2302"/>
+        <source>Unable to export torrent metadata. Error: %1</source>
+        <translation>Impossible d&apos;exporter les métadonnées du torrent. Erreur&#xa0;: %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2326"/>
+        <source>Parse magnet URI failed. URI: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation>Échec de l&apos;analyse de l&apos;URI magnétique. URI : « %1 ». Erreur : « %2 ».</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2372"/>
+        <source>Reading downloaded torrent data failed. Data: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation>Échec de la lecture des données du torrent téléchargé. Données : « %1 ». Erreur : « %2 ».</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="2388"/>
+        <source>Parse torrent failed. URL: &quot;%1&quot;. Error: &quot;%2&quot;.</source>
+        <translation>Échec de l&apos;analyse du torrent. URL : « %1 ». Erreur : « %2 ».</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1701"/>
+        <source>Cannot make save path</source>
+        <translation>Impossible de créer le répertoire de destination</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="390"/>
+        <source>&quot;%1&quot; is not a valid URL</source>
+        <translation>&quot;%1&quot; n&apos;est pas une URL valide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="393"/>
+        <source>URL scheme must be one of [%1]</source>
+        <translation>Le schéma d&apos;URL doit être l&apos;un des [%1]</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="646"/>
+        <source>&apos;sort&apos; parameter is invalid</source>
+        <translation>Le paramètre de tri &apos;sort&apos; est invalide</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="916"/>
+        <source>&quot;%1&quot; is not an existing URL</source>
+        <translation>&quot;%1&quot; n&apos;est pas une URL existante</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="984"/>
+        <source>&quot;%1&quot; is not a valid file index.</source>
+        <translation>« %1 » n’est pas un index de fichier valide.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="986"/>
+        <source>Index %1 is out of bounds.</source>
+        <translation>L’index %1 est hors limites.</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1730"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1756"/>
+        <source>Cannot write to directory</source>
+        <translation>Impossible d&apos;écrire dans le répertoire</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1705"/>
+        <source>WebUI Set location: moving &quot;%1&quot;, from &quot;%2&quot; to &quot;%3&quot;</source>
+        <translation>Définir l&apos;emplacement de l&apos;IU Web: déplacement de « %1 », de « %2 » vers « %3 »</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1776"/>
+        <source>Incorrect torrent name</source>
+        <translation>Nom de torrent incorrect</translation>
+    </message>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1870"/>
+        <location filename="../webui/api/torrentscontroller.cpp" line="1885"/>
+        <source>Incorrect category name</source>
+        <translation>Nom de catégorie incorrect</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerEntriesDialog</name>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="14"/>
+        <source>Edit trackers</source>
+        <translation>Éditer les trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerentriesdialog.ui" line="20"/>
+        <source>One tracker URL per line.
+
+- You can split the trackers into groups by inserting blank lines.
+- All trackers within the same group will belong to the same tier.
+- The group on top will be tier 0, the next group tier 1 and so on.
+- Below will show the common subset of trackers of the selected torrents.</source>
+        <translation>Une URL de tracker par ligne.
+
+- Vous pouvez diviser les trackers en groupes en insérant des lignes vierges.
+- Tous les trackers du même groupe appartiendront au même niveau.
+- Le groupe en haut sera le niveau 0, le prochain groupe de niveau 1 et ainsi de suite.
+- Ci-dessous s&apos;affichera le sous-ensemble commun de trackers des torrents sélectionnés.</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListModel</name>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="66"/>
+        <source>Working</source>
+        <translation>Fonctionnel</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="67"/>
+        <source>Disabled</source>
+        <translation>Désactivé</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="68"/>
+        <source>Disabled for this torrent</source>
+        <translation>Désactivé pour ce torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="69"/>
+        <source>This torrent is private</source>
+        <translation>Ce torrent est privé</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="73"/>
+        <source>N/A</source>
+        <translation>N/D</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="228"/>
+        <source>Updating...</source>
+        <translation>Mise à jour en cours…</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="235"/>
+        <source>Not working</source>
+        <translation>Non fonctionnel</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="237"/>
+        <source>Tracker error</source>
+        <translation>Erreur du tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="239"/>
+        <source>Unreachable</source>
+        <translation>Injoignable</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="241"/>
+        <source>Not contacted yet</source>
+        <translation>Pas encore contacté</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="244"/>
+        <source>Invalid state!</source>
+        <translation>État invalide !</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="502"/>
+        <source>URL/Announce Endpoint</source>
+        <translation>URL/Annonce du point de terminaison</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="506"/>
+        <source>BT Protocol</source>
+        <translation>Protocole BT</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="520"/>
+        <source>Next Announce</source>
+        <translation>Prochaine Annonce</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="522"/>
+        <source>Min Announce</source>
+        <translation>Annonce minimum</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="504"/>
+        <source>Tier</source>
+        <translation>Niveau</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="508"/>
+        <source>Status</source>
+        <translation>État</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="510"/>
+        <source>Peers</source>
+        <translation>Pairs</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="512"/>
+        <source>Seeds</source>
+        <translation>Sources</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="514"/>
+        <source>Leeches</source>
+        <translation>Téléchargeurs</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="516"/>
+        <source>Times Downloaded</source>
+        <translation>Nombre de fois téléchargé</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistmodel.cpp" line="518"/>
+        <source>Message</source>
+        <translation>Message</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerListWidget</name>
+    <message>
+        <location filename="../webui/api/torrentscontroller.cpp" line="238"/>
+        <source>This torrent is private</source>
+        <translation>Ce torrent est privé</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker editing</source>
+        <translation>Édition du tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="274"/>
+        <source>Tracker URL:</source>
+        <translation>URL du tracker :</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>Tracker editing failed</source>
+        <translation>Échec de l’édition du tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="281"/>
+        <source>The tracker URL entered is invalid.</source>
+        <translation>L&apos;URL du tracker saisie est invalide.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="299"/>
+        <source>The tracker URL already exists.</source>
+        <translation>L&apos;URL du tracker existe déjà.</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="370"/>
+        <source>Edit tracker URL...</source>
+        <translation>Éditer l&apos;URL du tracker…</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="372"/>
+        <source>Remove tracker</source>
+        <translation>Retirer le tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="374"/>
+        <source>Copy tracker URL</source>
+        <translation>Copier l&apos;URL du tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="378"/>
+        <source>Force reannounce to selected trackers</source>
+        <translation>Forcer la réannonce aux trackers sélectionnés</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="386"/>
+        <source>Force reannounce to all trackers</source>
+        <translation>Forcer la réannonce à tous les trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="451"/>
+        <source>Resize columns</source>
+        <translation>Redimensionner les colonnes</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="460"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Redimensionner toutes les colonnes non masquées à la taille de leur contenu</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="365"/>
+        <source>Add trackers...</source>
+        <translation>Ajouter des trackers…</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackerlist/trackerlistwidget.cpp" line="428"/>
+        <source>Column visibility</source>
+        <translation>Visibilité de la colonne</translation>
+    </message>
+</context>
+<context>
+    <name>TrackerStatusFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="60"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Tous (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="62"/>
+        <source>Warning (%1)</source>
+        <translation>Avertissements (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="64"/>
+        <source>Tracker error (%1)</source>
+        <translation>Erreur du tracker (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="66"/>
+        <source>Other error (%1)</source>
+        <translation>Autre erreur (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="146"/>
+        <source>Start torrents</source>
+        <translation>Démarrer les torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="148"/>
+        <source>Stop torrents</source>
+        <translation>Arrêter les torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackerstatusfilterwidget.cpp" line="150"/>
+        <source>Remove torrents</source>
+        <translation>Retirer les torrents</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersAdditionDialog</name>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="14"/>
+        <source>Add trackers</source>
+        <translation>Ajouter des trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="20"/>
+        <source>List of trackers to add (one per line):</source>
+        <translation>Liste des trackers à ajouter (un par ligne) :</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="40"/>
+        <source>µTorrent compatible list URL:</source>
+        <translation>URL de la liste compatible µTorrent :</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.ui" line="52"/>
+        <source>Download trackers list</source>
+        <translation>Télécharger la liste des trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="58"/>
+        <source>Add</source>
+        <translation>Ajouter</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>Trackers list URL error</source>
+        <translation>Erreur d&apos;URL de la liste des trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="94"/>
+        <source>The trackers list URL cannot be empty</source>
+        <translation>L&apos;URL de la liste des trackers ne peut pas être vide</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="114"/>
+        <source>Download trackers list error</source>
+        <translation>Erreur lors du téléchargement de la liste des trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/trackersadditiondialog.cpp" line="115"/>
+        <source>Error occurred when downloading the trackers list. Reason: &quot;%1&quot;</source>
+        <translation>Une erreur s&apos;est produite lors du téléchargement de la liste des trackers. Raison : « %1 »</translation>
+    </message>
+</context>
+<context>
+    <name>TrackersFilterWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="124"/>
+        <source>Warning (%1)</source>
+        <translation>Avertissements (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="118"/>
+        <source>Trackerless (%1)</source>
+        <translation>Sans tracker (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="120"/>
+        <source>Tracker error (%1)</source>
+        <translation>Erreur du tracker (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="122"/>
+        <source>Other error (%1)</source>
+        <translation>Autre erreur (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="546"/>
+        <source>Remove tracker</source>
+        <translation>Retirer le tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="551"/>
+        <source>Start torrents</source>
+        <translation>Démarrer les torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="553"/>
+        <source>Stop torrents</source>
+        <translation>Arrêter les torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="555"/>
+        <source>Remove torrents</source>
+        <translation>Retirer les torrents</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="683"/>
+        <source>Removal confirmation</source>
+        <translation>Confirmation du retrait</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="684"/>
+        <source>Are you sure you want to remove tracker &quot;%1&quot; from all torrents?</source>
+        <translation>Êtes-vous sûr de vouloir supprimer le tracker &quot;%1&quot; de tous les torrents ?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="686"/>
+        <source>Don&apos;t ask me again.</source>
+        <translation>Ne pas me redemander.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilters/trackersfilterwidget.cpp" line="116"/>
+        <source>All (%1)</source>
+        <comment>this is for the tracker filter</comment>
+        <translation>Tous (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferController</name>
+    <message>
+        <location filename="../webui/api/transfercontroller.cpp" line="141"/>
+        <source>&apos;mode&apos;: invalid argument</source>
+        <translation>&apos;mode&apos; : argument invalide</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListFiltersWidget</name>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="68"/>
+        <source>Status</source>
+        <translation>Statut</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="85"/>
+        <source>Categories</source>
+        <translation>Catégories</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="106"/>
+        <source>Tags</source>
+        <translation>Étiquettes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="121"/>
+        <source>Trackers</source>
+        <translation>Trackers</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="139"/>
+        <source>Tracker status</source>
+        <translation>État du tracker</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListModel</name>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="95"/>
+        <source>Downloading</source>
+        <translation>En téléchargement</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="96"/>
+        <source>Stalled</source>
+        <comment>Torrent is waiting for download to begin</comment>
+        <translation>Dormant</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="97"/>
+        <source>Downloading metadata</source>
+        <comment>Used when loading a magnet link</comment>
+        <translation>Téléchargement des métadonnées</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="98"/>
+        <source>[F] Downloading metadata</source>
+        <comment>Used when forced to load a magnet link. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[F] En téléchargement des métadonnées</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="99"/>
+        <source>[F] Downloading</source>
+        <comment>Used when the torrent is forced started. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[F] En téléchargement</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="100"/>
+        <location filename="../gui/transferlistmodel.cpp" line="101"/>
+        <source>Seeding</source>
+        <comment>Torrent is complete and in upload-only mode</comment>
+        <translation>En partage</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="102"/>
+        <source>[F] Seeding</source>
+        <comment>Used when the torrent is forced started. You probably shouldn&apos;t translate the F.</comment>
+        <translation>[F] En partage</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="103"/>
+        <location filename="../gui/transferlistmodel.cpp" line="104"/>
+        <source>Queued</source>
+        <comment>Torrent is queued</comment>
+        <translation>En file d&apos;attente</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="105"/>
+        <location filename="../gui/transferlistmodel.cpp" line="106"/>
+        <source>Checking</source>
+        <comment>Torrent local data is being checked</comment>
+        <translation>En vérification</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="107"/>
+        <source>Checking resume data</source>
+        <comment>Used when loading the torrents from disk after qbt is launched. It checks the correctness of the .fastresume file. Normally it is completed in a fraction of a second, unless loading many many torrents.</comment>
+        <translation>Vérification des données de reprise</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="109"/>
+        <source>Completed</source>
+        <translation>Complété</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="110"/>
+        <source>Moving</source>
+        <comment>Torrent local data are being moved/relocated</comment>
+        <translation>En déplacement</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="111"/>
+        <source>Missing Files</source>
+        <translation>Fichiers manquants</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="112"/>
+        <source>Errored</source>
+        <comment>Torrent status, the torrent has an error</comment>
+        <translation>Erroné</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="161"/>
+        <source>Name</source>
+        <comment>i.e: torrent name</comment>
+        <translation>Nom</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="162"/>
+        <source>Size</source>
+        <comment>i.e: torrent size</comment>
+        <translation>Taille</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="163"/>
+        <source>Progress</source>
+        <comment>% Done</comment>
+        <translation>Progression</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="108"/>
+        <source>Stopped</source>
+        <translation>Arrêté</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="164"/>
+        <source>Status</source>
+        <comment>Torrent status (e.g. downloading, seeding, stopped)</comment>
+        <translation>Statut</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="165"/>
+        <source>Seeds</source>
+        <comment>i.e. full sources (often untranslated)</comment>
+        <translation>Sources</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="166"/>
+        <source>Peers</source>
+        <comment>i.e. partial sources (often untranslated)</comment>
+        <translation>Pairs</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="167"/>
+        <source>Down Speed</source>
+        <comment>i.e: Download speed</comment>
+        <translation>Réception</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="168"/>
+        <source>Up Speed</source>
+        <comment>i.e: Upload speed</comment>
+        <translation>Envoi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="169"/>
+        <source>Ratio</source>
+        <comment>Share ratio</comment>
+        <translation>Ratio</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="170"/>
+        <source>Popularity</source>
+        <translation>Popularité</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="171"/>
+        <source>ETA</source>
+        <comment>i.e: Estimated Time of Arrival / Time left</comment>
+        <translation>Temps restant estimé</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="172"/>
+        <source>Category</source>
+        <translation>Catégorie</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="173"/>
+        <source>Tags</source>
+        <translation>Étiquettes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="174"/>
+        <source>Created On</source>
+        <comment>Torrent was initially created on 01/01/2010 08:00</comment>
+        <translation>Créé le</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="175"/>
+        <source>Added On</source>
+        <comment>Torrent was added to transfer list on 01/01/2010 08:00</comment>
+        <translation>Ajouté le</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="176"/>
+        <source>Completed On</source>
+        <comment>Torrent was completed on 01/01/2010 08:00</comment>
+        <translation>Complété le</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="177"/>
+        <source>Tracker</source>
+        <translation>Tracker</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="178"/>
+        <source>Down Limit</source>
+        <comment>i.e: Download limit</comment>
+        <translation>Limite de réception</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="179"/>
+        <source>Up Limit</source>
+        <comment>i.e: Upload limit</comment>
+        <translation>Limite d&apos;envoi</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="180"/>
+        <source>Downloaded</source>
+        <comment>Amount of data downloaded (e.g. in MB)</comment>
+        <translation>Téléchargé</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="181"/>
+        <source>Uploaded</source>
+        <comment>Amount of data uploaded (e.g. in MB)</comment>
+        <translation>Envoyé</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="184"/>
+        <source>Remaining</source>
+        <comment>Amount of data left to download (e.g. in MB)</comment>
+        <translation>Restant</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="185"/>
+        <source>Time Active</source>
+        <comment>Time (duration) the torrent is active (not stopped)</comment>
+        <translation>Temps actif</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>Yes</source>
+        <translation>Oui</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="367"/>
+        <source>No</source>
+        <translation>Non</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="186"/>
+        <source>Save Path</source>
+        <comment>Torrent save path</comment>
+        <translation>Répertoire de destination</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="182"/>
+        <source>Session Downloaded</source>
+        <comment>Amount of data downloaded since program open (e.g. in MB)</comment>
+        <translation>Téléchargé durant la session</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="183"/>
+        <source>Session Uploaded</source>
+        <comment>Amount of data uploaded since program open (e.g. in MB)</comment>
+        <translation>Envoyé durant la session</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="187"/>
+        <source>Incomplete Save Path</source>
+        <comment>Torrent incomplete save path</comment>
+        <translation>Répertoire de destination incomplet</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="188"/>
+        <source>Completed</source>
+        <comment>Amount of data completed (e.g. in MB)</comment>
+        <translation>Complété</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="189"/>
+        <source>Ratio Limit</source>
+        <comment>Upload share ratio limit</comment>
+        <translation>Limite du ratio</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="190"/>
+        <source>Last Seen Complete</source>
+        <comment>Indicates the time when the torrent was last seen complete/whole</comment>
+        <translation>Dernière fois vu complet</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="191"/>
+        <source>Last Activity</source>
+        <comment>Time passed since a chunk was downloaded/uploaded</comment>
+        <translation>Dernière activité</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="192"/>
+        <source>Total Size</source>
+        <comment>i.e. Size including unwanted data</comment>
+        <translation>Taille totale</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="193"/>
+        <source>Availability</source>
+        <comment>The number of distributed copies of the torrent</comment>
+        <translation>Disponibilité</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="194"/>
+        <source>Info Hash v1</source>
+        <comment>i.e: torrent info hash v1</comment>
+        <translation>Info hash v1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="195"/>
+        <source>Info Hash v2</source>
+        <comment>i.e: torrent info hash v2</comment>
+        <translation>Info hash v2</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="196"/>
+        <source>Reannounce In</source>
+        <comment>Indicates the time until next trackers reannounce</comment>
+        <translation>Réannonce dans</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="197"/>
+        <source>Private</source>
+        <comment>Flags private torrents</comment>
+        <translation>Privé</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="205"/>
+        <source>Ratio / Time Active (in months), indicates how popular the torrent is</source>
+        <translation>Ratio / Temps Actif (en mois), indique la popularité du torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="259"/>
+        <location filename="../gui/transferlistmodel.cpp" line="352"/>
+        <location filename="../gui/transferlistmodel.cpp" line="368"/>
+        <source>N/A</source>
+        <translation>N/D</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="316"/>
+        <source>%1 ago</source>
+        <comment>e.g.: 1h 20m ago</comment>
+        <translation>Il y a %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistmodel.cpp" line="329"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (partagé pendant %2)</translation>
+    </message>
+</context>
+<context>
+    <name>TransferListWidget</name>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="689"/>
+        <source>Column visibility</source>
+        <translation>Visibilité des colonnes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Recheck confirmation</source>
+        <translation>Revérifier la confirmation</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <source>Are you sure you want to recheck the selected torrent(s)?</source>
+        <translation>Êtes-vous sur de vouloir revérifier le ou les torrent(s) sélectionné(s) ?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>Rename</source>
+        <translation>Renommer</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="937"/>
+        <source>New name:</source>
+        <translation>Nouveau nom :</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="348"/>
+        <source>Choose save path</source>
+        <translation>Choix du répertoire de destination</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>Unable to preview</source>
+        <translation>Impossible de prévisualiser</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <source>The selected torrent &quot;%1&quot; does not contain previewable files</source>
+        <translation>Le torrent sélectionné « %1 » ne contient pas de fichier prévisualisable</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="718"/>
+        <source>Resize columns</source>
+        <translation>Redimensionner les colonnes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="727"/>
+        <source>Resize all non-hidden columns to the size of their contents</source>
+        <translation>Redimensionner toutes les colonnes non masquées à la taille de leur contenu</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="757"/>
+        <source>Enable automatic torrent management</source>
+        <translation>Activer la gestion de torrent automatique</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="758"/>
+        <source>Are you sure you want to enable Automatic Torrent Management for the selected torrent(s)? They may be relocated.</source>
+        <translation>Êtes-vous certain de vouloir activer la gestion de torrent automatique pour le(s) torrent(s) sélectionné(s) ? Ils pourraient être déplacés.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="822"/>
+        <source>Choose folder to save exported .torrent files</source>
+        <translation>Choisir le dossier pour enregistrer les fichiers .torrent exportés</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="836"/>
+        <source>Export .torrent file failed. Torrent: &quot;%1&quot;. Save path: &quot;%2&quot;. Reason: &quot;%3&quot;</source>
+        <translation>Échec de l&apos;exportation du fichier .torrent. Torrent : « %1 ». Répertoire de destination : « %2 ». Raison : « %3 »</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="861"/>
+        <source>Export .torrent file error</source>
+        <translation>Erreur d’exportation du fichier .torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove All Tags</source>
+        <translation>Retirer toutes les étiquettes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="872"/>
+        <source>Remove all tags from selected torrents?</source>
+        <translation>Retirer toutes les étiquettes des torrents sélectionnés ?</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="887"/>
+        <source>Comma-separated tags:</source>
+        <translation>Étiquettes séparées par des virgules :</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Invalid tag</source>
+        <translation>Étiquette invalide</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="898"/>
+        <source>Tag name: &apos;%1&apos; is invalid</source>
+        <translation>Nom d&apos;étiquette : &apos;%1&apos; est invalide</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="986"/>
+        <source>Pre&amp;view file...</source>
+        <translation>Pré&amp;visualiser le fichier…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="988"/>
+        <source>Torrent &amp;options...</source>
+        <translation>&amp;Options du torrent…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="990"/>
+        <source>Open destination &amp;folder</source>
+        <translation>Ouvrir le répertoire de &amp;destination</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="992"/>
+        <source>Move &amp;up</source>
+        <comment>i.e. move up in the queue</comment>
+        <translation>Déplacer vers le &amp;haut</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="994"/>
+        <source>Move &amp;down</source>
+        <comment>i.e. Move down in the queue</comment>
+        <translation>Déplacer vers le &amp;bas</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="996"/>
+        <source>Move to &amp;top</source>
+        <comment>i.e. Move to top of the queue</comment>
+        <translation>Déplacer au hau&amp;t</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="998"/>
+        <source>Move to &amp;bottom</source>
+        <comment>i.e. Move to bottom of the queue</comment>
+        <translation>Déplacer au &amp;bas</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1000"/>
+        <source>Set loc&amp;ation...</source>
+        <translation>Définir l’emp&amp;lacement…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1002"/>
+        <source>Force rec&amp;heck</source>
+        <translation>For&amp;cer une revérification</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1004"/>
+        <source>Force r&amp;eannounce</source>
+        <translation>Forcer une réannonc&amp;e</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1006"/>
+        <source>&amp;Magnet link</source>
+        <translation>Lien &amp;magnet</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1008"/>
+        <source>Torrent &amp;ID</source>
+        <translation>&amp;ID du torrent</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1010"/>
+        <source>&amp;Comment</source>
+        <translation>&amp;Commentaire</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1012"/>
+        <source>&amp;Name</source>
+        <translation>&amp;Nom</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1014"/>
+        <source>Info &amp;hash v1</source>
+        <translation>Info &amp;hash v1</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1016"/>
+        <source>Info h&amp;ash v2</source>
+        <translation>Info h&amp;ash v2</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1018"/>
+        <source>Content &amp;Path</source>
+        <translation>&amp;Chemin du contenu</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1022"/>
+        <source>Re&amp;name...</source>
+        <translation>Re&amp;nommer…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1031"/>
+        <source>Edit trac&amp;kers...</source>
+        <translation>Éditer les trac&amp;kers…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1033"/>
+        <source>E&amp;xport .torrent...</source>
+        <translation>E&amp;xporter le .torrent…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1177"/>
+        <source>Categor&amp;y</source>
+        <translation>Catégor&amp;ie</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1179"/>
+        <source>&amp;New...</source>
+        <comment>New category...</comment>
+        <translation>&amp;Nouvelle…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1181"/>
+        <source>&amp;Reset</source>
+        <comment>Reset category</comment>
+        <translation>&amp;Réinitialiser</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1199"/>
+        <source>Ta&amp;gs</source>
+        <translation>Éti&amp;quettes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1201"/>
+        <source>&amp;Add...</source>
+        <comment>Add / assign multiple tags...</comment>
+        <translation>&amp;Ajouter…</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1203"/>
+        <source>&amp;Remove All</source>
+        <comment>Remove all tags</comment>
+        <translation>&amp;Retirer tout</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1279"/>
+        <source>Can not force reannounce if torrent is Stopped/Queued/Errored/Checking</source>
+        <translation>Impossible de forcer la réannonce si le torrent est arrêté / en file d’attente / en erreur / en cours de vérification</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1286"/>
+        <source>&amp;Queue</source>
+        <translation>&amp;File d’attente</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1293"/>
+        <source>&amp;Copy</source>
+        <translation>&amp;Copier</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1304"/>
+        <source>Exported torrent is not necessarily the same as the imported</source>
+        <translation>Le torrent exporté n&apos;est pas nécessairement le même que celui importé</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1024"/>
+        <source>Download in sequential order</source>
+        <translation>Télécharger dans l&apos;ordre séquentiel</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="776"/>
+        <source>Add tags</source>
+        <translation>Ajouter des étiquettes</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="862"/>
+        <source>Errors occurred when exporting .torrent files. Check execution log for details.</source>
+        <translation>Des erreurs se sont produites lors de l’exportation des fichiers .torrent. Consultez le journal d’exécution pour plus de détails.</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="978"/>
+        <source>&amp;Start</source>
+        <comment>Resume/start the torrent</comment>
+        <translation>&amp;Démarrer</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="980"/>
+        <source>Sto&amp;p</source>
+        <comment>Stop the torrent</comment>
+        <translation>Arrê&amp;ter</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="982"/>
+        <source>Force Star&amp;t</source>
+        <comment>Force Resume/start the torrent</comment>
+        <translation>&amp;Forcer le démarrage</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="984"/>
+        <source>&amp;Remove</source>
+        <comment>Remove the torrent</comment>
+        <translation>&amp;Retirer</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1026"/>
+        <source>Download first and last pieces first</source>
+        <translation>Télécharger les premiers et derniers morceaux en premier</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1028"/>
+        <source>Automatic Torrent Management</source>
+        <translation>Gestion de torrent automatique</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1029"/>
+        <source>Automatic mode means that various torrent properties (e.g. save path) will be decided by the associated category</source>
+        <translation>Le mode automatique signifie que diverses propriétés du torrent (p. ex. le répertoire de destination) seront décidées par la catégorie associée</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistwidget.cpp" line="1020"/>
+        <source>Super seeding mode</source>
+        <translation>Mode de super-partage</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeDialog</name>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="14"/>
+        <source>UI Theme Configuration</source>
+        <translation>Configuration du thème de l&apos;interface</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="33"/>
+        <source>Colors</source>
+        <translation>Couleurs</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="78"/>
+        <source>Note that some custom colors may not be applied in some desktop environments.</source>
+        <translation>Veuillez noter que certaines couleurs personnalisées peuvent ne pas être appliquées dans certains environnements de bureau.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="100"/>
+        <source>Color ID</source>
+        <translation>ID de la couleur</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="112"/>
+        <location filename="../gui/uithemedialog.ui" line="215"/>
+        <source>Light Mode</source>
+        <translation>Mode clair</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="124"/>
+        <location filename="../gui/uithemedialog.ui" line="227"/>
+        <source>Dark Mode</source>
+        <translation>Mode sombre</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="151"/>
+        <source>Icons</source>
+        <translation>Icônes</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.ui" line="203"/>
+        <source>Icon ID</source>
+        <translation>ID de l’icône</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="269"/>
+        <source>UI Theme Configuration.</source>
+        <translation>Configuration du thème de l&apos;interface.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="270"/>
+        <source>The UI Theme changes could not be fully applied. The details can be found in the Log.</source>
+        <translation>Les changements du thème de l&apos;interface n&apos;ont pas pu être pleinement appliqués. Les détails peuvent être trouvés dans le fichier journal.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="354"/>
+        <source>Couldn&apos;t save UI Theme configuration. Reason: %1</source>
+        <translation>La configuration du thème de l&apos;interface n&apos;a pas pu être sauvegardé. Raison: %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="385"/>
+        <location filename="../gui/uithemedialog.cpp" line="394"/>
+        <source>Couldn&apos;t remove icon file. File: %1.</source>
+        <translation>Le fichier d&apos;icône n&apos;a pas pu être retiré. Fichier: %1.</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemedialog.cpp" line="403"/>
+        <source>Couldn&apos;t copy icon file. Source: %1. Destination: %2.</source>
+        <translation>Le fichier d&apos;icône n&apos;a pas pu être copié. Source: %1. Destination: %2.</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeManager</name>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="82"/>
+        <source>Set app style failed. Unknown style: &quot;%1&quot;</source>
+        <translation>Échec de la définition du style de l&apos;application. Style inconnu&#xa0;: «&#xa0;%1&#xa0;»</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithememanager.cpp" line="101"/>
+        <source>Failed to load UI theme from file: &quot;%1&quot;</source>
+        <translation>Échec du chargement du thème de l&apos;IU à partir du fichier : « %1 »</translation>
+    </message>
+</context>
+<context>
+    <name>UIThemeSource</name>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="54"/>
+        <source>Couldn&apos;t parse UI Theme configuration file. Reason: %1</source>
+        <translation>Impossible d&apos;analyser le fichier de configuration du thème de l&apos;IU. Raison : %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="61"/>
+        <source>UI Theme configuration file has invalid format. Reason: %1</source>
+        <translation>Le fichier de configuration du thème de l&apos;IU a un format invalide. Raison : %1</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="62"/>
+        <source>Root JSON value is not an object</source>
+        <translation>La valeur dans la racine du JSON n&apos;est pas un objet</translation>
+    </message>
+    <message>
+        <location filename="../gui/uithemesource.cpp" line="77"/>
+        <source>Invalid color for ID &quot;%1&quot; is provided by theme</source>
+        <translation>Une couleur invalide pour l&apos;identifiant « %1 » est fournie par le thème</translation>
+    </message>
+</context>
+<context>
+    <name>Upgrade</name>
+    <message>
+        <location filename="../app/upgrade.cpp" line="59"/>
+        <source>Migrate preferences failed: WebUI https, file: &quot;%1&quot;, error: &quot;%2&quot;</source>
+        <translation>Échec de la migration des préférences : IU Web HTTPS, fichier : « %1 », erreur : « %2 »</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="74"/>
+        <source>Migrated preferences: WebUI https, exported data to file: &quot;%1&quot;</source>
+        <translation>Échec de la migration des préférences : IU Web HTTPS, données exportées vers le fichier : « %1 »</translation>
+    </message>
+    <message>
+        <location filename="../app/upgrade.cpp" line="166"/>
+        <location filename="../app/upgrade.cpp" line="197"/>
+        <location filename="../app/upgrade.cpp" line="228"/>
+        <location filename="../app/upgrade.cpp" line="366"/>
+        <location filename="../app/upgrade.cpp" line="464"/>
+        <source>Invalid value found in configuration file, reverting it to default. Key: &quot;%1&quot;. Invalid value: &quot;%2&quot;.</source>
+        <translation>Valeur invalide trouvée dans le fichier de configuration, rétablissement de sa valeur par défaut. Clé : « %1 ». Valeur invalide : « %2 ».</translation>
+    </message>
+</context>
+<context>
+    <name>Utils::ForeignApps</name>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="91"/>
+        <source>Found Python executable. Name: &quot;%1&quot;. Version: &quot;%2&quot;</source>
+        <translation>Exécutable de Python trouvé. Nom : « %1 ». Version : « %2 »</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="243"/>
+        <source>Python failed to meet minimum version requirement. Path: &quot;%1&quot;. Found version: &quot;%2&quot;. Minimum supported version: &quot;%3&quot;.</source>
+        <translation>Python ne répond pas aux exigences de version minimale. Chemin : « %1 ». Version trouvée : « %2 ». Version minimale supportée : « %3 ».</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="258"/>
+        <source>Failed to find Python executable. Path: &quot;%1&quot;.</source>
+        <translation>Exécutable de Python introuvable. Chemin : « %1 ».</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="282"/>
+        <source>Failed to find `%1` executable in PATH environment variable. PATH: &quot;%2&quot;</source>
+        <translation>Échec afin de trouver l&apos;exécutable `%1` dans la variable d&apos;environnement PATH. PATH : « %2 »</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/foreignapps.cpp" line="301"/>
+        <source>Failed to find Python executable</source>
+        <translation>Exécutable de Python introuvable</translation>
+    </message>
+</context>
+<context>
+    <name>Utils::IO</name>
+    <message>
+        <location filename="../base/utils/io.cpp" line="83"/>
+        <source>File open error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Erreur à l’ouverture du fichier. Fichier : « %1 ». Erreur : « %2 »</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="91"/>
+        <source>File size exceeds limit. File: &quot;%1&quot;. File size: %2. Size limit: %3</source>
+        <translation>La taille du fichier dépasse la limite. Fichier : « %1 ». Taille du fichier : %2. Taille limite : %3</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="97"/>
+        <source>File size exceeds data size limit. File: &quot;%1&quot;. File size: %2. Array limit: %3</source>
+        <translation>La taille du fichier dépasse la taille limite. Fichier : &quot;%1&quot;. Taille du fichier : &quot;%2&quot;. Limite du tableau : &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="107"/>
+        <source>File read error. File: &quot;%1&quot;. Error: &quot;%2&quot;</source>
+        <translation>Erreur de lecture d&apos;un fichier. Fichier : « %1 ». Erreur : « %2 »</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/io.cpp" line="122"/>
+        <source>Read size mismatch. File: &quot;%1&quot;. Expected: %2. Actual: %3</source>
+        <translation>Disparité de la taille lors de la lecture. Fichier : « %1 ». Attendu : %2. Réelle : %3</translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFolderOptionsDialog</name>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="14"/>
+        <source>Watched Folder Options</source>
+        <translation>Options du dossier surveillé</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="22"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will watch the folder and all its subfolders. In Manual torrent management mode it will also add subfolder name to the selected Save path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Surveillera le dossier et tous ses sous-dossiers. En mode de gestion manuelle des torrents, ceci ajoutera également le nom du sous-dossier au répertoire de destination sélectionné.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="25"/>
+        <source>Recursive mode</source>
+        <translation>Mode récursif</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfolderoptionsdialog.ui" line="47"/>
+        <source>Torrent parameters</source>
+        <translation>Paramètres du torrent</translation>
+    </message>
+</context>
+<context>
+    <name>WatchedFoldersModel</name>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="76"/>
+        <source>Watched Folder</source>
+        <translation>Dossier surveillé</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="106"/>
+        <source>Watched folder path cannot be empty.</source>
+        <translation>Le chemin du dossier surveillé ne peut pas être vide.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="109"/>
+        <source>Watched folder path cannot be relative.</source>
+        <translation>Le chemin du dossier surveillé ne peut pas être relatif.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="112"/>
+        <source>Folder &apos;%1&apos; is already in watch list.</source>
+        <translation>Le dossier &apos;%1&apos; est déjà dans la liste de surveillance.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="116"/>
+        <source>Folder &apos;%1&apos; doesn&apos;t exist.</source>
+        <translation>Le dossier &apos;%1&apos; n&apos;existe pas.</translation>
+    </message>
+    <message>
+        <location filename="../gui/watchedfoldersmodel.cpp" line="118"/>
+        <source>Folder &apos;%1&apos; isn&apos;t readable.</source>
+        <translation>Le dossier &apos;%1&apos; n&apos;est pas accessible en lecture.</translation>
+    </message>
+</context>
+<context>
+    <name>WebApplication</name>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="217"/>
+        <source>Unacceptable file type, only regular file is allowed.</source>
+        <translation>Type de fichier inacceptable, seul un fichier normal est autorisé.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="235"/>
+        <source>Symlinks inside alternative UI folder are forbidden.</source>
+        <translation>Les liens symboliques sont interdits dans les dossiers d&apos;IU alternatives.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="445"/>
+        <source>Using built-in WebUI.</source>
+        <translation>Utilisation de l&apos;IU Web intégrée.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="447"/>
+        <source>Using custom WebUI. Location: &quot;%1&quot;.</source>
+        <translation>Utilisation d&apos;une IU Web personnalisée. Emplacement : « %1 ».</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="459"/>
+        <source>WebUI translation for selected locale (%1) has been successfully loaded.</source>
+        <translation>La traduction de l&apos;IU Web pour les paramètres régionaux sélectionnés (%1) a été chargée avec succès.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="464"/>
+        <source>Couldn&apos;t load WebUI translation for selected locale (%1).</source>
+        <translation>Impossible de charger la traduction de l&apos;IU Web pour les paramètres régionaux sélectionnés (%1).</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="521"/>
+        <source>Missing &apos;:&apos; separator in WebUI custom HTTP header: &quot;%1&quot;</source>
+        <translation>Séparateur &apos;:&apos; manquant dans l&apos;en-tête HTTP personnalisé de l&apos;IU Web : « %1 »</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="588"/>
+        <source>Web server error. %1</source>
+        <translation>Erreur du serveur Web. %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="608"/>
+        <source>Web server error. Unknown error.</source>
+        <translation>Erreur de serveur Web. Erreur inconnue.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="920"/>
+        <source>WebUI: Origin header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Origin header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>IU Web : Disparité entre l&apos;en-tête d&apos;origine et l&apos;origine de la cible ! IP source : &apos;%1&apos;. En-tête d&apos;origine : &apos;%2&apos;. Origine de la cible : &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="932"/>
+        <source>WebUI: Referer header &amp; Target origin mismatch! Source IP: &apos;%1&apos;. Referer header: &apos;%2&apos;. Target origin: &apos;%3&apos;</source>
+        <translation>IU Web : Disparité entre l&apos;en-tête du référent et l&apos;origine de la cible ! IP source : &apos;%1&apos;. En-tête du référent : &apos;%2&apos;. Origine de la cible : &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="951"/>
+        <source>WebUI: Invalid Host header, port mismatch. Request source IP: &apos;%1&apos;. Server port: &apos;%2&apos;. Received Host header: &apos;%3&apos;</source>
+        <translation>IU Web : En-tête d&apos;hôte invalide, non-concordance du port. IP source de la requête : &apos;%1&apos;. Port du serveur : &apos;%2&apos;. En-tête d&apos;hôte reçu : &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="972"/>
+        <source>WebUI: Invalid Host header. Request source IP: &apos;%1&apos;. Received Host header: &apos;%2&apos;</source>
+        <translation>IU Web : En-tête d&apos;hôte invalide. IP source de la requête : &apos;%1&apos;. En-tête d&apos;hôte reçu : &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1018"/>
+        <source>WebAPI login failure. Reason: IP has been banned, IP: %1, username: %2</source>
+        <translation>Échec d&apos;authentification à l&apos;API Web. Raison : l&apos;IP est bannie, IP : %1, nom d&apos;utilisateur : %2</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1021"/>
+        <source>Your IP address has been banned after too many failed authentication attempts.</source>
+        <translation>Votre adresse IP a été bannie après trop de tentatives d&apos;authentification infructueuses.</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1030"/>
+        <source>WebAPI login success. IP: %1</source>
+        <translation>Authentification à l&apos;API Web réussie. IP : %1</translation>
+    </message>
+    <message>
+        <location filename="../webui/webapplication.cpp" line="1038"/>
+        <source>WebAPI login failure. Reason: invalid credentials, attempt count: %1, IP: %2, username: %3</source>
+        <translation>Échec d&apos;authentification à l&apos;API Web. Raison : identifiants invalides, nombre de tentatives : %1, IP : %2, nom d&apos;utilisateur : %3</translation>
+    </message>
+</context>
+<context>
+    <name>WebUI</name>
+    <message>
+        <location filename="../webui/webui.cpp" line="69"/>
+        <source>Credentials are not set</source>
+        <translation>Les informations d&apos;identification ne sont pas définies</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="120"/>
+        <source>WebUI: HTTPS setup successful</source>
+        <translation>IU Web : Configuration HTTPS réussie</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="122"/>
+        <source>WebUI: HTTPS setup failed, fallback to HTTP</source>
+        <translation>IU Web : Échec de la configuration HTTPS, retour à HTTP</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="134"/>
+        <source>WebUI: Now listening on IP: %1, port: %2</source>
+        <translation>IU Web : En écoute sur l&apos;adresse IP : %1, port : %2</translation>
+    </message>
+    <message>
+        <location filename="../webui/webui.cpp" line="138"/>
+        <source>Unable to bind to IP: %1, port: %2. Reason: %3</source>
+        <translation>IU Web : Impossible de se lier à l&apos;adresse IP : %1, port : %2. Raison : %3</translation>
+    </message>
+</context>
+<context>
+    <name>fs</name>
+    <message>
+        <location filename="../base/utils/fs.cpp" line="397"/>
+        <source>Unknown error</source>
+        <translation>Erreur inconnue</translation>
+    </message>
+</context>
+<context>
+    <name>misc</name>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="59"/>
+        <source>B</source>
+        <comment>bytes</comment>
+        <translation>Oct</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="60"/>
+        <source>KiB</source>
+        <comment>kibibytes (1024 bytes)</comment>
+        <translation>Kio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="61"/>
+        <source>MiB</source>
+        <comment>mebibytes (1024 kibibytes)</comment>
+        <translation>Mio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="62"/>
+        <source>GiB</source>
+        <comment>gibibytes (1024 mibibytes)</comment>
+        <translation>Gio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="63"/>
+        <source>TiB</source>
+        <comment>tebibytes (1024 gibibytes)</comment>
+        <translation>Tio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="64"/>
+        <source>PiB</source>
+        <comment>pebibytes (1024 tebibytes)</comment>
+        <translation>Pio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="65"/>
+        <source>EiB</source>
+        <comment>exbibytes (1024 pebibytes)</comment>
+        <translation>Eio</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="101"/>
+        <source>/s</source>
+        <comment>per second</comment>
+        <translation>/s</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="239"/>
+        <source>%1s</source>
+        <comment>e.g: 10 seconds</comment>
+        <translation>%1s</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="244"/>
+        <source>%1m</source>
+        <comment>e.g: 10 minutes</comment>
+        <translation>%1 min</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="250"/>
+        <source>%1h %2m</source>
+        <comment>e.g: 3 hours 5 minutes</comment>
+        <translation>%1 h %2 min</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="257"/>
+        <source>%1d %2h</source>
+        <comment>e.g: 2 days 10 hours</comment>
+        <translation>%1j %2h</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="262"/>
+        <source>%1y %2d</source>
+        <comment>e.g: 2 years 10 days</comment>
+        <translation>%1 a %2 j</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="109"/>
+        <location filename="../base/utils/misc.cpp" line="121"/>
+        <source>Unknown</source>
+        <comment>Unknown (size)</comment>
+        <translation>Inconnue</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="92"/>
+        <source>qBittorrent will shutdown the computer now because all downloads are complete.</source>
+        <translation>qBittorrent va maintenant éteindre l&apos;ordinateur car tous les téléchargements sont terminés.</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/os.cpp" line="98"/>
+        <source>qBittorrent will reboot the computer now because all downloads are complete.</source>
+        <translation>qBittorrent va redémarrer l&apos;ordinateur car tous les téléchargements sont terminés.</translation>
+    </message>
+    <message>
+        <location filename="../base/utils/misc.cpp" line="237"/>
+        <source>&lt; 1m</source>
+        <comment>&lt; 1 minute</comment>
+        <translation>&lt; 1min</translation>
+    </message>
+</context>
+</TS>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

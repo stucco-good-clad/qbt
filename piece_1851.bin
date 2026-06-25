@@ -1,0 +1,1133 @@
+on);
+                    }
+
+                    // Interface
+                    updateColoSchemeSelect(colorScheme);
+                    document.getElementById("displayDensitySelect").value = displayDensity;
+
+                    document.getElementById("statusBarExternalIP").checked = pref.status_bar_external_ip;
+                    document.getElementById("performanceWarning").checked = pref.performance_warning;
+                    document.getElementById("displayFullURLTrackerColumn").checked = fullUrlTrackerColumn === true;
+                    document.getElementById("useVirtualList").checked = useVirtualList === true;
+                    document.getElementById("hideZeroFiltersCheckbox").checked = hideZeroStatusFilters === true;
+                    document.getElementById("dblclickDownloadSelect").value = dblclickDownload;
+                    document.getElementById("dblclickCompleteSelect").value = dblclickComplete;
+                    document.getElementById("dblclickFiltersSelect").value = dblclickFilter;
+                    document.getElementById("confirmTorrentDeletion").checked = pref.confirm_torrent_deletion;
+                    document.getElementById("useAltRowColorsInput").checked = useAltRowColors === true;
+                    document.getElementById("filelog_checkbox").checked = pref.file_log_enabled;
+                    document.getElementById("filelog_save_path_input").value = pref.file_log_path;
+                    document.getElementById("filelog_backup_checkbox").checked = pref.file_log_backup_enabled;
+                    document.getElementById("filelog_max_size_input").value = pref.file_log_max_size;
+                    document.getElementById("filelog_delete_old_checkbox").checked = pref.file_log_delete_old;
+                    document.getElementById("filelog_age_input").value = pref.file_log_age;
+                    document.getElementById("filelog_age_type_select").value = pref.file_log_age_type;
+                    updateFileLogEnabled();
+
+                    // Downloads tab
+                    // When adding a torrent
+                    let index = 0;
+                    switch (pref.torrent_content_layout) {
+                        case "Original":
+                            index = 0;
+                            break;
+                        case "Subfolder":
+                            index = 1;
+                            break;
+                        case "NoSubfolder":
+                            index = 2;
+                            break;
+                    }
+                    document.getElementById("contentlayout_select").getChildren("option")[index].selected = true;
+                    document.getElementById("addToTopOfQueueCheckbox").checked = pref.add_to_top_of_queue;
+                    document.getElementById("dontstartdownloads_checkbox").checked = pref.add_stopped_enabled;
+                    switch (pref.torrent_stop_condition) {
+                        case "None":
+                            index = 0;
+                            break;
+                        case "MetadataReceived":
+                            index = 1;
+                            break;
+                        case "FilesChecked":
+                            index = 2;
+                            break;
+                    }
+                    document.getElementById("stopConditionSelect").getChildren("option")[index].selected = true;
+                    document.getElementById("mergeTrackersInput").checked = pref.merge_trackers;
+                    document.getElementById("deletetorrentfileafter_checkbox").checked = pref.auto_delete_mode;
+
+                    document.getElementById("preallocateall_checkbox").checked = pref.preallocate_all;
+                    document.getElementById("appendext_checkbox").checked = pref.incomplete_files_ext;
+                    document.getElementById("unwantedfolder_checkbox").checked = pref.use_unwanted_folder;
+
+                    // Saving Management
+                    document.getElementById("default_tmm_combobox").value = pref.auto_tmm_enabled;
+                    document.getElementById("torrent_changed_tmm_combobox").value = pref.torrent_changed_tmm_enabled;
+                    document.getElementById("save_path_changed_tmm_combobox").value = pref.save_path_changed_tmm_enabled;
+                    document.getElementById("category_changed_tmm_combobox").value = pref.category_changed_tmm_enabled;
+                    document.getElementById("categoryPathsManualModeCheckbox").checked = pref.use_category_paths_in_manual_mode;
+                    document.getElementById("savepath_text").value = pref.save_path;
+                    document.getElementById("temppath_checkbox").checked = pref.temp_path_enabled;
+                    document.getElementById("temppath_text").value = pref.temp_path;
+                    updateTempDirEnabled();
+                    if (pref.export_dir !== "") {
+                        document.getElementById("exportdir_checkbox").checked = true;
+                        document.getElementById("exportdir_text").value = pref.export_dir;
+                    }
+                    else {
+                        document.getElementById("exportdir_checkbox").checked = false;
+                        document.getElementById("exportdir_text").value = "";
+                    }
+                    updateExportDirEnabled();
+                    if (pref.export_dir_fin !== "") {
+                        document.getElementById("exportdirfin_checkbox").checked = true;
+                        document.getElementById("exportdirfin_text").value = pref.export_dir_fin;
+                    }
+                    else {
+                        document.getElementById("exportdirfin_checkbox").checked = false;
+                        document.getElementById("exportdirfin_text").value = "";
+                    }
+                    updateExportDirFinEnabled();
+
+                    // Automatically add torrents from
+                    for (const folder in pref.scan_dirs) {
+                        if (!Object.hasOwn(pref.scan_dirs, folder))
+                            continue;
+
+                        const folderType = pref.scan_dirs[folder];
+                        let sel = "other";
+                        let other = folderType;
+                        if (typeof folderType === "number") {
+                            sel = (folderType === 0) ? "watch_folder" : "default_folder";
+                            other = "";
+                        }
+                        addWatchFolder(folder, sel, other);
+                    }
+                    addWatchFolder();
+
+                    // Excluded file names
+                    document.getElementById("excludedFileNamesCheckbox").checked = pref.excluded_file_names_enabled;
+                    document.getElementById("excludedFileNamesTextarea").value = pref.excluded_file_names;
+
+                    // Email notification upon download completion
+                    document.getElementById("mail_notification_checkbox").checked = pref.mail_notification_enabled;
+                    document.getElementById("src_email_txt").value = pref.mail_notification_sender;
+                    document.getElementById("dest_email_txt").value = pref.mail_notification_email;
+                    document.getElementById("smtp_server_txt").value = pref.mail_notification_smtp;
+                    document.getElementById("mail_ssl_checkbox").checked = pref.mail_notification_ssl_enabled;
+                    document.getElementById("mail_auth_checkbox").checked = pref.mail_notification_auth_enabled;
+                    document.getElementById("mail_username_text").value = pref.mail_notification_username;
+                    document.getElementById("mail_password_text").value = pref.mail_notification_password;
+                    updateMailNotification();
+                    updateMailAuthSettings();
+
+                    // Run an external program on torrent added
+                    document.getElementById("autorunOnTorrentAddedCheckbox").checked = pref.autorun_on_torrent_added_enabled;
+                    document.getElementById("autorunOnTorrentAddedProgram").value = pref.autorun_on_torrent_added_program;
+                    updateAutoRunOnTorrentAdded();
+                    // Run an external program on torrent finished
+                    document.getElementById("autorun_checkbox").checked = pref.autorun_enabled;
+                    document.getElementById("autorunProg_txt").value = pref.autorun_program;
+                    updateAutoRun();
+
+                    // Connection tab
+                    // Listening Port
+                    document.getElementById("portValue").value = Number(pref.listen_port);
+                    document.getElementById("upnpCheckbox").checked = pref.upnp;
+
+                    // Connections Limits
+                    const maxConnec = Number(pref.max_connec);
+                    if (maxConnec <= 0) {
+                        document.getElementById("maxConnectionsCheckbox").checked = false;
+                        document.getElementById("maxConnectionsValue").value = 500;
+                    }
+                    else {
+                        document.getElementById("maxConnectionsCheckbox").checked = true;
+                        document.getElementById("maxConnectionsValue").value = maxConnec;
+                    }
+                    updateMaxConnecEnabled();
+
+                    const maxConnecPerTorrent = Number(pref.max_connec_per_torrent);
+                    if (maxConnecPerTorrent <= 0) {
+                        document.getElementById("maxConnectionsPerTorrentCheckbox").checked = false;
+                        document.getElementById("maxConnectionsPerTorrentValue").value = 100;
+                    }
+                    else {
+                        document.getElementById("maxConnectionsPerTorrentCheckbox").checked = true;
+                        document.getElementById("maxConnectionsPerTorrentValue").value = maxConnecPerTorrent;
+                    }
+                    updateMaxConnecPerTorrentEnabled();
+
+                    const maxUploads = Number(pref.max_uploads);
+                    if (maxUploads <= 0) {
+                        document.getElementById("maxUploadsCheckbox").checked = false;
+                        document.getElementById("max_uploads_value").value = 8;
+                    }
+                    else {
+                        document.getElementById("maxUploadsCheckbox").checked = true;
+                        document.getElementById("max_uploads_value").value = maxUploads;
+                    }
+                    updateMaxUploadsEnabled();
+
+                    const maxUploadsPerTorrent = Number(pref.max_uploads_per_torrent);
+                    if (maxUploadsPerTorrent <= 0) {
+                        document.getElementById("maxUploadsPerTorrentCheckbox").checked = false;
+                        document.getElementById("maxUploadsPerTorrentValue").value = 4;
+                    }
+                    else {
+                        document.getElementById("maxUploadsPerTorrentCheckbox").checked = true;
+                        document.getElementById("maxUploadsPerTorrentValue").value = maxUploadsPerTorrent;
+                    }
+                    updateMaxUploadsPerTorrentEnabled();
+
+                    // I2P
+                    document.getElementById("i2pEnabledCheckbox").checked = pref.i2p_enabled;
+                    document.getElementById("i2pAddress").value = pref.i2p_address;
+                    document.getElementById("i2pPort").value = pref.i2p_port;
+                    document.getElementById("i2pMixedMode").checked = pref.i2p_mixed_mode;
+                    updateI2PSettingsEnabled();
+
+                    // Proxy Server
+                    document.getElementById("peer_proxy_type_select").value = pref.proxy_type;
+                    document.getElementById("peer_proxy_host_text").value = pref.proxy_ip;
+                    document.getElementById("peer_proxy_port_value").value = pref.proxy_port;
+                    document.getElementById("peer_proxy_auth_checkbox").checked = pref.proxy_auth_enabled;
+                    document.getElementById("peer_proxy_username_text").value = pref.proxy_username;
+                    document.getElementById("peer_proxy_password_text").value = pref.proxy_password;
+                    document.getElementById("proxyHostnameLookupCheckbox").checked = pref.proxy_hostname_lookup;
+                    document.getElementById("proxy_bittorrent_checkbox").checked = pref.proxy_bittorrent;
+                    document.getElementById("use_peer_proxy_checkbox").checked = pref.proxy_peer_connections;
+                    document.getElementById("proxy_rss_checkbox").checked = pref.proxy_rss;
+                    document.getElementById("proxy_misc_checkbox").checked = pref.proxy_misc;
+                    updatePeerProxySettings();
+
+                    // IP Filtering
+                    document.getElementById("ipfilter_text_checkbox").checked = pref.ip_filter_enabled;
+                    document.getElementById("ipfilter_text").value = pref.ip_filter_path;
+                    document.getElementById("ipfilter_trackers_checkbox").checked = pref.ip_filter_trackers;
+                    document.getElementById("banned_IPs_textarea").value = pref.banned_IPs;
+                    updateFilterSettings();
+
+                    // Speed tab
+                    // Global Rate Limits
+                    document.getElementById("upLimitValue").value = (Number(pref.up_limit) / 1024);
+                    document.getElementById("dlLimitValue").value = (Number(pref.dl_limit) / 1024);
+                    // Alternative Global Rate Limits
+                    document.getElementById("altUpLimitValue").value = (Number(pref.alt_up_limit) / 1024);
+                    document.getElementById("altDlLimitValue").value = (Number(pref.alt_dl_limit) / 1024);
+
+                    document.getElementById("enable_protocol_combobox").value = pref.bittorrent_protocol;
+                    document.getElementById("limit_utp_rate_checkbox").checked = pref.limit_utp_rate;
+                    document.getElementById("limit_tcp_overhead_checkbox").checked = pref.limit_tcp_overhead;
+                    document.getElementById("limit_lan_peers_checkbox").checked = pref.limit_lan_peers;
+
+                    // Scheduling
+                    document.getElementById("limitSchedulingCheckbox").checked = pref.scheduler_enabled;
+                    document.getElementById("schedule_from_hour").value = time_padding(pref.schedule_from_hour);
+                    document.getElementById("schedule_from_min").value = time_padding(pref.schedule_from_min);
+                    document.getElementById("schedule_to_hour").value = time_padding(pref.schedule_to_hour);
+                    document.getElementById("schedule_to_min").value = time_padding(pref.schedule_to_min);
+                    document.getElementById("schedule_freq_select").value = pref.scheduler_days;
+                    updateSchedulingEnabled();
+
+                    // Bittorrent tab
+                    // Privacy
+                    document.getElementById("dht_checkbox").checked = pref.dht;
+                    document.getElementById("pex_checkbox").checked = pref.pex;
+                    document.getElementById("lsd_checkbox").checked = pref.lsd;
+                    const encryption = Number(pref.encryption);
+                    document.getElementById("encryption_select").getChildren("option")[encryption].selected = true;
+                    document.getElementById("anonymous_mode_checkbox").checked = pref.anonymous_mode;
+
+                    document.getElementById("maxActiveCheckingTorrents").value = pref.max_active_checking_torrents;
+
+                    // Torrent Queueing
+                    document.getElementById("queueingCheckbox").checked = pref.queueing_enabled;
+                    document.getElementById("maxActiveDlValue").value = Number(pref.max_active_downloads);
+                    document.getElementById("maxActiveUpValue").value = Number(pref.max_active_uploads);
+                    document.getElementById("maxActiveToValue").value = Number(pref.max_active_torrents);
+                    document.getElementById("dontCountSlowTorrentsCheckbox").checked = pref.dont_count_slow_torrents;
+                    document.getElementById("dlRateThresholdValue").value = Number(pref.slow_torrent_dl_rate_threshold);
+                    document.getElementById("ulRateThresholdValue").value = Number(pref.slow_torrent_ul_rate_threshold);
+                    document.getElementById("torrentInactiveTimerValue").value = Number(pref.slow_torrent_inactive_timer);
+                    updateQueueingSystem();
+
+                    // Share Limiting
+                    document.getElementById("maxRatioCheckbox").checked = pref.max_ratio_enabled;
+                    document.getElementById("maxRatioValue").value = (pref.max_ratio_enabled ? pref.max_ratio : 1);
+                    document.getElementById("maxSeedingTimeCheckbox").checked = pref.max_seeding_time_enabled;
+                    document.getElementById("maxSeedingTimeValue").value = (pref.max_seeding_time_enabled ? Number(pref.max_seeding_time) : 1440);
+                    document.getElementById("maxInactiveSeedingTimeCheckbox").checked = pref.max_inactive_seeding_time_enabled;
+                    document.getElementById("maxInactiveSeedingTimeValue").value = (pref.max_inactive_seeding_time_enabled ? Number(pref.max_inactive_seeding_time) : 1440);
+                    let maxRatioAct = 0;
+                    switch (Number(pref.max_ratio_act)) {
+                        case 0: // Stop
+                            maxRatioAct = 0;
+                            break;
+                        case 1: // Remove
+                            maxRatioAct = 1;
+                            break;
+                        case 2: // Enable super seeding
+                            maxRatioAct = 3;
+                            break;
+                        case 3: // Remove torrent and files
+                            maxRatioAct = 2;
+                            break;
+                    }
+                    document.getElementById("maxRatioSelect").getChildren("option")[maxRatioAct].selected = true;
+                    updateMaxRatioTimeEnabled();
+
+                    // Add trackers
+                    document.getElementById("add_trackers_checkbox").checked = pref.add_trackers_enabled;
+                    document.getElementById("add_trackers_textarea").value = pref.add_trackers;
+                    document.getElementById("addTrackersFromURLCheckbox").checked = pref.add_trackers_from_url_enabled;
+                    document.getElementById("addTrackersURLListTextarea").value = pref.add_trackers_url_list;
+                    document.getElementById("addTrackersURL").value = pref.add_trackers_url;
+                    updateAddTrackersEnabled();
+                    updateAddTrackersFromURLEnabled();
+
+                    // RSS Tab
+                    document.getElementById("enable_fetching_rss_feeds_checkbox").checked = pref.rss_processing_enabled;
+                    document.getElementById("feed_refresh_interval").value = pref.rss_refresh_interval;
+                    document.getElementById("feedFetchDelay").value = pref.rss_fetch_delay;
+                    document.getElementById("maximum_article_number").value = pref.rss_max_articles_per_feed;
+                    document.getElementById("enable_auto_downloading_rss_torrents_checkbox").checked = pref.rss_auto_downloading_enabled;
+                    document.getElementById("downlock_repack_proper_episodes").checked = pref.rss_download_repack_proper_episodes;
+                    document.getElementById("rss_filter_textarea").value = pref.rss_smart_episode_filters;
+
+                    // WebUI tab
+                    // HTTP Server
+                    document.getElementById("webuiDomainTextarea").value = pref.web_ui_domain_list;
+                    document.getElementById("webuiAddressValue").value = pref.web_ui_address;
+                    document.getElementById("webuiPortValue").value = pref.web_ui_port;
+                    document.getElementById("webuiUpnpCheckbox").checked = pref.web_ui_upnp;
+                    document.getElementById("use_https_checkbox").checked = pref.use_https;
+                    document.getElementById("ssl_cert_text").value = pref.web_ui_https_cert_path;
+                    document.getElementById("ssl_key_text").value = pref.web_ui_https_key_path;
+                    updateHttpsSettings();
+
+                    // Authentication
+                    document.getElementById("webui_username_text").value = pref.web_ui_username;
+                    document.getElementById("bypass_local_auth_checkbox").checked = pref.bypass_local_auth;
+                    document.getElementById("bypass_auth_subnet_whitelist_checkbox").checked = pref.bypass_auth_subnet_whitelist_enabled;
+                    document.getElementById("bypass_auth_subnet_whitelist_textarea").value = pref.bypass_auth_subnet_whitelist;
+                    updateBypasssAuthSettings();
+                    document.getElementById("webUIMaxAuthFailCountInput").value = Number(pref.web_ui_max_auth_fail_count);
+                    document.getElementById("webUIBanDurationInput").value = Number(pref.web_ui_ban_duration);
+                    document.getElementById("webUISessionTimeoutInput").value = Number(pref.web_ui_session_timeout);
+
+                    // API key
+                    if (pref.web_ui_api_key.length > 0) {
+                        document.getElementById("WebUIAPIKeyText").value = maskAPIKey(pref.web_ui_api_key);
+                        document.getElementById("WebUIAPIKeyText").dataset.apiKey = pref.web_ui_api_key;
+                        document.getElementById("webUIAPIKeyCopyButton").disabled = false;
+                        document.getElementById("webUIAPIKeyRotateButton").dataset.hasKey = "true";
+                        document.querySelector("#webUIAPIKeyRotateButton img").title = "QBT_TR(Rotate API key)QBT_TR[CONTEXT=OptionsDialog]";
+                        document.getElementById("webUIAPIKeyDeleteButton").disabled = false;
+                    }
+
+                    // Use alternative WebUI
+                    document.getElementById("use_alt_webui_checkbox").checked = pref.alternative_webui_enabled;
+                    document.getElementById("webui_files_location_textarea").value = pref.alternative_webui_path;
+                    updateAlternativeWebUISettings();
+
+                    // Security
+                    document.getElementById("clickjacking_protection_checkbox").checked = pref.web_ui_clickjacking_protection_enabled;
+                    document.getElementById("csrf_protection_checkbox").checked = pref.web_ui_csrf_protection_enabled;
+                    document.getElementById("secureCookieCheckbox").checked = pref.web_ui_secure_cookie_enabled;
+                    document.getElementById("host_header_validation_checkbox").checked = pref.web_ui_host_header_validation_enabled;
+                    updateHostHeaderValidationSettings();
+
+                    // Custom HTTP headers
+                    document.getElementById("webUIUseCustomHTTPHeadersCheckbox").checked = pref.web_ui_use_custom_http_headers_enabled;
+                    document.getElementById("webUICustomHTTPHeadersTextarea").value = pref.web_ui_custom_http_headers;
+                    updateWebUICustomHTTPHeadersSettings();
+
+                    // Reverse Proxy
+                    document.getElementById("webUIReverseProxySupportCheckbox").checked = pref.web_ui_reverse_proxy_enabled;
+                    document.getElementById("webUIReverseProxiesListTextarea").value = pref.web_ui_reverse_proxies_list;
+                    updateWebUIReverseProxySettings();
+
+                    // Update my dynamic domain name
+                    document.getElementById("use_dyndns_checkbox").checked = pref.dyndns_enabled;
+                    document.getElementById("dyndns_select").value = pref.dyndns_service;
+                    document.getElementById("dyndns_domain_text").value = pref.dyndns_domain;
+                    document.getElementById("dyndns_username_text").value = pref.dyndns_username;
+                    document.getElementById("dyndns_password_text").value = pref.dyndns_password;
+                    updateDynDnsSettings();
+
+                    // Advanced settings
+                    // qBittorrent section
+                    document.getElementById("resumeDataStorageType").value = pref.resume_data_storage_type;
+                    document.getElementById("torrentContentRemoveOption").value = pref.torrent_content_remove_option;
+                    document.getElementById("memoryWorkingSetLimit").value = pref.memory_working_set_limit;
+                    updateNetworkInterfaces(pref.current_network_interface, pref.current_interface_name);
+                    updateInterfaceAddresses(pref.current_network_interface, pref.current_interface_address);
+                    document.getElementById("saveResumeDataInterval").value = pref.save_resume_data_interval;
+                    document.getElementById("saveStatisticsInterval").value = pref.save_statistics_interval;
+                    document.getElementById("torrentFileSizeLimit").value = (pref.torrent_file_size_limit / 1024 / 1024);
+                    document.getElementById("confirmTorrentRecheck").checked = pref.confirm_torrent_recheck;
+                    document.getElementById("recheckTorrentsOnCompletion").checked = pref.recheck_completed_torrents;
+                    document.getElementById("appInstanceName").value = pref.app_instance_name;
+                    document.getElementById("refreshInterval").value = pref.refresh_interval;
+                    document.getElementById("resolvePeerHostNames").checked = pref.resolve_peer_host_names;
+                    document.getElementById("resolvePeerCountries").checked = pref.resolve_peer_countries;
+                    document.getElementById("reannounceWhenAddressChanged").checked = pref.reannounce_when_address_changed;
+                    document.getElementById("enableEmbeddedTracker").checked = pref.enable_embedded_tracker;
+                    document.getElementById("embeddedTrackerPort").value = pref.embedded_tracker_port;
+                    document.getElementById("embeddedTrackerPortForwarding").checked = pref.embedded_tracker_port_forwarding;
+                    document.getElementById("markOfTheWeb").checked = pref.mark_of_the_web;
+                    document.getElementById("ignoreSSLErrors").checked = pref.ignore_ssl_errors;
+                    document.getElementById("pythonExecutablePath").value = pref.python_executable_path;
+                    // libtorrent section
+                    document.getElementById("bdecodeDepthLimit").value = pref.bdecode_depth_limit;
+                    document.getElementById("bdecodeTokenLimit").value = pref.bdecode_token_limit;
+                    document.getElementById("asyncIOThreads").value = pref.async_io_threads;
+                    document.getElementById("hashingThreads").value = pref.hashing_threads;
+                    document.getElementById("filePoolSize").value = pref.file_pool_size;
+                    document.getElementById("outstandMemoryWhenCheckingTorrents").value = pref.checking_memory_use;
+                    document.getElementById("diskCache").value = pref.disk_cache;
+                    document.getElementById("diskCacheExpiryInterval").value = pref.disk_cache_ttl;
+                    document.getElementById("diskQueueSize").value = (pref.disk_queue_size / 1024);
+                    document.getElementById("diskIOType").value = pref.disk_io_type;
+                    document.getElementById("diskIOReadMode").value = pref.disk_io_read_mode;
+                    document.getElementById("diskIOWriteMode").value = pref.disk_io_write_mode;
+                    document.getElementById("coalesceReadsAndWrites").checked = pref.enable_coalesce_read_write;
+                    document.getElementById("pieceExtentAffinity").checked = pref.enable_piece_extent_affinity;
+                    document.getElementById("sendUploadPieceSuggestions").checked = pref.enable_upload_suggestions;
+                    document.getElementById("sendBufferWatermark").value = pref.send_buffer_watermark;
+                    document.getElementById("sendBufferLowWatermark").value = pref.send_buffer_low_watermark;
+                    document.getElementById("sendBufferWatermarkFactor").value = pref.send_buffer_watermark_factor;
+                    document.getElementById("connectionSpeed").value = pref.connection_speed;
+                    document.getElementById("socketSendBufferSize").value = (pref.socket_send_buffer_size / 1024);
+                    document.getElementById("socketReceiveBufferSize").value = (pref.socket_receive_buffer_size / 1024);
+                    document.getElementById("socketBacklogSize").value = pref.socket_backlog_size;
+                    document.getElementById("outgoingPortsMin").value = pref.outgoing_ports_min;
+                    document.getElementById("outgoingPortsMax").value = pref.outgoing_ports_max;
+                    document.getElementById("UPnPLeaseDuration").value = pref.upnp_lease_duration;
+                    document.getElementById("peerDSCP").value = pref.peer_tos;
+                    document.getElementById("utpTCPMixedModeAlgorithm").value = pref.utp_tcp_mixed_mode;
+                    document.getElementById("hostnameCacheTTL").value = pref.hostname_cache_ttl;
+                    document.getElementById("IDNSupportCheckbox").checked = pref.idn_support_enabled;
+                    document.getElementById("allowMultipleConnectionsFromTheSameIPAddress").checked = pref.enable_multi_connections_from_same_ip;
+                    document.getElementById("validateHTTPSTrackerCertificate").checked = pref.validate_https_tracker_certificate;
+                    document.getElementById("mitigateSSRF").checked = pref.ssrf_mitigation;
+                    document.getElementById("blockPeersOnPrivilegedPorts").checked = pref.block_peers_on_privileged_ports;
+                    document.getElementById("uploadSlotsBehavior").value = pref.upload_slots_behavior;
+                    document.getElementById("uploadChokingAlgorithm").value = pref.upload_choking_algorithm;
+                    document.getElementById("announceAllTrackers").checked = pref.announce_to_all_trackers;
+                    document.getElementById("announceAllTiers").checked = pref.announce_to_all_tiers;
+                    document.getElementById("announceIP").value = pref.announce_ip;
+                    document.getElementById("announcePort").value = pref.announce_port;
+                    document.getElementById("maxConcurrentHTTPAnnounces").value = pref.max_concurrent_http_announces;
+                    document.getElementById("stopTrackerTimeout").value = pref.stop_tracker_timeout;
+                    document.getElementById("peerTurnover").value = pref.peer_turnover;
+                    document.getElementById("peerTurnoverCutoff").value = pref.peer_turnover_cutoff;
+                    document.getElementById("peerTurnoverInterval").value = pref.peer_turnover_interval;
+                    document.getElementById("requestQueueSize").value = pref.request_queue_size;
+                    document.getElementById("dhtBootstrapNodes").value = pref.dht_bootstrap_nodes;
+                    document.getElementById("i2pInboundQuantity").value = pref.i2p_inbound_quantity;
+                    document.getElementById("i2pOutboundQuantity").value = pref.i2p_outbound_quantity;
+                    document.getElementById("i2pInboundLength").value = pref.i2p_inbound_length;
+                    document.getElementById("i2pOutboundLength").value = pref.i2p_outbound_length;
+                }).catch((error) => {
+                    console.error(error);
+                    alert("QBT_TR(Unable to load program preferences, qBittorrent is probably unreachable.)QBT_TR[CONTEXT=HttpServer]");
+                });
+        };
+
+        const applyPreferences = () => {
+            const settings = {};
+            const clientData = {};
+            // Validate form data
+
+            // Behavior tab
+            // Language
+            settings["locale"] = document.getElementById("locale_select").value;
+            clientData.date_format = document.getElementById("dateFormatSelect").getSelected()[0].value;
+            const colorScheme = Number(document.getElementById("colorSchemeSelect").value);
+            if (colorScheme === 0)
+                clientData.color_scheme = null;
+            else if (colorScheme === 1)
+                clientData.color_scheme = "light";
+            else
+                clientData.color_scheme = "dark";
+            const displayDensity = document.getElementById("displayDensitySelect").value;
+            clientData.display_density = (displayDensity === "default") ? null : displayDensity;
+            settings["status_bar_external_ip"] = document.getElementById("statusBarExternalIP").checked;
+            settings["performance_warning"] = document.getElementById("performanceWarning").checked;
+            clientData.full_url_tracker_column = document.getElementById("displayFullURLTrackerColumn").checked;
+            clientData.use_virtual_list = document.getElementById("useVirtualList").checked;
+            clientData.hide_zero_status_filters = document.getElementById("hideZeroFiltersCheckbox").checked;
+            clientData.dblclick_download = document.getElementById("dblclickDownloadSelect").value;
+            clientData.dblclick_complete = document.getElementById("dblclickCompleteSelect").value;
+            clientData.dblclick_filter = document.getElementById("dblclickFiltersSelect").value;
+            settings["confirm_torrent_deletion"] = document.getElementById("confirmTorrentDeletion").checked;
+            clientData.use_alt_row_colors = document.getElementById("useAltRowColorsInput").checked;
+            settings["file_log_enabled"] = document.getElementById("filelog_checkbox").checked;
+            settings["file_log_path"] = document.getElementById("filelog_save_path_input").value;
+            settings["file_log_backup_enabled"] = document.getElementById("filelog_backup_checkbox").checked;
+            settings["file_log_max_size"] = Number(document.getElementById("filelog_max_size_input").value);
+            settings["file_log_delete_old"] = document.getElementById("filelog_delete_old_checkbox").checked;
+            settings["file_log_age"] = Number(document.getElementById("filelog_age_input").value);
+            settings["file_log_age_type"] = Number(document.getElementById("filelog_age_type_select").value);
+
+            // Downloads tab
+            // When adding a torrent
+            settings["torrent_content_layout"] = document.getElementById("contentlayout_select").getSelected()[0].value;
+            settings["add_to_top_of_queue"] = document.getElementById("addToTopOfQueueCheckbox").checked;
+            settings["add_stopped_enabled"] = document.getElementById("dontstartdownloads_checkbox").checked;
+            settings["torrent_stop_condition"] = document.getElementById("stopConditionSelect").getSelected()[0].value;
+            settings["merge_trackers"] = document.getElementById("mergeTrackersInput").checked;
+            settings["auto_delete_mode"] = Number(document.getElementById("deletetorrentfileafter_checkbox").checked);
+
+            settings["preallocate_all"] = document.getElementById("preallocateall_checkbox").checked;
+            settings["incomplete_files_ext"] = document.getElementById("appendext_checkbox").checked;
+            settings["use_unwanted_folder"] = document.getElementById("unwantedfolder_checkbox").checked;
+
+            // Saving Management
+            settings["auto_tmm_enabled"] = (document.getElementById("default_tmm_combobox").value === "true");
+            settings["torrent_changed_tmm_enabled"] = (document.getElementById("torrent_changed_tmm_combobox").value === "true");
+            settings["save_path_changed_tmm_enabled"] = (document.getElementById("save_path_changed_tmm_combobox").value === "true");
+            settings["category_changed_tmm_enabled"] = (document.getElementById("category_changed_tmm_combobox").value === "true");
+            settings["use_category_paths_in_manual_mode"] = document.getElementById("categoryPathsManualModeCheckbox").checked;
+            settings["save_path"] = document.getElementById("savepath_text").value;
+            settings["temp_path_enabled"] = document.getElementById("temppath_checkbox").checked;
+            settings["temp_path"] = document.getElementById("temppath_text").value;
+            if (document.getElementById("exportdir_checkbox").checked)
+                settings["export_dir"] = document.getElementById("exportdir_text").value;
+            else
+                settings["export_dir"] = "";
+            if (document.getElementById("exportdirfin_checkbox").checked)
+                settings["export_dir_fin"] = document.getElementById("exportdirfin_text").value;
+            else
+                settings["export_dir_fin"] = "";
+
+            // Automatically add torrents from
+            settings["scan_dirs"] = getWatchedFolders();
+
+            // Excluded file names
+            settings["excluded_file_names_enabled"] = document.getElementById("excludedFileNamesCheckbox").checked;
+            settings["excluded_file_names"] = document.getElementById("excludedFileNamesTextarea").value;
+
+            // Email notification upon download completion
+            settings["mail_notification_enabled"] = document.getElementById("mail_notification_checkbox").checked;
+            settings["mail_notification_sender"] = document.getElementById("src_email_txt").value;
+            settings["mail_notification_email"] = document.getElementById("dest_email_txt").value;
+            settings["mail_notification_smtp"] = document.getElementById("smtp_server_txt").value;
+            settings["mail_notification_ssl_enabled"] = document.getElementById("mail_ssl_checkbox").checked;
+            settings["mail_notification_auth_enabled"] = document.getElementById("mail_auth_checkbox").checked;
+            settings["mail_notification_username"] = document.getElementById("mail_username_text").value;
+            settings["mail_notification_password"] = document.getElementById("mail_password_text").value;
+
+            // Run an external program on torrent added
+            settings["autorun_on_torrent_added_enabled"] = document.getElementById("autorunOnTorrentAddedCheckbox").checked;
+            settings["autorun_on_torrent_added_program"] = document.getElementById("autorunOnTorrentAddedProgram").value;
+            // Run an external program on torrent finished
+            settings["autorun_enabled"] = document.getElementById("autorun_checkbox").checked;
+            settings["autorun_program"] = document.getElementById("autorunProg_txt").value;
+
+            // Connection tab
+            // Listening Port
+            const listenPort = Number(document.getElementById("portValue").value);
+            if (Number.isNaN(listenPort) || (listenPort < 0) || (listenPort > 65535)) {
+                alert("QBT_TR(The port used for incoming connections must be between 0 and 65535.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["listen_port"] = listenPort;
+            settings["upnp"] = document.getElementById("upnpCheckbox").checked;
+
+            // Connections Limits
+            let maxConnec = -1;
+            if (document.getElementById("maxConnectionsCheckbox").checked) {
+                maxConnec = Number(document.getElementById("maxConnectionsValue").value);
+                if (Number.isNaN(maxConnec) || (maxConnec <= 0)) {
+                    alert("QBT_TR(Maximum number of connections limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_connec"] = maxConnec;
+
+            let maxConnecPerTorrent = -1;
+            if (document.getElementById("maxConnectionsPerTorrentCheckbox").checked) {
+                maxConnecPerTorrent = Number(document.getElementById("maxConnectionsPerTorrentValue").value);
+                if (Number.isNaN(maxConnecPerTorrent) || (maxConnecPerTorrent <= 0)) {
+                    alert("QBT_TR(Maximum number of connections per torrent limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_connec_per_torrent"] = maxConnecPerTorrent;
+
+            let maxUploads = -1;
+            if (document.getElementById("maxUploadsCheckbox").checked) {
+                maxUploads = Number(document.getElementById("max_uploads_value").value);
+                if (Number.isNaN(maxUploads) || (maxUploads <= 0)) {
+                    alert("QBT_TR(Global number of upload slots limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_uploads"] = maxUploads;
+
+            let maxUploadsPerTorrent = -1;
+            if (document.getElementById("maxUploadsPerTorrentCheckbox").checked) {
+                maxUploadsPerTorrent = Number(document.getElementById("maxUploadsPerTorrentValue").value);
+                if (Number.isNaN(maxUploadsPerTorrent) || (maxUploadsPerTorrent <= 0)) {
+                    alert("QBT_TR(Maximum number of upload slots per torrent limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_uploads_per_torrent"] = maxUploadsPerTorrent;
+
+            // I2P
+            settings["i2p_enabled"] = document.getElementById("i2pEnabledCheckbox").checked;
+            settings["i2p_address"] = document.getElementById("i2pAddress").value;
+            settings["i2p_port"] = Number(document.getElementById("i2pPort").value);
+            settings["i2p_mixed_mode"] = document.getElementById("i2pMixedMode").checked;
+
+            // Proxy Server
+            settings["proxy_type"] = document.getElementById("peer_proxy_type_select").value;
+            settings["proxy_ip"] = document.getElementById("peer_proxy_host_text").value;
+            settings["proxy_port"] = Number(document.getElementById("peer_proxy_port_value").value);
+            settings["proxy_auth_enabled"] = document.getElementById("peer_proxy_auth_checkbox").checked;
+            settings["proxy_username"] = document.getElementById("peer_proxy_username_text").value;
+            settings["proxy_password"] = document.getElementById("peer_proxy_password_text").value;
+            settings["proxy_hostname_lookup"] = document.getElementById("proxyHostnameLookupCheckbox").checked;
+            settings["proxy_bittorrent"] = document.getElementById("proxy_bittorrent_checkbox").checked;
+            settings["proxy_peer_connections"] = document.getElementById("use_peer_proxy_checkbox").checked;
+            settings["proxy_rss"] = document.getElementById("proxy_rss_checkbox").checked;
+            settings["proxy_misc"] = document.getElementById("proxy_misc_checkbox").checked;
+
+            // IP Filtering
+            settings["ip_filter_enabled"] = document.getElementById("ipfilter_text_checkbox").checked;
+            settings["ip_filter_path"] = document.getElementById("ipfilter_text").value;
+            settings["ip_filter_trackers"] = document.getElementById("ipfilter_trackers_checkbox").checked;
+            settings["banned_IPs"] = document.getElementById("banned_IPs_textarea").value;
+
+            // Speed tab
+            // Global Rate Limits
+            const upLimit = Number(document.getElementById("upLimitValue").value) * 1024;
+            if (Number.isNaN(upLimit) || (upLimit < 0)) {
+                alert("QBT_TR(Global upload rate limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["up_limit"] = upLimit;
+
+            const dlLimit = Number(document.getElementById("dlLimitValue").value) * 1024;
+            if (Number.isNaN(dlLimit) || (dlLimit < 0)) {
+                alert("QBT_TR(Global download rate limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["dl_limit"] = dlLimit;
+
+            // Alternative Global Rate Limits
+            const altUpLimit = Number(document.getElementById("altUpLimitValue").value) * 1024;
+            if (Number.isNaN(altUpLimit) || (altUpLimit < 0)) {
+                alert("QBT_TR(Alternative upload rate limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["alt_up_limit"] = altUpLimit;
+
+            const altDlLimit = Number(document.getElementById("altDlLimitValue").value) * 1024;
+            if (Number.isNaN(altDlLimit) || (altDlLimit < 0)) {
+                alert("QBT_TR(Alternative download rate limit must be greater than 0 or disabled.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["alt_dl_limit"] = altDlLimit;
+
+            settings["bittorrent_protocol"] = Number(document.getElementById("enable_protocol_combobox").value);
+            settings["limit_utp_rate"] = document.getElementById("limit_utp_rate_checkbox").checked;
+            settings["limit_tcp_overhead"] = document.getElementById("limit_tcp_overhead_checkbox").checked;
+            settings["limit_lan_peers"] = document.getElementById("limit_lan_peers_checkbox").checked;
+
+            // Scheduler
+            const schedulingEnabled = document.getElementById("limitSchedulingCheckbox").checked;
+            settings["scheduler_enabled"] = schedulingEnabled;
+            if (schedulingEnabled) {
+                settings["schedule_from_hour"] = Number(document.getElementById("schedule_from_hour").value);
+                settings["schedule_from_min"] = Number(document.getElementById("schedule_from_min").value);
+                settings["schedule_to_hour"] = Number(document.getElementById("schedule_to_hour").value);
+                settings["schedule_to_min"] = Number(document.getElementById("schedule_to_min").value);
+                settings["scheduler_days"] = Number(document.getElementById("schedule_freq_select").value);
+            }
+
+            // Bittorrent tab
+            // Privacy
+            settings["dht"] = document.getElementById("dht_checkbox").checked;
+            settings["pex"] = document.getElementById("pex_checkbox").checked;
+            settings["lsd"] = document.getElementById("lsd_checkbox").checked;
+            settings["encryption"] = Number(document.getElementById("encryption_select").getSelected()[0].value);
+            settings["anonymous_mode"] = document.getElementById("anonymous_mode_checkbox").checked;
+
+            settings["max_active_checking_torrents"] = Number(document.getElementById("maxActiveCheckingTorrents").value);
+
+            // Torrent Queueing
+            settings["queueing_enabled"] = document.getElementById("queueingCheckbox").checked;
+            if (document.getElementById("queueingCheckbox").checked) {
+                const maxActiveDownloads = Number(document.getElementById("maxActiveDlValue").value);
+                if (Number.isNaN(maxActiveDownloads) || (maxActiveDownloads < -1)) {
+                    alert("QBT_TR(Maximum active downloads must be greater than -1.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["max_active_downloads"] = maxActiveDownloads;
+
+                const maxActiveUploads = Number(document.getElementById("maxActiveUpValue").value);
+                if (Number.isNaN(maxActiveUploads) || (maxActiveUploads < -1)) {
+                    alert("QBT_TR(Maximum active uploads must be greater than -1.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["max_active_uploads"] = maxActiveUploads;
+
+                const maxActiveTorrents = Number(document.getElementById("maxActiveToValue").value);
+                if (Number.isNaN(maxActiveTorrents) || (maxActiveTorrents < -1)) {
+                    alert("QBT_TR(Maximum active torrents must be greater than -1.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["max_active_torrents"] = maxActiveTorrents;
+                settings["dont_count_slow_torrents"] = document.getElementById("dontCountSlowTorrentsCheckbox").checked;
+
+                const dlRateThreshold = Number(document.getElementById("dlRateThresholdValue").value);
+                if (Number.isNaN(dlRateThreshold) || (dlRateThreshold < 1)) {
+                    alert("QBT_TR(Download rate threshold must be greater than 0.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["slow_torrent_dl_rate_threshold"] = dlRateThreshold;
+
+                const ulRateThreshold = Number(document.getElementById("ulRateThresholdValue").value);
+                if (Number.isNaN(ulRateThreshold) || (ulRateThreshold < 1)) {
+                    alert("QBT_TR(Upload rate threshold must be greater than 0.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["slow_torrent_ul_rate_threshold"] = ulRateThreshold;
+
+                const torrentInactiveTimer = Number(document.getElementById("torrentInactiveTimerValue").value);
+                if (Number.isNaN(torrentInactiveTimer) || (torrentInactiveTimer < 1)) {
+                    alert("QBT_TR(Torrent inactivity timer must be greater than 0.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+                settings["slow_torrent_inactive_timer"] = torrentInactiveTimer;
+            }
+
+            // Share Ratio Limiting
+            let maxRatio = -1;
+            if (document.getElementById("maxRatioCheckbox").checked) {
+                maxRatio = Number(document.getElementById("maxRatioValue").value);
+                if (Number.isNaN(maxRatio) || (maxRatio < 0)) {
+                    alert("QBT_TR(Share ratio limit must not have a negative value.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_ratio_enabled"] = document.getElementById("maxRatioCheckbox").checked;
+            settings["max_ratio"] = maxRatio;
+
+            let maxSeedingTime = -1;
+            if (document.getElementById("maxSeedingTimeCheckbox").checked) {
+                maxSeedingTime = Number(document.getElementById("maxSeedingTimeValue").value);
+                if (Number.isNaN(maxSeedingTime) || (maxSeedingTime < 0)) {
+                    alert("QBT_TR(Seeding time limit must not have a negative value.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_seeding_time_enabled"] = document.getElementById("maxSeedingTimeCheckbox").checked;
+            settings["max_seeding_time"] = maxSeedingTime;
+
+            let maxInactiveSeedingTime = -1;
+            if (document.getElementById("maxInactiveSeedingTimeCheckbox").checked) {
+                maxInactiveSeedingTime = Number(document.getElementById("maxInactiveSeedingTimeValue").value);
+                if (Number.isNaN(maxInactiveSeedingTime) || (maxInactiveSeedingTime < 0)) {
+                    alert("QBT_TR(Seeding time limit must not have a negative value.)QBT_TR[CONTEXT=HttpServer]");
+                    return;
+                }
+            }
+            settings["max_inactive_seeding_time_enabled"] = document.getElementById("maxInactiveSeedingTimeCheckbox").checked;
+            settings["max_inactive_seeding_time"] = maxInactiveSeedingTime;
+            settings["max_ratio_act"] = Number(document.getElementById("maxRatioSelect").value);
+
+            // Add trackers
+            settings["add_trackers_enabled"] = document.getElementById("add_trackers_checkbox").checked;
+            settings["add_trackers"] = document.getElementById("add_trackers_textarea").value;
+            settings["add_trackers_from_url_enabled"] = document.getElementById("addTrackersFromURLCheckbox").checked;
+            settings["add_trackers_url"] = document.getElementById("addTrackersURL").value;
+
+            // RSS Tab
+            settings["rss_processing_enabled"] = document.getElementById("enable_fetching_rss_feeds_checkbox").checked;
+            settings["rss_refresh_interval"] = Number(document.getElementById("feed_refresh_interval").value);
+            settings["rss_fetch_delay"] = Number(document.getElementById("feedFetchDelay").value);
+            settings["rss_max_articles_per_feed"] = Number(document.getElementById("maximum_article_number").value);
+            settings["rss_auto_downloading_enabled"] = document.getElementById("enable_auto_downloading_rss_torrents_checkbox").checked;
+            settings["rss_download_repack_proper_episodes"] = document.getElementById("downlock_repack_proper_episodes").checked;
+            settings["rss_smart_episode_filters"] = document.getElementById("rss_filter_textarea").value;
+
+            // WebUI tab
+            // HTTP Server
+            settings["web_ui_domain_list"] = document.getElementById("webuiDomainTextarea").value;
+            const webUIAddress = document.getElementById("webuiAddressValue").value.toString();
+            const webUIPort = Number(document.getElementById("webuiPortValue").value);
+            if (Number.isNaN(webUIPort) || (webUIPort < 1) || (webUIPort > 65535)) {
+                alert("QBT_TR(The port used for the WebUI must be between 1 and 65535.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["web_ui_address"] = webUIAddress;
+            settings["web_ui_port"] = webUIPort;
+            settings["web_ui_upnp"] = document.getElementById("webuiUpnpCheckbox").checked;
+
+            const useHTTPS = document.getElementById("use_https_checkbox").checked;
+            settings["use_https"] = useHTTPS;
+
+            const httpsCertificate = document.getElementById("ssl_cert_text").value;
+            settings["web_ui_https_cert_path"] = httpsCertificate;
+            if (useHTTPS && (httpsCertificate.length === 0)) {
+                alert("QBT_TR(HTTPS certificate should not be empty)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+
+            const httpsKey = document.getElementById("ssl_key_text").value;
+            settings["web_ui_https_key_path"] = httpsKey;
+            if (useHTTPS && (httpsKey.length === 0)) {
+                alert("QBT_TR(HTTPS key should not be empty)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+
+            // Authentication
+            const web_ui_username = document.getElementById("webui_username_text").value;
+            if (web_ui_username.length < 3) {
+                alert("QBT_TR(The WebUI username must be at least 3 characters long.)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+            if (web_ui_username.includes(":")) {
+                alert("QBT_TR(The WebUI username must not contain a colon.)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+            const web_ui_password = document.getElementById("webui_password_text").value;
+            if ((0 < web_ui_password.length) && (web_ui_password.length < 6)) {
+                alert("QBT_TR(The WebUI password must be at least 6 characters long.)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+
+            settings["web_ui_username"] = web_ui_username;
+            if (web_ui_password.length > 0)
+                settings["web_ui_password"] = web_ui_password;
+            settings["bypass_local_auth"] = document.getElementById("bypass_local_auth_checkbox").checked;
+            settings["bypass_auth_subnet_whitelist_enabled"] = document.getElementById("bypass_auth_subnet_whitelist_checkbox").checked;
+            settings["bypass_auth_subnet_whitelist"] = document.getElementById("bypass_auth_subnet_whitelist_textarea").value;
+            settings["web_ui_max_auth_fail_count"] = Number(document.getElementById("webUIMaxAuthFailCountInput").value);
+            settings["web_ui_ban_duration"] = Number(document.getElementById("webUIBanDurationInput").value);
+            settings["web_ui_session_timeout"] = Number(document.getElementById("webUISessionTimeoutInput").value);
+
+            // Use alternative WebUI
+            const alternative_webui_enabled = document.getElementById("use_alt_webui_checkbox").checked;
+            const webui_files_location_textarea = document.getElementById("webui_files_location_textarea").value;
+            if (alternative_webui_enabled && (webui_files_location_textarea.trim() === "")) {
+                alert("QBT_TR(The alternative WebUI files location cannot be blank.)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+            settings["alternative_webui_enabled"] = alternative_webui_enabled;
+            settings["alternative_webui_path"] = webui_files_location_textarea;
+
+            // Security
+            settings["web_ui_clickjacking_protection_enabled"] = document.getElementById("clickjacking_protection_checkbox").checked;
+            settings["web_ui_csrf_protection_enabled"] = document.getElementById("csrf_protection_checkbox").checked;
+            settings["web_ui_secure_cookie_enabled"] = document.getElementById("secureCookieCheckbox").checked;
+            settings["web_ui_host_header_validation_enabled"] = document.getElementById("host_header_validation_checkbox").checked;
+
+            // Custom HTTP headers
+            settings["web_ui_use_custom_http_headers_enabled"] = document.getElementById("webUIUseCustomHTTPHeadersCheckbox").checked;
+            settings["web_ui_custom_http_headers"] = document.getElementById("webUICustomHTTPHeadersTextarea").value;
+
+            // Reverse Proxy
+            settings["web_ui_reverse_proxy_enabled"] = document.getElementById("webUIReverseProxySupportCheckbox").checked;
+            settings["web_ui_reverse_proxies_list"] = document.getElementById("webUIReverseProxiesListTextarea").value;
+
+            // Update my dynamic domain name
+            settings["dyndns_enabled"] = document.getElementById("use_dyndns_checkbox").checked;
+            settings["dyndns_service"] = Number(document.getElementById("dyndns_select").value);
+            settings["dyndns_domain"] = document.getElementById("dyndns_domain_text").value;
+            settings["dyndns_username"] = document.getElementById("dyndns_username_text").value;
+            settings["dyndns_password"] = document.getElementById("dyndns_password_text").value;
+
+            // Update advanced settings
+            // qBittorrent section
+            settings["resume_data_storage_type"] = document.getElementById("resumeDataStorageType").value;
+            settings["torrent_content_remove_option"] = document.getElementById("torrentContentRemoveOption").value;
+            settings["memory_working_set_limit"] = Number(document.getElementById("memoryWorkingSetLimit").value);
+            settings["current_network_interface"] = document.getElementById("networkInterface").value;
+            settings["current_interface_address"] = document.getElementById("optionalIPAddressToBind").value;
+            settings["save_resume_data_interval"] = Number(document.getElementById("saveResumeDataInterval").value);
+            settings["save_statistics_interval"] = Number(document.getElementById("saveStatisticsInterval").value);
+            settings["torrent_file_size_limit"] = (document.getElementById("torrentFileSizeLimit").value * 1024 * 1024);
+            settings["confirm_torrent_recheck"] = document.getElementById("confirmTorrentRecheck").checked;
+            settings["recheck_completed_torrents"] = document.getElementById("recheckTorrentsOnCompletion").checked;
+            settings["app_instance_name"] = document.getElementById("appInstanceName").value;
+            settings["refresh_interval"] = Number(document.getElementById("refreshInterval").value);
+            settings["resolve_peer_host_names"] = document.getElementById("resolvePeerHostNames").checked;
+            settings["resolve_peer_countries"] = document.getElementById("resolvePeerCountries").checked;
+            settings["reannounce_when_address_changed"] = document.getElementById("reannounceWhenAddressChanged").checked;
+            settings["enable_embedded_tracker"] = document.getElementById("enableEmbeddedTracker").checked;
+            settings["embedded_tracker_port"] = Number(document.getElementById("embeddedTrackerPort").value);
+            settings["embedded_tracker_port_forwarding"] = document.getElementById("embeddedTrackerPortForwarding").checked;
+            settings["mark_of_the_web"] = document.getElementById("markOfTheWeb").checked;
+            settings["ignore_ssl_errors"] = document.getElementById("ignoreSSLErrors").checked;
+            settings["python_executable_path"] = document.getElementById("pythonExecutablePath").value;
+
+            // libtorrent section
+            settings["bdecode_depth_limit"] = Number(document.getElementById("bdecodeDepthLimit").value);
+            settings["bdecode_token_limit"] = Number(document.getElementById("bdecodeTokenLimit").value);
+            settings["async_io_threads"] = Number(document.getElementById("asyncIOThreads").value);
+            settings["hashing_threads"] = Number(document.getElementById("hashingThreads").value);
+            settings["file_pool_size"] = Number(document.getElementById("filePoolSize").value);
+
+            const outstandMemory = Number(document.getElementById("outstandMemoryWhenCheckingTorrents").value);
+            if (Number.isNaN(outstandMemory) || (outstandMemory < 0) || (outstandMemory > 1024)) {
+                alert("QBT_TR(Outstanding memory when checking torrents must be greater than 0 and less than 1024.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["checking_memory_use"] = outstandMemory;
+
+            settings["disk_cache"] = Number(document.getElementById("diskCache").value);
+            settings["disk_cache_ttl"] = Number(document.getElementById("diskCacheExpiryInterval").value);
+            settings["disk_queue_size"] = (Number(document.getElementById("diskQueueSize").value) * 1024);
+            settings["disk_io_type"] = Number(document.getElementById("diskIOType").value);
+            settings["disk_io_read_mode"] = Number(document.getElementById("diskIOReadMode").value);
+            settings["disk_io_write_mode"] = Number(document.getElementById("diskIOWriteMode").value);
+            settings["enable_coalesce_read_write"] = document.getElementById("coalesceReadsAndWrites").checked;
+            settings["enable_piece_extent_affinity"] = document.getElementById("pieceExtentAffinity").checked;
+            settings["enable_upload_suggestions"] = document.getElementById("sendUploadPieceSuggestions").checked;
+            settings["send_buffer_watermark"] = Number(document.getElementById("sendBufferWatermark").value);
+            settings["send_buffer_low_watermark"] = Number(document.getElementById("sendBufferLowWatermark").value);
+            settings["send_buffer_watermark_factor"] = Number(document.getElementById("sendBufferWatermarkFactor").value);
+            settings["connection_speed"] = Number(document.getElementById("connectionSpeed").value);
+            settings["socket_send_buffer_size"] = (document.getElementById("socketSendBufferSize").value * 1024);
+            settings["socket_receive_buffer_size"] = (document.getElementById("socketReceiveBufferSize").value * 1024);
+            settings["socket_backlog_size"] = Number(document.getElementById("socketBacklogSize").value);
+            settings["outgoing_ports_min"] = Number(document.getElementById("outgoingPortsMin").value);
+            settings["outgoing_ports_max"] = Number(document.getElementById("outgoingPortsMax").value);
+            settings["upnp_lease_duration"] = Number(document.getElementById("UPnPLeaseDuration").value);
+
+            const peerDSCP = Number(document.getElementById("peerDSCP").value);
+            if (Number.isNaN(peerDSCP) || (peerDSCP < 0) || (peerDSCP > 255)) {
+                alert("QBT_TR(Peer DSCP must be between 0 and 255.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["peer_tos"] = peerDSCP;
+
+            settings["utp_tcp_mixed_mode"] = Number(document.getElementById("utpTCPMixedModeAlgorithm").value);
+            settings["hostname_cache_ttl"] = Number(document.getElementById("hostnameCacheTTL").value);
+            settings["idn_support_enabled"] = document.getElementById("IDNSupportCheckbox").checked;
+            settings["enable_multi_connections_from_same_ip"] = document.getElementById("allowMultipleConnectionsFromTheSameIPAddress").checked;
+            settings["validate_https_tracker_certificate"] = document.getElementById("validateHTTPSTrackerCertificate").checked;
+            settings["ssrf_mitigation"] = document.getElementById("mitigateSSRF").checked;
+            settings["block_peers_on_privileged_ports"] = document.getElementById("blockPeersOnPrivilegedPorts").checked;
+            settings["upload_slots_behavior"] = Number(document.getElementById("uploadSlotsBehavior").value);
+            settings["upload_choking_algorithm"] = Number(document.getElementById("uploadChokingAlgorithm").value);
+            settings["announce_to_all_trackers"] = document.getElementById("announceAllTrackers").checked;
+            settings["announce_to_all_tiers"] = document.getElementById("announceAllTiers").checked;
+            settings["announce_ip"] = document.getElementById("announceIP").value;
+            const announcePort = Number(document.getElementById("announcePort").value);
+            if (Number.isNaN(announcePort) || (announcePort < 0) || (announcePort > 65535)) {
+                alert("QBT_TR(The announce port must be between 0 and 65535.)QBT_TR[CONTEXT=OptionsDialog]");
+                return;
+            }
+            settings["announce_port"] = announcePort;
+            settings["max_concurrent_http_announces"] = Number(document.getElementById("maxConcurrentHTTPAnnounces").value);
+            settings["stop_tracker_timeout"] = Number(document.getElementById("stopTrackerTimeout").value);
+
+            const peerTurnover = Number(document.getElementById("peerTurnover").value);
+            if (Number.isNaN(peerTurnover) || (peerTurnover < 0) || (peerTurnover > 100)) {
+                alert("QBT_TR(Peer turnover must be between 0 and 100.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["peer_turnover"] = peerTurnover;
+
+            const peerTurnoverCutoff = Number(document.getElementById("peerTurnoverCutoff").value);
+            if (Number.isNaN(peerTurnoverCutoff) || (peerTurnoverCutoff < 0) || (peerTurnoverCutoff > 100)) {
+                alert("QBT_TR(Peer turnover cutoff must be between 0 and 100.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["peer_turnover_cutoff"] = peerTurnoverCutoff;
+
+            const peerTurnoverInterval = Number(document.getElementById("peerTurnoverInterval").value);
+            if (Number.isNaN(peerTurnoverInterval) || (peerTurnoverInterval < 0) || (peerTurnoverInterval > 3600)) {
+                alert("QBT_TR(Peer turnover interval must be greater than or equal to 0.)QBT_TR[CONTEXT=HttpServer]");
+                return;
+            }
+            settings["peer_turnover_interval"] = peerTurnoverInterval;
+
+            settings["request_queue_size"] = Number(document.getElementById("requestQueueSize").value);
+            settings["dht_bootstrap_nodes"] = document.getElementById("dhtBootstrapNodes").value;
+            settings["i2p_inbound_quantity"] = Number(document.getElementById("i2pInboundQuantity").value);
+            settings["i2p_outbound_quantity"] = Number(document.getElementById("i2pOutboundQuantity").value);
+            settings["i2p_inbound_length"] = Number(document.getElementById("i2pInboundLength").value);
+            settings["i2p_outbound_length"] = Number(document.getElementById("i2pOutboundLength").value);
+
+            // Send data to qBT
+            Promise.allSettled([
+                window.parent.qBittorrent.ClientData.set(clientData),
+                window.parent.qBittorrent.Cache.preferences.set(settings)
+            ]).then((results) => {
+                if (results.every((result) => result.status === "fulfilled")) {
+                    window.parent.location.reload();
+                    window.parent.qBittorrent.Client.closeWindow(document.getElementById("preferencesPage"));
+                }
+                else {
+                    // keep window open so user can reattempt saving
+                    if (error.name === "ServerError")
+                        alert(`QBT_TR(Error:)QBT_TR[CONTEXT=HttpServer] ${error.message}`);
+                    else
+                        alert("QBT_TR(Unable to save preferences, qBittorrent is probably unreachable.)QBT_TR[CONTEXT=HttpServer]");
+                }
+            });
+        };
+
+        const setup = () => {
+            watchedFoldersTable = new HtmlTable(document.getElementById("watched_folders_tab"));
+
+            const buildInfo = window.qBittorrent.Cache.buildInfo.get();
+
+            // hide entries
+            const libtorrentVersion = window.qBittorrent.Misc.parseVersion(buildInfo.libtorrent);
+            if (libtorrentVersion.valid) {
+                if (libtorrentVersion.major >= 2) {
+                    document.getElementById("rowDiskCache").style.display = "none";
+                    document.getElementById("rowDiskCacheExpiryInterval").style.display = "none";
+                    document.getElementById("rowCoalesceReadsAndWrites").style.display = "none";
+                }
+                else {
+                    document.getElementById("fieldsetI2p").style.display = "none";
+                    document.getElementById("rowMemoryWorkingSetLimit").style.display = "none";
+                    document.getElementById("rowHashingThreads").style.display = "none";
+                    document.getElementById("rowDiskIOType").style.display = "none";
+                    document.getElementById("rowI2pInboundQuantity").style.display = "none";
+                    document.getElementById("rowI2pOutboundQuantity").style.display = "none";
+                    document.getElementById("rowI2pInboundLength").style.display = "none";
+                    document.getElementById("rowI2pOutboundLength").style.display = "none";
+                }
+
+                if (!((libtorrentVersion.major >= 2) && (libtorrentVersion.minor >= 0) && (libtorrentVersion.fix >= 6)))
+                    document.getElementById("diskIOWriteModeWriteThrough").style.display = "none";
+            }
+
+            if ((buildInfo.platform === "linux") || (buildInfo.platform === "macos"))
+                document.getElementById("rowMemoryWorkingSetLimit").style.display = "none";
+
+            if ((buildInfo.platform !== "macos") && (buildInfo.platform !== "windows"))
+                document.getElementById("rowMarkOfTheWeb").style.display = "none";
+
+            document.getElementById("networkInterface").addEventListener("change", function(event) {
+                updateInterfaceAddresses(this.value, "");
+            });
+
+            loadPreferences();
+
+            window.qBittorrent.pathAutofill.attachPathAutofill();
+        };
+
+        // show static prefix plus 6 sensitive characters
+        const maskAPIKey = (key) => (key.slice(0, 4) + "•".repeat(key.length - 10) + key.slice(key.length - 6));
+
+        const rotateAPIKey = () => {
+            fetch("api/v2/app/rotateAPIKey", {
+                    method: "POST",
+                })
+                .then(async (response) => {
+                    if (!response.ok) {
+                        alert(await response.text());
+                        return;
+                    }
+
+                    const { apiKey } = await response.json();
+                    const apiKeyTextElem = document.getElementById("WebUIAPIKeyText");
+                    apiKeyTextElem.value = maskAPIKey(apiKey);
+                    apiKeyTextElem.dataset.apiKey = apiKey;
+
+                    document.getElementById("webUIAPIKeyCopyButton").disabled = false;
+                    document.getElementById("webUIAPIKeyRotateButton").dataset.hasKey = "true";
+                    document.querySelector("#webUIAPIKeyRotateButton img").title = "QBT_TR(Rotate API key)QBT_TR[CONTEXT=OptionsDialog]";
+                    document.getElementById("webUIAPIKeyDeleteButton").disabled = false;
+                })
+                .catch((error) => {
+                    alert(`QBT_TR(Unable to rotate API key.)QBT_TR[CONTEXT=HttpServer] ${error.toString()}`);
+                });
+        };
+
+        const deleteAPIKey = () => {
+            fetch("api/v2/app/deleteAPIKey", {
+                    method: "POST",
+                })
+                .then(async (response) => {
+                    if (!response.ok) {
+                        alert(await response.text());
+                        return;
+                    }
+
+                    const apiKeyTextElem = document.getElementById("WebUIAPIKeyText");
+                    apiKeyTextElem.value = "";
+                    apiKeyTextElem.dataset.apiKey = "";
+
+                    document.getElementById("webUIAPIKeyCopyButton").disabled = true;
+                    document.getElementById("webUIAPIKeyRotateButton").dataset.hasKey = "false";
+                    document.querySelector("#webUIAPIKeyRotateButton img").title = "QBT_TR(Generate API key)QBT_TR[CONTEXT=OptionsDialog]";
+                    document.getElementById("webUIAPIKeyDeleteButton").disabled = true;
+                })
+                .catch((error) => {
+                    alert(`QBT_TR(Unable to delete API key.)QBT_TR[CONTEXT=HttpServer] ${error.toString()}`);
+                });
+        };
+
+        document.getElementById("webUIAPIKeyCopyButton").addEventListener("click", async (e) => {
+            const apiKey = document.getElementById("WebUIAPIKeyText").dataset.apiKey;
+            await clipboardCopy(apiKey);
+
+            const copyImg = document.querySelector("#webUIAPIKeyCopyButton img.copyImg");
+            const checkImg = document.querySelector("#webUIAPIKeyCopyButton img.checkImg");
+
+            copyImg.style.display = "none";
+            checkImg.style.display = "inline";
+
+            setTimeout(() => {
+                copyImg.style.display = "inline";
+                checkImg.style.display = "none";
+            }, 2000);
+        });
+
+        document.getElementById("webUIAPIKeyRotateButton").addEventListener("click", (e) => {
+            const hasKey = e.target.parentElement.dataset.hasKey === "true";
+            const title = hasKey
+                ? "QBT_TR(Rotate API key)QBT_TR[CONTEXT=OptionsDialog]"
+                : "QBT_TR(Generate API key)QBT_TR[CONTEXT=OptionsDialog]";
+            const message = hasKey
+                ? "QBT_TR(Rotate this API key? The current key will immediately stop working and a new key will be generated.)QBT_TR[CONTEXT=confirmRotateAPIKeyDialog]"
+                : "QBT_TR(Generate an API key? This key can be used to interact with qBittorrent's API.)QBT_TR[CONTEXT=confirmRotateAPIKeyDialog]";
+
+            new MochaUI.Modal({
+                ...window.qBittorrent.Dialog.baseModalOptions,
+                title: title,
+                id: "confirmAPIKeyDialog",
+                contentURL: "views/confirmAPIKey.html?v=${CACHEID}",
+                data: {
+                    action: "rotate",
+                    message: message,
+                },
+            });
+        });
+
+        document.getElementById("webUIAPIKeyDeleteButton").addEventListener("click", (e) => {
+            const title = "QBT_TR(Delete API key)QBT_TR[CONTEXT=OptionsDialog]";
+            const message = "QBT_TR(Delete this API key? The current key will immediately stop working.)QBT_TR[CONTEXT=confirmRotateAPIKeyDialog]";
+            new MochaUI.Modal({
+                ...window.qBittorrent.Dialog.baseModalOptions,
+                title: title,
+                id: "confirmAPIKeyDialog",
+                contentURL: "views/confirmAPIKey.html?v=${CACHEID}",
+                data: {
+                    action: "delete",
+                    message: message,
+                },
+            });
+        });
+
+        return exports();
+    })();
+    Object.freeze(window.qBittorrent.Preferences);
+
+    window.qBittorrent.Preferences.setup();
+</script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

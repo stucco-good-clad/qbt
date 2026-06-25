@@ -1,0 +1,3140 @@
+ the value was saved as KiB instead of B.
+    // But it is better to pass it around internally(+ webui) as Bytes.
+    if (limit == globalUploadSpeedLimit())
+        return;
+
+    if (limit <= 0)
+        m_globalUploadSpeedLimit = 0;
+    else if (limit <= 1024)
+        m_globalUploadSpeedLimit = 1;
+    else
+        m_globalUploadSpeedLimit = (limit / 1024);
+
+    if (!isAltGlobalSpeedLimitEnabled())
+        configureDeferred();
+}
+
+int SessionImpl::altGlobalDownloadSpeedLimit() const
+{
+    // Unfortunately the value was saved as KiB instead of B.
+    // But it is better to pass it around internally(+ webui) as Bytes.
+    return m_altGlobalDownloadSpeedLimit * 1024;
+}
+
+void SessionImpl::setAltGlobalDownloadSpeedLimit(const int limit)
+{
+    // Unfortunately the value was saved as KiB instead of B.
+    // But it is better to pass it around internally(+ webui) as Bytes.
+    if (limit == altGlobalDownloadSpeedLimit())
+        return;
+
+    if (limit <= 0)
+        m_altGlobalDownloadSpeedLimit = 0;
+    else if (limit <= 1024)
+        m_altGlobalDownloadSpeedLimit = 1;
+    else
+        m_altGlobalDownloadSpeedLimit = (limit / 1024);
+
+    if (isAltGlobalSpeedLimitEnabled())
+        configureDeferred();
+}
+
+int SessionImpl::altGlobalUploadSpeedLimit() const
+{
+    // Unfortunately the value was saved as KiB instead of B.
+    // But it is better to pass it around internally(+ webui) as Bytes.
+    return m_altGlobalUploadSpeedLimit * 1024;
+}
+
+void SessionImpl::setAltGlobalUploadSpeedLimit(const int limit)
+{
+    // Unfortunately the value was saved as KiB instead of B.
+    // But it is better to pass it around internally(+ webui) as Bytes.
+    if (limit == altGlobalUploadSpeedLimit())
+        return;
+
+    if (limit <= 0)
+        m_altGlobalUploadSpeedLimit = 0;
+    else if (limit <= 1024)
+        m_altGlobalUploadSpeedLimit = 1;
+    else
+        m_altGlobalUploadSpeedLimit = (limit / 1024);
+
+    if (isAltGlobalSpeedLimitEnabled())
+        configureDeferred();
+}
+
+int SessionImpl::downloadSpeedLimit() const
+{
+    return isAltGlobalSpeedLimitEnabled()
+            ? altGlobalDownloadSpeedLimit()
+            : globalDownloadSpeedLimit();
+}
+
+void SessionImpl::setDownloadSpeedLimit(const int limit)
+{
+    if (isAltGlobalSpeedLimitEnabled())
+        setAltGlobalDownloadSpeedLimit(limit);
+    else
+        setGlobalDownloadSpeedLimit(limit);
+}
+
+int SessionImpl::uploadSpeedLimit() const
+{
+    return isAltGlobalSpeedLimitEnabled()
+            ? altGlobalUploadSpeedLimit()
+            : globalUploadSpeedLimit();
+}
+
+void SessionImpl::setUploadSpeedLimit(const int limit)
+{
+    if (isAltGlobalSpeedLimitEnabled())
+        setAltGlobalUploadSpeedLimit(limit);
+    else
+        setGlobalUploadSpeedLimit(limit);
+}
+
+bool SessionImpl::isAltGlobalSpeedLimitEnabled() const
+{
+    return m_isAltGlobalSpeedLimitEnabled;
+}
+
+void SessionImpl::setAltGlobalSpeedLimitEnabled(const bool enabled)
+{
+    if (enabled == isAltGlobalSpeedLimitEnabled()) return;
+
+    // Save new state to remember it on startup
+    m_isAltGlobalSpeedLimitEnabled = enabled;
+    applyBandwidthLimits();
+    // Notify
+    emit speedLimitModeChanged(m_isAltGlobalSpeedLimitEnabled);
+}
+
+bool SessionImpl::isBandwidthSchedulerEnabled() const
+{
+    return m_isBandwidthSchedulerEnabled;
+}
+
+void SessionImpl::setBandwidthSchedulerEnabled(const bool enabled)
+{
+    if (enabled != isBandwidthSchedulerEnabled())
+    {
+        m_isBandwidthSchedulerEnabled = enabled;
+        if (enabled)
+            enableBandwidthScheduler();
+        else
+            delete m_bwScheduler;
+    }
+}
+
+bool SessionImpl::isPerformanceWarningEnabled() const
+{
+    return m_isPerformanceWarningEnabled;
+}
+
+void SessionImpl::setPerformanceWarningEnabled(const bool enable)
+{
+    if (enable == m_isPerformanceWarningEnabled)
+        return;
+
+    m_isPerformanceWarningEnabled = enable;
+    configureDeferred();
+}
+
+int SessionImpl::saveResumeDataInterval() const
+{
+    return m_saveResumeDataInterval;
+}
+
+void SessionImpl::setSaveResumeDataInterval(const int value)
+{
+    if (value == m_saveResumeDataInterval)
+        return;
+
+    m_saveResumeDataInterval = value;
+
+    if (value > 0)
+    {
+        m_resumeDataTimer->setInterval(std::chrono::minutes(value));
+        m_resumeDataTimer->start();
+    }
+    else
+    {
+        m_resumeDataTimer->stop();
+    }
+}
+
+std::chrono::minutes SessionImpl::saveStatisticsInterval() const
+{
+    return std::chrono::minutes(m_saveStatisticsInterval);
+}
+
+void SessionImpl::setSaveStatisticsInterval(const std::chrono::minutes timeInMinutes)
+{
+    m_saveStatisticsInterval = timeInMinutes.count();
+}
+
+int SessionImpl::shutdownTimeout() const
+{
+    return m_shutdownTimeout;
+}
+
+void SessionImpl::setShutdownTimeout(const int value)
+{
+    m_shutdownTimeout = value;
+}
+
+int SessionImpl::port() const
+{
+    return m_port;
+}
+
+void SessionImpl::setPort(const int port)
+{
+    if (port != m_port)
+    {
+        m_port = port;
+        configureListeningInterface();
+    }
+}
+
+bool SessionImpl::isSSLEnabled() const
+{
+    return m_sslEnabled;
+}
+
+void SessionImpl::setSSLEnabled(const bool enabled)
+{
+    if (enabled == isSSLEnabled())
+        return;
+
+    m_sslEnabled = enabled;
+    configureListeningInterface();
+}
+
+int SessionImpl::sslPort() const
+{
+    return m_sslPort;
+}
+
+void SessionImpl::setSSLPort(const int port)
+{
+    if (port == sslPort())
+        return;
+
+    m_sslPort = port;
+    configureListeningInterface();
+}
+
+QString SessionImpl::networkInterface() const
+{
+    return m_networkInterface;
+}
+
+void SessionImpl::setNetworkInterface(const QString &iface)
+{
+    if (iface != networkInterface())
+    {
+        m_networkInterface = iface;
+        configureListeningInterface();
+    }
+}
+
+QString SessionImpl::networkInterfaceName() const
+{
+    return m_networkInterfaceName;
+}
+
+void SessionImpl::setNetworkInterfaceName(const QString &name)
+{
+    m_networkInterfaceName = name;
+}
+
+QString SessionImpl::networkInterfaceAddress() const
+{
+    return m_networkInterfaceAddress;
+}
+
+void SessionImpl::setNetworkInterfaceAddress(const QString &address)
+{
+    if (address != networkInterfaceAddress())
+    {
+        m_networkInterfaceAddress = address;
+        configureListeningInterface();
+    }
+}
+
+int SessionImpl::encryption() const
+{
+    return m_encryption;
+}
+
+void SessionImpl::setEncryption(const int state)
+{
+    if (state != encryption())
+    {
+        m_encryption = state;
+        configureDeferred();
+        LogMsg(tr("Encryption support: %1").arg(
+            state == 0 ? tr("ON") : ((state == 1) ? tr("FORCED") : tr("OFF")))
+            , Log::INFO);
+    }
+}
+
+int SessionImpl::maxActiveCheckingTorrents() const
+{
+    return m_maxActiveCheckingTorrents;
+}
+
+void SessionImpl::setMaxActiveCheckingTorrents(const int val)
+{
+    if (val == m_maxActiveCheckingTorrents)
+        return;
+
+    m_maxActiveCheckingTorrents = val;
+    configureDeferred();
+}
+
+bool SessionImpl::isI2PEnabled() const
+{
+    return m_isI2PEnabled;
+}
+
+void SessionImpl::setI2PEnabled(const bool enabled)
+{
+    if (m_isI2PEnabled != enabled)
+    {
+        m_isI2PEnabled = enabled;
+        configureDeferred();
+    }
+}
+
+QString SessionImpl::I2PAddress() const
+{
+    return m_I2PAddress;
+}
+
+void SessionImpl::setI2PAddress(const QString &address)
+{
+    if (m_I2PAddress != address)
+    {
+        m_I2PAddress = address;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::I2PPort() const
+{
+    return m_I2PPort;
+}
+
+void SessionImpl::setI2PPort(int port)
+{
+    if (m_I2PPort != port)
+    {
+        m_I2PPort = port;
+        configureDeferred();
+    }
+}
+
+bool SessionImpl::I2PMixedMode() const
+{
+    return m_I2PMixedMode;
+}
+
+void SessionImpl::setI2PMixedMode(const bool enabled)
+{
+    if (m_I2PMixedMode != enabled)
+    {
+        m_I2PMixedMode = enabled;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::I2PInboundQuantity() const
+{
+    return m_I2PInboundQuantity;
+}
+
+void SessionImpl::setI2PInboundQuantity(const int value)
+{
+    if (value == m_I2PInboundQuantity)
+        return;
+
+    m_I2PInboundQuantity = value;
+    configureDeferred();
+}
+
+int SessionImpl::I2POutboundQuantity() const
+{
+    return m_I2POutboundQuantity;
+}
+
+void SessionImpl::setI2POutboundQuantity(const int value)
+{
+    if (value == m_I2POutboundQuantity)
+        return;
+
+    m_I2POutboundQuantity = value;
+    configureDeferred();
+}
+
+int SessionImpl::I2PInboundLength() const
+{
+    return m_I2PInboundLength;
+}
+
+void SessionImpl::setI2PInboundLength(const int value)
+{
+    if (value == m_I2PInboundLength)
+        return;
+
+    m_I2PInboundLength = value;
+    configureDeferred();
+}
+
+int SessionImpl::I2POutboundLength() const
+{
+    return m_I2POutboundLength;
+}
+
+void SessionImpl::setI2POutboundLength(const int value)
+{
+    if (value == m_I2POutboundLength)
+        return;
+
+    m_I2POutboundLength = value;
+    configureDeferred();
+}
+
+bool SessionImpl::isProxyPeerConnectionsEnabled() const
+{
+    return m_isProxyPeerConnectionsEnabled;
+}
+
+void SessionImpl::setProxyPeerConnectionsEnabled(const bool enabled)
+{
+    if (enabled != isProxyPeerConnectionsEnabled())
+    {
+        m_isProxyPeerConnectionsEnabled = enabled;
+        configureDeferred();
+    }
+}
+
+ChokingAlgorithm SessionImpl::chokingAlgorithm() const
+{
+    return m_chokingAlgorithm;
+}
+
+void SessionImpl::setChokingAlgorithm(const ChokingAlgorithm mode)
+{
+    if (mode == m_chokingAlgorithm) return;
+
+    m_chokingAlgorithm = mode;
+    configureDeferred();
+}
+
+SeedChokingAlgorithm SessionImpl::seedChokingAlgorithm() const
+{
+    return m_seedChokingAlgorithm;
+}
+
+void SessionImpl::setSeedChokingAlgorithm(const SeedChokingAlgorithm mode)
+{
+    if (mode == m_seedChokingAlgorithm) return;
+
+    m_seedChokingAlgorithm = mode;
+    configureDeferred();
+}
+
+bool SessionImpl::isAddTrackersEnabled() const
+{
+    return m_isAddTrackersEnabled;
+}
+
+void SessionImpl::setAddTrackersEnabled(const bool enabled)
+{
+    m_isAddTrackersEnabled = enabled;
+}
+
+QString SessionImpl::additionalTrackers() const
+{
+    return m_additionalTrackers;
+}
+
+void SessionImpl::setAdditionalTrackers(const QString &trackers)
+{
+    if (trackers == additionalTrackers())
+        return;
+
+    m_additionalTrackers = trackers;
+    populateAdditionalTrackers();
+}
+
+bool SessionImpl::isAddTrackersFromURLEnabled() const
+{
+    return m_isAddTrackersFromURLEnabled;
+}
+
+void SessionImpl::setAddTrackersFromURLEnabled(const bool enabled)
+{
+    if (enabled != isAddTrackersFromURLEnabled())
+    {
+        m_isAddTrackersFromURLEnabled = enabled;
+        if (enabled)
+        {
+            updateTrackersFromURL();
+            m_updateTrackersFromURLTimer->start();
+        }
+        else
+        {
+            m_updateTrackersFromURLTimer->stop();
+            setAdditionalTrackersFromURL({});
+            const Path path = specialFolderLocation(SpecialFolder::Data) / Path(ADDITIONAL_TRACKERS_FROM_URL_FILE_NAME);
+            Utils::Fs::removeFile(path);
+        }
+    }
+}
+
+QString SessionImpl::additionalTrackersURL() const
+{
+    return m_additionalTrackersURL;
+}
+
+void SessionImpl::setAdditionalTrackersURL(const QString &url)
+{
+    if (url != additionalTrackersURL())
+    {
+        m_additionalTrackersURL = url.trimmed();
+        if (isAddTrackersFromURLEnabled())
+            updateTrackersFromURL();
+    }
+}
+
+QString SessionImpl::additionalTrackersFromURL() const
+{
+    return m_additionalTrackersFromURL;
+}
+
+void SessionImpl::setAdditionalTrackersFromURL(const QString &trackers)
+{
+    if (trackers != additionalTrackersFromURL())
+    {
+        m_additionalTrackersFromURL = trackers;
+        populateAdditionalTrackersFromURL();
+    }
+}
+
+void SessionImpl::updateTrackersFromURL()
+{
+    const QString url = additionalTrackersURL();
+    if (url.isEmpty())
+    {
+        setAdditionalTrackersFromURL({});
+    }
+    else
+    {
+        const Path path = specialFolderLocation(SpecialFolder::Data) / ADDITIONAL_TRACKERS_FROM_URL_FILE_NAME;
+        Net::DownloadManager::instance()->download(Net::DownloadRequest(url).saveToFile(true).destFileName(path)
+                , Preferences::instance()->useProxyForGeneralPurposes(), this, [this](const Net::DownloadResult &result)
+        {
+            if (result.status == Net::DownloadStatus::Success)
+            {
+                setAdditionalTrackersFromURL(QString::fromUtf8(result.data));
+                LogMsg(tr("Tracker list updated"), Log::INFO);
+                return;
+            }
+
+            LogMsg(tr("Failed to update tracker list. Reason: \"%1\"").arg(result.errorString), Log::WARNING);
+        });
+    }
+}
+
+bool SessionImpl::isIPFilteringEnabled() const
+{
+    return m_isIPFilteringEnabled;
+}
+
+void SessionImpl::setIPFilteringEnabled(const bool enabled)
+{
+    if (enabled != m_isIPFilteringEnabled)
+    {
+        m_isIPFilteringEnabled = enabled;
+        m_IPFilteringConfigured = false;
+        configureDeferred();
+    }
+}
+
+Path SessionImpl::IPFilterFile() const
+{
+    return m_IPFilterFile;
+}
+
+void SessionImpl::setIPFilterFile(const Path &path)
+{
+    if (path != IPFilterFile())
+    {
+        m_IPFilterFile = path;
+        m_IPFilteringConfigured = false;
+        configureDeferred();
+    }
+}
+
+bool SessionImpl::isExcludedFileNamesEnabled() const
+{
+    return m_isExcludedFileNamesEnabled;
+}
+
+void SessionImpl::setExcludedFileNamesEnabled(const bool enabled)
+{
+    if (m_isExcludedFileNamesEnabled == enabled)
+        return;
+
+    m_isExcludedFileNamesEnabled = enabled;
+
+    if (enabled)
+        populateExcludedFileNamesRegExpList();
+    else
+        m_excludedFileNamesRegExpList.clear();
+}
+
+QStringList SessionImpl::excludedFileNames() const
+{
+    return m_excludedFileNames;
+}
+
+void SessionImpl::setExcludedFileNames(const QStringList &excludedFileNames)
+{
+    if (excludedFileNames != m_excludedFileNames)
+    {
+        m_excludedFileNames = excludedFileNames;
+        populateExcludedFileNamesRegExpList();
+    }
+}
+
+void SessionImpl::populateExcludedFileNamesRegExpList()
+{
+    const QStringList excludedNames = excludedFileNames();
+
+    m_excludedFileNamesRegExpList.clear();
+    m_excludedFileNamesRegExpList.reserve(excludedNames.size());
+
+    for (const QString &str : excludedNames)
+    {
+        const QString pattern = QRegularExpression::wildcardToRegularExpression(str);
+        const QRegularExpression re {pattern, QRegularExpression::CaseInsensitiveOption};
+        m_excludedFileNamesRegExpList.append(re);
+    }
+}
+
+void SessionImpl::applyFilenameFilter(const PathList &files, QList<DownloadPriority> &priorities)
+{
+    if (!isExcludedFileNamesEnabled())
+        return;
+
+    const auto isFilenameExcluded = [patterns = m_excludedFileNamesRegExpList](const Path &fileName)
+    {
+        return std::ranges::any_of(patterns, [&fileName](const QRegularExpression &re)
+        {
+            Path path = fileName;
+            while (!re.match(path.filename()).hasMatch())
+            {
+                path = path.parentPath();
+                if (path.isEmpty())
+                    return false;
+            }
+            return true;
+        });
+    };
+
+    priorities.resize(files.count(), DownloadPriority::Normal);
+    for (qsizetype i = 0; i < priorities.size(); ++i)
+    {
+        if (priorities[i] == BitTorrent::DownloadPriority::Ignored)
+            continue;
+
+        if (isFilenameExcluded(files.at(i)))
+            priorities[i] = BitTorrent::DownloadPriority::Ignored;
+    }
+}
+
+void SessionImpl::setBannedIPs(const QStringList &newList)
+{
+    if (newList == m_bannedIPs)
+        return; // do nothing
+    // here filter out incorrect IP
+    QStringList filteredList;
+    for (const QString &ip : newList)
+    {
+        if (Utils::Net::isValidIP(ip))
+        {
+            // the same IPv6 addresses could be written in different forms;
+            // QHostAddress::toString() result format follows RFC5952;
+            // thus we avoid duplicate entries pointing to the same address
+            filteredList << QHostAddress(ip).toString();
+        }
+        else
+        {
+            LogMsg(tr("Rejected invalid IP address while applying the list of banned IP addresses. IP: \"%1\"")
+                   .arg(ip)
+                , Log::WARNING);
+        }
+    }
+    // now we have to sort IPs and make them unique
+    filteredList.sort();
+    filteredList.removeDuplicates();
+    // Again ensure that the new list is different from the stored one.
+    if (filteredList == m_bannedIPs)
+        return; // do nothing
+    // store to session settings
+    // also here we have to recreate filter list including 3rd party ban file
+    // and install it again into m_session
+    m_bannedIPs = filteredList;
+    m_IPFilteringConfigured = false;
+    configureDeferred();
+}
+
+ResumeDataStorageType SessionImpl::resumeDataStorageType() const
+{
+    return m_resumeDataStorageType;
+}
+
+void SessionImpl::setResumeDataStorageType(const ResumeDataStorageType type)
+{
+    m_resumeDataStorageType = type;
+}
+
+bool SessionImpl::isMergeTrackersEnabled() const
+{
+    return m_isMergeTrackersEnabled;
+}
+
+void SessionImpl::setMergeTrackersEnabled(const bool enabled)
+{
+    m_isMergeTrackersEnabled = enabled;
+}
+
+bool SessionImpl::isStartPaused() const
+{
+    return m_startPaused.get(false);
+}
+
+void SessionImpl::setStartPaused(const bool value)
+{
+    m_startPaused = value;
+}
+
+TorrentContentRemoveOption SessionImpl::torrentContentRemoveOption() const
+{
+    return m_torrentContentRemoveOption;
+}
+
+void SessionImpl::setTorrentContentRemoveOption(const TorrentContentRemoveOption option)
+{
+    m_torrentContentRemoveOption = option;
+}
+
+QStringList SessionImpl::bannedIPs() const
+{
+    return m_bannedIPs;
+}
+
+bool SessionImpl::isRestored() const
+{
+    return m_isRestored;
+}
+
+bool SessionImpl::isPaused() const
+{
+    return m_isPaused;
+}
+
+void SessionImpl::pause()
+{
+    if (m_isPaused)
+        return;
+
+    if (isRestored())
+    {
+        m_nativeSession->pause();
+
+        for (TorrentImpl *torrent : asConst(m_torrents))
+        {
+            torrent->resetTrackerEntryStatuses();
+
+            const QList<TrackerEntryStatus> trackers = torrent->trackers();
+            QHash<QString, TrackerEntryStatus> updatedTrackers;
+            updatedTrackers.reserve(trackers.size());
+
+            for (const TrackerEntryStatus &status : trackers)
+                updatedTrackers.emplace(status.url, status);
+            emit trackerEntryStatusesUpdated(torrent, updatedTrackers);
+        }
+    }
+
+    m_isPaused = true;
+    emit paused();
+}
+
+void SessionImpl::resume()
+{
+    if (m_isPaused)
+    {
+        if (isRestored())
+            m_nativeSession->resume();
+
+        m_isPaused = false;
+        emit resumed();
+    }
+}
+
+int SessionImpl::maxConnectionsPerTorrent() const
+{
+    return m_maxConnectionsPerTorrent;
+}
+
+void SessionImpl::setMaxConnectionsPerTorrent(int max)
+{
+    max = (max > 0) ? max : -1;
+    if (max != maxConnectionsPerTorrent())
+    {
+        m_maxConnectionsPerTorrent = max;
+
+        for (const TorrentImpl *torrent : asConst(m_torrents))
+        {
+            try
+            {
+                torrent->nativeHandle().set_max_connections(max);
+            }
+            catch (const std::exception &) {}
+        }
+    }
+}
+
+int SessionImpl::maxUploadsPerTorrent() const
+{
+    return m_maxUploadsPerTorrent;
+}
+
+void SessionImpl::setMaxUploadsPerTorrent(int max)
+{
+    max = (max > 0) ? max : -1;
+    if (max != maxUploadsPerTorrent())
+    {
+        m_maxUploadsPerTorrent = max;
+
+        for (const TorrentImpl *torrent : asConst(m_torrents))
+        {
+            try
+            {
+                torrent->nativeHandle().set_max_uploads(max);
+            }
+            catch (const std::exception &) {}
+        }
+    }
+}
+
+bool SessionImpl::announceToAllTrackers() const
+{
+    return m_announceToAllTrackers;
+}
+
+void SessionImpl::setAnnounceToAllTrackers(const bool val)
+{
+    if (val != m_announceToAllTrackers)
+    {
+        m_announceToAllTrackers = val;
+        configureDeferred();
+    }
+}
+
+bool SessionImpl::announceToAllTiers() const
+{
+    return m_announceToAllTiers;
+}
+
+void SessionImpl::setAnnounceToAllTiers(const bool val)
+{
+    if (val != m_announceToAllTiers)
+    {
+        m_announceToAllTiers = val;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::peerTurnover() const
+{
+    return m_peerTurnover;
+}
+
+void SessionImpl::setPeerTurnover(const int val)
+{
+    if (val == m_peerTurnover)
+        return;
+
+    m_peerTurnover = val;
+    configureDeferred();
+}
+
+int SessionImpl::peerTurnoverCutoff() const
+{
+    return m_peerTurnoverCutoff;
+}
+
+void SessionImpl::setPeerTurnoverCutoff(const int val)
+{
+    if (val == m_peerTurnoverCutoff)
+        return;
+
+    m_peerTurnoverCutoff = val;
+    configureDeferred();
+}
+
+int SessionImpl::peerTurnoverInterval() const
+{
+    return m_peerTurnoverInterval;
+}
+
+void SessionImpl::setPeerTurnoverInterval(const int val)
+{
+    if (val == m_peerTurnoverInterval)
+        return;
+
+    m_peerTurnoverInterval = val;
+    configureDeferred();
+}
+
+DiskIOType SessionImpl::diskIOType() const
+{
+    return m_diskIOType;
+}
+
+void SessionImpl::setDiskIOType(const DiskIOType type)
+{
+    if (type != m_diskIOType)
+    {
+        m_diskIOType = type;
+    }
+}
+
+int SessionImpl::requestQueueSize() const
+{
+    return m_requestQueueSize;
+}
+
+void SessionImpl::setRequestQueueSize(const int val)
+{
+    if (val == m_requestQueueSize)
+        return;
+
+    m_requestQueueSize = val;
+    configureDeferred();
+}
+
+int SessionImpl::asyncIOThreads() const
+{
+    return std::clamp(m_asyncIOThreads.get(), 1, 1024);
+}
+
+void SessionImpl::setAsyncIOThreads(const int num)
+{
+    if (num == m_asyncIOThreads)
+        return;
+
+    m_asyncIOThreads = num;
+    configureDeferred();
+}
+
+int SessionImpl::hashingThreads() const
+{
+    return std::clamp(m_hashingThreads.get(), 1, 1024);
+}
+
+void SessionImpl::setHashingThreads(const int num)
+{
+    if (num == m_hashingThreads)
+        return;
+
+    m_hashingThreads = num;
+    configureDeferred();
+}
+
+int SessionImpl::filePoolSize() const
+{
+    return m_filePoolSize;
+}
+
+void SessionImpl::setFilePoolSize(const int size)
+{
+    if (size == m_filePoolSize)
+        return;
+
+    m_filePoolSize = size;
+    configureDeferred();
+}
+
+int SessionImpl::checkingMemUsage() const
+{
+    return std::max(1, m_checkingMemUsage.get());
+}
+
+void SessionImpl::setCheckingMemUsage(int size)
+{
+    size = std::max(size, 1);
+
+    if (size == m_checkingMemUsage)
+        return;
+
+    m_checkingMemUsage = size;
+    configureDeferred();
+}
+
+int SessionImpl::diskCacheSize() const
+{
+#ifdef QBT_APP_64BIT
+    return std::min(m_diskCacheSize.get(), 33554431);  // 32768GiB
+#else
+    // When build as 32bit binary, set the maximum at less than 2GB to prevent crashes
+    // allocate 1536MiB and leave 512MiB to the rest of program data in RAM
+    return std::min(m_diskCacheSize.get(), 1536);
+#endif
+}
+
+void SessionImpl::setDiskCacheSize(int size)
+{
+#ifdef QBT_APP_64BIT
+    size = std::min(size, 33554431);  // 32768GiB
+#else
+    // allocate 1536MiB and leave 512MiB to the rest of program data in RAM
+    size = std::min(size, 1536);
+#endif
+    if (size != m_diskCacheSize)
+    {
+        m_diskCacheSize = size;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::diskCacheTTL() const
+{
+    return m_diskCacheTTL;
+}
+
+void SessionImpl::setDiskCacheTTL(const int ttl)
+{
+    if (ttl != m_diskCacheTTL)
+    {
+        m_diskCacheTTL = ttl;
+        configureDeferred();
+    }
+}
+
+qint64 SessionImpl::diskQueueSize() const
+{
+    return m_diskQueueSize;
+}
+
+void SessionImpl::setDiskQueueSize(const qint64 size)
+{
+    if (size == m_diskQueueSize)
+        return;
+
+    m_diskQueueSize = size;
+    configureDeferred();
+}
+
+DiskIOReadMode SessionImpl::diskIOReadMode() const
+{
+    return m_diskIOReadMode;
+}
+
+void SessionImpl::setDiskIOReadMode(const DiskIOReadMode mode)
+{
+    if (mode == m_diskIOReadMode)
+        return;
+
+    m_diskIOReadMode = mode;
+    configureDeferred();
+}
+
+DiskIOWriteMode SessionImpl::diskIOWriteMode() const
+{
+    return m_diskIOWriteMode;
+}
+
+void SessionImpl::setDiskIOWriteMode(const DiskIOWriteMode mode)
+{
+    if (mode == m_diskIOWriteMode)
+        return;
+
+    m_diskIOWriteMode = mode;
+    configureDeferred();
+}
+
+bool SessionImpl::isCoalesceReadWriteEnabled() const
+{
+    return m_coalesceReadWriteEnabled;
+}
+
+void SessionImpl::setCoalesceReadWriteEnabled(const bool enabled)
+{
+    if (enabled == m_coalesceReadWriteEnabled) return;
+
+    m_coalesceReadWriteEnabled = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::isSuggestModeEnabled() const
+{
+    return m_isSuggestMode;
+}
+
+bool SessionImpl::usePieceExtentAffinity() const
+{
+    return m_usePieceExtentAffinity;
+}
+
+void SessionImpl::setPieceExtentAffinity(const bool enabled)
+{
+    if (enabled == m_usePieceExtentAffinity) return;
+
+    m_usePieceExtentAffinity = enabled;
+    configureDeferred();
+}
+
+void SessionImpl::setSuggestMode(const bool mode)
+{
+    if (mode == m_isSuggestMode) return;
+
+    m_isSuggestMode = mode;
+    configureDeferred();
+}
+
+int SessionImpl::sendBufferWatermark() const
+{
+    return m_sendBufferWatermark;
+}
+
+void SessionImpl::setSendBufferWatermark(const int value)
+{
+    if (value == m_sendBufferWatermark) return;
+
+    m_sendBufferWatermark = value;
+    configureDeferred();
+}
+
+int SessionImpl::sendBufferLowWatermark() const
+{
+    return m_sendBufferLowWatermark;
+}
+
+void SessionImpl::setSendBufferLowWatermark(const int value)
+{
+    if (value == m_sendBufferLowWatermark) return;
+
+    m_sendBufferLowWatermark = value;
+    configureDeferred();
+}
+
+int SessionImpl::sendBufferWatermarkFactor() const
+{
+    return m_sendBufferWatermarkFactor;
+}
+
+void SessionImpl::setSendBufferWatermarkFactor(const int value)
+{
+    if (value == m_sendBufferWatermarkFactor) return;
+
+    m_sendBufferWatermarkFactor = value;
+    configureDeferred();
+}
+
+int SessionImpl::connectionSpeed() const
+{
+    return m_connectionSpeed;
+}
+
+void SessionImpl::setConnectionSpeed(const int value)
+{
+    if (value == m_connectionSpeed) return;
+
+    m_connectionSpeed = value;
+    configureDeferred();
+}
+
+int SessionImpl::socketSendBufferSize() const
+{
+    return m_socketSendBufferSize;
+}
+
+void SessionImpl::setSocketSendBufferSize(const int value)
+{
+    if (value == m_socketSendBufferSize)
+        return;
+
+    m_socketSendBufferSize = value;
+    configureDeferred();
+}
+
+int SessionImpl::socketReceiveBufferSize() const
+{
+    return m_socketReceiveBufferSize;
+}
+
+void SessionImpl::setSocketReceiveBufferSize(const int value)
+{
+    if (value == m_socketReceiveBufferSize)
+        return;
+
+    m_socketReceiveBufferSize = value;
+    configureDeferred();
+}
+
+int SessionImpl::socketBacklogSize() const
+{
+    return m_socketBacklogSize;
+}
+
+void SessionImpl::setSocketBacklogSize(const int value)
+{
+    if (value == m_socketBacklogSize) return;
+
+    m_socketBacklogSize = value;
+    configureDeferred();
+}
+
+bool SessionImpl::isAnonymousModeEnabled() const
+{
+    return m_isAnonymousModeEnabled;
+}
+
+void SessionImpl::setAnonymousModeEnabled(const bool enabled)
+{
+    if (enabled != m_isAnonymousModeEnabled)
+    {
+        m_isAnonymousModeEnabled = enabled;
+        configureDeferred();
+        LogMsg(tr("Anonymous mode: %1").arg(isAnonymousModeEnabled() ? tr("ON") : tr("OFF"))
+            , Log::INFO);
+    }
+}
+
+bool SessionImpl::isQueueingSystemEnabled() const
+{
+    return m_isQueueingEnabled;
+}
+
+void SessionImpl::setQueueingSystemEnabled(const bool enabled)
+{
+    if (enabled != m_isQueueingEnabled)
+    {
+        m_isQueueingEnabled = enabled;
+        configureDeferred();
+
+        if (enabled)
+            m_torrentsQueueChanged = true;
+        else
+            removeTorrentsQueue();
+
+        for (TorrentImpl *torrent : asConst(m_torrents))
+            torrent->handleQueueingModeChanged();
+    }
+}
+
+int SessionImpl::maxActiveDownloads() const
+{
+    return m_maxActiveDownloads;
+}
+
+void SessionImpl::setMaxActiveDownloads(int max)
+{
+    max = std::max(max, -1);
+    if (max != m_maxActiveDownloads)
+    {
+        m_maxActiveDownloads = max;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::maxActiveUploads() const
+{
+    return m_maxActiveUploads;
+}
+
+void SessionImpl::setMaxActiveUploads(int max)
+{
+    max = std::max(max, -1);
+    if (max != m_maxActiveUploads)
+    {
+        m_maxActiveUploads = max;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::maxActiveTorrents() const
+{
+    return m_maxActiveTorrents;
+}
+
+void SessionImpl::setMaxActiveTorrents(int max)
+{
+    max = std::max(max, -1);
+    if (max != m_maxActiveTorrents)
+    {
+        m_maxActiveTorrents = max;
+        configureDeferred();
+    }
+}
+
+bool SessionImpl::ignoreSlowTorrentsForQueueing() const
+{
+    return m_ignoreSlowTorrentsForQueueing;
+}
+
+void SessionImpl::setIgnoreSlowTorrentsForQueueing(const bool ignore)
+{
+    if (ignore != m_ignoreSlowTorrentsForQueueing)
+    {
+        m_ignoreSlowTorrentsForQueueing = ignore;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::downloadRateForSlowTorrents() const
+{
+    return m_downloadRateForSlowTorrents;
+}
+
+void SessionImpl::setDownloadRateForSlowTorrents(const int rateInKibiBytes)
+{
+    if (rateInKibiBytes == m_downloadRateForSlowTorrents)
+        return;
+
+    m_downloadRateForSlowTorrents = rateInKibiBytes;
+    configureDeferred();
+}
+
+int SessionImpl::uploadRateForSlowTorrents() const
+{
+    return m_uploadRateForSlowTorrents;
+}
+
+void SessionImpl::setUploadRateForSlowTorrents(const int rateInKibiBytes)
+{
+    if (rateInKibiBytes == m_uploadRateForSlowTorrents)
+        return;
+
+    m_uploadRateForSlowTorrents = rateInKibiBytes;
+    configureDeferred();
+}
+
+int SessionImpl::slowTorrentsInactivityTimer() const
+{
+    return m_slowTorrentsInactivityTimer;
+}
+
+void SessionImpl::setSlowTorrentsInactivityTimer(const int timeInSeconds)
+{
+    if (timeInSeconds == m_slowTorrentsInactivityTimer)
+        return;
+
+    m_slowTorrentsInactivityTimer = timeInSeconds;
+    configureDeferred();
+}
+
+int SessionImpl::outgoingPortsMin() const
+{
+    return m_outgoingPortsMin;
+}
+
+void SessionImpl::setOutgoingPortsMin(const int min)
+{
+    if (min != m_outgoingPortsMin)
+    {
+        m_outgoingPortsMin = min;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::outgoingPortsMax() const
+{
+    return m_outgoingPortsMax;
+}
+
+void SessionImpl::setOutgoingPortsMax(const int max)
+{
+    if (max != m_outgoingPortsMax)
+    {
+        m_outgoingPortsMax = max;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::UPnPLeaseDuration() const
+{
+    return m_UPnPLeaseDuration;
+}
+
+void SessionImpl::setUPnPLeaseDuration(const int duration)
+{
+    if (duration != m_UPnPLeaseDuration)
+    {
+        m_UPnPLeaseDuration = duration;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::peerDSCP() const
+{
+    return m_peerDSCP;
+}
+
+void SessionImpl::setPeerDSCP(const int value)
+{
+    if (value == m_peerDSCP)
+        return;
+
+    m_peerDSCP = value;
+    configureDeferred();
+}
+
+bool SessionImpl::ignoreLimitsOnLAN() const
+{
+    return m_ignoreLimitsOnLAN;
+}
+
+void SessionImpl::setIgnoreLimitsOnLAN(const bool ignore)
+{
+    if (ignore != m_ignoreLimitsOnLAN)
+    {
+        m_ignoreLimitsOnLAN = ignore;
+        configureDeferred();
+    }
+}
+
+bool SessionImpl::includeOverheadInLimits() const
+{
+    return m_includeOverheadInLimits;
+}
+
+void SessionImpl::setIncludeOverheadInLimits(const bool include)
+{
+    if (include != m_includeOverheadInLimits)
+    {
+        m_includeOverheadInLimits = include;
+        configureDeferred();
+    }
+}
+
+QString SessionImpl::announceIP() const
+{
+    return m_announceIP;
+}
+
+void SessionImpl::setAnnounceIP(const QString &ip)
+{
+    if (ip != m_announceIP)
+    {
+        m_announceIP = ip;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::announcePort() const
+{
+    return m_announcePort;
+}
+
+void SessionImpl::setAnnouncePort(const int port)
+{
+    if (port != m_announcePort)
+    {
+        m_announcePort = port;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::maxConcurrentHTTPAnnounces() const
+{
+    return m_maxConcurrentHTTPAnnounces;
+}
+
+void SessionImpl::setMaxConcurrentHTTPAnnounces(const int value)
+{
+    if (value == m_maxConcurrentHTTPAnnounces)
+        return;
+
+    m_maxConcurrentHTTPAnnounces = value;
+    configureDeferred();
+}
+
+bool SessionImpl::isReannounceWhenAddressChangedEnabled() const
+{
+    return m_isReannounceWhenAddressChangedEnabled;
+}
+
+void SessionImpl::setReannounceWhenAddressChangedEnabled(const bool enabled)
+{
+    if (enabled == m_isReannounceWhenAddressChangedEnabled)
+        return;
+
+    m_isReannounceWhenAddressChangedEnabled = enabled;
+}
+
+void SessionImpl::reannounceToAllTrackers() const
+{
+    for (const TorrentImpl *torrent : asConst(m_torrents))
+    {
+        try
+        {
+            torrent->nativeHandle().force_reannounce(0, -1, lt::torrent_handle::ignore_min_interval);
+        }
+        catch (const std::exception &) {}
+    }
+}
+
+int SessionImpl::stopTrackerTimeout() const
+{
+    return m_stopTrackerTimeout;
+}
+
+void SessionImpl::setStopTrackerTimeout(const int value)
+{
+    if (value == m_stopTrackerTimeout)
+        return;
+
+    m_stopTrackerTimeout = value;
+    configureDeferred();
+}
+
+int SessionImpl::maxConnections() const
+{
+    return m_maxConnections;
+}
+
+void SessionImpl::setMaxConnections(int max)
+{
+    max = (max > 0) ? max : -1;
+    if (max != m_maxConnections)
+    {
+        m_maxConnections = max;
+        configureDeferred();
+    }
+}
+
+int SessionImpl::maxUploads() const
+{
+    return m_maxUploads;
+}
+
+void SessionImpl::setMaxUploads(int max)
+{
+    max = (max > 0) ? max : -1;
+    if (max != m_maxUploads)
+    {
+        m_maxUploads = max;
+        configureDeferred();
+    }
+}
+
+BTProtocol SessionImpl::btProtocol() const
+{
+    return m_btProtocol;
+}
+
+void SessionImpl::setBTProtocol(const BTProtocol protocol)
+{
+    if ((protocol < BTProtocol::Both) || (BTProtocol::UTP < protocol))
+        return;
+
+    if (protocol == m_btProtocol) return;
+
+    m_btProtocol = protocol;
+    configureDeferred();
+}
+
+bool SessionImpl::isUTPRateLimited() const
+{
+    return m_isUTPRateLimited;
+}
+
+void SessionImpl::setUTPRateLimited(const bool limited)
+{
+    if (limited != m_isUTPRateLimited)
+    {
+        m_isUTPRateLimited = limited;
+        configureDeferred();
+    }
+}
+
+MixedModeAlgorithm SessionImpl::utpMixedMode() const
+{
+    return m_utpMixedMode;
+}
+
+void SessionImpl::setUtpMixedMode(const MixedModeAlgorithm mode)
+{
+    if (mode == m_utpMixedMode) return;
+
+    m_utpMixedMode = mode;
+    configureDeferred();
+}
+
+int SessionImpl::hostnameCacheTTL() const
+{
+    return m_hostnameCacheTTL;
+}
+
+void SessionImpl::setHostnameCacheTTL(const int value)
+{
+    if (value == hostnameCacheTTL())
+        return;
+
+    m_hostnameCacheTTL = value;
+    configureDeferred();
+}
+
+bool SessionImpl::isIDNSupportEnabled() const
+{
+    return m_IDNSupportEnabled;
+}
+
+void SessionImpl::setIDNSupportEnabled(const bool enabled)
+{
+    if (enabled == m_IDNSupportEnabled) return;
+
+    m_IDNSupportEnabled = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::multiConnectionsPerIpEnabled() const
+{
+    return m_multiConnectionsPerIpEnabled;
+}
+
+void SessionImpl::setMultiConnectionsPerIpEnabled(const bool enabled)
+{
+    if (enabled == m_multiConnectionsPerIpEnabled) return;
+
+    m_multiConnectionsPerIpEnabled = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::validateHTTPSTrackerCertificate() const
+{
+    return m_validateHTTPSTrackerCertificate;
+}
+
+void SessionImpl::setValidateHTTPSTrackerCertificate(const bool enabled)
+{
+    if (enabled == m_validateHTTPSTrackerCertificate) return;
+
+    m_validateHTTPSTrackerCertificate = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::isSSRFMitigationEnabled() const
+{
+    return m_SSRFMitigationEnabled;
+}
+
+void SessionImpl::setSSRFMitigationEnabled(const bool enabled)
+{
+    if (enabled == m_SSRFMitigationEnabled) return;
+
+    m_SSRFMitigationEnabled = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::blockPeersOnPrivilegedPorts() const
+{
+    return m_blockPeersOnPrivilegedPorts;
+}
+
+void SessionImpl::setBlockPeersOnPrivilegedPorts(const bool enabled)
+{
+    if (enabled == m_blockPeersOnPrivilegedPorts) return;
+
+    m_blockPeersOnPrivilegedPorts = enabled;
+    configureDeferred();
+}
+
+bool SessionImpl::isTrackerFilteringEnabled() const
+{
+    return m_isTrackerFilteringEnabled;
+}
+
+void SessionImpl::setTrackerFilteringEnabled(const bool enabled)
+{
+    if (enabled != m_isTrackerFilteringEnabled)
+    {
+        m_isTrackerFilteringEnabled = enabled;
+        configureDeferred();
+    }
+}
+
+QString SessionImpl::lastExternalIPv4Address() const
+{
+    return m_lastExternalIPv4Address;
+}
+
+QString SessionImpl::lastExternalIPv6Address() const
+{
+    return m_lastExternalIPv6Address;
+}
+
+qint64 SessionImpl::freeDiskSpace() const
+{
+    return m_freeDiskSpace;
+}
+
+bool SessionImpl::isListening() const
+{
+    return m_nativeSessionExtension->isSessionListening();
+}
+
+ShareLimitAction SessionImpl::shareLimitAction() const
+{
+    return m_shareLimitAction;
+}
+
+void SessionImpl::setShareLimitAction(const ShareLimitAction act)
+{
+    Q_ASSERT(act != ShareLimitAction::Default);
+
+    m_shareLimitAction = act;
+}
+
+bool SessionImpl::isKnownTorrent(const InfoHash &infoHash) const
+{
+    const bool isHybrid = infoHash.isHybrid();
+    const auto id = TorrentID::fromInfoHash(infoHash);
+    // alternative ID can be useful to find existing torrent
+    // in case if hybrid torrent was added by v1 info hash
+    const auto altID = (isHybrid ? TorrentID::fromSHA1Hash(infoHash.v1()) : TorrentID());
+
+    if (m_downloadedMetadata.contains(id) || (isHybrid && m_downloadedMetadata.contains(altID)))
+        return true;
+    return findTorrent(infoHash);
+}
+
+void SessionImpl::updateSeedingLimitTimer()
+{
+    if ((globalMaxRatio() == NO_RATIO_LIMIT) && !hasPerTorrentRatioLimit()
+        && (globalMaxSeedingMinutes() == NO_SEEDING_TIME_LIMIT) && !hasPerTorrentSeedingTimeLimit()
+        && (globalMaxInactiveSeedingMinutes() == NO_SEEDING_TIME_LIMIT) && !hasPerTorrentInactiveSeedingTimeLimit())
+    {
+        if (m_seedingLimitTimer->isActive())
+            m_seedingLimitTimer->stop();
+    }
+    else if (!m_seedingLimitTimer->isActive())
+    {
+        m_seedingLimitTimer->start();
+    }
+}
+
+void SessionImpl::handleTorrentShareLimitChanged(TorrentImpl *const)
+{
+    updateSeedingLimitTimer();
+}
+
+void SessionImpl::handleTorrentNameChanged(TorrentImpl *const)
+{
+}
+
+void SessionImpl::handleTorrentSavePathChanged(TorrentImpl *const torrent)
+{
+    emit torrentSavePathChanged(torrent);
+}
+
+void SessionImpl::handleTorrentCategoryChanged(TorrentImpl *const torrent, const QString &oldCategory)
+{
+    emit torrentCategoryChanged(torrent, oldCategory);
+}
+
+void SessionImpl::handleTorrentTagAdded(TorrentImpl *const torrent, const Tag &tag)
+{
+    emit torrentTagAdded(torrent, tag);
+}
+
+void SessionImpl::handleTorrentTagRemoved(TorrentImpl *const torrent, const Tag &tag)
+{
+    emit torrentTagRemoved(torrent, tag);
+}
+
+void SessionImpl::handleTorrentSavingModeChanged(TorrentImpl *const torrent)
+{
+    emit torrentSavingModeChanged(torrent);
+}
+
+void SessionImpl::handleTorrentTrackersAdded(TorrentImpl *const torrent, const QList<TrackerEntry> &newTrackers)
+{
+    for (const TrackerEntry &newTracker : newTrackers)
+        LogMsg(tr("Added tracker to torrent. Torrent: \"%1\". Tracker: \"%2\"").arg(torrent->name(), newTracker.url));
+    emit trackersAdded(torrent, newTrackers);
+}
+
+void SessionImpl::handleTorrentTrackersRemoved(TorrentImpl *const torrent, const QStringList &deletedTrackers)
+{
+    for (const QString &deletedTracker : deletedTrackers)
+        LogMsg(tr("Removed tracker from torrent. Torrent: \"%1\". Tracker: \"%2\"").arg(torrent->name(), deletedTracker));
+    emit trackersRemoved(torrent, deletedTrackers);
+}
+
+void SessionImpl::handleTorrentTrackersReset(TorrentImpl *const torrent, const QList<TrackerEntryStatus> &oldEntries, const QList<TrackerEntry> &newEntries)
+{
+    emit trackersReset(torrent, oldEntries, newEntries);
+}
+
+void SessionImpl::handleTorrentUrlSeedsAdded(TorrentImpl *const torrent, const QList<QUrl> &newUrlSeeds)
+{
+    for (const QUrl &newUrlSeed : newUrlSeeds)
+        LogMsg(tr("Added URL seed to torrent. Torrent: \"%1\". URL: \"%2\"").arg(torrent->name(), newUrlSeed.toString()));
+}
+
+void SessionImpl::handleTorrentUrlSeedsRemoved(TorrentImpl *const torrent, const QList<QUrl> &urlSeeds)
+{
+    for (const QUrl &urlSeed : urlSeeds)
+        LogMsg(tr("Removed URL seed from torrent. Torrent: \"%1\". URL: \"%2\"").arg(torrent->name(), urlSeed.toString()));
+}
+
+void SessionImpl::handleTorrentMetadataReceived(TorrentImpl *const torrent)
+{
+    if (!torrentExportDirectory().isEmpty())
+        exportTorrentFile(torrent, torrentExportDirectory());
+
+    emit torrentMetadataReceived(torrent);
+}
+
+void SessionImpl::handleTorrentStopped(TorrentImpl *const torrent)
+{
+    torrent->resetTrackerEntryStatuses();
+
+    const QList<TrackerEntryStatus> trackers = torrent->trackers();
+    QHash<QString, TrackerEntryStatus> updatedTrackers;
+    updatedTrackers.reserve(trackers.size());
+
+    for (const TrackerEntryStatus &status : trackers)
+        updatedTrackers.emplace(status.url, status);
+    emit trackerEntryStatusesUpdated(torrent, updatedTrackers);
+
+    LogMsg(tr("Torrent stopped. Torrent: \"%1\"").arg(torrent->name()));
+    emit torrentStopped(torrent);
+}
+
+void SessionImpl::handleTorrentStarted(TorrentImpl *const torrent)
+{
+    LogMsg(tr("Torrent resumed. Torrent: \"%1\"").arg(torrent->name()));
+    emit torrentStarted(torrent);
+}
+
+void SessionImpl::handleTorrentChecked(TorrentImpl *const torrent)
+{
+    emit torrentFinishedChecking(torrent);
+}
+
+void SessionImpl::handleTorrentFinished(TorrentImpl *const torrent)
+{
+    m_pendingFinishedTorrents.append(torrent);
+}
+
+void SessionImpl::handleTorrentResumeDataReady(TorrentImpl *const torrent, LoadTorrentParams data)
+{
+    m_resumeDataStorage->store(torrent->id(), std::move(data));
+    const auto iter = m_changedTorrentIDs.constFind(torrent->id());
+    if (iter != m_changedTorrentIDs.cend())
+    {
+        m_resumeDataStorage->remove(iter.value());
+        m_changedTorrentIDs.erase(iter);
+    }
+}
+
+void SessionImpl::handleTorrentInfoHashChanged(TorrentImpl *torrent, const InfoHash &prevInfoHash)
+{
+    Q_ASSERT(torrent->infoHash().isHybrid());
+
+    m_hybridTorrentsByAltID.insert(TorrentID::fromSHA1Hash(torrent->infoHash().v1()), torrent);
+
+    const auto prevID = TorrentID::fromInfoHash(prevInfoHash);
+    const TorrentID currentID = torrent->id();
+    if (currentID != prevID)
+    {
+        m_torrents[torrent->id()] = m_torrents.take(prevID);
+        m_changedTorrentIDs[torrent->id()] = prevID;
+    }
+}
+
+void SessionImpl::handleTorrentStorageMovingStateChanged(TorrentImpl *torrent)
+{
+    emit torrentsUpdated({torrent});
+}
+
+bool SessionImpl::addMoveTorrentStorageJob(TorrentImpl *torrent, const Path &newPath, const MoveStorageMode mode, const MoveStorageContext context)
+{
+    Q_ASSERT(torrent);
+
+    const lt::torrent_handle torrentHandle = torrent->nativeHandle();
+    const Path currentLocation = torrent->actualStorageLocation();
+    const bool torrentHasActiveJob = !m_moveStorageQueue.isEmpty() && (m_moveStorageQueue.constFirst().torrentHandle == torrentHandle);
+
+    if (m_moveStorageQueue.size() > 1)
+    {
+        const auto iter = std::ranges::find_if(std::views::drop(asConst(m_moveStorageQueue), 1)
+                , [&torrentHandle](const MoveStorageJob &job)
+        {
+            return job.torrentHandle == torrentHandle;
+        });
+
+        if (iter != m_moveStorageQueue.cend())
+        {
+            // remove existing inactive job
+            torrent->handleMoveStorageJobFinished(currentLocation, iter->context, torrentHasActiveJob);
+            LogMsg(tr("Torrent move canceled. Torrent: \"%1\". Source: \"%2\". Destination: \"%3\"").arg(torrent->name(), currentLocation.toString(), iter->path.toString()));
+            m_moveStorageQueue.erase(iter);
+        }
+    }
+
+    if (torrentHasActiveJob)
+    {
+        // if there is active job for this torrent prevent creating meaningless
+        // job that will move torrent to the same location as current one
+        if (m_moveStorageQueue.constFirst().path == newPath)
+        {
+            LogMsg(tr("Failed to enqueue torrent move. Torrent: \"%1\". Source: \"%2\". Destination: \"%3\". Reason: torrent is currently moving to the destination")
+                   .arg(torrent->name(), currentLocation.toString(), newPath.toString()));
+            return false;
+        }
+    }
+    else
+    {
+        if (currentLocation == newPath)
+        {
+            LogMsg(tr("Failed to enqueue torrent move. Torrent: \"%1\". Source: \"%2\" Destination: \"%3\". Reason: both paths point to the same location")
+                   .arg(torrent->name(), currentLocation.toString(), newPath.toString()));
+            return false;
+        }
+    }
+
+    const MoveStorageJob moveStorageJob {torrentHandle, newPath, mode, context};
+    m_moveStorageQueue << moveStorageJob;
+    LogMsg(tr("Enqueued torrent move. Torrent: \"%1\". Source: \"%2\". Destination: \"%3\"").arg(torrent->name(), currentLocation.toString(), newPath.toString()));
+
+    if (m_moveStorageQueue.size() == 1)
+        moveTorrentStorage(moveStorageJob);
+
+    return true;
+}
+
+lt::torrent_handle SessionImpl::reloadTorrent(const lt::torrent_handle &currentHandle, lt::add_torrent_params params)
+{
+    m_nativeSession->remove_torrent(currentHandle, lt::session::delete_partfile);
+
+    auto *const extensionData = new ExtensionData;
+    params.userdata = LTClientData(extensionData);
+#ifndef QBT_USES_LIBTORRENT2
+    params.storage = customStorageConstructor;
+#endif
+
+    // libtorrent will post an add_torrent_alert anyway, so we have to add an empty handler to ignore it.
+    m_addTorrentAlertHandlers.emplaceBack();
+    return m_nativeSession->add_torrent(std::move(params));
+}
+
+void SessionImpl::moveTorrentStorage(const MoveStorageJob &job) const
+{
+    const TorrentImpl *torrent = getTorrent(job.torrentHandle);
+    const QString torrentName = (torrent ? torrent->name() : getInfoHash(job.torrentHandle).toTorrentID().toString());
+    LogMsg(tr("Start moving torrent. Torrent: \"%1\". Destination: \"%2\"").arg(torrentName, job.path.toString()));
+
+    job.torrentHandle.move_storage(job.path.toString().toStdString(), toNative(job.mode));
+}
+
+void SessionImpl::handleMoveTorrentStorageJobFinished(const Path &newPath)
+{
+    const MoveStorageJob finishedJob = m_moveStorageQueue.takeFirst();
+    if (!m_moveStorageQueue.isEmpty())
+        moveTorrentStorage(m_moveStorageQueue.constFirst());
+
+    const auto iter = std::ranges::find_if(asConst(m_moveStorageQueue)
+            , [&finishedJob](const MoveStorageJob &job)
+    {
+        return job.torrentHandle == finishedJob.torrentHandle;
+    });
+
+    const bool torrentHasOutstandingJob = (iter != m_moveStorageQueue.cend());
+
+    TorrentImpl *torrent = getTorrent(finishedJob.torrentHandle);
+    if (torrent)
+    {
+        torrent->handleMoveStorageJobFinished(newPath, finishedJob.context, torrentHasOutstandingJob);
+    }
+    else if (!torrentHasOutstandingJob)
+    {
+        // Last job is completed for torrent that being removing, so actually remove it
+        const lt::torrent_handle nativeHandle = finishedJob.torrentHandle;
+        const TorrentID torrentID = getInfoHash(nativeHandle).toTorrentID();
+        const RemovingTorrentData &removingTorrentData = m_removingTorrents[torrentID];
+        if (removingTorrentData.removeOption == TorrentRemoveOption::KeepContent)
+            m_nativeSession->remove_torrent(nativeHandle, lt::session::delete_partfile);
+    }
+}
+
+void SessionImpl::processPendingFinishedTorrents()
+{
+    if (m_pendingFinishedTorrents.isEmpty())
+        return;
+
+    for (TorrentImpl *torrent : asConst(m_pendingFinishedTorrents))
+    {
+        LogMsg(tr("Torrent download finished. Torrent: \"%1\"").arg(torrent->name()));
+        emit torrentFinished(torrent);
+
+        if (const Path exportPath = finishedTorrentExportDirectory(); !exportPath.isEmpty())
+            exportTorrentFile(torrent, exportPath);
+
+        processTorrentShareLimits(torrent);
+    }
+
+    m_pendingFinishedTorrents.clear();
+
+    const bool hasUnfinishedTorrents = std::ranges::any_of(asConst(m_torrents), [](const TorrentImpl *torrent)
+    {
+        return !(torrent->isFinished() || torrent->isStopped() || torrent->isErrored());
+    });
+    if (!hasUnfinishedTorrents)
+        emit allTorrentsFinished();
+}
+
+void SessionImpl::storeCategories() const
+{
+    QJsonObject jsonObj;
+    for (auto it = m_categories.cbegin(); it != m_categories.cend(); ++it)
+    {
+        const QString &categoryName = it.key();
+        const CategoryOptions &categoryOptions = it.value();
+        jsonObj[categoryName] = categoryOptions.toJSON();
+    }
+
+    const Path path = specialFolderLocation(SpecialFolder::Config) / CATEGORIES_FILE_NAME;
+    const QByteArray data = QJsonDocument(jsonObj).toJson();
+    const nonstd::expected<void, QString> result = Utils::IO::saveToFile(path, data);
+    if (!result)
+    {
+        LogMsg(tr("Failed to save Categories configuration. File: \"%1\". Error: \"%2\"")
+               .arg(path.toString(), result.error()), Log::WARNING);
+    }
+}
+
+void SessionImpl::upgradeCategories()
+{
+    const auto legacyCategories = SettingValue<QVariantMap>(u"BitTorrent/Session/Categories"_s).get();
+    for (auto it = legacyCategories.cbegin(); it != legacyCategories.cend(); ++it)
+    {
+        const QString &categoryName = it.key();
+        CategoryOptions categoryOptions;
+        categoryOptions.savePath = Path(it.value().toString());
+        m_categories[categoryName] = categoryOptions;
+    }
+
+    storeCategories();
+}
+
+void SessionImpl::loadCategories()
+{
+    m_categories.clear();
+
+    const Path path = specialFolderLocation(SpecialFolder::Config) / CATEGORIES_FILE_NAME;
+    if (!path.exists())
+    {
+        // TODO: Remove the following upgrade code in v4.5
+        // == BEGIN UPGRADE CODE ==
+        upgradeCategories();
+        m_needUpgradeDownloadPath = true;
+        // == END UPGRADE CODE ==
+
+//        return;
+    }
+
+    const int fileMaxSize = 1024 * 1024;
+    const auto readResult = Utils::IO::readFile(path, fileMaxSize);
+    if (!readResult)
+    {
+        LogMsg(tr("Failed to load Categories. %1").arg(readResult.error().message), Log::WARNING);
+        return;
+    }
+
+    QJsonParseError jsonError;
+    const QJsonDocument jsonDoc = QJsonDocument::fromJson(readResult.value(), &jsonError);
+    if (jsonError.error != QJsonParseError::NoError)
+    {
+        LogMsg(tr("Failed to parse Categories configuration. File: \"%1\". Error: \"%2\"")
+               .arg(path.toString(), jsonError.errorString()), Log::WARNING);
+        return;
+    }
+
+    if (!jsonDoc.isObject())
+    {
+        LogMsg(tr("Failed to load Categories configuration. File: \"%1\". Error: \"Invalid data format\"")
+               .arg(path.toString()), Log::WARNING);
+        return;
+    }
+
+    const QJsonObject jsonObj = jsonDoc.object();
+    for (auto it = jsonObj.constBegin(); it != jsonObj.constEnd(); ++it)
+    {
+        const QString &categoryName = it.key();
+        const auto categoryOptions = CategoryOptions::fromJSON(it.value().toObject());
+        m_categories[categoryName] = categoryOptions;
+    }
+
+    m_categories = expandCategories(m_categories);
+}
+
+bool SessionImpl::hasPerTorrentRatioLimit() const
+{
+    return std::ranges::any_of(asConst(m_torrents), [](const TorrentImpl *torrent)
+    {
+        return (torrent->ratioLimit() >= 0);
+    });
+}
+
+bool SessionImpl::hasPerTorrentSeedingTimeLimit() const
+{
+    return std::ranges::any_of(asConst(m_torrents), [](const TorrentImpl *torrent)
+    {
+        return (torrent->seedingTimeLimit() >= 0);
+    });
+}
+
+bool SessionImpl::hasPerTorrentInactiveSeedingTimeLimit() const
+{
+    return std::ranges::any_of(asConst(m_torrents), [](const TorrentImpl *torrent)
+    {
+       return (torrent->inactiveSeedingTimeLimit() >= 0);
+    });
+}
+
+void SessionImpl::configureDeferred()
+{
+    if (m_deferredConfigureScheduled)
+        return;
+
+    m_deferredConfigureScheduled = true;
+    QMetaObject::invokeMethod(this, qOverload<>(&SessionImpl::configure), Qt::QueuedConnection);
+}
+
+// Enable IP Filtering
+// this method creates ban list from scratch combining user ban list and 3rd party ban list file
+void SessionImpl::enableIPFilter()
+{
+    qDebug("Enabling IPFilter");
+    // 1. Parse the IP filter
+    // 2. In the slot add the manually banned IPs to the provided lt::ip_filter
+    // 3. Set the ip_filter in one go so there isn't a time window where there isn't an ip_filter
+    //    set between clearing the old one and setting the new one.
+    if (!m_filterParser)
+    {
+        m_filterParser = new FilterParserThread(this);
+        connect(m_filterParser.data(), &FilterParserThread::IPFilterParsed, this, &SessionImpl::handleIPFilterParsed);
+        connect(m_filterParser.data(), &FilterParserThread::IPFilterError, this, &SessionImpl::handleIPFilterError);
+    }
+    m_filterParser->processFilterFile(IPFilterFile());
+}
+
+// Disable IP Filtering
+void SessionImpl::disableIPFilter()
+{
+    qDebug("Disabling IPFilter");
+    if (m_filterParser)
+    {
+        disconnect(m_filterParser.data(), nullptr, this, nullptr);
+        delete m_filterParser;
+    }
+
+    // Add the banned IPs after the IPFilter disabling
+    // which creates an empty filter and overrides all previously
+    // applied bans.
+    lt::ip_filter filter;
+    processBannedIPs(filter);
+    m_nativeSession->set_ip_filter(filter);
+}
+
+const SessionStatus &SessionImpl::status() const
+{
+    return m_status;
+}
+
+const CacheStatus &SessionImpl::cacheStatus() const
+{
+    return m_cacheStatus;
+}
+
+void SessionImpl::enqueueRefresh()
+{
+    Q_ASSERT(!m_refreshEnqueued);
+
+    QTimer::singleShot(refreshInterval(), Qt::CoarseTimer, this, [this]
+    {
+        m_nativeSession->post_torrent_updates();
+        m_nativeSession->post_session_stats();
+
+        if (m_torrentsQueueChanged)
+        {
+            m_torrentsQueueChanged = false;
+            m_needSaveTorrentsQueue = true;
+        }
+    });
+
+    m_refreshEnqueued = true;
+}
+
+void SessionImpl::handleIPFilterParsed(const int ruleCount)
+{
+    if (m_filterParser)
+    {
+        lt::ip_filter filter = m_filterParser->IPfilter();
+        processBannedIPs(filter);
+        m_nativeSession->set_ip_filter(filter);
+    }
+    LogMsg(tr("Successfully parsed the IP filter file. Number of rules applied: %1").arg(ruleCount));
+    emit IPFilterParsed(false, ruleCount);
+}
+
+void SessionImpl::handleIPFilterError()
+{
+    lt::ip_filter filter;
+    processBannedIPs(filter);
+    m_nativeSession->set_ip_filter(filter);
+
+    LogMsg(tr("Failed to parse the IP filter file"), Log::WARNING);
+    emit IPFilterParsed(true, 0);
+}
+
+void SessionImpl::fetchPendingAlerts(const lt::time_duration time)
+{
+    if (time > lt::time_duration::zero())
+        m_nativeSession->wait_for_alert(time);
+
+    m_alerts.clear();
+    m_nativeSession->pop_alerts(&m_alerts);
+}
+
+void SessionImpl::endAlertSequence(const int alertType, const qsizetype alertCount)
+{
+    if (alertType == lt::add_torrent_alert::alert_type)
+    {
+        emit addTorrentAlertsReceived(alertCount);
+
+        if (!m_loadedTorrents.isEmpty())
+        {
+            if (isRestored())
+                m_torrentsQueueChanged = true;
+
+            emit torrentsLoaded(m_loadedTorrents);
+            m_loadedTorrents.clear();
+        }
+    }
+}
+
+TorrentContentLayout SessionImpl::torrentContentLayout() const
+{
+    return m_torrentContentLayout;
+}
+
+void SessionImpl::setTorrentContentLayout(const TorrentContentLayout value)
+{
+    m_torrentContentLayout = value;
+}
+
+// Read alerts sent by libtorrent session
+void SessionImpl::readAlerts()
+{
+    fetchPendingAlerts();
+
+    Q_ASSERT(m_loadedTorrents.isEmpty());
+
+    if (!isRestored())
+        m_loadedTorrents.reserve(MAX_PROCESSING_RESUMEDATA_COUNT);
+
+    int previousAlertType = -1;
+    qsizetype alertSequenceSize = 0;
+    for (lt::alert *a : m_alerts)
+    {
+        const int alertType = a->type();
+        if ((alertType != previousAlertType) && (previousAlertType != -1))
+        {
+            endAlertSequence(previousAlertType, alertSequenceSize);
+            alertSequenceSize = 0;
+        }
+
+        handleAlert(a);
+        ++alertSequenceSize;
+        previousAlertType = alertType;
+    }
+    endAlertSequence(previousAlertType, alertSequenceSize);
+
+    // Some torrents may become "finished" after different alerts handling.
+    processPendingFinishedTorrents();
+}
+
+void SessionImpl::handleAddTorrentAlert(const lt::add_torrent_alert *alert)
+{
+    Q_ASSERT(!m_addTorrentAlertHandlers.isEmpty());
+    if (m_addTorrentAlertHandlers.isEmpty()) [[unlikely]]
+        return;
+
+    if (const AddTorrentAlertHandler handleAlert = m_addTorrentAlertHandlers.takeFirst())
+        handleAlert(alert);
+}
+
+void SessionImpl::handleAlert(lt::alert *alert)
+{
+    try
+    {
+        switch (alert->type())
+        {
+#ifdef QBT_USES_LIBTORRENT2
+        case lt::file_prio_alert::alert_type:
+            handleFilePrioAlert(static_cast<const lt::file_prio_alert *>(alert));
+            break;
+#endif
+        case lt::file_renamed_alert::alert_type:
+            handleFileRenamedAlert(static_cast<const lt::file_renamed_alert *>(alert));
+            break;
+        case lt::file_rename_failed_alert::alert_type:
+            handleFileRenameFailedAlert(static_cast<const lt::file_rename_failed_alert *>(alert));
+            break;
+        case lt::file_completed_alert::alert_type:
+            handleFileCompletedAlert(static_cast<const lt::file_completed_alert *>(alert));
+            break;
+        case lt::file_error_alert::alert_type:
+            handleFileErrorAlert(static_cast<const lt::file_error_alert *>(alert));
+            break;
+        case lt::torrent_finished_alert::alert_type:
+            handleTorrentFinishedAlert(static_cast<const lt::torrent_finished_alert *>(alert));
+            break;
+        case lt::save_resume_data_alert::alert_type:
+            handleSaveResumeDataAlert(static_cast<lt::save_resume_data_alert *>(alert));
+            break;
+        case lt::save_resume_data_failed_alert::alert_type:
+            handleSaveResumeDataFailedAlert(static_cast<const lt::save_resume_data_failed_alert *>(alert));
+            break;
+        case lt::metadata_received_alert::alert_type:
+            handleMetadataReceivedAlert(static_cast<const lt::metadata_received_alert *>(alert));
+            break;
+        case lt::fastresume_rejected_alert::alert_type:
+            handleFastResumeRejectedAlert(static_cast<const lt::fastresume_rejected_alert *>(alert));
+            break;
+        case lt::torrent_checked_alert::alert_type:
+            handleTorrentCheckedAlert(static_cast<const lt::torrent_checked_alert *>(alert));
+            break;
+        case lt::performance_alert::alert_type:
+            handlePerformanceAlert(static_cast<const lt::performance_alert *>(alert));
+            break;
+        case lt::state_update_alert::alert_type:
+            handleStateUpdateAlert(static_cast<const lt::state_update_alert *>(alert));
+            break;
+        case lt::session_error_alert::alert_type:
+            handleSessionErrorAlert(static_cast<const lt::session_error_alert *>(alert));
+            break;
+        case lt::session_stats_alert::alert_type:
+            handleSessionStatsAlert(static_cast<const lt::session_stats_alert *>(alert));
+            break;
+        case lt::tracker_announce_alert::alert_type:
+        case lt::tracker_error_alert::alert_type:
+        case lt::tracker_reply_alert::alert_type:
+        case lt::tracker_warning_alert::alert_type:
+            handleTrackerAlert(static_cast<const lt::tracker_alert *>(alert));
+            break;
+        case lt::add_torrent_alert::alert_type:
+            handleAddTorrentAlert(static_cast<const lt::add_torrent_alert *>(alert));
+            break;
+        case lt::torrent_removed_alert::alert_type:
+            handleTorrentRemovedAlert(static_cast<const lt::torrent_removed_alert *>(alert));
+            break;
+        case lt::torrent_deleted_alert::alert_type:
+            handleTorrentDeletedAlert(static_cast<const lt::torrent_deleted_alert *>(alert));
+            break;
+        case lt::torrent_delete_failed_alert::alert_type:
+            handleTorrentDeleteFailedAlert(static_cast<const lt::torrent_delete_failed_alert *>(alert));
+            break;
+        case lt::torrent_need_cert_alert::alert_type:
+            handleTorrentNeedCertAlert(static_cast<const lt::torrent_need_cert_alert *>(alert));
+            break;
+        case lt::portmap_error_alert::alert_type:
+            handlePortmapWarningAlert(static_cast<const lt::portmap_error_alert *>(alert));
+            break;
+        case lt::portmap_alert::alert_type:
+            handlePortmapAlert(static_cast<const lt::portmap_alert *>(alert));
+            break;
+        case lt::peer_blocked_alert::alert_type:
+            handlePeerBlockedAlert(static_cast<const lt::peer_blocked_alert *>(alert));
+            break;
+        case lt::peer_ban_alert::alert_type:
+            handlePeerBanAlert(static_cast<const lt::peer_ban_alert *>(alert));
+            break;
+        case lt::url_seed_alert::alert_type:
+            handleUrlSeedAlert(static_cast<const lt::url_seed_alert *>(alert));
+            break;
+        case lt::listen_succeeded_alert::alert_type:
+            handleListenSucceededAlert(static_cast<const lt::listen_succeeded_alert *>(alert));
+            break;
+        case lt::listen_failed_alert::alert_type:
+            handleListenFailedAlert(static_cast<const lt::listen_failed_alert *>(alert));
+            break;
+        case lt::external_ip_alert::alert_type:
+            handleExternalIPAlert(static_cast<const lt::external_ip_alert *>(alert));
+            break;
+        case lt::alerts_dropped_alert::alert_type:
+            handleAlertsDroppedAlert(static_cast<const lt::alerts_dropped_alert *>(alert));
+            break;
+        case lt::storage_moved_alert::alert_type:
+            handleStorageMovedAlert(static_cast<const lt::storage_moved_alert *>(alert));
+            break;
+        case lt::storage_moved_failed_alert::alert_type:
+            handleStorageMovedFailedAlert(static_cast<const lt::storage_moved_failed_alert *>(alert));
+            break;
+        case lt::socks5_alert::alert_type:
+            handleSocks5Alert(static_cast<const lt::socks5_alert *>(alert));
+            break;
+        case lt::i2p_alert::alert_type:
+            handleI2PAlert(static_cast<const lt::i2p_alert *>(alert));
+            break;
+#ifdef QBT_USES_LIBTORRENT2
+        case lt::torrent_conflict_alert::alert_type:
+            handleTorrentConflictAlert(static_cast<const lt::torrent_conflict_alert *>(alert));
+            break;
+#endif
+        }
+    }
+    catch (const std::exception &exc)
+    {
+        qWarning() << "Caught exception in " << Q_FUNC_INFO << ": " << QString::fromStdString(exc.what());
+    }
+}
+
+TorrentImpl *SessionImpl::createTorrent(const lt::torrent_handle &nativeHandle, LoadTorrentParams params)
+{
+    auto *const torrent = new TorrentImpl(this, nativeHandle, std::move(params));
+    m_torrents.insert(torrent->id(), torrent);
+    if (const InfoHash infoHash = torrent->infoHash(); infoHash.isHybrid())
+        m_hybridTorrentsByAltID.insert(TorrentID::fromSHA1Hash(infoHash.v1()), torrent);
+
+    if (((torrent->ratioLimit() >= 0) || (torrent->seedingTimeLimit() >= 0))
+        && !m_seedingLimitTimer->isActive())
+    {
+        m_seedingLimitTimer->start();
+    }
+
+    // Torrent could have error just after adding to libtorrent
+    if (torrent->hasError())
+        LogMsg(tr("Torrent errored. Torrent: \"%1\". Error: \"%2\"").arg(torrent->name(), torrent->error()), Log::WARNING);
+
+    return torrent;
+}
+
+TorrentImpl *SessionImpl::getTorrent(const lt::torrent_handle &nativeHandle) const
+{
+    return m_torrents.value(getInfoHash(nativeHandle).toTorrentID());
+}
+
+QList<TorrentImpl *> SessionImpl::getQueuedTorrentsByID(const QList<TorrentID> &torrentIDs) const
+{
+    QList<TorrentImpl *> queuedTorrents;
+    queuedTorrents.reserve(torrentIDs.size());
+    for (const TorrentID &torrentID : torrentIDs)
+    {
+        TorrentImpl *torrent = m_torrents.value(torrentID);
+        if (torrent && (torrent->queuePosition() >= 0))
+            queuedTorrents.push_back(torrent);
+    }
+    std::ranges::sort(queuedTorrents, std::less(), &TorrentImpl::queuePosition);
+    return queuedTorrents;
+}
+
+void SessionImpl::handleTorrentRemovedAlert(const lt::torrent_removed_alert */*alert*/)
+{
+    // We cannot consider `torrent_removed_alert` as a starting point for removing content,
+    // because it has an inconsistent posting time between different versions of libtorrent,
+    // so files may still be in use in some cases.
+}
+
+void SessionImpl::handleTorrentDeletedAlert(const lt::torrent_deleted_alert *alert)
+{
+    handleRemovedTorrent(getInfoHash(*alert).toTorrentID());
+}
+
+void SessionImpl::handleTorrentDeleteFailedAlert(const lt::torrent_delete_failed_alert *alert)
+{
+    const TorrentID torrentID = getInfoHash(*alert).toTorrentID();
+    const auto errorMessage = alert->error ? Utils::String::fromLocal8Bit(alert->error.message()) : QString();
+    handleRemovedTorrent(torrentID, errorMessage);
+}
+
+void SessionImpl::handleTorrentNeedCertAlert(const lt::torrent_need_cert_alert *alert)
+{
+    const TorrentID torrentID = getInfoHash(alert->handle).toTorrentID();
+    TorrentImpl *const torrent = m_torrents.value(torrentID);
+    if (!torrent) [[unlikely]]
+        return;
+
+    if (!torrent->applySSLParameters())
+    {
+        LogMsg(tr("Torrent is missing SSL parameters. Torrent: \"%1\". Message: \"%2\"").arg(torrent->name(), QString::fromStdString(alert->message()))
+            , Log::WARNING);
+    }
+}
+
+void SessionImpl::handleMetadataReceivedAlert(const lt::metadata_received_alert *alert)
+{
+    TorrentImpl *torrent = getTorrent(alert->handle);
+#ifdef QBT_USES_LIBTORRENT2
+    if (!torrent && (alert->type() == lt::metadata_received_alert::alert_type))
+    {
+        const InfoHash infoHash = getInfoHash(alert->handle);
+        if (infoHash.isHybrid())
+            torrent = m_torrents.value(TorrentID::fromSHA1Hash(infoHash.v1()));
+    }
+#endif
+
+    if (torrent)
+        return torrent->handleMetadataReceived();
+
+    const InfoHash infoHash = getInfoHash(alert->handle);
+    const TorrentID torrentID = infoHash.toTorrentID();
+
+    bool found = false;
+    if (const auto iter = m_downloadedMetadata.constFind(torrentID); iter != m_downloadedMetadata.cend())
+    {
+        found = true;
+        m_downloadedMetadata.erase(iter);
+    }
+#ifdef QBT_USES_LIBTORRENT2
+    if (infoHash.isHybrid())
+    {
+        const auto altID = TorrentID::fromSHA1Hash(infoHash.v1());
+        if (const auto iter = m_downloadedMetadata.constFind(altID); iter != m_downloadedMetadata.cend())
+        {
+            found = true;
+            m_downloadedMetadata.erase(iter);
+        }
+    }
+#endif
+    if (found)
+    {
+        const TorrentInfo metadata {*alert->handle.torrent_file()};
+        m_nativeSession->remove_torrent(alert->handle, lt::session::delete_files);
+
+        emit metadataDownloaded(metadata);
+    }
+}
+
+void SessionImpl::handleFileErrorAlert(const lt::file_error_alert *alert)
+{
+    TorrentImpl *const torrent = getTorrent(alert->handle);
+    if (!torrent) [[unlikely]]
+        return;
+
+    torrent->handleFileError({.error = alert->error, .operation = alert->op});
+
+    const TorrentID id = torrent->id();
+    if (!m_recentErroredTorrents.contains(id))
+    {
+        m_recentErroredTorrents.insert(id);
+
+        const QString msg = QString::fromStdString(alert->message());
+        LogMsg(tr("File error alert. Torrent: \"%1\". File: \"%2\". Reason: \"%3\"")
+                .arg(torrent->name(), QString::fromUtf8(alert->filename()), msg)
+            , Log::WARNING);
+        emit fullDiskError(torrent, msg);
+    }
+
+    m_recentErroredTorrentsTimer->start();
+}
+
+void SessionImpl::handlePortmapWarningAlert(const lt::portmap_error_alert *alert)
+{
+    LogMsg(tr("UPnP/NAT-PMP port mapping failed. Message: \"%1\"").arg(QString::fromStdString(alert->message())), Log::WARNING);
+}
+
+void SessionImpl::handlePortmapAlert(const lt::portmap_alert *alert)
+{
+    qDebug("UPnP Success, msg: %s", alert->message().c_str());
+    LogMsg(tr("UPnP/NAT-PMP port mapping succeeded. Message: \"%1\"").arg(QString::fromStdString(alert->message())), Log::INFO);
+}
+
+void SessionImpl::handlePeerBlockedAlert(const lt::peer_blocked_alert *alert)
+{
+    QString reason;
+    switch (alert->reason)
+    {
+    case lt::peer_blocked_alert::ip_filter:
+        reason = tr("IP filter", "this peer was blocked. Reason: IP filter.");
+        break;
+    case lt::peer_blocked_alert::port_filter:
+        reason = tr("filtered port (%1)", "this peer was blocked. Reason: filtered port (8899).").arg(QString::number(alert->endpoint.port()));
+        break;
+    case lt::peer_blocked_alert::i2p_mixed:
+        reason = tr("%1 mixed mode restrictions", "this peer was blocked. Reason: I2P mixed mode restrictions.").arg(u"I2P"_s); // don't translate I2P
+        break;
+    case lt::peer_blocked_alert::privileged_ports:
+        reason = tr("privileged port (%1)", "this peer was blocked. Reason: privileged port (80).").arg(QString::number(alert->endpoint.port()));
+        break;
+    case lt::peer_blocked_alert::utp_disabled:
+        reason = tr("%1 is disabled", "this peer was blocked. Reason: uTP is disabled.").arg(C_UTP); // don't translate μTP
+        break;
+    case lt::peer_blocked_alert::tcp_disabled:
+        reason = tr("%1 is disabled", "this peer was blocked. Reason: TCP is disabled.").arg(u"TCP"_s); // don't translate TCP
+        break;
+    }
+
+    const QString ip {toString(alert->endpoint.address())};
+    if (!ip.isEmpty())
+        Logger::instance()->addPeer(ip, true, reason);
+}
+
+void SessionImpl::handlePeerBanAlert(const lt::peer_ban_alert *alert)
+{
+    const QString ip {toString(alert->endpoint.address())};
+    if (!ip.isEmpty())
+        Logger::instance()->addPeer(ip, false);
+}
+
+void SessionImpl::handleUrlSeedAlert(const lt::url_seed_alert *alert)
+{
+    const TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent)
+        return;
+
+    if (alert->error)
+    {
+        LogMsg(tr("URL seed connection failed. Torrent: \"%1\". URL: \"%2\". Error: \"%3\"")
+            .arg(torrent->name(), QString::fromUtf8(alert->server_url()), QString::fromStdString(alert->message()))
+            , Log::WARNING);
+    }
+    else
+    {
+        LogMsg(tr("Received error message from URL seed. Torrent: \"%1\". URL: \"%2\". Message: \"%3\"")
+            .arg(torrent->name(), QString::fromUtf8(alert->server_url()), QString::fromUtf8(alert->error_message()))
+            , Log::WARNING);
+    }
+}
+
+void SessionImpl::handleListenSucceededAlert(const lt::listen_succeeded_alert *alert)
+{
+    const QString proto {toString(alert->socket_type)};
+    LogMsg(tr("Successfully listening on IP. IP: \"%1\". Port: \"%2/%3\"")
+            .arg(toString(alert->address), proto, QString::number(alert->port)), Log::INFO);
+}
+
+void SessionImpl::handleListenFailedAlert(const lt::listen_failed_alert *alert)
+{
+    const QString proto {toString(alert->socket_type)};
+    LogMsg(tr("Failed to listen on IP. IP: \"%1\". Port: \"%2/%3\". Reason: \"%4\"")
+        .arg(toString(alert->address), proto, QString::number(alert->port)
+            , Utils::String::fromLocal8Bit(alert->error.message())), Log::CRITICAL);
+}
+
+void SessionImpl::handleExternalIPAlert(const lt::external_ip_alert *alert)
+{
+    const QString externalIP {toString(alert->external_address)};
+    LogMsg(tr("Detected external IP. IP: \"%1\"")
+        .arg(externalIP), Log::INFO);
+
+    const bool isIPv6 = alert->external_address.is_v6();
+    const bool isIPv4 = alert->external_address.is_v4();
+    if (isIPv6 && (externalIP != m_lastExternalIPv6Address))
+    {
+        if (isReannounceWhenAddressChangedEnabled() && !m_lastExternalIPv6Address.isEmpty())
+            reannounceToAllTrackers();
+        m_lastExternalIPv6Address = externalIP;
+    }
+    else if (isIPv4 && (externalIP != m_lastExternalIPv4Address))
+    {
+        if (isReannounceWhenAddressChangedEnabled() && !m_lastExternalIPv4Address.isEmpty())
+            reannounceToAllTrackers();
+        m_lastExternalIPv4Address = externalIP;
+    }
+}
+
+void SessionImpl::handleSessionErrorAlert(const lt::session_error_alert *alert) const
+{
+    LogMsg(tr("BitTorrent session encountered a serious error. Reason: \"%1\"")
+        .arg(QString::fromStdString(alert->message())), Log::CRITICAL);
+}
+
+void SessionImpl::handleSessionStatsAlert(const lt::session_stats_alert *alert)
+{
+    if (m_refreshEnqueued)
+        m_refreshEnqueued = false;
+    else
+        enqueueRefresh();
+
+    const int64_t interval = lt::total_microseconds(alert->timestamp() - m_statsLastTimestamp);
+    if (interval <= 0)
+        return;
+
+    m_statsLastTimestamp = alert->timestamp();
+
+    const auto stats = alert->counters();
+
+    m_status.hasIncomingConnections = static_cast<bool>(stats[m_metricIndices.net.hasIncomingConnections]);
+
+    const int64_t ipOverheadDownload = stats[m_metricIndices.net.recvIPOverheadBytes];
+    const int64_t ipOverheadUpload = stats[m_metricIndices.net.sentIPOverheadBytes];
+    const int64_t totalDownload = stats[m_metricIndices.net.recvBytes] + ipOverheadDownload;
+    const int64_t totalUpload = stats[m_metricIndices.net.sentBytes] + ipOverheadUpload;
+    const int64_t totalPayloadDownload = stats[m_metricIndices.net.recvPayloadBytes];
+    const int64_t totalPayloadUpload = stats[m_metricIndices.net.sentPayloadBytes];
+    const int64_t trackerDownload = stats[m_metricIndices.net.recvTrackerBytes];
+    const int64_t trackerUpload = stats[m_metricIndices.net.sentTrackerBytes];
+    const int64_t dhtDownload = stats[m_metricIndices.dht.dhtBytesIn];
+    const int64_t dhtUpload = stats[m_metricIndices.dht.dhtBytesOut];
+
+    const auto calcRate = [interval](const qint64 previous, const qint64 current) -> qint64
+    {
+        Q_ASSERT(current >= previous);
+        Q_ASSERT(interval >= 0);
+        return (((current - previous) * lt::microseconds(1s).count()) / interval);
+    };
+
+    m_status.payloadDownloadRate = calcRate(m_status.totalPayloadDownload, totalPayloadDownload);
+    m_status.payloadUploadRate = calcRate(m_status.totalPayloadUpload, totalPayloadUpload);
+    m_status.downloadRate = calcRate(m_status.totalDownload, totalDownload);
+    m_status.uploadRate = calcRate(m_status.totalUpload, totalUpload);
+    m_status.ipOverheadDownloadRate = calcRate(m_status.ipOverheadDownload, ipOverheadDownload);
+    m_status.ipOverheadUploadRate = calcRate(m_status.ipOverheadUpload, ipOverheadUpload);
+    m_status.dhtDownloadRate = calcRate(m_status.dhtDownload, dhtDownload);
+    m_status.dhtUploadRate = calcRate(m_status.dhtUpload, dhtUpload);
+    m_status.trackerDownloadRate = calcRate(m_status.trackerDownload, trackerDownload);
+    m_status.trackerUploadRate = calcRate(m_status.trackerUpload, trackerUpload);
+
+    m_status.totalPayloadDownload = totalPayloadDownload;
+    m_status.totalPayloadUpload = totalPayloadUpload;
+    m_status.ipOverheadDownload = ipOverheadDownload;
+    m_status.ipOverheadUpload = ipOverheadUpload;
+    m_status.trackerDownload = trackerDownload;
+    m_status.trackerUpload = trackerUpload;
+    m_status.dhtDownload = dhtDownload;
+    m_status.dhtUpload = dhtUpload;
+    m_status.totalWasted = stats[m_metricIndices.net.recvRedundantBytes]
+            + stats[m_metricIndices.net.recvFailedBytes];
+    m_status.dhtNodes = stats[m_metricIndices.dht.dhtNodes];
+    m_status.diskReadQueue = stats[m_metricIndices.peer.numPeersUpDisk];
+    m_status.diskWriteQueue = stats[m_metricIndices.peer.numPeersDownDisk];
+    m_status.peersCount = stats[m_metricIndices.peer.numPeersConnected];
+
+    if (totalDownload > m_status.totalDownload)
+    {
+        m_status.totalDownload = totalDownload;
+        m_isStatisticsDirty = true;
+    }
+
+    if (totalUpload > m_status.totalUpload)
+    {
+        m_status.totalUpload = totalUpload;
+        m_isStatisticsDirty = true;
+    }
+
+    m_status.allTimeDownload = m_previouslyDownloaded + m_status.totalDownload;
+    m_status.allTimeUpload = m_previouslyUploaded + m_status.totalUpload;
+
+    if (m_saveStatisticsInterval > 0)
+    {
+        const auto saveInterval = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::minutes(m_saveStatisticsInterval));
+        if (m_statisticsLastUpdateTimer.hasExpired(saveInterval.count()))
+        {
+            saveStatistics();
+        }
+    }
+
+    m_cacheStatus.totalUsedBuffers = stats[m_metricIndices.disk.diskBlocksInUse];
+    m_cacheStatus.jobQueueLength = stats[m_metricIndices.disk.queuedDiskJobs];
+
+#ifndef QBT_USES_LIBTORRENT2
+    const int64_t numBlocksRead = stats[m_metricIndices.disk.numBlocksRead];
+    const int64_t numBlocksCacheHits = stats[m_metricIndices.disk.numBlocksCacheHits];
+    m_cacheStatus.readRatio = static_cast<qreal>(numBlocksCacheHits) / std::max<int64_t>((numBlocksCacheHits + numBlocksRead), 1);
+#endif
+
+    const int64_t totalJobs = stats[m_metricIndices.disk.writeJobs] + stats[m_metricIndices.disk.readJobs]
+                  + stats[m_metricIndices.disk.hashJobs];
+    m_cacheStatus.averageJobTime = (totalJobs > 0)
+                                   ? (stats[m_metricIndices.disk.diskJobTime] / totalJobs) : 0;
+
+    emit statsUpdated();
+}
+
+void SessionImpl::handleAlertsDroppedAlert(const lt::alerts_dropped_alert *alert) const
+{
+    LogMsg(tr("Error: Internal alert queue is full and alerts are dropped, you might see degraded performance. Dropped alert type: \"%1\". Message: \"%2\"")
+        .arg(QString::fromStdString(alert->dropped_alerts.to_string()), QString::fromStdString(alert->message())), Log::CRITICAL);
+}
+
+void SessionImpl::handleStorageMovedAlert(const lt::storage_moved_alert *alert)
+{
+    Q_ASSERT(!m_moveStorageQueue.isEmpty());
+
+    const MoveStorageJob &currentJob = m_moveStorageQueue.constFirst();
+    Q_ASSERT(currentJob.torrentHandle == alert->handle);
+
+    const Path newPath {QString::fromUtf8(alert->storage_path())};
+    Q_ASSERT(newPath == currentJob.path);
+
+    TorrentImpl *torrent = getTorrent(currentJob.torrentHandle);
+    const QString torrentName = (torrent ? torrent->name() : getInfoHash(currentJob.torrentHandle).toTorrentID().toString());
+    LogMsg(tr("Moved torrent successfully. Torrent: \"%1\". Destination: \"%2\"").arg(torrentName, newPath.toString()));
+
+    handleMoveTorrentStorageJobFinished(newPath);
+}
+
+void SessionImpl::handleStorageMovedFailedAlert(const lt::storage_moved_failed_alert *alert)
+{
+    Q_ASSERT(!m_moveStorageQueue.isEmpty());
+
+    const MoveStorageJob &currentJob = m_moveStorageQueue.constFirst();
+    Q_ASSERT(currentJob.torrentHandle == alert->handle);
+
+    TorrentImpl *torrent = getTorrent(currentJob.torrentHandle);
+    const QString torrentName = (torrent ? torrent->name() : getInfoHash(currentJob.torrentHandle).toTorrentID().toString());
+    const Path currentLocation = (torrent ? torrent->actualStorageLocation()
+            : Path(alert->handle.status(lt::torrent_handle::query_save_path).save_path));
+    const QString errorMessage = QString::fromStdString(alert->message());
+    LogMsg(tr("Failed to move torrent. Torrent: \"%1\". Source: \"%2\". Destination: \"%3\". Reason: \"%4\"")
+           .arg(torrentName, currentLocation.toString(), currentJob.path.toString(), errorMessage), Log::WARNING);
+
+    handleMoveTorrentStorageJobFinished(currentLocation);
+}
+
+void SessionImpl::handleStateUpdateAlert(const lt::state_update_alert *alert)
+{
+    QList<Torrent *> updatedTorrents;
+    updatedTorrents.reserve(static_cast<decltype(updatedTorrents)::size_type>(alert->status.size()));
+
+    for (const lt::torrent_status &status : alert->status)
+    {
+        TorrentImpl *const torrent = getTorrent(status.handle);
+        if (!torrent)
+            continue;
+
+        torrent->handleStateUpdate(status);
+        updatedTorrents.push_back(torrent);
+    }
+
+    if (!updatedTorrents.isEmpty())
+        emit torrentsUpdated(updatedTorrents);
+
+    if (m_needSaveTorrentsQueue)
+        saveTorrentsQueue();
+
+    if (m_refreshEnqueued)
+        m_refreshEnqueued = false;
+    else
+        enqueueRefresh();
+}
+
+void SessionImpl::handleSocks5Alert(const lt::socks5_alert *alert) const
+{
+    if (alert->error)
+    {
+        const auto addr = alert->ip.address();
+        const QString endpoint = (addr.is_v6() ? u"[%1]:%2"_s : u"%1:%2"_s)
+                .arg(QString::fromStdString(addr.to_string()), QString::number(alert->ip.port()));
+        LogMsg(tr("SOCKS5 proxy error. Address: %1. Message: \"%2\".")
+                .arg(endpoint, Utils::String::fromLocal8Bit(alert->error.message()))
+                , Log::WARNING);
+    }
+}
+
+void SessionImpl::handleI2PAlert(const lt::i2p_alert *alert) const
+{
+    if (alert->error)
+    {
+        LogMsg(tr("I2P error. Message: \"%1\".")
+            .arg(QString::fromStdString(alert->message())), Log::WARNING);
+    }
+}
+
+void SessionImpl::handleTrackerAlert(const lt::tracker_alert *alert)
+{
+    TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent)
+        return;
+
+    [[maybe_unused]] const QMutexLocker updatedTrackerStatusesLocker {&m_updatedTrackerStatusesMutex};
+
+    const auto prevSize = m_updatedTrackerStatuses.size();
+    QMap<int, int> &updateInfo = m_updatedTrackerStatuses[torrent->nativeHandle()][std::string(alert->tracker_url())][alert->local_endpoint];
+    if (prevSize < m_updatedTrackerStatuses.size())
+        updateTrackerEntryStatuses(torrent->nativeHandle());
+
+    if (alert->type() == lt::tracker_reply_alert::alert_type)
+    {
+        const int numPeers = static_cast<const lt::tracker_reply_alert *>(alert)->num_peers;
+#ifdef QBT_USES_LIBTORRENT2
+        const int protocolVersionNum = (static_cast<const lt::tracker_reply_alert *>(alert)->version == lt::protocol_version::V1) ? 1 : 2;
+#else
+        const int protocolVersionNum = 1;
+#endif
+        updateInfo.insert(protocolVersionNum, numPeers);
+    }
+}
+
+#ifdef QBT_USES_LIBTORRENT2
+void SessionImpl::handleTorrentConflictAlert(const lt::torrent_conflict_alert *alert)
+{
+    const InfoHash infoHash = getInfoHash(*alert->metadata);
+    const auto torrentIDv1 = TorrentID::fromSHA1Hash(infoHash.v1());
+    const auto torrentIDv2 = TorrentID::fromSHA256Hash(infoHash.v2());
+    TorrentImpl *torrent1 = m_torrents.value(torrentIDv1);
+    TorrentImpl *torrent2 = m_torrents.value(torrentIDv2);
+    if (torrent2)
+    {
+        if (torrent1)
+            removeTorrent(torrentIDv1);
+        else
+            cancelDownloadMetadata(torrentIDv1);
+
+        invokeAsync([torrentHandle = torrent2->nativeHandle(), metadata = alert->metadata]
+        {
+            try
+            {
+                torrentHandle.set_metadata(metadata->info_section());
+            }
+            catch (const std::exception &) {}
+        });
+    }
+    else if (torrent1)
+    {
+        if (!torrent2)
+            cancelDownloadMetadata(torrentIDv2);
+
+        invokeAsync([torrentHandle = torrent1->nativeHandle(), metadata = alert->metadata]
+        {
+            try
+            {
+                torrentHandle.set_metadata(metadata->info_section());
+            }
+            catch (const std::exception &) {}
+        });
+    }
+    else
+    {
+        cancelDownloadMetadata(torrentIDv1);
+        cancelDownloadMetadata(torrentIDv2);
+    }
+
+    if (!torrent1 || !torrent2)
+        emit metadataDownloaded(TorrentInfo(*alert->metadata));
+}
+
+void SessionImpl::handleFilePrioAlert(const lt::file_prio_alert *alert)
+{
+    if (TorrentImpl *torrent = getTorrent(alert->handle)) [[likely]]
+        torrent->deferredRequestResumeData();
+}
+#endif
+
+void SessionImpl::handleTorrentCheckedAlert(const lt::torrent_checked_alert *alert)
+{
+    if (TorrentImpl *torrent = getTorrent(alert->handle)) [[likely]]
+        torrent->handleTorrentChecked();
+}
+
+void SessionImpl::handleTorrentFinishedAlert([[maybe_unused]] const lt::torrent_finished_alert *alert)
+{
+    if (TorrentImpl *torrent = getTorrent(alert->handle)) [[likely]]
+        torrent->handleTorrentFinished();
+}
+
+void SessionImpl::handleSaveResumeDataAlert(lt::save_resume_data_alert *alert)
+{
+    // The torrent can be deleted between the time the resume data was requested and
+    // the time we received the appropriate alert. We have to decrease `m_numResumeData` anyway,
+    // so we do this before checking for an existing torrent.
+    --m_numResumeData;
+
+    if (TorrentImpl *torrent = getTorrent(alert->handle)) [[likely]]
+        torrent->handleSaveResumeData(std::move(alert->params));
+}
+
+void SessionImpl::handleSaveResumeDataFailedAlert(const lt::save_resume_data_failed_alert *alert)
+{
+    // The torrent can be deleted between the time the resume data was requested and
+    // the time we received the appropriate alert. We have to decrease `m_numResumeData` anyway,
+    // so we do this before checking for an existing torrent.
+    --m_numResumeData;
+
+    TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent) [[unlikely]]
+        return;
+
+    if (alert->error != lt::errors::resume_data_not_modified)
+    {
+        LogMsg(tr("Generate resume data failed. Torrent: \"%1\". Reason: \"%2\"")
+                .arg(torrent->name(), Utils::String::fromLocal8Bit(alert->error.message())), Log::CRITICAL);
+    }
+}
+
+void SessionImpl::handleFastResumeRejectedAlert(const lt::fastresume_rejected_alert *alert)
+{
+    TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent) [[unlikely]]
+        return;
+
+    torrent->handleFastResumeRejected();
+    LogMsg(tr("Failed to restore torrent. Files were probably moved or storage isn't accessible. Torrent: \"%1\". Reason: \"%2\"")
+            .arg(torrent->name(), QString::fromStdString(alert->message())), Log::WARNING);
+}
+
+void SessionImpl::handleFileRenamedAlert(const lt::file_renamed_alert *alert)
+{
+    TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent) [[unlikely]]
+        return;
+
+    const Path newFilePath {QString::fromUtf8(alert->new_name())};
+#ifdef QBT_USES_LIBTORRENT2
+    const Path oldFilePath {QString::fromUtf8(alert->old_name())};
+#else
+    const Path oldFilePath;
+#endif
+    torrent->handleFileRenamed(alert->index, newFilePath, oldFilePath);
+}
+
+void SessionImpl::handleFileRenameFailedAlert(const lt::file_rename_failed_alert *alert)
+{
+    TorrentImpl *torrent = getTorrent(alert->handle);
+    if (!torrent) [[unlikely]]
+        return;
+
+    torrent->handleFileRenameFailed(alert->index);
+
+    LogMsg(tr("File rename failed. Torrent: \"%1\", file: \"%2\", reason: \"%3\"")
+            .arg(torrent->name(), torrent->filePath(torrent->fileIndexFromNative(alert->index)).toString()
+                    , Utils::String::fromLocal8Bit(alert->error.message())), Log::WARNING);
+}
+
+void SessionImpl::handleFileCompletedAlert(const lt::file_completed_alert *alert)
+{
+    if (TorrentImpl *torrent = getTorrent(alert->handle)) [[likely]]
+        torrent->handleFileCompleted(alert->index);
+}
+
+void SessionImpl::handlePerformanceAlert(const lt::performance_alert *alert) const
+{
+    LogMsg((tr("Performance alert: %1. More info: %2").arg(QString::fromStdString(alert->message())
+            , u"https://libtorrent.org/reference-Alerts.html#enum-performance-warning-t"_s)), Log::INFO);
+}
+
+void SessionImpl::saveStatistics() const
+{
+    if (!m_isStatisticsDirty)
+        return;
+
+    const QVariantHash stats {
+        {u"AlltimeDL"_s, m_status.allTimeDownload},
+        {u"AlltimeUL"_s, m_status.allTimeUpload}};
+    std::unique_ptr<QSettings> settings = Profile::instance()->applicationSettings(u"qBittorrent-data"_s);
+    settings->setValue(u"Stats/AllStats"_s, stats);
+
+    m_statisticsLastUpdateTimer.start();
+    m_isStatisticsDirty = false;
+}
+
+void SessionImpl::loadStatistics()
+{
+    const std::unique_ptr<QSettings> settings = Profile::instance()->applicationSettings(u"qBittorrent-data"_s);
+    const QVariantHash value = settings->value(u"Stats/AllStats"_s).toHash();
+
+    m_previouslyDownloaded = value[u"AlltimeDL"_s].toLongLong();
+    m_previouslyUploaded = value[u"AlltimeUL"_s].toLongLong();
+}
+
+void SessionImpl::updateTrackerEntryStatuses(lt::torrent_handle torrentHandle)
+{
+    invokeAsync([this, torrentHandle = std::move(torrentHandle)]
+    {
+        try
+        {
+            std::vector<lt::announce_entry> nativeTrackers = torrentHandle.trackers();
+
+            QMutexLocker updatedTrackerStatusesLocker {&m_updatedTrackerStatusesMutex};
+            QHash<std::string, QHash<lt::tcp::endpoint, QMap<int, int>>> updatedTrackers = m_updatedTrackerStatuses.take(torrentHandle);
+            updatedTrackerStatusesLocker.unlock();
+
+            invoke([this, infoHash = torrentHandle.info_hash(), nativeTrackers = std::move(nativeTrackers), updatedTrackers = std::move(updatedTrackers)]
+            {
+                TorrentImpl *torrent = m_torrents.value(infoHash);
+                if (!torrent || torrent->isStopped())
+                    return;
+
+                QHash<QString, TrackerEntryStatus> trackers;
+                trackers.reserve(updatedTrackers.size());
+                for (const lt::announce_entry &announceEntry : nativeTrackers)
+                {
+                    const auto updatedTrackersIter = updatedTrackers.find(announceEntry.url);
+                    if (updatedTrackersIter == updatedTrackers.end())
+                        continue;
+
+                    const auto &updateInfo = updatedTrackersIter.value();
+                    TrackerEntryStatus status = torrent->updateTrackerEntryStatus(announceEntry, updateInfo);
+                    const QString url = status.url;
+                    trackers.emplace(url, std::move(status));
+                }
+
+                emit trackerEntryStatusesUpdated(torrent, trackers);
+            });
+        }
+        catch (const std::exception &)
+        {
+        }
+    });
+}
+
+void SessionImpl::handleRemovedTorrent(const TorrentID &torrentID, const QString &partfileRemoveError)
+{
+    const auto removingTorrentDataIter = m_removingTorrents.constFind(torrentID);
+    if (removingTorrentDataIter == m_removingTorrents.cend())
+        return;
+
+    if (!partfileRemoveError.isEmpty())
+    {
+        LogMsg(tr("Failed to remove partfile. Torrent: \"%1\". Reason: \"%2\".")
+               .arg(removingTorrentDataIter->name, partfileRemoveError)
+               , Log::WARNING);
+    }
+
+    if ((removingTorrentDataIter->removeOption == TorrentRemoveOption::RemoveContent)
+            && !removingTorrentDataIter->contentStoragePath.isEmpty())
+    {
+        QMetaObject::invokeMethod(m_torrentContentRemover, [this, jobData = *removingTorrentDataIter]
+        {
+            m_torrentContentRemover->performJob(jobData.name, jobData.contentStoragePath
+                    , jobData.fileNames, m_torrentContentRemoveOption);
+        });
+    }
+
+    m_removingTorrents.erase(removingTorrentDataIter);
+}
+
+void SessionImpl::updateTrackersFromFile()
+{
+    const qint64 fileMaxSize = 1024 * 1024;
+    const Path path = specialFolderLocation(SpecialFolder::Data) / Path(ADDITIONAL_TRACKERS_FROM_URL_FILE_NAME);
+
+    const auto readResult = Utils::IO::readFile(path, fileMaxSize);
+    if (!readResult)
+    {
+        if (readResult.error().status == Utils::IO::ReadError::NotExist)
+        {
+            return;
+        }
+
+        LogMsg(tr("Failed to load additional trackers from file. Reason: %1").arg(readResult.error().message), Log::WARNING);
+        return;
+    }
+
+    setAdditionalTrackersFromURL(QString::fromUtf8(readResult.value()));
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
