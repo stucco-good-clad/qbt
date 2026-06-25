@@ -1,0 +1,86 @@
+name: Webseed Proxy Tunnel (VSCode .deb)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  webseed-tunnel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install cloudflared
+        run: |
+          curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 \
+            -o /usr/local/bin/cloudflared
+          chmod +x /usr/local/bin/cloudflared
+          cloudflared --version
+
+      - name: Start webseed proxy
+        env:
+          WEBSEED_PORT: "8080"
+          GITHUB_PATH_BASE: "/stucco-good-clad/supreme-octo-fiesta/refs/heads/main"
+          TORRENT_FILE: "vscode.torrent"
+        run: |
+          python3 webseed-proxy.py &
+          PROXY_PID=$!
+          echo "PROXY_PID=$PROXY_PID" >> "$GITHUB_ENV"
+
+          for i in $(seq 1 10); do
+            if curl -sf http://localhost:8080/ > /dev/null 2>&1; then
+              echo "Proxy is ready on port 8080"
+              break
+            fi
+            sleep 1
+          done
+
+          curl -sI http://localhost:8080/code_1.125.1-1781859603_amd64.deb | head -5
+
+      - name: Start cloudflared tunnel and print URL
+        run: |
+          cloudflared tunnel --url http://localhost:8080 2>&1 | tee /tmp/cloudflared.log &
+          CF_PID=$!
+          echo "CF_PID=$CF_PID" >> "$GITHUB_ENV"
+
+          echo "Waiting for tunnel URL..."
+          TUNNEL_URL=""
+          for i in $(seq 1 30); do
+            TUNNEL_URL=$(grep -oP 'https://[a-zA-Z0-9-]+\.trycloudflare\.com' /tmp/cloudflared.log | head -1)
+            if [ -n "$TUNNEL_URL" ]; then
+              break
+            fi
+            sleep 1
+          done
+
+          if [ -z "$TUNNEL_URL" ]; then
+            echo "ERROR: Failed to get tunnel URL within 30 seconds"
+            echo "Cloudflared log:"
+            cat /tmp/cloudflared.log
+            exit 1
+          fi
+
+          echo ""
+          echo "============================================================"
+          echo "  WEBSEED PROXY IS LIVE (VSCode .deb)"
+          echo "============================================================"
+          echo ""
+          echo "  Tunnel URL:   $TUNNEL_URL"
+          echo ""
+          echo "  Add as HTTP Seed (BEP 19):"
+          echo "    $TUNNEL_URL/code_1.125.1-1781859603_amd64.deb"
+          echo ""
+          echo "============================================================"
+          echo ""
+          echo "Job runs up to 6 hours. Cancel from Actions tab to stop."
+          echo ""
+
+      - name: Keep alive
+        run: sleep infinity
